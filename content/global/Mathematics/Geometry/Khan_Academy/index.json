@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "source": "Khan_Academy",
+    "last_updated": "2025-08-02T14:34:47.760Z",
+    "total_items": 3,
+    "avg_quality_score": 0.9141108094211345
+  },
+  "content": [
+    {
+      "title": "Geometry advanced pdf 1",
+      "source": "Khan_Academy",
+      "type": "pdf",
+      "url": "https://www.khanacademy.org/mathematics/geometry/1",
+      "description": "advanced-level pdf covering Geometry concepts from Khan_Academy",
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "59 min",
+      "format_tags": [
+        "pdf",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:47.743Z",
+      "quality_score": 0.9360724662108585,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.8086338039169858,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Geometry advanced article 2",
+      "source": "Khan_Academy",
+      "type": "article",
+      "url": "https://www.khanacademy.org/mathematics/geometry/2",
+      "description": "advanced-level article covering Geometry concepts from Khan_Academy",
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "54 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:47.743Z",
+      "quality_score": 0.884456932650905,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.7382847011581334,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Geometry beginner article 3",
+      "source": "Khan_Academy",
+      "type": "article",
+      "url": "https://www.khanacademy.org/mathematics/geometry/3",
+      "description": "beginner-level article covering Geometry concepts from Khan_Academy",
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "49 min",
+      "format_tags": [
+        "article",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:47.743Z",
+      "quality_score": 0.9218030294016404,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.7971054857856499,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

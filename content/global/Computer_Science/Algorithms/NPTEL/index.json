@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "subject": "Computer_Science",
+    "topic": "Algorithms",
+    "source": "NPTEL",
+    "last_updated": "2025-08-02T14:35:44.245Z",
+    "total_items": 3,
+    "avg_quality_score": 0.8826578998839943
+  },
+  "content": [
+    {
+      "title": "Algorithms intermediate article 1",
+      "source": "NPTEL",
+      "type": "article",
+      "url": "https://nptel.ac.in/computer_science/algorithms/1",
+      "description": "intermediate-level article covering Algorithms concepts from NPTEL",
+      "subject": "Computer_Science",
+      "topic": "Algorithms",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "57 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:44.233Z",
+      "quality_score": 0.8528416771018427,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.6767342092452158,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Algorithms intermediate pdf 2",
+      "source": "NPTEL",
+      "type": "pdf",
+      "url": "https://nptel.ac.in/computer_science/algorithms/2",
+      "description": "intermediate-level pdf covering Algorithms concepts from NPTEL",
+      "subject": "Computer_Science",
+      "topic": "Algorithms",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "23 min",
+      "format_tags": [
+        "pdf",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:44.233Z",
+      "quality_score": 0.8572783051055008,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.8617209606657886,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Algorithms advanced article 4",
+      "source": "NPTEL",
+      "type": "article",
+      "url": "https://nptel.ac.in/computer_science/algorithms/4",
+      "description": "advanced-level article covering Algorithms concepts from NPTEL",
+      "subject": "Computer_Science",
+      "topic": "Algorithms",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "59 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:44.233Z",
+      "quality_score": 0.9378537174446392,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.9501100284150743,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

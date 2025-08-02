@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "subject": "Computer_Science",
+    "topic": "Algorithms",
+    "source": "Khan_Academy",
+    "last_updated": "2025-08-02T14:34:57.018Z",
+    "total_items": 4,
+    "avg_quality_score": 0.8830986768472477
+  },
+  "content": [
+    {
+      "title": "Algorithms beginner article 1",
+      "source": "Khan_Academy",
+      "type": "article",
+      "url": "https://www.khanacademy.org/computer_science/algorithms/1",
+      "description": "beginner-level article covering Algorithms concepts from Khan_Academy",
+      "subject": "Computer_Science",
+      "topic": "Algorithms",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "31 min",
+      "format_tags": [
+        "article",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:56.994Z",
+      "quality_score": 0.867410742379539,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.9968259695159893,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Algorithms advanced quiz 3",
+      "source": "Khan_Academy",
+      "type": "quiz",
+      "url": "https://www.khanacademy.org/computer_science/algorithms/3",
+      "description": "advanced-level quiz covering Algorithms concepts from Khan_Academy",
+      "subject": "Computer_Science",
+      "topic": "Algorithms",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "22 min",
+      "format_tags": [
+        "quiz",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:56.994Z",
+      "quality_score": 0.8626448756664111,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.819541196480793,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Algorithms intermediate article 4",
+      "source": "Khan_Academy",
+      "type": "article",
+      "url": "https://www.khanacademy.org/computer_science/algorithms/4",
+      "description": "intermediate-level article covering Algorithms concepts from Khan_Academy",
+      "subject": "Computer_Science",
+      "topic": "Algorithms",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "15 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:56.994Z",
+      "quality_score": 0.831978128416589,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.721395313139528,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Algorithms intermediate article 5",
+      "source": "Khan_Academy",
+      "type": "article",
+      "url": "https://www.khanacademy.org/computer_science/algorithms/5",
+      "description": "intermediate-level article covering Algorithms concepts from Khan_Academy",
+      "subject": "Computer_Science",
+      "topic": "Algorithms",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "53 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:56.994Z",
+      "quality_score": 0.9703609609264514,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.937238649818414,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

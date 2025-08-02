@@ -1,0 +1,47 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow authenticated users to read/write only their own data
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+      
+      // XP logs subcollection - with basic rate limiting
+      match /xp_logs/{logId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId
+          && (request.method != 'create' || 
+              resource == null || 
+              request.time > resource.data.timestamp + duration.value(1, 'm')); // 1 minute between XP logs
+      }
+      
+      // Questions subcollection
+      match /questions/{questionId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+        allow create: if request.auth != null && request.auth.uid == userId
+          && request.resource.data.keys().hasAll(['question', 'answer', 'subject', 'timestamp']);
+      }
+      
+      // Planner subcollection
+      match /planner/{weekId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+        allow create: if request.auth != null && request.auth.uid == userId
+          && request.resource.data.keys().hasAll(['week_start', 'subject', 'steps']);
+      }
+      
+      // Weaknesses subcollection
+      match /weaknesses/{subjectId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+    
+    // Global questions collection (read-only for all authenticated users)
+    match /global_questions/{questionId} {
+      allow read: if request.auth != null;
+      allow write: if false; // Only admin can write
+    }
+    
+    // Deny all other document access
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "subject": "Computer_Science",
+    "topic": "Web_Development",
+    "source": "MIT_OCW",
+    "last_updated": "2025-08-02T14:34:45.685Z",
+    "total_items": 5,
+    "avg_quality_score": 0.8769709042419928
+  },
+  "content": [
+    {
+      "title": "Web_Development advanced pdf 1",
+      "source": "MIT_OCW",
+      "type": "pdf",
+      "url": "https://ocw.mit.edu/computer_science/web_development/1",
+      "description": "advanced-level pdf covering Web_Development concepts from MIT_OCW",
+      "subject": "Computer_Science",
+      "topic": "Web_Development",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "53 min",
+      "format_tags": [
+        "pdf",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:45.671Z",
+      "quality_score": 0.8808408244622712,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.7116502379539835,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Web_Development intermediate pdf 2",
+      "source": "MIT_OCW",
+      "type": "pdf",
+      "url": "https://ocw.mit.edu/computer_science/web_development/2",
+      "description": "intermediate-level pdf covering Web_Development concepts from MIT_OCW",
+      "subject": "Computer_Science",
+      "topic": "Web_Development",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "58 min",
+      "format_tags": [
+        "pdf",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:45.671Z",
+      "quality_score": 0.8825525744312318,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.7895869861195484,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Web_Development beginner quiz 3",
+      "source": "MIT_OCW",
+      "type": "quiz",
+      "url": "https://ocw.mit.edu/computer_science/web_development/3",
+      "description": "beginner-level quiz covering Web_Development concepts from MIT_OCW",
+      "subject": "Computer_Science",
+      "topic": "Web_Development",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "58 min",
+      "format_tags": [
+        "quiz",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:45.671Z",
+      "quality_score": 0.9422483368942334,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.9756275561229997,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Web_Development beginner video 4",
+      "source": "MIT_OCW",
+      "type": "video",
+      "url": "https://ocw.mit.edu/computer_science/web_development/4",
+      "description": "beginner-level video covering Web_Development concepts from MIT_OCW",
+      "subject": "Computer_Science",
+      "topic": "Web_Development",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "44 min",
+      "format_tags": [
+        "video",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:45.671Z",
+      "quality_score": 0.8347384438242612,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.6448439399713624,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Web_Development beginner quiz 5",
+      "source": "MIT_OCW",
+      "type": "quiz",
+      "url": "https://ocw.mit.edu/computer_science/web_development/5",
+      "description": "beginner-level quiz covering Web_Development concepts from MIT_OCW",
+      "subject": "Computer_Science",
+      "topic": "Web_Development",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "17 min",
+      "format_tags": [
+        "quiz",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:45.671Z",
+      "quality_score": 0.8444743415979665,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.6189173640326519,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

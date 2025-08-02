@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "subject": "Mathematics",
+    "topic": "Calculus",
+    "source": "EdX",
+    "last_updated": "2025-08-02T14:35:22.605Z",
+    "total_items": 2,
+    "avg_quality_score": 0.9447920117063835
+  },
+  "content": [
+    {
+      "title": "Calculus intermediate video 1",
+      "source": "EdX",
+      "type": "video",
+      "url": "https://www.edx.org/mathematics/calculus/1",
+      "description": "intermediate-level video covering Calculus concepts from EdX",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "47 min",
+      "format_tags": [
+        "video",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:22.586Z",
+      "quality_score": 0.9481909166912532,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.8588426426569384,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Calculus intermediate article 2",
+      "source": "EdX",
+      "type": "article",
+      "url": "https://www.edx.org/mathematics/calculus/2",
+      "description": "intermediate-level article covering Calculus concepts from EdX",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "51 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:22.586Z",
+      "quality_score": 0.9413931067215139,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.7417458480613282,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

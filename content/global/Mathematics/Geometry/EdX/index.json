@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "source": "EdX",
+    "last_updated": "2025-08-02T14:35:19.534Z",
+    "total_items": 3,
+    "avg_quality_score": 0.8990036721608918
+  },
+  "content": [
+    {
+      "title": "Geometry advanced video 1",
+      "source": "EdX",
+      "type": "video",
+      "url": "https://www.edx.org/mathematics/geometry/1",
+      "description": "advanced-level video covering Geometry concepts from EdX",
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "25 min",
+      "format_tags": [
+        "video",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:19.526Z",
+      "quality_score": 0.8542743801120483,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.7422041925837256,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Geometry advanced pdf 3",
+      "source": "EdX",
+      "type": "pdf",
+      "url": "https://www.edx.org/mathematics/geometry/3",
+      "description": "advanced-level pdf covering Geometry concepts from EdX",
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "23 min",
+      "format_tags": [
+        "pdf",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:19.526Z",
+      "quality_score": 0.9884681963896755,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.8469576013588624,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Geometry intermediate pdf 4",
+      "source": "EdX",
+      "type": "pdf",
+      "url": "https://www.edx.org/mathematics/geometry/4",
+      "description": "intermediate-level pdf covering Geometry concepts from EdX",
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "50 min",
+      "format_tags": [
+        "pdf",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:19.526Z",
+      "quality_score": 0.8542684399809519,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.7530771562767746,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

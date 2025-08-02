@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "subject": "Computer_Science",
+    "topic": "Programming",
+    "source": "Khan_Academy",
+    "last_updated": "2025-08-02T14:34:54.943Z",
+    "total_items": 2,
+    "avg_quality_score": 0.9203396263139938
+  },
+  "content": [
+    {
+      "title": "Programming intermediate video 2",
+      "source": "Khan_Academy",
+      "type": "video",
+      "url": "https://www.khanacademy.org/computer_science/programming/2",
+      "description": "intermediate-level video covering Programming concepts from Khan_Academy",
+      "subject": "Computer_Science",
+      "topic": "Programming",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "22 min",
+      "format_tags": [
+        "video",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:54.930Z",
+      "quality_score": 0.890426499046393,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.8062406687102617,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Programming advanced article 4",
+      "source": "Khan_Academy",
+      "type": "article",
+      "url": "https://www.khanacademy.org/computer_science/programming/4",
+      "description": "advanced-level article covering Programming concepts from Khan_Academy",
+      "subject": "Computer_Science",
+      "topic": "Programming",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "19 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:54.930Z",
+      "quality_score": 0.9502527535815944,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.707810023902334,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "subject": "Science",
+    "topic": "Chemistry",
+    "source": "Khan_Academy",
+    "last_updated": "2025-08-02T14:34:51.853Z",
+    "total_items": 3,
+    "avg_quality_score": 0.8818452666529387
+  },
+  "content": [
+    {
+      "title": "Chemistry advanced quiz 1",
+      "source": "Khan_Academy",
+      "type": "quiz",
+      "url": "https://www.khanacademy.org/science/chemistry/1",
+      "description": "advanced-level quiz covering Chemistry concepts from Khan_Academy",
+      "subject": "Science",
+      "topic": "Chemistry",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "15 min",
+      "format_tags": [
+        "quiz",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:51.844Z",
+      "quality_score": 0.8015456294372164,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.8346280823459409,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Chemistry intermediate article 2",
+      "source": "Khan_Academy",
+      "type": "article",
+      "url": "https://www.khanacademy.org/science/chemistry/2",
+      "description": "intermediate-level article covering Chemistry concepts from Khan_Academy",
+      "subject": "Science",
+      "topic": "Chemistry",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "53 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:51.844Z",
+      "quality_score": 0.9938182350726406,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.7440364498893299,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Chemistry advanced pdf 3",
+      "source": "Khan_Academy",
+      "type": "pdf",
+      "url": "https://www.khanacademy.org/science/chemistry/3",
+      "description": "advanced-level pdf covering Chemistry concepts from Khan_Academy",
+      "subject": "Science",
+      "topic": "Chemistry",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "40 min",
+      "format_tags": [
+        "pdf",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:51.844Z",
+      "quality_score": 0.8501719354489592,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.8588543146246943,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

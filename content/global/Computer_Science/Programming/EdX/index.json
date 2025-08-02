@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "subject": "Computer_Science",
+    "topic": "Programming",
+    "source": "EdX",
+    "last_updated": "2025-08-02T14:35:26.731Z",
+    "total_items": 1,
+    "avg_quality_score": 0.8425259014859409
+  },
+  "content": [
+    {
+      "title": "Programming intermediate article 4",
+      "source": "EdX",
+      "type": "article",
+      "url": "https://www.edx.org/computer_science/programming/4",
+      "description": "intermediate-level article covering Programming concepts from EdX",
+      "subject": "Computer_Science",
+      "topic": "Programming",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "30 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:26.714Z",
+      "quality_score": 0.8425259014859409,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.9272342178537666,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

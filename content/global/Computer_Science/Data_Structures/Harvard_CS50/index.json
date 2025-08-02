@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "subject": "Computer_Science",
+    "topic": "Data_Structures",
+    "source": "Harvard_CS50",
+    "last_updated": "2025-08-02T14:35:00.100Z",
+    "total_items": 3,
+    "avg_quality_score": 0.8754852234998521
+  },
+  "content": [
+    {
+      "title": "Data_Structures advanced quiz 1",
+      "source": "Harvard_CS50",
+      "type": "quiz",
+      "url": "https://cs50.harvard.edu/computer_science/data_structures/1",
+      "description": "advanced-level quiz covering Data_Structures concepts from Harvard_CS50",
+      "subject": "Computer_Science",
+      "topic": "Data_Structures",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "58 min",
+      "format_tags": [
+        "quiz",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:00.090Z",
+      "quality_score": 0.926318806733311,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.7517011315851206,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Data_Structures advanced article 3",
+      "source": "Harvard_CS50",
+      "type": "article",
+      "url": "https://cs50.harvard.edu/computer_science/data_structures/3",
+      "description": "advanced-level article covering Data_Structures concepts from Harvard_CS50",
+      "subject": "Computer_Science",
+      "topic": "Data_Structures",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "30 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:00.090Z",
+      "quality_score": 0.8240082323844817,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.7743847654711227,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Data_Structures beginner article 4",
+      "source": "Harvard_CS50",
+      "type": "article",
+      "url": "https://cs50.harvard.edu/computer_science/data_structures/4",
+      "description": "beginner-level article covering Data_Structures concepts from Harvard_CS50",
+      "subject": "Computer_Science",
+      "topic": "Data_Structures",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "44 min",
+      "format_tags": [
+        "article",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:00.090Z",
+      "quality_score": 0.8761286313817636,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.7166980393480464,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

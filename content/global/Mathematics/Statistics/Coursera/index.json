@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "subject": "Mathematics",
+    "topic": "Statistics",
+    "source": "Coursera",
+    "last_updated": "2025-08-02T14:35:06.226Z",
+    "total_items": 2,
+    "avg_quality_score": 0.8524647152406014
+  },
+  "content": [
+    {
+      "title": "Statistics intermediate quiz 1",
+      "source": "Coursera",
+      "type": "quiz",
+      "url": "https://www.coursera.org/mathematics/statistics/1",
+      "description": "intermediate-level quiz covering Statistics concepts from Coursera",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "54 min",
+      "format_tags": [
+        "quiz",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:06.207Z",
+      "quality_score": 0.816765890909159,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.7532685205209658,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Statistics intermediate video 5",
+      "source": "Coursera",
+      "type": "video",
+      "url": "https://www.coursera.org/mathematics/statistics/5",
+      "description": "intermediate-level video covering Statistics concepts from Coursera",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "18 min",
+      "format_tags": [
+        "video",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:06.208Z",
+      "quality_score": 0.8881635395720439,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.6524722045419221,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

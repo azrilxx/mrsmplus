@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "subject": "Mathematics",
+    "topic": "Statistics",
+    "source": "EdX",
+    "last_updated": "2025-08-02T14:35:21.577Z",
+    "total_items": 3,
+    "avg_quality_score": 0.8969463133707908
+  },
+  "content": [
+    {
+      "title": "Statistics beginner video 1",
+      "source": "EdX",
+      "type": "video",
+      "url": "https://www.edx.org/mathematics/statistics/1",
+      "description": "beginner-level video covering Statistics concepts from EdX",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "41 min",
+      "format_tags": [
+        "video",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:21.572Z",
+      "quality_score": 0.8824440734778691,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.7926639986089241,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Statistics beginner article 2",
+      "source": "EdX",
+      "type": "article",
+      "url": "https://www.edx.org/mathematics/statistics/2",
+      "description": "beginner-level article covering Statistics concepts from EdX",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "31 min",
+      "format_tags": [
+        "article",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:21.572Z",
+      "quality_score": 0.9373558479865549,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.7162503934681064,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Statistics advanced quiz 3",
+      "source": "EdX",
+      "type": "quiz",
+      "url": "https://www.edx.org/mathematics/statistics/3",
+      "description": "advanced-level quiz covering Statistics concepts from EdX",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "59 min",
+      "format_tags": [
+        "quiz",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:21.572Z",
+      "quality_score": 0.8710390186479484,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.6831731327019316,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

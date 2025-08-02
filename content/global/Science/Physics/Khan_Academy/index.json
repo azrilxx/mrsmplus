@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "subject": "Science",
+    "topic": "Physics",
+    "source": "Khan_Academy",
+    "last_updated": "2025-08-02T14:34:52.880Z",
+    "total_items": 2,
+    "avg_quality_score": 0.8213007493316444
+  },
+  "content": [
+    {
+      "title": "Physics advanced pdf 1",
+      "source": "Khan_Academy",
+      "type": "pdf",
+      "url": "https://www.khanacademy.org/science/physics/1",
+      "description": "advanced-level pdf covering Physics concepts from Khan_Academy",
+      "subject": "Science",
+      "topic": "Physics",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "18 min",
+      "format_tags": [
+        "pdf",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:52.861Z",
+      "quality_score": 0.8184482000022743,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.8236943645842497,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Physics intermediate quiz 4",
+      "source": "Khan_Academy",
+      "type": "quiz",
+      "url": "https://www.khanacademy.org/science/physics/4",
+      "description": "intermediate-level quiz covering Physics concepts from Khan_Academy",
+      "subject": "Science",
+      "topic": "Physics",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "23 min",
+      "format_tags": [
+        "quiz",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:52.861Z",
+      "quality_score": 0.8241532986610146,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.8811191240684706,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

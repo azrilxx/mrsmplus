@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "subject": "Science",
+    "topic": "Physics",
+    "source": "Coursera",
+    "last_updated": "2025-08-02T14:35:09.302Z",
+    "total_items": 1,
+    "avg_quality_score": 0.8189700759650184
+  },
+  "content": [
+    {
+      "title": "Physics intermediate article 2",
+      "source": "Coursera",
+      "type": "article",
+      "url": "https://www.coursera.org/science/physics/2",
+      "description": "intermediate-level article covering Physics concepts from Coursera",
+      "subject": "Science",
+      "topic": "Physics",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "34 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:09.292Z",
+      "quality_score": 0.8189700759650184,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.9992855465314521,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

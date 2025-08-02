@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "source": "NPTEL",
+    "last_updated": "2025-08-02T14:35:34.919Z",
+    "total_items": 2,
+    "avg_quality_score": 0.8472330420779868
+  },
+  "content": [
+    {
+      "title": "Geometry beginner article 2",
+      "source": "NPTEL",
+      "type": "article",
+      "url": "https://nptel.ac.in/mathematics/geometry/2",
+      "description": "beginner-level article covering Geometry concepts from NPTEL",
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "46 min",
+      "format_tags": [
+        "article",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:34.898Z",
+      "quality_score": 0.8457162098435159,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.8659604251135105,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Geometry beginner video 4",
+      "source": "NPTEL",
+      "type": "video",
+      "url": "https://nptel.ac.in/mathematics/geometry/4",
+      "description": "beginner-level video covering Geometry concepts from NPTEL",
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "39 min",
+      "format_tags": [
+        "video",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:34.898Z",
+      "quality_score": 0.8487498743124576,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.8978884895320953,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "subject": "Mathematics",
+    "topic": "Functions",
+    "source": "NPTEL",
+    "last_updated": "2025-08-02T14:35:35.947Z",
+    "total_items": 3,
+    "avg_quality_score": 0.9059997209789481
+  },
+  "content": [
+    {
+      "title": "Functions beginner quiz 1",
+      "source": "NPTEL",
+      "type": "quiz",
+      "url": "https://nptel.ac.in/mathematics/functions/1",
+      "description": "beginner-level quiz covering Functions concepts from NPTEL",
+      "subject": "Mathematics",
+      "topic": "Functions",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "32 min",
+      "format_tags": [
+        "quiz",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:35.932Z",
+      "quality_score": 0.9534896929974633,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.9750770462066214,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Functions beginner video 3",
+      "source": "NPTEL",
+      "type": "video",
+      "url": "https://nptel.ac.in/mathematics/functions/3",
+      "description": "beginner-level video covering Functions concepts from NPTEL",
+      "subject": "Mathematics",
+      "topic": "Functions",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "28 min",
+      "format_tags": [
+        "video",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:35.932Z",
+      "quality_score": 0.9296593445361917,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.6556804002699405,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Functions advanced video 5",
+      "source": "NPTEL",
+      "type": "video",
+      "url": "https://nptel.ac.in/mathematics/functions/5",
+      "description": "advanced-level video covering Functions concepts from NPTEL",
+      "subject": "Mathematics",
+      "topic": "Functions",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "27 min",
+      "format_tags": [
+        "video",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:35.932Z",
+      "quality_score": 0.834850125403189,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.8057883888672384,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

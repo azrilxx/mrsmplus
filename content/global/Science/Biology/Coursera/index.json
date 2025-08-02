@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "subject": "Science",
+    "topic": "Biology",
+    "source": "Coursera",
+    "last_updated": "2025-08-02T14:35:10.330Z",
+    "total_items": 4,
+    "avg_quality_score": 0.8694344922481029
+  },
+  "content": [
+    {
+      "title": "Biology advanced pdf 1",
+      "source": "Coursera",
+      "type": "pdf",
+      "url": "https://www.coursera.org/science/biology/1",
+      "description": "advanced-level pdf covering Biology concepts from Coursera",
+      "subject": "Science",
+      "topic": "Biology",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "53 min",
+      "format_tags": [
+        "pdf",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:10.310Z",
+      "quality_score": 0.8225543502591113,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.7808756268068754,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Biology beginner video 2",
+      "source": "Coursera",
+      "type": "video",
+      "url": "https://www.coursera.org/science/biology/2",
+      "description": "beginner-level video covering Biology concepts from Coursera",
+      "subject": "Science",
+      "topic": "Biology",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "59 min",
+      "format_tags": [
+        "video",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:10.310Z",
+      "quality_score": 0.8777387000468284,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.9712556343719204,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Biology beginner article 3",
+      "source": "Coursera",
+      "type": "article",
+      "url": "https://www.coursera.org/science/biology/3",
+      "description": "beginner-level article covering Biology concepts from Coursera",
+      "subject": "Science",
+      "topic": "Biology",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "54 min",
+      "format_tags": [
+        "article",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:10.310Z",
+      "quality_score": 0.9552644378678599,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.9061139281270467,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Biology intermediate pdf 4",
+      "source": "Coursera",
+      "type": "pdf",
+      "url": "https://www.coursera.org/science/biology/4",
+      "description": "intermediate-level pdf covering Biology concepts from Coursera",
+      "subject": "Science",
+      "topic": "Biology",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "50 min",
+      "format_tags": [
+        "pdf",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:10.310Z",
+      "quality_score": 0.822180480818612,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.7650637283624201,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

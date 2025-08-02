@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "subject": "Mathematics",
+    "topic": "Statistics",
+    "source": "Khan_Academy",
+    "last_updated": "2025-08-02T14:34:49.813Z",
+    "total_items": 3,
+    "avg_quality_score": 0.9303941299657167
+  },
+  "content": [
+    {
+      "title": "Statistics advanced article 2",
+      "source": "Khan_Academy",
+      "type": "article",
+      "url": "https://www.khanacademy.org/mathematics/statistics/2",
+      "description": "advanced-level article covering Statistics concepts from Khan_Academy",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "20 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:49.802Z",
+      "quality_score": 0.991233541580206,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.7976809975144421,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Statistics intermediate article 3",
+      "source": "Khan_Academy",
+      "type": "article",
+      "url": "https://www.khanacademy.org/mathematics/statistics/3",
+      "description": "intermediate-level article covering Statistics concepts from Khan_Academy",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "25 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:49.802Z",
+      "quality_score": 0.9044901809927688,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.7088402565383889,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Statistics advanced article 4",
+      "source": "Khan_Academy",
+      "type": "article",
+      "url": "https://www.khanacademy.org/mathematics/statistics/4",
+      "description": "advanced-level article covering Statistics concepts from Khan_Academy",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "21 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:49.802Z",
+      "quality_score": 0.8954586673241751,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.8858011509800074,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

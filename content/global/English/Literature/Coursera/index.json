@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "subject": "English",
+    "topic": "Literature",
+    "source": "Coursera",
+    "last_updated": "2025-08-02T14:35:16.467Z",
+    "total_items": 1,
+    "avg_quality_score": 0.9569072560436019
+  },
+  "content": [
+    {
+      "title": "Literature advanced video 1",
+      "source": "Coursera",
+      "type": "video",
+      "url": "https://www.coursera.org/english/literature/1",
+      "description": "advanced-level video covering Literature concepts from Coursera",
+      "subject": "English",
+      "topic": "Literature",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "42 min",
+      "format_tags": [
+        "video",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:16.454Z",
+      "quality_score": 0.9569072560436019,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.9247166086499657,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

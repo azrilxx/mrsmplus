@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "subject": "Mathematics",
+    "topic": "Statistics",
+    "source": "MIT_OCW",
+    "last_updated": "2025-08-02T14:34:37.484Z",
+    "total_items": 3,
+    "avg_quality_score": 0.9023848785288936
+  },
+  "content": [
+    {
+      "title": "Statistics advanced article 1",
+      "source": "MIT_OCW",
+      "type": "article",
+      "url": "https://ocw.mit.edu/mathematics/statistics/1",
+      "description": "advanced-level article covering Statistics concepts from MIT_OCW",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "27 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:37.466Z",
+      "quality_score": 0.9950397757470217,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.7539159956352484,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Statistics intermediate article 2",
+      "source": "MIT_OCW",
+      "type": "article",
+      "url": "https://ocw.mit.edu/mathematics/statistics/2",
+      "description": "intermediate-level article covering Statistics concepts from MIT_OCW",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "30 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:37.466Z",
+      "quality_score": 0.8367764482160939,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.9599084622850044,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Statistics beginner pdf 3",
+      "source": "MIT_OCW",
+      "type": "pdf",
+      "url": "https://ocw.mit.edu/mathematics/statistics/3",
+      "description": "beginner-level pdf covering Statistics concepts from MIT_OCW",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "39 min",
+      "format_tags": [
+        "pdf",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:37.466Z",
+      "quality_score": 0.8753384116235651,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.6255691805010335,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

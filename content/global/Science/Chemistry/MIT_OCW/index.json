@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "subject": "Science",
+    "topic": "Chemistry",
+    "source": "MIT_OCW",
+    "last_updated": "2025-08-02T14:34:39.545Z",
+    "total_items": 4,
+    "avg_quality_score": 0.8977591770256728
+  },
+  "content": [
+    {
+      "title": "Chemistry intermediate article 1",
+      "source": "MIT_OCW",
+      "type": "article",
+      "url": "https://ocw.mit.edu/science/chemistry/1",
+      "description": "intermediate-level article covering Chemistry concepts from MIT_OCW",
+      "subject": "Science",
+      "topic": "Chemistry",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "18 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:39.537Z",
+      "quality_score": 0.974152608811298,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.7905677542438831,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Chemistry beginner video 2",
+      "source": "MIT_OCW",
+      "type": "video",
+      "url": "https://ocw.mit.edu/science/chemistry/2",
+      "description": "beginner-level video covering Chemistry concepts from MIT_OCW",
+      "subject": "Science",
+      "topic": "Chemistry",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "40 min",
+      "format_tags": [
+        "video",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:39.537Z",
+      "quality_score": 0.9278604660650923,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.8409254843230163,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Chemistry beginner quiz 3",
+      "source": "MIT_OCW",
+      "type": "quiz",
+      "url": "https://ocw.mit.edu/science/chemistry/3",
+      "description": "beginner-level quiz covering Chemistry concepts from MIT_OCW",
+      "subject": "Science",
+      "topic": "Chemistry",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "18 min",
+      "format_tags": [
+        "quiz",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:39.537Z",
+      "quality_score": 0.8399975237742778,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.993464379029229,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Chemistry beginner video 4",
+      "source": "MIT_OCW",
+      "type": "video",
+      "url": "https://ocw.mit.edu/science/chemistry/4",
+      "description": "beginner-level video covering Chemistry concepts from MIT_OCW",
+      "subject": "Science",
+      "topic": "Chemistry",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "37 min",
+      "format_tags": [
+        "video",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:34:39.537Z",
+      "quality_score": 0.8490261094520231,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.7681407471158815,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

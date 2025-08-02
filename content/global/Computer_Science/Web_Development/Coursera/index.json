@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "subject": "Computer_Science",
+    "topic": "Web_Development",
+    "source": "Coursera",
+    "last_updated": "2025-08-02T14:35:14.423Z",
+    "total_items": 3,
+    "avg_quality_score": 0.9005013180609978
+  },
+  "content": [
+    {
+      "title": "Web_Development intermediate article 1",
+      "source": "Coursera",
+      "type": "article",
+      "url": "https://www.coursera.org/computer_science/web_development/1",
+      "description": "intermediate-level article covering Web_Development concepts from Coursera",
+      "subject": "Computer_Science",
+      "topic": "Web_Development",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "23 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:14.412Z",
+      "quality_score": 0.9160476718134345,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.8433530006955572,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Web_Development intermediate video 2",
+      "source": "Coursera",
+      "type": "video",
+      "url": "https://www.coursera.org/computer_science/web_development/2",
+      "description": "intermediate-level video covering Web_Development concepts from Coursera",
+      "subject": "Computer_Science",
+      "topic": "Web_Development",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "30 min",
+      "format_tags": [
+        "video",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:14.412Z",
+      "quality_score": 0.8446758039616163,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.8708110422134716,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Web_Development beginner article 3",
+      "source": "Coursera",
+      "type": "article",
+      "url": "https://www.coursera.org/computer_science/web_development/3",
+      "description": "beginner-level article covering Web_Development concepts from Coursera",
+      "subject": "Computer_Science",
+      "topic": "Web_Development",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "51 min",
+      "format_tags": [
+        "article",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:14.412Z",
+      "quality_score": 0.9407804784079424,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.8115414473327831,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

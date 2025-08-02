@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "subject": "English",
+    "topic": "Writing",
+    "source": "Coursera",
+    "last_updated": "2025-08-02T14:35:17.493Z",
+    "total_items": 3,
+    "avg_quality_score": 0.8689243545382612
+  },
+  "content": [
+    {
+      "title": "Writing beginner quiz 2",
+      "source": "Coursera",
+      "type": "quiz",
+      "url": "https://www.coursera.org/english/writing/2",
+      "description": "beginner-level quiz covering Writing concepts from Coursera",
+      "subject": "English",
+      "topic": "Writing",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "52 min",
+      "format_tags": [
+        "quiz",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:17.478Z",
+      "quality_score": 0.9922245294433379,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.7351034371058585,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Writing intermediate article 3",
+      "source": "Coursera",
+      "type": "article",
+      "url": "https://www.coursera.org/english/writing/3",
+      "description": "intermediate-level article covering Writing concepts from Coursera",
+      "subject": "English",
+      "topic": "Writing",
+      "language": "English",
+      "difficulty": "intermediate",
+      "estimated_duration": "49 min",
+      "format_tags": [
+        "article",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:17.478Z",
+      "quality_score": 0.8112071756048872,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 3",
+          "Form 4"
+        ],
+        "curriculum_match": 0.9711956925287708,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Writing advanced video 4",
+      "source": "Coursera",
+      "type": "video",
+      "url": "https://www.coursera.org/english/writing/4",
+      "description": "advanced-level video covering Writing concepts from Coursera",
+      "subject": "English",
+      "topic": "Writing",
+      "language": "English",
+      "difficulty": "advanced",
+      "estimated_duration": "32 min",
+      "format_tags": [
+        "video",
+        "advanced"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:17.478Z",
+      "quality_score": 0.8033413585665584,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 4",
+          "Form 5"
+        ],
+        "curriculum_match": 0.7498048253413432,
+        "prerequisites": [
+          "basic_algebra",
+          "geometry"
+        ]
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}

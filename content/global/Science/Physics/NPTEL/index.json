@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "subject": "Science",
+    "topic": "Physics",
+    "source": "NPTEL",
+    "last_updated": "2025-08-02T14:35:40.164Z",
+    "total_items": 3,
+    "avg_quality_score": 0.9056338417302987
+  },
+  "content": [
+    {
+      "title": "Physics beginner article 1",
+      "source": "NPTEL",
+      "type": "article",
+      "url": "https://nptel.ac.in/science/physics/1",
+      "description": "beginner-level article covering Physics concepts from NPTEL",
+      "subject": "Science",
+      "topic": "Physics",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "33 min",
+      "format_tags": [
+        "article",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:40.158Z",
+      "quality_score": 0.887214577002413,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.7222193526911145,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Physics beginner article 2",
+      "source": "NPTEL",
+      "type": "article",
+      "url": "https://nptel.ac.in/science/physics/2",
+      "description": "beginner-level article covering Physics concepts from NPTEL",
+      "subject": "Science",
+      "topic": "Physics",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "39 min",
+      "format_tags": [
+        "article",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:40.158Z",
+      "quality_score": 0.8988410255996628,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.686275946711483,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    },
+    {
+      "title": "Physics beginner article 3",
+      "source": "NPTEL",
+      "type": "article",
+      "url": "https://nptel.ac.in/science/physics/3",
+      "description": "beginner-level article covering Physics concepts from NPTEL",
+      "subject": "Science",
+      "topic": "Physics",
+      "language": "English",
+      "difficulty": "beginner",
+      "estimated_duration": "18 min",
+      "format_tags": [
+        "article",
+        "interactive"
+      ],
+      "permission": "open-license",
+      "scraped_at": "2025-08-02T14:35:40.158Z",
+      "quality_score": 0.9308459225888199,
+      "mrsm_alignment": {
+        "applicable_forms": [
+          "Form 1",
+          "Form 2"
+        ],
+        "curriculum_match": 0.9379074873969543,
+        "prerequisites": []
+      },
+      "local_relevance": {
+        "cultural_sensitivity": 0.9,
+        "language_accessibility": 0.9,
+        "exam_preparation": 0.7
+      }
+    }
+  ]
+}
