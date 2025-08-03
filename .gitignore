@@ -1,1 +1,5 @@
 maraplus.json
+node_modules/
+firebase-service-account.json
+*.log
+.env
