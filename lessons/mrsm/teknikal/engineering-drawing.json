@@ -1,0 +1,382 @@
+{
+  "program": "Teknikal (Technical/Vocational)",
+  "subject": "Engineering Drawing",
+  "curriculum_code": "MRSM-TEK-DRAW",
+  "year_levels": ["Form 4", "Form 5"],
+  "overview": {
+    "description": "Comprehensive engineering drawing curriculum providing essential technical communication skills through conventional drafting and computer-aided design for engineering and manufacturing careers",
+    "duration": "2 years (Form 4-5)",
+    "total_periods": 320,
+    "periods_per_week": 8
+  },
+  "learning_objectives": [
+    "Master technical drawing conventions and standards",
+    "Develop proficiency in both hand drafting and CAD software",
+    "Understand geometric dimensioning and tolerancing principles",
+    "Create detailed engineering drawings for manufacturing",
+    "Apply visualization and spatial reasoning skills to technical problems"
+  ],
+  "units": [
+    {
+      "unit_id": "TEK-DRAW-001",
+      "title": "Fundamental Drawing Techniques and Conventions",
+      "form": "Form 4",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Master basic drafting tools and techniques",
+        "Understand international drawing standards and conventions",
+        "Create accurate orthographic and isometric projections",
+        "Apply line types, dimensioning, and annotation standards"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "TEK-DRAW-001-01",
+          "title": "Orthographic Projection and Multiview Drawing",
+          "duration_minutes": 80,
+          "objectives": [
+            "Create accurate orthographic projections from 3D objects",
+            "Apply proper line weights and drawing conventions",
+            "Dimension drawings according to international standards"
+          ],
+          "activities": [
+            {
+              "type": "projection_practice",
+              "duration": 35,
+              "description": "Create orthographic projections of various mechanical objects"
+            },
+            {
+              "type": "dimensioning_exercise",
+              "duration": 25,
+              "description": "Apply proper dimensioning techniques and tolerancing"
+            },
+            {
+              "type": "standard_application",
+              "duration": 15,
+              "description": "Apply international drawing standards and conventions"
+            },
+            {
+              "type": "quality_review",
+              "duration": 5,
+              "description": "Peer review and quality assessment of drawings"
+            }
+          ],
+          "resources": [
+            "Drawing boards and technical drawing instruments",
+            "Technical drawing templates and guides",
+            "International drawing standards references",
+            "3D objects for projection practice"
+          ],
+          "assessment_criteria": [
+            "Projection accuracy and completeness (35%)",
+            "Dimensioning and annotation quality (25%)",
+            "Line quality and drawing presentation (25%)",
+            "Standards compliance (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Mathematics: Geometry and spatial relationships",
+            "Art and Design: Visual communication and presentation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "TEK-DRAW-002",
+      "title": "Computer-Aided Design (CAD) Fundamentals",
+      "form": "Form 4",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Master 2D CAD software for technical drawing",
+        "Create parametric sketches and constraints",
+        "Generate detailed drawings with automatic dimensioning",
+        "Understand CAD file management and collaboration"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "TEK-DRAW-002-01",
+          "title": "Parametric CAD Modeling and Drawing Generation",
+          "duration_minutes": 80,
+          "objectives": [
+            "Create parametric 2D sketches with geometric constraints",
+            "Generate detailed technical drawings from CAD models",
+            "Apply automatic dimensioning and annotation tools"
+          ],
+          "activities": [
+            {
+              "type": "parametric_sketching",
+              "duration": 30,
+              "description": "Create constrained parametric sketches of mechanical components"
+            },
+            {
+              "type": "drawing_generation",
+              "duration": 25,
+              "description": "Generate multiview drawings from parametric models"
+            },
+            {
+              "type": "annotation_practice",
+              "duration": 20,
+              "description": "Apply automatic dimensioning and create detailed annotations"
+            },
+            {
+              "type": "revision_management",
+              "duration": 5,
+              "description": "Practice drawing revision control and version management"
+            }
+          ],
+          "resources": [
+            "Professional CAD software (AutoCAD, SolidWorks, Fusion 360)",
+            "High-performance computer workstations",
+            "CAD tutorial materials and exercises",
+            "Industry drawing templates and standards"
+          ],
+          "assessment_criteria": [
+            "Parametric modeling proficiency (30%)",
+            "Drawing generation accuracy (25%)",
+            "Annotation and dimensioning quality (25%)",
+            "File management and organization (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Computer Technology: Software proficiency and digital skills",
+            "Mathematics: Coordinate systems and geometric relationships"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "TEK-DRAW-003",
+      "title": "Advanced Technical Drawing and Design",
+      "form": "Form 5",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Create complex assembly drawings and exploded views",
+        "Apply geometric dimensioning and tolerancing (GD&T)",
+        "Understand manufacturing processes and their drawing requirements",
+        "Design for manufacturability and assembly"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "TEK-DRAW-003-01",
+          "title": "Assembly Drawing and GD&T Application",
+          "duration_minutes": 80,
+          "objectives": [
+            "Create detailed assembly drawings with bill of materials",
+            "Apply geometric dimensioning and tolerancing principles",
+            "Understand fit classifications and tolerance analysis"
+          ],
+          "activities": [
+            {
+              "type": "assembly_modeling",
+              "duration": 30,
+              "description": "Create complex mechanical assembly with multiple components"
+            },
+            {
+              "type": "gdt_application",
+              "duration": 25,
+              "description": "Apply geometric dimensioning and tolerancing to critical features"
+            },
+            {
+              "type": "tolerance_analysis",
+              "duration": 20,
+              "description": "Analyze tolerance stack-up and fit conditions"
+            },
+            {
+              "type": "manufacturing_review",
+              "duration": 5,
+              "description": "Review drawings for manufacturability and cost optimization"
+            }
+          ],
+          "resources": [
+            "Advanced CAD software with GD&T capabilities",
+            "GD&T reference materials and standards",
+            "Tolerance analysis software tools",
+            "Manufacturing process reference guides"
+          ],
+          "assessment_criteria": [
+            "Assembly drawing completeness and accuracy (30%)",
+            "GD&T application and understanding (25%)",
+            "Tolerance analysis and optimization (25%)",
+            "Manufacturing consideration integration (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Mechanical Technology: Manufacturing processes and assembly",
+            "Quality Control: Measurement and inspection techniques"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "TEK-DRAW-004",
+      "title": "Specialized Drawing Applications and Project Work",
+      "form": "Form 5",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Apply drawing skills to specialized engineering fields",
+        "Create technical documentation packages",
+        "Understand industry-specific drawing requirements",
+        "Complete comprehensive design and drawing projects"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "TEK-DRAW-004-01",
+          "title": "Complete Technical Documentation Project",
+          "duration_minutes": 80,
+          "objectives": [
+            "Develop complete technical documentation package for engineering project",
+            "Coordinate multiple drawing types and documentation standards",
+            "Present technical information for manufacturing and assembly"
+          ],
+          "activities": [
+            {
+              "type": "project_planning",
+              "duration": 15,
+              "description": "Plan comprehensive technical documentation for chosen engineering project"
+            },
+            {
+              "type": "drawing_development",
+              "duration": 45,
+              "description": "Create complete set of technical drawings including details and assemblies"
+            },
+            {
+              "type": "documentation_compilation",
+              "duration": 15,
+              "description": "Compile technical documentation package with specifications"
+            },
+            {
+              "type": "presentation_review",
+              "duration": 5,
+              "description": "Present documentation package for technical review"
+            }
+          ],
+          "resources": [
+            "Advanced CAD and documentation software",
+            "Industry-specific drawing templates",
+            "Technical writing and documentation guides",
+            "Project management and collaboration tools"
+          ],
+          "assessment_criteria": [
+            "Project planning and organization (20%)",
+            "Drawing quality and completeness (35%)",
+            "Documentation integration and consistency (25%)",
+            "Professional presentation and communication (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Project Management: Planning and coordination skills",
+            "Technical Communication: Documentation and presentation"
+          ]
+        }
+      ]
+    }
+  ],
+  "practical_work": {
+    "hand_drafting_projects": [
+      "Mechanical component detail drawings using traditional instruments",
+      "Architectural floor plans and elevation drawings",
+      "Electrical schematic diagrams and circuit layouts",
+      "Piping and instrumentation diagrams"
+    ],
+    "cad_projects": [
+      "Complete product design from concept to manufacturing drawings",
+      "Reverse engineering and documentation of existing products",
+      "Parametric family of parts with configuration management",
+      "3D visualization and animation for technical communication"
+    ],
+    "industry_applications": [
+      "Drawings for local manufacturing companies",
+      "Technical documentation for school facility improvements",
+      "Design competition entries with complete documentation",
+      "Community project technical drawing support"
+    ]
+  },
+  "software_proficiency": {
+    "2d_cad_software": [
+      "AutoCAD for general purpose technical drawing",
+      "DraftSight for mechanical drafting applications",
+      "LibreCAD for open-source drawing solutions"
+    ],
+    "3d_cad_software": [
+      "SolidWorks for mechanical design and manufacturing",
+      "Fusion 360 for integrated design and manufacturing",
+      "Inventor for mechanical engineering applications"
+    ],
+    "specialized_software": [
+      "Revit for architectural and building information modeling",
+      "CATIA for aerospace and automotive applications",
+      "SketchUp for architectural visualization"
+    ]
+  },
+  "assessment_framework": {
+    "formative_assessments": [
+      "Weekly drawing exercises and technique practice",
+      "Progressive CAD skill building assignments",
+      "Peer review and collaborative critique sessions",
+      "Industry standard compliance evaluations"
+    ],
+    "summative_assessments": [
+      "Technical drawing portfolio (40%)",
+      "CAD proficiency examinations (30%)",
+      "Comprehensive design project (20%)",
+      "Industry certification preparation (10%)"
+    ],
+    "grading_criteria": {
+      "technical_accuracy_and_standards": 35,
+      "drawing_quality_and_presentation": 25,
+      "cad_proficiency_and_efficiency": 25,
+      "design_understanding_and_application": 15
+    }
+  },
+  "resources": {
+    "traditional_drafting_tools": [
+      "Professional drawing boards and instruments",
+      "Technical pens and pencils",
+      "Drawing templates and guides",
+      "Measuring and layout tools"
+    ],
+    "digital_resources": [
+      "Professional CAD software licenses",
+      "High-resolution monitors and graphics tablets",
+      "3D printers for design validation",
+      "Online tutorials and training materials"
+    ],
+    "reference_materials": [
+      "International drawing standards (ISO, ANSI, DIN)",
+      "Geometric dimensioning and tolerancing handbooks",
+      "Manufacturing process and materials references",
+      "Industry-specific drawing guidelines"
+    ]
+  },
+  "career_connections": [
+    "Mechanical drafter and CAD technician",
+    "Architectural drafter and building designer",
+    "Electrical and electronics drafter",
+    "Civil engineering technician",
+    "Product design and development specialist",
+    "Technical illustrator and documentation specialist",
+    "Quality control and inspection technician",
+    "Manufacturing engineer and process planner"
+  ],
+  "industry_certifications": {
+    "cad_certifications": [
+      "Autodesk Certified User (AutoCAD, Inventor, Fusion 360)",
+      "SOLIDWORKS Certified Associate (CSWA)",
+      "Professional certifications in specialized CAD software"
+    ],
+    "standards_certifications": [
+      "Geometric Dimensioning and Tolerancing (GD&T) certification",
+      "International drawing standards proficiency",
+      "Industry-specific drafting standards certification"
+    ]
+  },
+  "professional_development": {
+    "industry_connections": [
+      "Engineering and architecture firm partnerships",
+      "Manufacturing company drawing standard adoption",
+      "Professional drafting association memberships",
+      "Design competition participation"
+    ],
+    "continuing_education": [
+      "Advanced CAD software training",
+      "Emerging technology workshops (3D printing, VR/AR)",
+      "Professional conference attendance",
+      "Industry certification maintenance"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "biotech_agro_teknologi_001",
+  "type": "multiple_choice",
+  "question": "What is genetic engineering?",
+  "options": ["Manipulating genes to create desired traits", "Breeding animals naturally", "Growing plants in greenhouses", "Studying animal behavior"],
+  "answer": "Manipulating genes to create desired traits",
+  "explanation": {
+    "en": "Genetic engineering is the direct manipulation of an organism's genes using biotechnology to introduce new traits or characteristics.",
+    "bm": "Kejuruteraan genetik adalah manipulasi langsung gen organisma menggunakan bioteknologi untuk memperkenalkan ciri atau karakteristik baru."
+  },
+  "hint": {
+    "en": "Think about modifying DNA to change characteristics",
+    "bm": "Fikirkan tentang mengubah suai DNA untuk mengubah ciri-ciri"
+  },
+  "difficulty": "medium",
+  "xp_value": 25,
+  "subject": "biotechnology",
+  "program": "agro_teknologi",
+  "topic": "genetic_engineering",
+  "subtopic": "basic_concepts",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_6",
+    "curriculum": "mrsm"
+  }
+}

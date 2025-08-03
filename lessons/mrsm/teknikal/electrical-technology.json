@@ -1,0 +1,377 @@
+{
+  "program": "Teknikal (Technical/Vocational)",
+  "subject": "Electrical Technology",
+  "curriculum_code": "MRSM-TEK-ELEC",
+  "year_levels": ["Form 4", "Form 5"],
+  "overview": {
+    "description": "Comprehensive electrical technology curriculum providing hands-on training in electrical systems, power generation, control circuits, and modern electrical applications for technical career preparation",
+    "duration": "2 years (Form 4-5)",
+    "total_periods": 400,
+    "periods_per_week": 10
+  },
+  "learning_objectives": [
+    "Master fundamental electrical and electronic principles",
+    "Develop practical skills in electrical installation and maintenance",
+    "Understand power systems and renewable energy technologies",
+    "Apply electrical safety protocols and industry standards",
+    "Prepare for electrical trades and engineering technology careers"
+  ],
+  "units": [
+    {
+      "unit_id": "TEK-ELEC-001",
+      "title": "Electrical Fundamentals and Circuit Analysis",
+      "form": "Form 4",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand basic electrical concepts and laws",
+        "Analyze DC and AC circuits using theoretical and practical methods",
+        "Use electrical measuring instruments and testing equipment",
+        "Apply Ohm's law and Kirchhoff's laws to solve circuit problems"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "TEK-ELEC-001-01",
+          "title": "Circuit Construction and Analysis Laboratory",
+          "duration_minutes": 120,
+          "objectives": [
+            "Build and analyze series, parallel, and combination circuits",
+            "Use multimeters and oscilloscopes for circuit measurements",
+            "Verify theoretical calculations with practical measurements"
+          ],
+          "activities": [
+            {
+              "type": "circuit_construction",
+              "duration": 40,
+              "description": "Build various DC and AC circuits on breadboards and training modules"
+            },
+            {
+              "type": "measurement_practice",
+              "duration": 35,
+              "description": "Use digital multimeters and oscilloscopes to measure electrical parameters"
+            },
+            {
+              "type": "data_analysis",
+              "duration": 30,
+              "description": "Compare measured values with theoretical calculations and analyze differences"
+            },
+            {
+              "type": "troubleshooting_exercise",
+              "duration": 15,
+              "description": "Identify and repair faults in electrical circuits"
+            }
+          ],
+          "resources": [
+            "Electrical circuit training modules",
+            "Digital multimeters and oscilloscopes",
+            "DC and AC power supplies",
+            "Electronic components and breadboards"
+          ],
+          "assessment_criteria": [
+            "Circuit construction accuracy and safety (30%)",
+            "Measurement technique and precision (25%)",
+            "Theoretical understanding and calculations (25%)",
+            "Troubleshooting and problem-solving skills (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Mathematics: Circuit calculations and trigonometry",
+            "Physics: Electrical phenomena and energy"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "TEK-ELEC-002",
+      "title": "Electrical Installation and Wiring Systems",
+      "form": "Form 4",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Understand electrical codes and safety standards",
+        "Install and wire residential and commercial electrical systems",
+        "Use electrical tools and equipment properly",
+        "Apply proper grounding and protection methods"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "TEK-ELEC-002-01",
+          "title": "Residential Wiring Installation Project",
+          "duration_minutes": 120,
+          "objectives": [
+            "Install complete residential electrical circuits following code requirements",
+            "Wire outlets, switches, and lighting fixtures properly",
+            "Install and connect electrical panels and circuit breakers"
+          ],
+          "activities": [
+            {
+              "type": "house_wiring_simulation",
+              "duration": 50,
+              "description": "Install complete electrical system in residential wiring trainer"
+            },
+            {
+              "type": "panel_installation",
+              "duration": 30,
+              "description": "Install and wire electrical distribution panels and circuit breakers"
+            },
+            {
+              "type": "code_compliance_check",
+              "duration": 25,
+              "description": "Inspect installation for code compliance and safety standards"
+            },
+            {
+              "type": "testing_commissioning",
+              "duration": 15,
+              "description": "Test all circuits and systems for proper operation"
+            }
+          ],
+          "resources": [
+            "Residential wiring training simulators",
+            "Electrical tools and installation equipment",
+            "Electrical panels and circuit breakers",
+            "National Electrical Code reference materials"
+          ],
+          "assessment_criteria": [
+            "Installation quality and code compliance (35%)",
+            "Safety practices and procedures (25%)",
+            "Use of tools and equipment (20%)",
+            "Testing and commissioning procedures (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Building Technology: Construction methods and materials",
+            "Safety Education: Electrical safety and hazard prevention"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "TEK-ELEC-003",
+      "title": "Power Systems and Renewable Energy",
+      "form": "Form 5",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand power generation, transmission, and distribution",
+        "Analyze three-phase power systems and transformers",
+        "Design and install renewable energy systems",
+        "Apply power quality and energy efficiency concepts"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "TEK-ELEC-003-01",
+          "title": "Solar Power System Design and Installation",
+          "duration_minutes": 120,
+          "objectives": [
+            "Design photovoltaic solar power systems for residential applications",
+            "Install solar panels and power conditioning equipment",
+            "Connect grid-tied and off-grid solar systems"
+          ],
+          "activities": [
+            {
+              "type": "solar_system_design",
+              "duration": 30,
+              "description": "Calculate energy requirements and design appropriate solar power system"
+            },
+            {
+              "type": "panel_installation",
+              "duration": 40,
+              "description": "Install solar panels, inverters, and battery storage systems"
+            },
+            {
+              "type": "system_commissioning",
+              "duration": 35,
+              "description": "Connect and test complete solar power system operation"
+            },
+            {
+              "type": "performance_monitoring",
+              "duration": 15,
+              "description": "Monitor system performance and analyze energy production data"
+            }
+          ],
+          "resources": [
+            "Solar panels and mounting systems",
+            "Power inverters and charge controllers",
+            "Battery storage systems",
+            "Solar design and analysis software"
+          ],
+          "assessment_criteria": [
+            "System design accuracy and optimization (30%)",
+            "Installation quality and safety (25%)",
+            "System performance and testing (25%)",
+            "Understanding of renewable energy principles (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Environmental Science: Renewable energy and sustainability",
+            "Mathematics: Energy calculations and system optimization"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "TEK-ELEC-004",
+      "title": "Industrial Control Systems and Automation",
+      "form": "Form 5",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Understand industrial control systems and motor drives",
+        "Program and troubleshoot Programmable Logic Controllers (PLCs)",
+        "Design and implement automated control systems",
+        "Apply Human-Machine Interface (HMI) and SCADA systems"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "TEK-ELEC-004-01",
+          "title": "Motor Control and PLC Programming Laboratory",
+          "duration_minutes": 120,
+          "objectives": [
+            "Install and wire motor control circuits and drives",
+            "Program PLCs for industrial automation applications",
+            "Design and implement automated production systems"
+          ],
+          "activities": [
+            {
+              "type": "motor_control_installation",
+              "duration": 35,
+              "description": "Install and wire three-phase motor control circuits with starters and drives"
+            },
+            {
+              "type": "plc_programming",
+              "duration": 40,
+              "description": "Program PLCs using ladder logic for process control applications"
+            },
+            {
+              "type": "automation_system_design",
+              "duration": 30,
+              "description": "Design complete automated system for manufacturing process"
+            },
+            {
+              "type": "hmi_development",
+              "duration": 15,
+              "description": "Develop Human-Machine Interface for system monitoring and control"
+            }
+          ],
+          "resources": [
+            "Three-phase motors and control equipment",
+            "Programmable Logic Controllers (PLCs)",
+            "Motor drives and soft starters",
+            "HMI panels and SCADA software"
+          ],
+          "assessment_criteria": [
+            "Motor control installation and operation (25%)",
+            "PLC programming logic and efficiency (30%)",
+            "System integration and automation (25%)",
+            "HMI design and functionality (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Mechanical Technology: Industrial automation systems",
+            "Computer Technology: Programming and system integration"
+          ]
+        }
+      ]
+    }
+  ],
+  "practical_work": {
+    "workshop_projects": [
+      "Complete electrical installation for simulated building",
+      "Design and build renewable energy demonstration system",
+      "Industrial automation cell programming and commissioning",
+      "Electrical maintenance and troubleshooting scenarios"
+    ],
+    "safety_training": [
+      "Electrical safety procedures and lockout/tagout",
+      "Arc flash protection and personal protective equipment",
+      "Electrical code compliance and inspection procedures",
+      "Emergency response and first aid for electrical incidents"
+    ],
+    "capstone_projects": [
+      "Smart home automation system design and implementation",
+      "Energy audit and efficiency improvement project",
+      "Industrial process control system development",
+      "Renewable energy system for community application"
+    ]
+  },
+  "industry_certifications": {
+    "safety_certifications": [
+      "OSHA 10-hour Electrical Safety certification",
+      "NFPA 70E Electrical Safety in the Workplace",
+      "Arc Flash Safety certification"
+    ],
+    "technical_certifications": [
+      "National Center for Construction Education and Research (NCCER) Electrical",
+      "International Brotherhood of Electrical Workers (IBEW) pre-apprenticeship",
+      "NABCEP Solar PV Installation Professional certification",
+      "Allen-Bradley PLC programming certification"
+    ],
+    "professional_development": [
+      "Institute of Electrical and Electronics Engineers (IEEE) student membership",
+      "National Electrical Contractors Association (NECA) activities",
+      "Electrical trade association participation"
+    ]
+  },
+  "assessment_framework": {
+    "formative_assessments": [
+      "Weekly hands-on skills demonstrations",
+      "Safety protocol evaluations",
+      "Circuit analysis and calculation exercises",
+      "Troubleshooting and problem-solving activities"
+    ],
+    "summative_assessments": [
+      "Practical skills examinations (40%)",
+      "Project portfolio and documentation (30%)",
+      "Written technical examinations (20%)",
+      "Industry certification preparation (10%)"
+    ],
+    "grading_criteria": {
+      "practical_skills_and_safety": 40,
+      "technical_knowledge_and_analysis": 25,
+      "system_design_and_installation": 20,
+      "troubleshooting_and_maintenance": 15
+    }
+  },
+  "resources": {
+    "equipment_and_facilities": [
+      "Electrical training laboratory with power supplies and meters",
+      "Residential and commercial wiring simulators",
+      "Motor control and PLC training stations",
+      "Renewable energy demonstration systems"
+    ],
+    "textbooks_and_materials": [
+      "Electrical Technology and Systems textbooks",
+      "National Electrical Code and local electrical codes",
+      "Motor control and industrial automation manuals",
+      "Renewable energy systems design guides"
+    ],
+    "digital_resources": [
+      "Electrical simulation and design software",
+      "PLC programming and simulation environments",
+      "Online electrical code references and updates",
+      "Virtual reality electrical safety training"
+    ]
+  },
+  "career_pathways": [
+    "Electrician (residential, commercial, industrial)",
+    "Electrical engineering technician",
+    "Power plant operator and technician",
+    "Renewable energy system installer",
+    "Industrial maintenance electrician",
+    "Control systems technician",
+    "Electrical inspector and code official",
+    "Electrical contractor and project manager"
+  ],
+  "industry_partnerships": {
+    "apprenticeship_programs": [
+      "Electrical contractors apprenticeship preparation",
+      "Utility company training partnerships",
+      "Industrial facility maintenance programs",
+      "Renewable energy company internships"
+    ],
+    "professional_development": [
+      "Journeyman electrician mentorship programs",
+      "Industry association guest speakers",
+      "Power plant and facility tours",
+      "Trade show and conference participation"
+    ],
+    "employment_preparation": [
+      "Job placement assistance and networking",
+      "Interview skills and resume preparation",
+      "Continuing education pathway guidance",
+      "Professional licensing examination preparation"
+    ]
+  }
+}

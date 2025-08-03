@@ -1,0 +1,26 @@
+{
+  "id": "physics_sains_tulen_002",
+  "type": "multiple_choice",
+  "question": "A car accelerates from 0 to 20 m/s in 4 seconds. What is its acceleration?",
+  "options": ["5 m/s²", "4 m/s²", "80 m/s²", "16 m/s²"],
+  "answer": "5 m/s²",
+  "explanation": {
+    "en": "Using a = (v - u)/t where v = 20 m/s, u = 0 m/s, t = 4 s. Therefore a = (20 - 0)/4 = 5 m/s²",
+    "bm": "Menggunakan a = (v - u)/t di mana v = 20 m/s, u = 0 m/s, t = 4 s. Oleh itu a = (20 - 0)/4 = 5 m/s²"
+  },
+  "hint": {
+    "en": "Use the equation: acceleration = (final velocity - initial velocity) / time",
+    "bm": "Gunakan persamaan: pecutan = (halaju akhir - halaju awal) / masa"
+  },
+  "difficulty": "medium",
+  "xp_value": 20,
+  "subject": "physics",
+  "program": "sains_tulen",
+  "topic": "mechanics",
+  "subtopic": "kinematics",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

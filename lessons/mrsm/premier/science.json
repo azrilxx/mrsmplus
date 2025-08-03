@@ -1,0 +1,280 @@
+{
+  "program": "Premier (Balanced Curriculum)",
+  "subject": "Science",
+  "curriculum_code": "MRSM-PREM-SCI",
+  "year_levels": ["Form 4", "Form 5"],
+  "overview": {
+    "description": "Integrated science curriculum covering physics, chemistry, and biology with emphasis on scientific literacy, inquiry-based learning, and real-world applications",
+    "duration": "2 years (Form 4-5)",
+    "total_periods": 280,
+    "periods_per_week": 7
+  },
+  "learning_objectives": [
+    "Understand fundamental concepts in physics, chemistry, and biology",
+    "Apply scientific method and inquiry skills",
+    "Analyze scientific data and draw evidence-based conclusions",
+    "Connect scientific concepts to everyday life and global issues",
+    "Develop laboratory and research skills"
+  ],
+  "units": [
+    {
+      "unit_id": "PREM-SCI-001",
+      "title": "Force and Motion",
+      "form": "Form 4",
+      "duration_weeks": 8,
+      "learning_outcomes": [
+        "Understand Newton's laws of motion",
+        "Calculate force, mass, and acceleration relationships",
+        "Apply motion concepts to real-world situations",
+        "Analyze motion using graphs and equations"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "PREM-SCI-001-01",
+          "title": "Newton's Laws of Motion",
+          "duration_minutes": 80,
+          "objectives": [
+            "State and explain Newton's three laws of motion",
+            "Apply laws of motion to analyze everyday situations",
+            "Conduct experiments to verify motion principles"
+          ],
+          "activities": [
+            {
+              "type": "demonstration",
+              "duration": 15,
+              "description": "Interactive demonstrations of each law of motion"
+            },
+            {
+              "type": "laboratory_investigation",
+              "duration": 40,
+              "description": "Investigate motion using trolleys and force sensors"
+            },
+            {
+              "type": "data_analysis",
+              "duration": 20,
+              "description": "Analyze motion data and create force-acceleration graphs"
+            },
+            {
+              "type": "application_discussion",
+              "duration": 5,
+              "description": "Discuss motion applications in sports and transportation"
+            }
+          ],
+          "resources": [
+            "Motion trolleys and tracks",
+            "Force sensors and data loggers",
+            "Stopwatches and measuring tools",
+            "Video analysis software"
+          ],
+          "assessment_criteria": [
+            "Understanding of motion laws (30%)",
+            "Laboratory skills and safety (25%)",
+            "Data analysis accuracy (25%)",
+            "Application to real situations (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Mathematics: Graphing and data analysis",
+            "Physical Education: Biomechanics and sports"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "PREM-SCI-002",
+      "title": "Chemical Reactions and Energy",
+      "form": "Form 4",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand types of chemical reactions",
+        "Balance chemical equations",
+        "Analyze energy changes in chemical reactions",
+        "Apply chemical knowledge to environmental issues"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "PREM-SCI-002-01",
+          "title": "Types of Chemical Reactions",
+          "duration_minutes": 80,
+          "objectives": [
+            "Classify chemical reactions by type",
+            "Write balanced chemical equations",
+            "Predict products of chemical reactions"
+          ],
+          "activities": [
+            {
+              "type": "classification_activity",
+              "duration": 20,
+              "description": "Classify reactions using card sorting and pattern recognition"
+            },
+            {
+              "type": "laboratory_experiments",
+              "duration": 35,
+              "description": "Conduct synthesis, decomposition, and displacement reactions"
+            },
+            {
+              "type": "equation_balancing",
+              "duration": 20,
+              "description": "Practice balancing equations using systematic methods"
+            },
+            {
+              "type": "real_world_connections",
+              "duration": 5,
+              "description": "Connect reactions to industrial and biological processes"
+            }
+          ],
+          "resources": [
+            "Laboratory chemicals and equipment",
+            "Reaction classification charts",
+            "Digital balance and measuring tools",
+            "Safety equipment and protocols"
+          ],
+          "assessment_criteria": [
+            "Reaction classification accuracy (25%)",
+            "Laboratory technique and safety (30%)",
+            "Equation balancing skills (25%)",
+            "Understanding of applications (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Environmental Science: Chemical processes in nature",
+            "Mathematics: Stoichiometric calculations"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "PREM-SCI-003",
+      "title": "Cell Biology and Genetics",
+      "form": "Form 5",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Understand cell structure and function",
+        "Analyze cellular processes like photosynthesis and respiration",
+        "Apply genetic principles to inheritance patterns",
+        "Evaluate biotechnology applications and ethics"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "PREM-SCI-003-01",
+          "title": "Cell Structure and Organelles",
+          "duration_minutes": 80,
+          "objectives": [
+            "Identify cellular organelles and their functions",
+            "Compare plant and animal cell structures",
+            "Relate cell structure to function"
+          ],
+          "activities": [
+            {
+              "type": "microscopy_investigation",
+              "duration": 30,
+              "description": "Observe plant and animal cells using light microscopes"
+            },
+            {
+              "type": "virtual_cell_exploration",
+              "duration": 25,
+              "description": "Explore 3D cell models and organelle functions"
+            },
+            {
+              "type": "comparative_analysis",
+              "duration": 20,
+              "description": "Compare and contrast different cell types"
+            },
+            {
+              "type": "function_discussion",
+              "duration": 5,
+              "description": "Discuss how structure relates to cellular function"
+            }
+          ],
+          "resources": [
+            "Light microscopes and slides",
+            "Virtual cell software",
+            "Cell model kits",
+            "Staining materials"
+          ],
+          "assessment_criteria": [
+            "Microscopy skills (25%)",
+            "Organelle identification (30%)",
+            "Understanding of cell functions (25%)",
+            "Comparative analysis quality (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Technology: Microscopy and imaging techniques",
+            "Mathematics: Scale and measurement"
+          ]
+        }
+      ]
+    }
+  ],
+  "practical_work": {
+    "core_experiments": [
+      "Motion analysis using various apparatus",
+      "Chemical reaction types and energy changes",
+      "Microscopy and cell observation techniques",
+      "pH testing and acid-base reactions",
+      "Plant and animal adaptation studies"
+    ],
+    "field_studies": [
+      "Local ecosystem biodiversity survey",
+      "Water quality testing in nearby sources",
+      "Weather pattern monitoring and analysis",
+      "Soil composition and pH analysis"
+    ],
+    "project_work": [
+      "Scientific investigation of local environmental issues",
+      "Design and test of simple machines",
+      "Plant growth experiment with variables",
+      "Energy efficiency audit of school facilities"
+    ]
+  },
+  "assessment_framework": {
+    "formative_assessments": [
+      "Weekly laboratory reports",
+      "Scientific inquiry projects",
+      "Peer review activities",
+      "Concept mapping exercises"
+    ],
+    "summative_assessments": [
+      "Unit examinations (40%)",
+      "Laboratory practical assessments (30%)",
+      "Scientific investigation projects (20%)",
+      "Portfolio of scientific work (10%)"
+    ],
+    "grading_criteria": {
+      "scientific_knowledge": 35,
+      "inquiry_and_investigation": 30,
+      "communication": 20,
+      "application_and_connections": 15
+    }
+  },
+  "resources": {
+    "textbooks": [
+      "Integrated Science for Premier Programme",
+      "Laboratory Manual for Scientific Investigations"
+    ],
+    "equipment": [
+      "Complete laboratory apparatus sets",
+      "Digital data collection tools",
+      "Microscopes and imaging equipment",
+      "Field study materials"
+    ],
+    "digital_resources": [
+      "Virtual laboratory simulations",
+      "Scientific databases and journals",
+      "Data analysis software",
+      "Interactive science models"
+    ]
+  },
+  "career_connections": [
+    "Medical and health professions",
+    "Environmental science and conservation",
+    "Engineering and technology",
+    "Research and development",
+    "Science education and communication"
+  ],
+  "cross_curricular_integration": {
+    "mathematics": "Data analysis and mathematical modeling",
+    "geography": "Environmental and earth science connections",
+    "technology": "Scientific instruments and data collection",
+    "english": "Scientific writing and communication",
+    "history": "History of scientific discoveries"
+  }
+}

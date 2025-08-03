@@ -1,0 +1,26 @@
+{
+  "id": "literature_sastera_sains_sosial_003",
+  "type": "multiple_choice",
+  "question": "What is the main theme of William Shakespeare's 'Romeo and Juliet'?",
+  "options": ["Love conquers all obstacles", "War and peace", "Friendship and loyalty", "Greed and power"],
+  "answer": "Love conquers all obstacles",
+  "explanation": {
+    "en": "The main theme of Romeo and Juliet is the power of love and how it can overcome social barriers, though ultimately leading to tragedy due to family feuds.",
+    "bm": "Tema utama Romeo dan Juliet adalah kuasa cinta dan bagaimana ia boleh mengatasi halangan sosial, walaupun akhirnya membawa kepada tragedi akibat perbalahan keluarga."
+  },
+  "hint": {
+    "en": "Think about the young lovers from feuding families",
+    "bm": "Fikirkan tentang sepasang kekasih muda dari keluarga yang bermusuhan"
+  },
+  "difficulty": "medium",
+  "xp_value": 20,
+  "subject": "literature",
+  "program": "sastera_sains_sosial",
+  "topic": "english_literature",
+  "subtopic": "shakespeare",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_5",
+    "curriculum": "mrsm"
+  }
+}

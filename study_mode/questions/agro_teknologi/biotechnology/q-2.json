@@ -1,0 +1,26 @@
+{
+  "id": "biotech_agro_teknologi_002",
+  "type": "multiple_choice",
+  "question": "What does PCR stand for in biotechnology?",
+  "options": ["Polymerase Chain Reaction", "Protein Chain Replication", "Plant Cell Research", "Pathogen Control Response"],
+  "answer": "Polymerase Chain Reaction",
+  "explanation": {
+    "en": "PCR (Polymerase Chain Reaction) is a technique used to amplify small segments of DNA, making millions of copies for analysis.",
+    "bm": "PCR (Tindak Balas Rantai Polimerase) adalah teknik yang digunakan untuk memperkuat segmen kecil DNA, membuat jutaan salinan untuk analisis."
+  },
+  "hint": {
+    "en": "Think about a technique that makes many copies of DNA",
+    "bm": "Fikirkan tentang teknik yang membuat banyak salinan DNA"
+  },
+  "difficulty": "hard",
+  "xp_value": 35,
+  "subject": "biotechnology",
+  "program": "agro_teknologi",
+  "topic": "molecular_biology",
+  "subtopic": "dna_amplification",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_6",
+    "curriculum": "mrsm"
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "program": "Ulul Albab (Quran + STEM Integration)",
+  "subject": "Mathematics",
+  "curriculum_code": "MRSM-UA-MATH",
+  "year_levels": ["Form 4", "Form 5"],
+  "overview": {
+    "description": "Integrated mathematics curriculum combining Islamic mathematical heritage with modern mathematical concepts, emphasizing the spiritual and ethical dimensions of mathematical knowledge and its applications",
+    "duration": "2 years (Form 4-5)",
+    "total_periods": 320,
+    "periods_per_week": 8
+  },
+  "learning_objectives": [
+    "Master fundamental and advanced mathematical concepts with Islamic context",
+    "Understand historical Islamic contributions to mathematics",
+    "Apply mathematical principles to Islamic practices and contexts",
+    "Develop mathematical thinking aligned with Islamic values and ethics",
+    "Integrate mathematical knowledge with Quranic wisdom and Islamic scholarship"
+  ],
+  "units": [
+    {
+      "unit_id": "UA-MATH-001",
+      "title": "Islamic Mathematical Heritage and Number Theory",
+      "form": "Form 4",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand historical Islamic contributions to mathematics",
+        "Master number theory concepts with Islamic applications",
+        "Apply mathematical patterns found in Islamic art and architecture",
+        "Develop appreciation for mathematical beauty in Islamic context"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "UA-MATH-001-01",
+          "title": "Mathematical Patterns in Islamic Art and Architecture",
+          "duration_minutes": 80,
+          "objectives": [
+            "Identify geometric patterns in Islamic art and architecture",
+            "Understand mathematical principles behind Islamic geometric designs",
+            "Apply geometric transformations to create Islamic patterns"
+          ],
+          "activities": [
+            {
+              "type": "pattern_analysis",
+              "duration": 25,
+              "description": "Analyze geometric patterns in Islamic art using mathematical principles"
+            },
+            {
+              "type": "construction_activity",
+              "duration": 30,
+              "description": "Construct Islamic geometric patterns using compass and straightedge"
+            },
+            {
+              "type": "digital_design",
+              "duration": 20,
+              "description": "Create Islamic patterns using geometric software"
+            },
+            {
+              "type": "reflection_discussion",
+              "duration": 5,
+              "description": "Reflect on the spiritual and aesthetic dimensions of mathematical patterns"
+            }
+          ],
+          "resources": [
+            "Islamic art and architecture image collections",
+            "Geometric construction tools",
+            "Pattern design software",
+            "Historical mathematics texts"
+          ],
+          "assessment_criteria": [
+            "Pattern recognition and analysis (30%)",
+            "Geometric construction accuracy (25%)",
+            "Understanding of mathematical principles (25%)",
+            "Creative application and reflection (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Islamic Science: Mathematical principles in Islamic civilization",
+            "Art: Geometric patterns and aesthetic principles"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "UA-MATH-002",
+      "title": "Algebra and Functions with Islamic Applications",
+      "form": "Form 4",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Master algebraic concepts with historical Islamic context",
+        "Apply functions to model Islamic practices and calculations",
+        "Understand contributions of Al-Khwarizmi and other Islamic mathematicians",
+        "Connect algebraic thinking to problem-solving in Islamic contexts"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "UA-MATH-002-01",
+          "title": "Al-Khwarizmi's Algebra and Problem-Solving Methods",
+          "duration_minutes": 80,
+          "objectives": [
+            "Study Al-Khwarizmi's approach to algebraic problem solving",
+            "Apply historical Islamic methods to modern algebraic problems",
+            "Understand the development of algebraic notation and methods"
+          ],
+          "activities": [
+            {
+              "type": "historical_method_study",
+              "duration": 25,
+              "description": "Study Al-Khwarizmi's original algebraic methods and problems"
+            },
+            {
+              "type": "method_application",
+              "duration": 30,
+              "description": "Apply historical Islamic algebraic methods to solve problems"
+            },
+            {
+              "type": "modern_comparison",
+              "duration": 20,
+              "description": "Compare historical and modern algebraic approaches"
+            },
+            {
+              "type": "appreciation_reflection",
+              "duration": 5,
+              "description": "Reflect on the beauty and efficiency of mathematical methods"
+            }
+          ],
+          "resources": [
+            "Translations of Al-Khwarizmi's algebraic works",
+            "Historical mathematical problem collections",
+            "Comparative mathematics texts",
+            "Islamic mathematical heritage materials"
+          ],
+          "assessment_criteria": [
+            "Understanding of historical methods (30%)",
+            "Problem-solving accuracy (25%)",
+            "Comparative analysis ability (25%)",
+            "Mathematical reasoning quality (20%)"
+          ],
+          "cross_curricular_connections": [
+            "History: Islamic Golden Age mathematical achievements",
+            "Islamic Science: Mathematical methodology in Islamic scholarship"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "UA-MATH-003",
+      "title": "Trigonometry and Astronomical Mathematics",
+      "form": "Form 5",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Master trigonometric concepts with Islamic astronomical applications",
+        "Apply trigonometry to Islamic practices like Qibla determination",
+        "Understand Islamic contributions to spherical trigonometry",
+        "Connect mathematical precision to Islamic worship and timekeeping"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "UA-MATH-003-01",
+          "title": "Mathematical Determination of Prayer Times and Qibla Direction",
+          "duration_minutes": 80,
+          "objectives": [
+            "Calculate prayer times using spherical trigonometry",
+            "Determine Qibla direction using mathematical methods",
+            "Understand the precision required in Islamic worship calculations"
+          ],
+          "activities": [
+            {
+              "type": "prayer_time_calculation",
+              "duration": 30,
+              "description": "Calculate accurate prayer times for different locations and dates"
+            },
+            {
+              "type": "qibla_determination",
+              "duration": 25,
+              "description": "Determine Qibla direction using spherical trigonometry"
+            },
+            {
+              "type": "accuracy_analysis",
+              "duration": 20,
+              "description": "Analyze the importance of mathematical precision in Islamic practices"
+            },
+            {
+              "type": "spiritual_reflection",
+              "duration": 5,
+              "description": "Reflect on the spiritual significance of mathematical precision"
+            }
+          ],
+          "resources": [
+            "Astronomical calculation software",
+            "Islamic astronomical texts",
+            "Prayer time calculation algorithms",
+            "Spherical trigonometry references"
+          ],
+          "assessment_criteria": [
+            "Calculation accuracy and methodology (35%)",
+            "Understanding of trigonometric principles (25%)",
+            "Application to Islamic practices (25%)",
+            "Appreciation of precision and spirituality (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Islamic Science: Astronomical calculations in Islam",
+            "Geography: Global coordinates and navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "UA-MATH-004",
+      "title": "Statistics and Probability with Islamic Ethics",
+      "form": "Form 5",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Master statistical concepts with Islamic ethical considerations",
+        "Apply probability to understand Islamic principles and decision-making",
+        "Understand Islamic perspectives on uncertainty and risk",
+        "Connect statistical analysis to Islamic social and economic principles"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "UA-MATH-004-01",
+          "title": "Islamic Ethics in Statistical Analysis and Data Interpretation",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand Islamic principles of honesty and integrity in data analysis",
+            "Apply statistical methods ethically in Islamic contexts",
+            "Analyze social and economic data from Islamic perspectives"
+          ],
+          "activities": [
+            {
+              "type": "ethical_data_analysis",
+              "duration": 25,
+              "description": "Analyze data sets with focus on Islamic ethical principles"
+            },
+            {
+              "type": "social_statistics_project",
+              "duration": 30,
+              "description": "Conduct statistical analysis of Islamic social or economic issues"
+            },
+            {
+              "type": "interpretation_discussion",
+              "duration": 20,
+              "description": "Discuss ethical considerations in statistical interpretation"
+            },
+            {
+              "type": "islamic_perspective",
+              "duration": 5,
+              "description": "Connect statistical findings to Islamic values and teachings"
+            }
+          ],
+          "resources": [
+            "Statistical analysis software",
+            "Islamic social and economic data sets",
+            "Ethics in statistics texts",
+            "Islamic principles of data handling"
+          ],
+          "assessment_criteria": [
+            "Statistical analysis accuracy (30%)",
+            "Ethical consideration integration (25%)",
+            "Data interpretation quality (25%)",
+            "Islamic perspective application (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Islamic Science: Ethical principles in research",
+            "Social Studies: Islamic social and economic analysis"
+          ]
+        }
+      ]
+    }
+  ],
+  "islamic_mathematical_applications": {
+    "worship_calculations": [
+      "Prayer time determinations using astronomical mathematics",
+      "Qibla direction calculations using spherical geometry",
+      "Zakat calculations using percentage and proportion",
+      "Islamic calendar calculations and date conversions"
+    ],
+    "geometric_arts": [
+      "Islamic geometric pattern construction and analysis",
+      "Symmetry and transformation in Islamic art",
+      "Proportional relationships in Islamic architecture",
+      "Tessellation and tiling patterns in Islamic design"
+    ],
+    "historical_connections": [
+      "Study of mathematical works by Islamic scholars",
+      "Development of mathematical concepts in Islamic civilization",
+      "Islamic contributions to algebra, trigonometry, and geometry",
+      "Mathematical instruments and tools in Islamic tradition"
+    ]
+  },
+  "assessment_framework": {
+    "formative_assessments": [
+      "Weekly problem-solving with Islamic applications",
+      "Historical mathematical method explorations",
+      "Geometric construction and pattern creation",
+      "Reflection journals on mathematics and spirituality"
+    ],
+    "summative_assessments": [
+      "Comprehensive examinations with historical and modern content (40%)",
+      "Islamic mathematical application projects (25%)",
+      "Geometric art and pattern construction portfolio (20%)",
+      "Research project on Islamic mathematical heritage (15%)"
+    ],
+    "grading_criteria": {
+      "mathematical_understanding_and_accuracy": 35,
+      "historical_and_cultural_integration": 25,
+      "application_to_islamic_contexts": 25,
+      "reflection_and_spiritual_connection": 15
+    }
+  },
+  "resources": {
+    "textbooks_and_references": [
+      "Mathematics in Islamic Civilization",
+      "Al-Khwarizmi and the Development of Algebra",
+      "Islamic Geometric Patterns and Mathematical Art",
+      "Astronomy and Mathematics in Islamic Tradition"
+    ],
+    "digital_resources": [
+      "Islamic geometric pattern software",
+      "Astronomical calculation programs",
+      "Historical mathematics text databases",
+      "Virtual Islamic art and architecture collections"
+    ],
+    "practical_materials": [
+      "Geometric construction tools and materials",
+      "Islamic art pattern templates",
+      "Astronomical calculation charts and tables",
+      "Historical mathematical instrument replicas"
+    ]
+  },
+  "career_connections": [
+    "Islamic architecture and geometric design",
+    "Astronomical and calendar calculations",
+    "Islamic finance and economic analysis",
+    "Mathematics education with cultural integration",
+    "Historical mathematics research and scholarship"
+  ],
+  "spiritual_integration": {
+    "mathematical_beauty": "Appreciation of mathematical patterns as signs of divine creation",
+    "precision_worship": "Understanding the role of mathematical precision in Islamic worship",
+    "ethical_mathematics": "Application of Islamic ethical principles to mathematical practice",
+    "historical_gratitude": "Appreciation for Islamic mathematical heritage and contributions",
+    "holistic_learning": "Integration of mathematical knowledge with spiritual and ethical development"
+  }
+}

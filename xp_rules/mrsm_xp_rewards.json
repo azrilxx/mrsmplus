@@ -1,0 +1,870 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-08-03",
+  "description": "Comprehensive XP rules and reward systems for all 5 MRSM academic programs",
+  
+  "baseXPRules": {
+    "questionDifficulty": {
+      "easy": 10,
+      "medium": 25,
+      "hard": 50
+    },
+    "questionTypes": {
+      "multiple_choice": 1.0,
+      "short_answer": 1.2,
+      "essay": 1.5,
+      "practical": 1.8,
+      "project": 2.0,
+      "lab_experiment": 2.2,
+      "research": 2.5
+    },
+    "timeBonus": {
+      "under_30_seconds": 1.5,
+      "under_60_seconds": 1.3,
+      "under_120_seconds": 1.1,
+      "over_120_seconds": 1.0
+    },
+    "accuracyBonus": {
+      "perfect": 2.0,
+      "excellent_90_plus": 1.5,
+      "good_80_to_89": 1.2,
+      "fair_70_to_79": 1.0,
+      "below_70": 0.8
+    }
+  },
+
+  "streamSpecificMultipliers": {
+    "ulul_albab": {
+      "name": "Ulul Albab (Quran + STEM Integration)",
+      "baseMultiplier": 1.1,
+      "subjectMultipliers": {
+        "quran_studies": 1.5,
+        "arabic_language": 1.4,
+        "islamic_studies": 1.3,
+        "mathematics": 1.2,
+        "physics": 1.2,
+        "chemistry": 1.2,
+        "biology": 1.2,
+        "computer_science": 1.1
+      },
+      "specialBonuses": {
+        "quran_stem_integration": 2.5,
+        "arabic_terminology_mastery": 2.0,
+        "islamic_calendar_studies": 1.8,
+        "integration_projects": 2.3,
+        "tahfiz_milestones": 2.0,
+        "scientific_tafsir": 2.2,
+        "halal_science_research": 1.9,
+        "islamic_heritage_stem": 1.7
+      },
+      "streakBonuses": {
+        "daily_quran_study": 1.3,
+        "arabic_practice_streak": 1.2,
+        "islamic_calendar_tracking": 1.4,
+        "integration_consistency": 1.5
+      }
+    },
+    "bitara": {
+      "name": "Bitara (IQ-Based Academic Excellence)",
+      "baseMultiplier": 1.2,
+      "subjectMultipliers": {
+        "mathematics": 1.4,
+        "physics": 1.3,
+        "chemistry": 1.3,
+        "biology": 1.2,
+        "logic_reasoning": 1.5,
+        "critical_thinking": 1.4,
+        "research_methodology": 1.3,
+        "advanced_problem_solving": 1.5
+      },
+      "specialBonuses": {
+        "dynamic_difficulty_mastery": 2.0,
+        "research_project_excellence": 2.5,
+        "academic_competition_wins": 3.0,
+        "advanced_problem_solving": 2.2,
+        "peer_mentoring": 1.8,
+        "intellectual_challenges": 2.3,
+        "innovation_proposals": 2.4,
+        "academic_publications": 3.5
+      },
+      "iqScalingSystem": {
+        "difficulty_adaptation_bonus": 1.5,
+        "complexity_mastery_multiplier": 2.0,
+        "intellectual_growth_tracking": 1.7,
+        "cognitive_skill_progression": 1.6
+      }
+    },
+    "teknikal": {
+      "name": "Teknikal (Technical Skills & Mini-Projects)",
+      "baseMultiplier": 1.1,
+      "subjectMultipliers": {
+        "engineering": 1.4,
+        "computer_science": 1.4,
+        "design_technology": 1.3,
+        "mathematics": 1.2,
+        "physics": 1.2,
+        "technical_drawing": 1.3,
+        "workshop_practice": 1.4,
+        "automation": 1.3
+      },
+      "specialBonuses": {
+        "mini_project_completion": 2.5,
+        "hands_on_demonstrations": 2.2,
+        "practical_skill_mastery": 2.0,
+        "industry_certification": 2.8,
+        "technical_innovation": 2.6,
+        "prototype_development": 2.4,
+        "workshop_excellence": 1.9,
+        "technical_documentation": 1.7
+      },
+      "projectTriggers": {
+        "weekly_mini_projects": 1.5,
+        "monthly_major_projects": 2.0,
+        "semester_capstone": 3.0,
+        "industry_collaboration": 2.5
+      }
+    },
+    "igcse": {
+      "name": "IGCSE (International Curriculum)",
+      "baseMultiplier": 1.1,
+      "subjectMultipliers": {
+        "english_language": 1.4,
+        "english_literature": 1.3,
+        "mathematics": 1.3,
+        "sciences": 1.2,
+        "foreign_languages": 1.4,
+        "global_perspectives": 1.3,
+        "international_relations": 1.2,
+        "cultural_studies": 1.2
+      },
+      "specialBonuses": {
+        "language_mastery_levels": 2.3,
+        "international_assessment_prep": 2.0,
+        "cross_cultural_projects": 2.2,
+        "global_perspectives_integration": 1.9,
+        "cambridge_exam_milestones": 2.5,
+        "multilingual_competency": 2.1,
+        "international_collaboration": 1.8,
+        "cultural_exchange_projects": 1.7
+      },
+      "languageMasteryBoosts": {
+        "native_proficiency": 2.0,
+        "advanced_fluency": 1.7,
+        "intermediate_competency": 1.4,
+        "basic_communication": 1.2
+      }
+    },
+    "premier": {
+      "name": "Premier (Balanced Excellence)",
+      "baseMultiplier": 1.0,
+      "subjectMultipliers": {
+        "mathematics": 1.2,
+        "sciences": 1.2,
+        "languages": 1.2,
+        "humanities": 1.2,
+        "arts": 1.1,
+        "physical_education": 1.1,
+        "leadership": 1.3,
+        "community_service": 1.3
+      },
+      "specialBonuses": {
+        "well_rounded_education": 1.8,
+        "leadership_activities": 2.0,
+        "community_service_hours": 2.2,
+        "balanced_subject_progression": 1.9,
+        "extracurricular_excellence": 1.7,
+        "character_development": 1.6,
+        "social_responsibility": 1.8,
+        "holistic_achievement": 2.1
+      },
+      "balancedFlowSystem": {
+        "subject_diversity_bonus": 1.5,
+        "consistent_progress_multiplier": 1.3,
+        "leadership_development_track": 1.7,
+        "community_impact_measure": 1.6
+      }
+    }
+  },
+
+  "streakMultipliers": {
+    "daily": {
+      "3_days": 1.1,
+      "7_days": 1.2,
+      "14_days": 1.3,
+      "30_days": 1.5,
+      "60_days": 1.7,
+      "100_days": 2.0
+    },
+    "subject": {
+      "5_questions": 1.1,
+      "15_questions": 1.2,
+      "30_questions": 1.3,
+      "50_questions": 1.4,
+      "100_questions": 1.6
+    },
+    "perfect_answers": {
+      "5_perfect": 1.2,
+      "10_perfect": 1.4,
+      "20_perfect": 1.6,
+      "50_perfect": 2.0
+    }
+  },
+
+  "achievements": {
+    "universal": [
+      {
+        "id": "first_steps",
+        "name": "First Steps",
+        "description": "Complete your first question",
+        "xpReward": 50,
+        "requirement": "Complete 1 question",
+        "badge": "🎯"
+      },
+      {
+        "id": "dedicated_learner",
+        "name": "Dedicated Learner",
+        "description": "Study for 7 consecutive days",
+        "xpReward": 500,
+        "requirement": "7-day streak",
+        "badge": "🔥"
+      },
+      {
+        "id": "knowledge_seeker",
+        "name": "Knowledge Seeker",
+        "description": "Complete 100 questions",
+        "xpReward": 1000,
+        "requirement": "100 questions completed",
+        "badge": "📚"
+      },
+      {
+        "id": "perfectionist",
+        "name": "Perfectionist",
+        "description": "Get 50 perfect answers",
+        "xpReward": 1500,
+        "requirement": "50 perfect answers",
+        "badge": "⭐"
+      },
+      {
+        "id": "speed_demon",
+        "name": "Speed Demon",
+        "description": "Answer 20 questions under 30 seconds",
+        "xpReward": 800,
+        "requirement": "20 fast answers",
+        "badge": "⚡"
+      }
+    ],
+    "streamSpecific": {
+      "ulul_albab": [
+        {
+          "id": "quran_stem_integrator",
+          "name": "Quran-STEM Integrator",
+          "description": "Connect 25 Quranic verses with scientific concepts",
+          "xpReward": 2500,
+          "requirement": "25 Quran-STEM connections",
+          "badge": "📖⚗️"
+        },
+        {
+          "id": "arabic_terminology_master",
+          "name": "Arabic Terminology Master",
+          "description": "Master 100 Arabic scientific terms",
+          "xpReward": 2000,
+          "requirement": "100 Arabic science terms",
+          "badge": "🔤"
+        },
+        {
+          "id": "islamic_calendar_scholar",
+          "name": "Islamic Calendar Scholar",
+          "description": "Study Islamic calendar for 30 consecutive days",
+          "xpReward": 1800,
+          "requirement": "30-day Islamic calendar streak",
+          "badge": "🌙📅"
+        },
+        {
+          "id": "integration_project_champion",
+          "name": "Integration Project Champion",
+          "description": "Complete 5 Quran-STEM integration projects",
+          "xpReward": 3000,
+          "requirement": "5 integration projects",
+          "badge": "🏆"
+        }
+      ],
+      "bitara": [
+        {
+          "id": "intellectual_challenger",
+          "name": "Intellectual Challenger",
+          "description": "Complete 50 advanced problem-solving questions",
+          "xpReward": 2200,
+          "requirement": "50 advanced problems",
+          "badge": "🧠"
+        },
+        {
+          "id": "research_excellence",
+          "name": "Research Excellence",
+          "description": "Submit 3 high-quality research projects",
+          "xpReward": 3000,
+          "requirement": "3 research projects",
+          "badge": "🔬📊"
+        },
+        {
+          "id": "academic_competitor",
+          "name": "Academic Competitor",
+          "description": "Win 5 academic competitions",
+          "xpReward": 3500,
+          "requirement": "5 competition wins",
+          "badge": "🥇"
+        },
+        {
+          "id": "iq_scaling_master",
+          "name": "IQ Scaling Master",
+          "description": "Adapt to 20 dynamic difficulty increases",
+          "xpReward": 2500,
+          "requirement": "20 difficulty adaptations",
+          "badge": "📈"
+        }
+      ],
+      "teknikal": [
+        {
+          "id": "mini_project_master",
+          "name": "Mini Project Master",
+          "description": "Complete 20 mini-projects",
+          "xpReward": 2400,
+          "requirement": "20 mini-projects",
+          "badge": "🔧"
+        },
+        {
+          "id": "hands_on_expert",
+          "name": "Hands-On Expert",
+          "description": "Demonstrate 30 practical skills",
+          "xpReward": 2000,
+          "requirement": "30 skill demonstrations",
+          "badge": "👨‍🔧"
+        },
+        {
+          "id": "industry_certified",
+          "name": "Industry Certified",
+          "description": "Obtain 3 industry certifications",
+          "xpReward": 3500,
+          "requirement": "3 certifications",
+          "badge": "📜"
+        },
+        {
+          "id": "technical_innovator",
+          "name": "Technical Innovator",
+          "description": "Create 5 innovative technical solutions",
+          "xpReward": 2800,
+          "requirement": "5 technical innovations",
+          "badge": "💡"
+        }
+      ],
+      "igcse": [
+        {
+          "id": "language_polyglot",
+          "name": "Language Polyglot",
+          "description": "Achieve proficiency in 3 languages",
+          "xpReward": 2600,
+          "requirement": "3 language proficiencies",
+          "badge": "🗣️"
+        },
+        {
+          "id": "cambridge_achiever",
+          "name": "Cambridge Achiever",
+          "description": "Complete all Cambridge exam preparations",
+          "xpReward": 3000,
+          "requirement": "All Cambridge prep modules",
+          "badge": "🎓"
+        },
+        {
+          "id": "global_perspectives_master",
+          "name": "Global Perspectives Master",
+          "description": "Complete 10 cross-cultural projects",
+          "xpReward": 2200,
+          "requirement": "10 cross-cultural projects",
+          "badge": "🌍"
+        },
+        {
+          "id": "international_collaborator",
+          "name": "International Collaborator",
+          "description": "Participate in 5 international collaborations",
+          "xpReward": 2500,
+          "requirement": "5 international collaborations",
+          "badge": "🤝"
+        }
+      ],
+      "premier": [
+        {
+          "id": "well_rounded_scholar",
+          "name": "Well-Rounded Scholar",
+          "description": "Excel in all subject areas",
+          "xpReward": 2400,
+          "requirement": "High performance in all subjects",
+          "badge": "⭐"
+        },
+        {
+          "id": "leadership_champion",
+          "name": "Leadership Champion",
+          "description": "Lead 10 school activities",
+          "xpReward": 2600,
+          "requirement": "10 leadership activities",
+          "badge": "👑"
+        },
+        {
+          "id": "community_hero",
+          "name": "Community Hero",
+          "description": "Complete 100 hours of community service",
+          "xpReward": 2800,
+          "requirement": "100 service hours",
+          "badge": "❤️"
+        },
+        {
+          "id": "balanced_excellence",
+          "name": "Balanced Excellence",
+          "description": "Maintain consistent progress across all areas",
+          "xpReward": 3000,
+          "requirement": "Balanced progress in academics, leadership, and service",
+          "badge": "⚖️"
+        }
+      ]
+    }
+  },
+
+  "dailyChallenges": {
+    "universal": [
+      {
+        "id": "quick_fire",
+        "name": "Quick Fire",
+        "description": "Answer 10 questions in under 5 minutes",
+        "xpReward": 300,
+        "timeLimit": 300
+      },
+      {
+        "id": "perfect_streak",
+        "name": "Perfect Streak",
+        "description": "Get 5 perfect answers in a row",
+        "xpReward": 400,
+        "requirement": "5 consecutive perfect answers"
+      },
+      {
+        "id": "subject_master",
+        "name": "Subject Master",
+        "description": "Complete 15 questions in your strongest subject",
+        "xpReward": 350,
+        "requirement": "15 questions in one subject"
+      },
+      {
+        "id": "multi_stream",
+        "name": "Multi-Stream Explorer",
+        "description": "Answer questions from 3 different subjects",
+        "xpReward": 450,
+        "requirement": "3 different subjects"
+      }
+    ],
+    "streamSpecific": {
+      "ulul_albab": [
+        {
+          "id": "quran_stem_daily",
+          "name": "Daily Quran-STEM Connection",
+          "description": "Connect 3 Quranic verses with scientific concepts",
+          "xpReward": 500,
+          "requirement": "3 Quran-STEM connections"
+        },
+        {
+          "id": "arabic_terminology_daily",
+          "name": "Arabic Terms Mastery",
+          "description": "Learn 5 new Arabic scientific terms",
+          "xpReward": 350,
+          "requirement": "5 Arabic terms"
+        },
+        {
+          "id": "islamic_calendar_tracking",
+          "name": "Islamic Calendar Study",
+          "description": "Study Islamic calendar events and calculations",
+          "xpReward": 300,
+          "requirement": "Complete calendar module"
+        }
+      ],
+      "bitara": [
+        {
+          "id": "intellectual_challenge_daily",
+          "name": "Daily Intellectual Challenge",
+          "description": "Solve 5 advanced problem-solving questions",
+          "xpReward": 600,
+          "requirement": "5 advanced problems"
+        },
+        {
+          "id": "research_progress_daily",
+          "name": "Research Progress",
+          "description": "Work on research methodology for 30 minutes",
+          "xpReward": 400,
+          "requirement": "30 minutes research work"
+        },
+        {
+          "id": "iq_scaling_challenge",
+          "name": "IQ Scaling Challenge",
+          "description": "Adapt to increased difficulty levels",
+          "xpReward": 450,
+          "requirement": "Complete difficulty progression"
+        }
+      ],
+      "teknikal": [
+        {
+          "id": "mini_project_daily",
+          "name": "Daily Mini Project",
+          "description": "Complete a hands-on mini project",
+          "xpReward": 550,
+          "requirement": "1 mini project completion"
+        },
+        {
+          "id": "practical_skill_daily",
+          "name": "Practical Skill Demo",
+          "description": "Demonstrate 2 practical technical skills",
+          "xpReward": 400,
+          "requirement": "2 skill demonstrations"
+        },
+        {
+          "id": "innovation_challenge_daily",
+          "name": "Daily Innovation",
+          "description": "Create or improve a technical solution",
+          "xpReward": 500,
+          "requirement": "1 technical innovation"
+        }
+      ],
+      "igcse": [
+        {
+          "id": "language_mastery_daily",
+          "name": "Language Mastery Practice",
+          "description": "Practice in 2 different languages for 20 minutes each",
+          "xpReward": 450,
+          "requirement": "40 minutes language practice"
+        },
+        {
+          "id": "global_perspectives_daily",
+          "name": "Global Perspectives",
+          "description": "Explore cross-cultural topics and perspectives",
+          "xpReward": 400,
+          "requirement": "Complete cultural module"
+        },
+        {
+          "id": "cambridge_prep_daily",
+          "name": "Cambridge Exam Prep",
+          "description": "Complete Cambridge-style practice questions",
+          "xpReward": 500,
+          "requirement": "20 Cambridge-style questions"
+        }
+      ],
+      "premier": [
+        {
+          "id": "balanced_learning_daily",
+          "name": "Balanced Learning",
+          "description": "Study across 4 different subject areas",
+          "xpReward": 500,
+          "requirement": "4 different subjects"
+        },
+        {
+          "id": "leadership_activity_daily",
+          "name": "Leadership Activity",
+          "description": "Participate in or organize a leadership activity",
+          "xpReward": 450,
+          "requirement": "1 leadership activity"
+        },
+        {
+          "id": "community_service_daily",
+          "name": "Community Service",
+          "description": "Contribute to community service or social responsibility",
+          "xpReward": 400,
+          "requirement": "1 hour community service"
+        }
+      ]
+    },
+    "weeklyBonusMultiplier": 1.5,
+    "completionBonus": 200
+  },
+
+  "weeklyChallenges": {
+    "types": [
+      {
+        "id": "marathon_learner",
+        "name": "Marathon Learner",
+        "description": "Complete 100 questions this week",
+        "xpReward": 1500,
+        "requirement": "100 questions"
+      },
+      {
+        "id": "consistency_king",
+        "name": "Consistency King",
+        "description": "Study every day this week",
+        "xpReward": 1000,
+        "requirement": "7-day study streak"
+      },
+      {
+        "id": "subject_champion",
+        "name": "Subject Champion",
+        "description": "Master one subject completely",
+        "xpReward": 2000,
+        "requirement": "Complete all questions in one subject"
+      }
+    ],
+    "completionBonus": 500
+  },
+
+  "leaderboardScoring": {
+    "weightings": {
+      "totalXP": 0.4,
+      "weeklyXP": 0.3,
+      "streakLength": 0.15,
+      "achievements": 0.15
+    },
+    "categories": [
+      "overall",
+      "stream_specific",
+      "weekly_top_performers",
+      "most_improved",
+      "consistency_leaders"
+    ],
+    "resetSchedule": {
+      "weekly": "Sunday 00:00 MYT",
+      "monthly": "1st day 00:00 MYT",
+      "overall": "never"
+    }
+  },
+
+  "badges": {
+    "tiers": {
+      "bronze": {
+        "xpThreshold": 1000,
+        "color": "#CD7F32",
+        "benefits": ["Custom profile badge"]
+      },
+      "silver": {
+        "xpThreshold": 5000,
+        "color": "#C0C0C0",
+        "benefits": ["Custom profile badge", "Priority support"]
+      },
+      "gold": {
+        "xpThreshold": 15000,
+        "color": "#FFD700",
+        "benefits": ["Custom profile badge", "Priority support", "Exclusive content"]
+      },
+      "platinum": {
+        "xpThreshold": 50000,
+        "color": "#E5E4E2",
+        "benefits": ["Custom profile badge", "Priority support", "Exclusive content", "Mentor program access"]
+      },
+      "diamond": {
+        "xpThreshold": 100000,
+        "color": "#B9F2FF",
+        "benefits": ["Custom profile badge", "Priority support", "Exclusive content", "Mentor program access", "Special recognition"]
+      }
+    },
+    "specialBadges": [
+      {
+        "id": "early_bird",
+        "name": "Early Bird",
+        "description": "Study before 7 AM for 10 days",
+        "requirement": "10 early morning sessions",
+        "badge": "🌅"
+      },
+      {
+        "id": "night_owl",
+        "name": "Night Owl",
+        "description": "Study after 10 PM for 10 days",
+        "requirement": "10 late night sessions",
+        "badge": "🦉"
+      },
+      {
+        "id": "weekend_warrior",
+        "name": "Weekend Warrior",
+        "description": "Study every weekend for a month",
+        "requirement": "8 weekend study sessions",
+        "badge": "⚔️"
+      }
+    ]
+  },
+
+  "progressionMilestones": {
+    "xpMilestones": [
+      { "xp": 500, "reward": "First achievement unlocked", "bonus": 100 },
+      { "xp": 1000, "reward": "Bronze tier unlocked", "bonus": 200 },
+      { "xp": 2500, "reward": "Study streak multiplier +10%", "bonus": 300 },
+      { "xp": 5000, "reward": "Silver tier unlocked", "bonus": 500 },
+      { "xp": 10000, "reward": "Advanced features unlocked", "bonus": 750 },
+      { "xp": 15000, "reward": "Gold tier unlocked", "bonus": 1000 },
+      { "xp": 25000, "reward": "Mentor status available", "bonus": 1500 },
+      { "xp": 50000, "reward": "Platinum tier unlocked", "bonus": 2500 },
+      { "xp": 100000, "reward": "Diamond tier unlocked", "bonus": 5000 }
+    ],
+    "subjectMastery": {
+      "levels": [
+        { "questions": 25, "level": "Novice", "multiplier": 1.0 },
+        { "questions": 75, "level": "Apprentice", "multiplier": 1.1 },
+        { "questions": 150, "level": "Skilled", "multiplier": 1.2 },
+        { "questions": 300, "level": "Expert", "multiplier": 1.3 },
+        { "questions": 500, "level": "Master", "multiplier": 1.5 }
+      ]
+    }
+  },
+
+  "seasonalEvents": {
+    "ramadhan": {
+      "name": "Ramadhan Learning Marathon",
+      "period": "Ramadhan month",
+      "bonusMultiplier": 1.5,
+      "specialAchievements": [
+        {
+          "id": "ramadhan_scholar",
+          "name": "Ramadhan Scholar",
+          "description": "Study every day during Ramadhan",
+          "xpReward": 3000,
+          "badge": "🌙"
+        }
+      ]
+    },
+    "merdeka": {
+      "name": "Merdeka Study Challenge",
+      "period": "August",
+      "bonusMultiplier": 1.3,
+      "specialAchievements": [
+        {
+          "id": "merdeka_patriot",
+          "name": "Merdeka Patriot",
+          "description": "Complete Malaysian history modules",
+          "xpReward": 1957,
+          "badge": "🇲🇾"
+        }
+      ]
+    },
+    "exam_season": {
+      "name": "Exam Preparation Boost",
+      "period": "March, October, November",
+      "bonusMultiplier": 2.0,
+      "specialFeatures": ["Extra practice questions", "Intensive review sessions"]
+    }
+  },
+
+  "mentorshipProgram": {
+    "mentorBenefits": {
+      "xpBonusPerStudent": 50,
+      "achievementBonusMultiplier": 1.2,
+      "exclusiveContent": true,
+      "recognitionBadge": "🎓"
+    },
+    "requirements": {
+      "minimumXP": 25000,
+      "minimumStreak": 30,
+      "subjectMastery": "Expert level in at least 2 subjects"
+    }
+  },
+
+  "penaltySystem": {
+    "inactivity": {
+      "7_days": 0.9,
+      "14_days": 0.8,
+      "30_days": 0.7
+    },
+    "incorrectAnswers": {
+      "consecutiveWrong": {
+        "3_wrong": 0.9,
+        "5_wrong": 0.8,
+        "10_wrong": 0.7
+      }
+    },
+    "recovery": {
+      "correctAnswerBonus": 1.1,
+      "returnActivityBonus": 1.2
+    }
+  },
+
+  "specialFeatures": {
+    "doubleXPWeekends": {
+      "frequency": "Every other weekend",
+      "multiplier": 2.0,
+      "announcement": "48 hours in advance"
+    },
+    "flashSales": {
+      "tripleXPHours": {
+        "duration": "2 hours",
+        "frequency": "Weekly",
+        "multiplier": 3.0
+      }
+    },
+    "groupChallenges": {
+      "classCompetitions": {
+        "xpPooling": true,
+        "teamBonusMultiplier": 1.5,
+        "winnerReward": 1000
+      }
+    }
+  },
+
+  "analytics": {
+    "trackingMetrics": [
+      "questions_answered",
+      "time_spent_studying",
+      "accuracy_rate",
+      "streak_length",
+      "subjects_studied",
+      "achievements_earned",
+      "xp_gained_daily",
+      "leaderboard_position",
+      "improvement_rate"
+    ],
+    "reportingFrequency": {
+      "daily": ["xp_gained", "questions_answered", "time_spent"],
+      "weekly": ["streak_maintenance", "subjects_covered", "achievements"],
+      "monthly": ["overall_progress", "leaderboard_changes", "mastery_levels"]
+    }
+  },
+
+  "accessibility": {
+    "accommodations": {
+      "extendedTime": {
+        "multiplier": 1.0,
+        "description": "No penalty for students needing extra time"
+      },
+      "alternativeInput": {
+        "supported": true,
+        "xpParity": true
+      },
+      "languageSupport": {
+        "bahasa_malaysia": true,
+        "english": true,
+        "mixed_language": true
+      }
+    }
+  },
+
+  "fairnessAndBalance": {
+    "antiCheatMeasures": {
+      "timeValidation": true,
+      "answerPatternAnalysis": true,
+      "deviceFingerprinting": true
+    },
+    "balancingMechanisms": {
+      "difficultyAdjustment": "Based on performance",
+      "xpCapping": "Daily maximum of 2000 XP from regular questions",
+      "bonusCapping": "Maximum 5x multiplier from all sources combined"
+    }
+  },
+
+  "implementation": {
+    "database": {
+      "collections": [
+        "user_xp",
+        "user_achievements", 
+        "daily_challenges",
+        "weekly_challenges",
+        "leaderboards",
+        "stream_progress",
+        "subject_mastery"
+      ]
+    },
+    "apiEndpoints": [
+      "/api/xp/calculate",
+      "/api/achievements/check",
+      "/api/leaderboard/update",
+      "/api/challenges/daily",
+      "/api/challenges/weekly",
+      "/api/progress/stream",
+      "/api/rewards/claim"
+    ]
+  }
+}

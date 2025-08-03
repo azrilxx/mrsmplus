@@ -1,0 +1,417 @@
+{
+  "program": "IGCSE (International Curriculum)",
+  "subject": "IGCSE Physics",
+  "curriculum_code": "MRSM-IGCSE-PHY",
+  "year_levels": ["Form 4", "Form 5"],
+  "overview": {
+    "description": "Cambridge IGCSE Physics curriculum designed to develop understanding of physical concepts, practical skills, and scientific inquiry for students pursuing international qualifications",
+    "duration": "2 years (Form 4-5)",
+    "total_periods": 300,
+    "periods_per_week": 7.5
+  },
+  "learning_objectives": [
+    "Understand fundamental physics concepts and principles",
+    "Develop practical and investigative skills in physics",
+    "Apply physics knowledge to explain everyday phenomena",
+    "Prepare for further study in physics and related sciences",
+    "Develop scientific literacy and critical thinking skills"
+  ],
+  "units": [
+    {
+      "unit_id": "IGCSE-PHY-001",
+      "title": "Forces and Motion",
+      "form": "Form 4",
+      "duration_weeks": 8,
+      "learning_outcomes": [
+        "Understand concepts of distance, speed, velocity, and acceleration",
+        "Apply Newton's laws of motion to solve problems",
+        "Analyze forces and their effects on motion",
+        "Investigate motion using practical experiments"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "IGCSE-PHY-001-01",
+          "title": "Investigating Motion with Data Loggers",
+          "duration_minutes": 80,
+          "objectives": [
+            "Use data loggers to measure and analyze motion",
+            "Calculate speed, velocity, and acceleration from experimental data",
+            "Interpret motion graphs and their physical significance"
+          ],
+          "activities": [
+            {
+              "type": "practical_investigation",
+              "duration": 35,
+              "description": "Use motion sensors and data loggers to investigate different types of motion"
+            },
+            {
+              "type": "data_analysis",
+              "duration": 25,
+              "description": "Analyze motion data and create velocity-time and acceleration-time graphs"
+            },
+            {
+              "type": "graph_interpretation",
+              "duration": 15,
+              "description": "Interpret graphs to understand physical meaning of motion"
+            },
+            {
+              "type": "conclusion_discussion",
+              "duration": 5,
+              "description": "Discuss findings and connect to real-world motion examples"
+            }
+          ],
+          "resources": [
+            "Motion sensors and data loggers",
+            "Computer software for data analysis",
+            "Various moving objects (trolleys, balls, etc.)",
+            "IGCSE Physics practical guides"
+          ],
+          "assessment_criteria": [
+            "Practical skills and technique (30%)",
+            "Data collection and analysis (25%)",
+            "Graph interpretation (25%)",
+            "Scientific reasoning (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Mathematics: Graphing and data analysis",
+            "Technology: Use of sensors and digital tools"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "IGCSE-PHY-002",
+      "title": "Energy, Work and Power",
+      "form": "Form 4",
+      "duration_weeks": 8,
+      "learning_outcomes": [
+        "Understand different forms of energy and energy transformations",
+        "Apply conservation of energy principle to solve problems",
+        "Calculate work done and power in various situations",
+        "Investigate energy efficiency in practical contexts"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "IGCSE-PHY-002-01",
+          "title": "Energy Efficiency Investigation",
+          "duration_minutes": 80,
+          "objectives": [
+            "Investigate energy efficiency in different systems",
+            "Calculate efficiency using energy input and output measurements",
+            "Understand factors affecting energy efficiency"
+          ],
+          "activities": [
+            {
+              "type": "efficiency_experiments",
+              "duration": 40,
+              "description": "Investigate efficiency of pulleys, inclined planes, and electrical devices"
+            },
+            {
+              "type": "calculation_workshop",
+              "duration": 20,
+              "description": "Calculate efficiency values and compare different systems"
+            },
+            {
+              "type": "improvement_discussion",
+              "duration": 15,
+              "description": "Discuss ways to improve energy efficiency in various applications"
+            },
+            {
+              "type": "real_world_connections",
+              "duration": 5,
+              "description": "Connect findings to energy efficiency in homes and industry"
+            }
+          ],
+          "resources": [
+            "Pulley systems and mechanical apparatus",
+            "Electrical devices and power meters",
+            "Measuring instruments and calculators",
+            "Energy efficiency case studies"
+          ],
+          "assessment_criteria": [
+            "Experimental design and execution (30%)",
+            "Calculation accuracy (25%)",
+            "Analysis and evaluation (25%)",
+            "Application to real contexts (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Environmental Science: Energy conservation",
+            "Economics: Cost-benefit analysis of energy systems"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "IGCSE-PHY-003",
+      "title": "Waves and Sound",
+      "form": "Form 4",
+      "duration_weeks": 8,
+      "learning_outcomes": [
+        "Understand wave properties and behavior",
+        "Investigate sound waves and their characteristics",
+        "Apply wave principles to explain phenomena",
+        "Use wave equations to solve problems"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "IGCSE-PHY-003-01",
+          "title": "Wave Properties and Sound Investigation",
+          "duration_minutes": 80,
+          "objectives": [
+            "Investigate properties of waves using wave tanks and oscilloscopes",
+            "Measure wavelength, frequency, and speed of waves",
+            "Understand wave reflection, refraction, and interference"
+          ],
+          "activities": [
+            {
+              "type": "wave_tank_investigation",
+              "duration": 25,
+              "description": "Use wave tanks to investigate wave properties and behaviors"
+            },
+            {
+              "type": "sound_wave_analysis",
+              "duration": 30,
+              "description": "Use oscilloscopes and microphones to analyze sound waves"
+            },
+            {
+              "type": "calculation_practice",
+              "duration": 20,
+              "description": "Apply wave equation v = fλ to solve wave problems"
+            },
+            {
+              "type": "phenomenon_explanation",
+              "duration": 5,
+              "description": "Explain everyday wave phenomena using wave principles"
+            }
+          ],
+          "resources": [
+            "Wave tanks and wave generators",
+            "Oscilloscopes and microphones",
+            "Signal generators and speakers",
+            "Wave demonstration apparatus"
+          ],
+          "assessment_criteria": [
+            "Understanding of wave concepts (30%)",
+            "Practical investigation skills (25%)",
+            "Mathematical application (25%)",
+            "Explanation of phenomena (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Mathematics: Trigonometry and periodic functions",
+            "Music: Sound waves and musical instruments"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "IGCSE-PHY-004",
+      "title": "Electricity and Magnetism",
+      "form": "Form 5",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand electrical circuits and component behavior",
+        "Apply Ohm's law and electrical power calculations",
+        "Investigate magnetic fields and electromagnetic effects",
+        "Understand electromagnetic induction and its applications"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "IGCSE-PHY-004-01",
+          "title": "Circuit Analysis and Component Characteristics",
+          "duration_minutes": 80,
+          "objectives": [
+            "Investigate I-V characteristics of different circuit components",
+            "Apply Ohm's law and power equations to circuit analysis",
+            "Understand series and parallel circuit behavior"
+          ],
+          "activities": [
+            {
+              "type": "component_investigation",
+              "duration": 30,
+              "description": "Investigate I-V characteristics of resistors, diodes, and filament lamps"
+            },
+            {
+              "type": "circuit_construction",
+              "duration": 25,
+              "description": "Build and analyze series and parallel circuits"
+            },
+            {
+              "type": "calculation_application",
+              "duration": 20,
+              "description": "Apply electrical equations to solve circuit problems"
+            },
+            {
+              "type": "practical_applications",
+              "duration": 5,
+              "description": "Discuss applications in household and electronic devices"
+            }
+          ],
+          "resources": [
+            "Electronic circuit components",
+            "Multimeters and ammeters",
+            "Variable power supplies",
+            "Circuit construction boards"
+          ],
+          "assessment_criteria": [
+            "Circuit construction and measurement (30%)",
+            "Mathematical calculation accuracy (25%)",
+            "Understanding of electrical principles (25%)",
+            "Analysis and evaluation (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Mathematics: Proportional relationships and calculations",
+            "Technology: Electronic systems and devices"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "IGCSE-PHY-005",
+      "title": "Atomic Physics and Radioactivity",
+      "form": "Form 5",
+      "duration_weeks": 8,
+      "learning_outcomes": [
+        "Understand atomic structure and nuclear physics",
+        "Investigate radioactive decay and radiation types",
+        "Apply half-life concepts to solve problems",
+        "Understand applications and safety of radioactivity"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "IGCSE-PHY-005-01",
+          "title": "Radioactivity and Half-Life Investigation",
+          "duration_minutes": 80,
+          "objectives": [
+            "Investigate properties of different types of radiation",
+            "Understand radioactive decay and half-life concepts",
+            "Apply half-life calculations to solve problems"
+          ],
+          "activities": [
+            {
+              "type": "radiation_detection",
+              "duration": 25,
+              "description": "Use Geiger counters to detect and investigate radiation properties"
+            },
+            {
+              "type": "half_life_simulation",
+              "duration": 30,
+              "description": "Use simulations to understand radioactive decay and half-life"
+            },
+            {
+              "type": "calculation_practice",
+              "duration": 20,
+              "description": "Solve half-life problems and decay calculations"
+            },
+            {
+              "type": "safety_applications",
+              "duration": 5,
+              "description": "Discuss radiation safety and beneficial applications"
+            }
+          ],
+          "resources": [
+            "Radiation detection equipment (following safety protocols)",
+            "Computer simulations for radioactive decay",
+            "Half-life calculation worksheets",
+            "Radiation safety information"
+          ],
+          "assessment_criteria": [
+            "Understanding of atomic and nuclear concepts (35%)",
+            "Mathematical application to decay problems (25%)",
+            "Practical investigation skills (25%)",
+            "Safety awareness and applications (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Chemistry: Atomic structure and nuclear chemistry",
+            "Mathematics: Exponential decay functions"
+          ]
+        }
+      ]
+    }
+  ],
+  "practical_work": {
+    "core_practicals": [
+      "Motion investigation using data loggers",
+      "Energy efficiency of different systems",
+      "Wave properties using wave tanks",
+      "Electrical circuit analysis and component characteristics",
+      "Radioactivity detection and measurement"
+    ],
+    "assessment_practicals": [
+      "Planning investigations to test hypotheses",
+      "Conducting experiments with accuracy and precision",
+      "Analyzing data and drawing evidence-based conclusions",
+      "Evaluating experimental methods and suggesting improvements"
+    ]
+  },
+  "igcse_preparation": {
+    "assessment_objectives": [
+      "AO1: Knowledge with understanding",
+      "AO2: Handling information and problem solving",
+      "AO3: Experimental skills and investigations"
+    ],
+    "examination_structure": [
+      "Paper 1: Multiple choice (45 minutes, 30%)",
+      "Paper 2: Theory (1 hour 15 minutes, 50%)",
+      "Paper 3: Practical test (1 hour 15 minutes, 20%)"
+    ],
+    "practical_skills": [
+      "Planning and designing investigations",
+      "Making observations and measurements",
+      "Analyzing and interpreting data",
+      "Evaluating methods and results"
+    ]
+  },
+  "assessment_framework": {
+    "formative_assessments": [
+      "Weekly practical reports and data analysis",
+      "Progressive topic tests using past paper questions",
+      "Peer assessment of practical work",
+      "Problem-solving workshops"
+    ],
+    "summative_assessments": [
+      "Mock IGCSE examinations (50%)",
+      "Practical assessment portfolio (25%)",
+      "Topic-based written tests (20%)",
+      "Scientific investigation project (5%)"
+    ],
+    "grading_criteria": {
+      "knowledge_and_understanding": 35,
+      "application_and_problem_solving": 30,
+      "practical_and_investigative_skills": 25,
+      "scientific_communication": 10
+    }
+  },
+  "resources": {
+    "textbooks": [
+      "Cambridge IGCSE Physics Complete Coursebook",
+      "Cambridge IGCSE Physics Practical Workbook",
+      "IGCSE Physics Past Papers and Mark Schemes"
+    ],
+    "equipment": [
+      "Data logging sensors and interfaces",
+      "Standard physics laboratory equipment",
+      "Electrical and electronic components",
+      "Wave demonstration apparatus"
+    ],
+    "digital_resources": [
+      "Physics simulation software",
+      "Online IGCSE physics platforms",
+      "Virtual laboratory environments",
+      "Interactive physics demonstrations"
+    ]
+  },
+  "career_connections": [
+    "Engineering and technology",
+    "Medical physics and healthcare technology",
+    "Renewable energy and environmental physics",
+    "Aerospace and defense",
+    "Research and development"
+  ],
+  "university_preparation": {
+    "physics_programs": "Foundation for A-level Physics and university physics",
+    "engineering": "Essential physics principles for engineering disciplines",
+    "medical_sciences": "Physics background for medical imaging and technology",
+    "environmental_science": "Understanding of energy and environmental physics",
+    "international_recognition": "Globally recognized qualification for university admission"
+  }
+}

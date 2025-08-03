@@ -1,0 +1,26 @@
+{
+  "id": "cs_sains_teknologi_002",
+  "type": "multiple_choice",
+  "question": "Which programming language is primarily used for web development?",
+  "options": ["JavaScript", "C++", "Assembly", "FORTRAN"],
+  "answer": "JavaScript",
+  "explanation": {
+    "en": "JavaScript is the primary programming language for web development, used for both client-side and server-side programming.",
+    "bm": "JavaScript adalah bahasa pengaturcaraan utama untuk pembangunan web, digunakan untuk pengaturcaraan bahagian klien dan pelayan."
+  },
+  "hint": {
+    "en": "Think about interactive websites and browsers",
+    "bm": "Fikirkan tentang laman web interaktif dan pelayar"
+  },
+  "difficulty": "medium",
+  "xp_value": 20,
+  "subject": "computer_science",
+  "program": "sains_teknologi",
+  "topic": "programming",
+  "subtopic": "web_development",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_5",
+    "curriculum": "mrsm"
+  }
+}

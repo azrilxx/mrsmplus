@@ -1,0 +1,253 @@
+{
+  "program": "Premier (Balanced Curriculum)",
+  "subject": "Mathematics",
+  "curriculum_code": "MRSM-PREM-MATH",
+  "year_levels": ["Form 4", "Form 5"],
+  "overview": {
+    "description": "Comprehensive mathematics curriculum designed for well-rounded students, emphasizing both theoretical understanding and practical applications across multiple disciplines",
+    "duration": "2 years (Form 4-5)",
+    "total_periods": 320,
+    "periods_per_week": 8
+  },
+  "learning_objectives": [
+    "Develop strong foundation in algebra, geometry, and trigonometry",
+    "Apply mathematical reasoning to solve real-world problems",
+    "Understand basic statistical concepts and data analysis",
+    "Integrate mathematical knowledge with other academic disciplines",
+    "Develop logical thinking and problem-solving skills"
+  ],
+  "units": [
+    {
+      "unit_id": "PREM-MATH-001",
+      "title": "Functions and Graphs",
+      "form": "Form 4",
+      "duration_weeks": 8,
+      "learning_outcomes": [
+        "Understand function notation and properties",
+        "Graph various types of functions including linear, quadratic, and exponential",
+        "Apply function concepts to model real-world situations",
+        "Analyze transformations of functions"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "PREM-MATH-001-01",
+          "title": "Introduction to Functions",
+          "duration_minutes": 80,
+          "objectives": [
+            "Define functions and understand function notation",
+            "Identify domain and range of functions",
+            "Evaluate functions for given inputs"
+          ],
+          "activities": [
+            {
+              "type": "concept_introduction",
+              "duration": 20,
+              "description": "Interactive exploration of function concepts using real-world examples"
+            },
+            {
+              "type": "guided_practice",
+              "duration": 30,
+              "description": "Practice with function notation and evaluation"
+            },
+            {
+              "type": "application_tasks",
+              "duration": 25,
+              "description": "Apply function concepts to practical scenarios"
+            },
+            {
+              "type": "review_assessment",
+              "duration": 5,
+              "description": "Quick assessment of understanding"
+            }
+          ],
+          "resources": [
+            "Graphing calculators",
+            "Interactive function visualization software",
+            "Real-world function examples"
+          ],
+          "assessment_criteria": [
+            "Function notation understanding (30%)",
+            "Domain and range identification (25%)",
+            "Function evaluation accuracy (25%)",
+            "Application to real situations (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Physics: Distance-time relationships",
+            "Economics: Cost and revenue functions"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "PREM-MATH-002",
+      "title": "Coordinate Geometry",
+      "form": "Form 4",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Work with coordinate systems and plotting points",
+        "Understand equations of lines and circles",
+        "Apply coordinate geometry to solve geometric problems",
+        "Use distance and midpoint formulas"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "PREM-MATH-002-01",
+          "title": "Lines and Linear Equations",
+          "duration_minutes": 80,
+          "objectives": [
+            "Find equations of lines in various forms",
+            "Calculate slope and y-intercept",
+            "Solve problems involving parallel and perpendicular lines"
+          ],
+          "activities": [
+            {
+              "type": "exploration",
+              "duration": 25,
+              "description": "Discover relationships between slope and line orientation"
+            },
+            {
+              "type": "skill_building",
+              "duration": 35,
+              "description": "Practice finding equations of lines"
+            },
+            {
+              "type": "problem_solving",
+              "duration": 15,
+              "description": "Solve geometric problems using coordinate methods"
+            },
+            {
+              "type": "reflection",
+              "duration": 5,
+              "description": "Connect coordinate geometry to real applications"
+            }
+          ],
+          "resources": [
+            "Coordinate plane worksheets",
+            "Graphing software",
+            "Real-world coordinate applications"
+          ],
+          "assessment_criteria": [
+            "Line equation accuracy (35%)",
+            "Slope calculation skills (25%)",
+            "Problem-solving approach (25%)",
+            "Understanding of concepts (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Geography: Map coordinates and navigation",
+            "Engineering: Technical drawing and design"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "PREM-MATH-003",
+      "title": "Statistics and Probability",
+      "form": "Form 5",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Collect, organize, and analyze data",
+        "Calculate measures of central tendency and variability",
+        "Understand basic probability concepts",
+        "Interpret statistical results and make informed decisions"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "PREM-MATH-003-01",
+          "title": "Data Collection and Organization",
+          "duration_minutes": 80,
+          "objectives": [
+            "Design data collection methods",
+            "Organize data in tables and charts",
+            "Create appropriate graphical representations"
+          ],
+          "activities": [
+            {
+              "type": "project_planning",
+              "duration": 20,
+              "description": "Plan a data collection project on relevant school topics"
+            },
+            {
+              "type": "data_gathering",
+              "duration": 30,
+              "description": "Collect data using surveys and observations"
+            },
+            {
+              "type": "data_visualization",
+              "duration": 25,
+              "description": "Create charts and graphs using technology"
+            },
+            {
+              "type": "presentation",
+              "duration": 5,
+              "description": "Present findings to class"
+            }
+          ],
+          "resources": [
+            "Survey templates",
+            "Data analysis software",
+            "Graphing tools and materials"
+          ],
+          "assessment_criteria": [
+            "Data collection methodology (30%)",
+            "Data organization skills (25%)",
+            "Graph creation and interpretation (30%)",
+            "Presentation quality (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Science: Experimental data analysis",
+            "Social Studies: Survey research methods"
+          ]
+        }
+      ]
+    }
+  ],
+  "assessment_framework": {
+    "formative_assessments": [
+      "Weekly problem-solving tasks",
+      "Mathematical reasoning exercises",
+      "Peer collaboration activities",
+      "Digital portfolio development"
+    ],
+    "summative_assessments": [
+      "Unit tests (45%)",
+      "Project-based assessments (25%)",
+      "Final examination (30%)"
+    ],
+    "grading_criteria": {
+      "mathematical_understanding": 35,
+      "problem_solving": 30,
+      "communication": 20,
+      "application": 15
+    }
+  },
+  "resources": {
+    "textbooks": [
+      "Mathematics for Premier Programme - Comprehensive Edition",
+      "Real-World Mathematics Applications"
+    ],
+    "technology": [
+      "Scientific calculators",
+      "Graphing software (GeoGebra)",
+      "Statistical analysis tools"
+    ],
+    "supplementary_materials": [
+      "Mathematical modeling projects",
+      "Cross-curricular problem sets",
+      "Career connection materials"
+    ]
+  },
+  "career_connections": [
+    "Engineering and technology fields",
+    "Financial analysis and banking",
+    "Data science and analytics",
+    "Architecture and design",
+    "Research and academia"
+  ],
+  "cross_curricular_integration": {
+    "physics": "Mathematical modeling of physical phenomena",
+    "chemistry": "Quantitative analysis and calculations",
+    "economics": "Financial mathematics and statistics",
+    "geography": "Spatial analysis and mapping",
+    "computer_science": "Algorithm design and computational thinking"
+  }
+}

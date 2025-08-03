@@ -1,0 +1,342 @@
+{
+  "program": "Bitara (Gifted Program)",
+  "subject": "Higher Mathematics",
+  "curriculum_code": "MRSM-BIT-HMATH",
+  "year_levels": ["Form 4", "Form 5"],
+  "overview": {
+    "description": "Advanced mathematics curriculum for gifted students, emphasizing abstract reasoning, mathematical proof, advanced problem-solving, and preparation for mathematical olympiads and university-level mathematics",
+    "duration": "2 years (Form 4-5)",
+    "total_periods": 400,
+    "periods_per_week": 10
+  },
+  "learning_objectives": [
+    "Master advanced algebraic structures and abstract mathematical concepts",
+    "Develop rigorous mathematical proof techniques and logical reasoning",
+    "Apply advanced calculus and mathematical analysis",
+    "Solve complex mathematical problems using multiple approaches",
+    "Prepare for mathematical competitions and advanced university studies"
+  ],
+  "units": [
+    {
+      "unit_id": "BIT-HMATH-001",
+      "title": "Advanced Algebra and Number Theory",
+      "form": "Form 4",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand algebraic structures including groups and rings",
+        "Apply number theory concepts to solve complex problems",
+        "Master modular arithmetic and congruences",
+        "Develop skills in mathematical proof and reasoning"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "BIT-HMATH-001-01",
+          "title": "Introduction to Group Theory",
+          "duration_minutes": 80,
+          "objectives": [
+            "Define groups and understand group properties",
+            "Identify and analyze different types of groups",
+            "Apply group theory to solve algebraic problems"
+          ],
+          "activities": [
+            {
+              "type": "concept_exploration",
+              "duration": 25,
+              "description": "Explore group properties through symmetry and transformations"
+            },
+            {
+              "type": "proof_construction",
+              "duration": 30,
+              "description": "Construct formal proofs of basic group theorems"
+            },
+            {
+              "type": "problem_solving_session",
+              "duration": 20,
+              "description": "Solve advanced problems involving group applications"
+            },
+            {
+              "type": "mathematical_discussion",
+              "duration": 5,
+              "description": "Discuss connections to other mathematical areas"
+            }
+          ],
+          "resources": [
+            "Abstract algebra textbooks",
+            "Mathematical proof guides",
+            "Group theory software tools",
+            "Competition problem collections"
+          ],
+          "assessment_criteria": [
+            "Understanding of abstract concepts (35%)",
+            "Proof construction ability (30%)",
+            "Problem-solving sophistication (25%)",
+            "Mathematical communication (10%)"
+          ],
+          "cross_curricular_connections": [
+            "Physics: Symmetry in physical systems",
+            "Computer Science: Cryptography and algorithms"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "BIT-HMATH-002",
+      "title": "Advanced Calculus and Analysis",
+      "form": "Form 4",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Master multivariable calculus concepts",
+        "Understand real analysis fundamentals",
+        "Apply advanced integration techniques",
+        "Solve complex optimization problems"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "BIT-HMATH-002-01",
+          "title": "Multivariable Calculus and Partial Derivatives",
+          "duration_minutes": 80,
+          "objectives": [
+            "Calculate partial derivatives and gradients",
+            "Apply chain rule for multivariable functions",
+            "Solve optimization problems in multiple variables"
+          ],
+          "activities": [
+            {
+              "type": "visualization_exploration",
+              "duration": 20,
+              "description": "Explore 3D functions and surfaces using technology"
+            },
+            {
+              "type": "computational_practice",
+              "duration": 35,
+              "description": "Master computational techniques for partial derivatives"
+            },
+            {
+              "type": "optimization_applications",
+              "duration": 20,
+              "description": "Solve real-world optimization problems"
+            },
+            {
+              "type": "theoretical_connections",
+              "duration": 5,
+              "description": "Connect to theoretical analysis concepts"
+            }
+          ],
+          "resources": [
+            "Advanced calculus textbooks",
+            "3D graphing software",
+            "Optimization problem sets",
+            "Mathematical analysis tools"
+          ],
+          "assessment_criteria": [
+            "Computational accuracy (30%)",
+            "Conceptual understanding (25%)",
+            "Problem-solving approach (25%)",
+            "Application to complex problems (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Physics: Field theory and electromagnetism",
+            "Engineering: Optimization in design"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "BIT-HMATH-003",
+      "title": "Discrete Mathematics and Combinatorics",
+      "form": "Form 5",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Master advanced counting principles and combinatorics",
+        "Understand graph theory and its applications",
+        "Apply discrete probability to complex problems",
+        "Develop algorithmic thinking and proof techniques"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "BIT-HMATH-003-01",
+          "title": "Advanced Combinatorial Problems",
+          "duration_minutes": 80,
+          "objectives": [
+            "Solve complex counting problems using multiple techniques",
+            "Apply generating functions to combinatorial problems",
+            "Understand recurrence relations and their solutions"
+          ],
+          "activities": [
+            {
+              "type": "problem_solving_workshop",
+              "duration": 30,
+              "description": "Work through challenging combinatorial problems"
+            },
+            {
+              "type": "generating_function_exploration",
+              "duration": 25,
+              "description": "Explore generating functions and their applications"
+            },
+            {
+              "type": "competition_preparation",
+              "duration": 20,
+              "description": "Practice problems from mathematical olympiads"
+            },
+            {
+              "type": "strategy_discussion",
+              "duration": 5,
+              "description": "Discuss problem-solving strategies and techniques"
+            }
+          ],
+          "resources": [
+            "Combinatorics textbooks",
+            "Mathematical olympiad problem collections",
+            "Computer algebra systems",
+            "Competition strategy guides"
+          ],
+          "assessment_criteria": [
+            "Problem-solving creativity (30%)",
+            "Technical accuracy (25%)",
+            "Strategy development (25%)",
+            "Competition readiness (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Computer Science: Algorithm analysis",
+            "Statistics: Advanced probability models"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "BIT-HMATH-004",
+      "title": "Mathematical Research and Investigation",
+      "form": "Form 5",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Conduct independent mathematical research",
+        "Develop original mathematical conjectures",
+        "Present mathematical findings professionally",
+        "Connect mathematics to cutting-edge research areas"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "BIT-HMATH-004-01",
+          "title": "Independent Mathematical Investigation",
+          "duration_minutes": 80,
+          "objectives": [
+            "Design and conduct original mathematical research",
+            "Apply advanced mathematical techniques to novel problems",
+            "Communicate mathematical findings effectively"
+          ],
+          "activities": [
+            {
+              "type": "research_planning",
+              "duration": 15,
+              "description": "Plan mathematical investigation with research questions"
+            },
+            {
+              "type": "investigation_execution",
+              "duration": 45,
+              "description": "Conduct mathematical exploration and analysis"
+            },
+            {
+              "type": "findings_synthesis",
+              "duration": 15,
+              "description": "Synthesize results and draw mathematical conclusions"
+            },
+            {
+              "type": "peer_presentation",
+              "duration": 5,
+              "description": "Present findings to peers for feedback"
+            }
+          ],
+          "resources": [
+            "Mathematical research journals",
+            "Advanced mathematical software",
+            "Research methodology guides",
+            "Academic presentation tools"
+          ],
+          "assessment_criteria": [
+            "Research design and methodology (25%)",
+            "Mathematical rigor and depth (35%)",
+            "Original thinking and creativity (25%)",
+            "Communication and presentation (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Research Methods: Academic research skills",
+            "Computer Science: Computational mathematics"
+          ]
+        }
+      ]
+    }
+  ],
+  "enrichment_activities": {
+    "mathematical_competitions": [
+      "Malaysian Mathematical Olympiad preparation",
+      "International Mathematical Olympiad training",
+      "Regional mathematics competitions",
+      "University-level mathematics contests"
+    ],
+    "research_projects": [
+      "Original mathematical investigations",
+      "Collaborative research with universities",
+      "Mathematical modeling of real-world problems",
+      "Historical mathematics research projects"
+    ],
+    "advanced_seminars": [
+      "Guest lectures from university mathematicians",
+      "Advanced topics beyond curriculum",
+      "Mathematical philosophy and foundations",
+      "Cutting-edge mathematical research areas"
+    ]
+  },
+  "assessment_framework": {
+    "formative_assessments": [
+      "Weekly problem-solving challenges",
+      "Proof construction exercises",
+      "Mathematical investigation reports",
+      "Peer review and discussion sessions"
+    ],
+    "summative_assessments": [
+      "Advanced unit examinations (35%)",
+      "Mathematical research project (25%)",
+      "Competition-style problem sets (20%)",
+      "Oral presentation and defense (20%)"
+    ],
+    "grading_criteria": {
+      "mathematical_understanding": 40,
+      "problem_solving_sophistication": 30,
+      "proof_and_reasoning": 20,
+      "creativity_and_originality": 10
+    }
+  },
+  "resources": {
+    "textbooks": [
+      "Higher Mathematics for Gifted Students",
+      "Advanced Problem Solving in Mathematics",
+      "Mathematical Olympiad Training Manual"
+    ],
+    "technology": [
+      "Computer algebra systems (Mathematica, Maple)",
+      "Mathematical visualization software",
+      "Programming environments for mathematics",
+      "Online mathematical resources and databases"
+    ],
+    "supplementary_materials": [
+      "Mathematical competition problem archives",
+      "Research journals and publications",
+      "Advanced mathematics reference materials",
+      "Historical mathematics texts"
+    ]
+  },
+  "career_connections": [
+    "Pure mathematics research and academia",
+    "Applied mathematics in science and engineering",
+    "Mathematical finance and quantitative analysis",
+    "Computer science and algorithm development",
+    "Mathematical consulting and analysis"
+  ],
+  "university_preparation": {
+    "mathematics_majors": "Direct preparation for undergraduate mathematics",
+    "engineering_programs": "Strong mathematical foundation for all engineering fields",
+    "physics_and_science": "Advanced mathematical tools for scientific research",
+    "computer_science": "Mathematical thinking and algorithmic problem-solving",
+    "economics_and_finance": "Quantitative analysis and mathematical modeling"
+  }
+}

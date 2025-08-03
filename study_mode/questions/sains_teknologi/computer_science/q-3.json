@@ -1,0 +1,26 @@
+{
+  "id": "cs_sains_teknologi_003",
+  "type": "multiple_choice",
+  "question": "What is the binary representation of the decimal number 8?",
+  "options": ["1000", "0100", "1100", "1010"],
+  "answer": "1000",
+  "explanation": {
+    "en": "8 in decimal equals 1000 in binary: 1×2³ + 0×2² + 0×2¹ + 0×2⁰ = 8 + 0 + 0 + 0 = 8",
+    "bm": "8 dalam perpuluhan sama dengan 1000 dalam binari: 1×2³ + 0×2² + 0×2¹ + 0×2⁰ = 8 + 0 + 0 + 0 = 8"
+  },
+  "hint": {
+    "en": "Convert by repeatedly dividing by 2 and noting remainders",
+    "bm": "Tukar dengan membahagi berulang kali dengan 2 dan catat baki"
+  },
+  "difficulty": "medium",
+  "xp_value": 25,
+  "subject": "computer_science",
+  "program": "sains_teknologi",
+  "topic": "number_systems",
+  "subtopic": "binary_conversion",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

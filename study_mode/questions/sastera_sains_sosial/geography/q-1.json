@@ -1,0 +1,26 @@
+{
+  "id": "geography_sastera_sains_sosial_001",
+  "type": "multiple_choice",
+  "question": "Which is the longest river in the world?",
+  "options": ["Nile River", "Amazon River", "Yangtze River", "Mississippi River"],
+  "answer": "Nile River",
+  "explanation": {
+    "en": "The Nile River, flowing through northeastern Africa, is generally considered the longest river in the world at approximately 6,650 kilometers.",
+    "bm": "Sungai Nil, yang mengalir melalui timur laut Afrika, secara amnya dianggap sebagai sungai terpanjang di dunia dengan kira-kira 6,650 kilometer."
+  },
+  "hint": {
+    "en": "Think about the river that flows through Egypt",
+    "bm": "Fikirkan tentang sungai yang mengalir melalui Mesir"
+  },
+  "difficulty": "easy",
+  "xp_value": 10,
+  "subject": "geography",
+  "program": "sastera_sains_sosial",
+  "topic": "physical_geography",
+  "subtopic": "rivers",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "accounting_perdagangan_keusahawanan_002",
+  "type": "multiple_choice",
+  "question": "What is depreciation?",
+  "options": ["The allocation of an asset's cost over its useful life", "The increase in asset value", "The sale of old equipment", "The purchase of new assets"],
+  "answer": "The allocation of an asset's cost over its useful life",
+  "explanation": {
+    "en": "Depreciation is the systematic allocation of an asset's cost over its estimated useful life, reflecting the asset's declining value due to wear and obsolescence.",
+    "bm": "Susut nilai adalah peruntukan sistematik kos aset sepanjang anggaran hayat bergunanya, mencerminkan penurunan nilai aset akibat haus dan usang."
+  },
+  "hint": {
+    "en": "Think about how assets lose value over time",
+    "bm": "Fikirkan tentang bagaimana aset kehilangan nilai dari masa ke masa"
+  },
+  "difficulty": "medium",
+  "xp_value": 25,
+  "subject": "accounting",
+  "program": "perdagangan_keusahawanan",
+  "topic": "financial_accounting",
+  "subtopic": "depreciation",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_5",
+    "curriculum": "mrsm"
+  }
+}

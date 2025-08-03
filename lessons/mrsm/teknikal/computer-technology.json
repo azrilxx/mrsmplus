@@ -1,0 +1,401 @@
+{
+  "program": "Teknikal (Technical/Vocational)",
+  "subject": "Computer Technology",
+  "curriculum_code": "MRSM-TEK-COMP",
+  "year_levels": ["Form 4", "Form 5"],
+  "overview": {
+    "description": "Comprehensive computer technology curriculum providing hands-on training in computer hardware, networking, software development, and IT support for technical career preparation in the digital age",
+    "duration": "2 years (Form 4-5)",
+    "total_periods": 400,
+    "periods_per_week": 10
+  },
+  "learning_objectives": [
+    "Master computer hardware assembly, maintenance, and troubleshooting",
+    "Develop networking skills and cybersecurity awareness",
+    "Create software applications and web-based solutions",
+    "Understand IT service management and technical support",
+    "Prepare for IT industry certifications and career pathways"
+  ],
+  "units": [
+    {
+      "unit_id": "TEK-COMP-001",
+      "title": "Computer Hardware and System Assembly",
+      "form": "Form 4",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand computer architecture and component functions",
+        "Assemble, configure, and optimize computer systems",
+        "Diagnose and repair hardware problems",
+        "Install and configure operating systems and drivers"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "TEK-COMP-001-01",
+          "title": "Complete PC Build and Configuration Project",
+          "duration_minutes": 120,
+          "objectives": [
+            "Assemble complete computer system from individual components",
+            "Install and configure operating system and essential software",
+            "Optimize system performance and troubleshoot issues"
+          ],
+          "activities": [
+            {
+              "type": "component_selection",
+              "duration": 20,
+              "description": "Research and select compatible components for specific use case"
+            },
+            {
+              "type": "system_assembly",
+              "duration": 50,
+              "description": "Assemble complete computer system following best practices"
+            },
+            {
+              "type": "os_installation",
+              "duration": 30,
+              "description": "Install operating system, drivers, and essential software"
+            },
+            {
+              "type": "performance_testing",
+              "duration": 15,
+              "description": "Test system performance and stability"
+            },
+            {
+              "type": "documentation_review",
+              "duration": 5,
+              "description": "Document build process and create system specifications"
+            }
+          ],
+          "resources": [
+            "Computer components (CPUs, motherboards, RAM, storage)",
+            "Assembly tools and anti-static equipment",
+            "Operating system installation media",
+            "System testing and benchmarking software"
+          ],
+          "assessment_criteria": [
+            "Component selection and compatibility (25%)",
+            "Assembly technique and cable management (30%)",
+            "System configuration and optimization (25%)",
+            "Documentation and troubleshooting (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Electrical Technology: Power supply and electrical connections",
+            "Mathematics: Performance calculations and specifications"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "TEK-COMP-002",
+      "title": "Network Infrastructure and Administration",
+      "form": "Form 4",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Understand network protocols and architecture",
+        "Configure and manage network equipment",
+        "Implement network security measures",
+        "Troubleshoot network connectivity issues"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "TEK-COMP-002-01",
+          "title": "Enterprise Network Design and Implementation",
+          "duration_minutes": 120,
+          "objectives": [
+            "Design scalable network topology for business environment",
+            "Configure routers, switches, and wireless access points",
+            "Implement network security policies and access controls"
+          ],
+          "activities": [
+            {
+              "type": "network_design",
+              "duration": 25,
+              "description": "Design network topology for multi-department organization"
+            },
+            {
+              "type": "equipment_configuration",
+              "duration": 45,
+              "description": "Configure routers, switches, and wireless infrastructure"
+            },
+            {
+              "type": "security_implementation",
+              "duration": 30,
+              "description": "Implement VLANs, firewalls, and access control lists"
+            },
+            {
+              "type": "testing_validation",
+              "duration": 15,
+              "description": "Test network connectivity and security measures"
+            },
+            {
+              "type": "documentation_creation",
+              "duration": 5,
+              "description": "Create network documentation and maintenance procedures"
+            }
+          ],
+          "resources": [
+            "Enterprise-grade routers and switches",
+            "Wireless access points and controllers",
+            "Network testing and analysis tools",
+            "Network simulation software"
+          ],
+          "assessment_criteria": [
+            "Network design scalability and efficiency (25%)",
+            "Equipment configuration accuracy (30%)",
+            "Security implementation effectiveness (25%)",
+            "Documentation quality and completeness (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Business Studies: Organizational requirements and workflows",
+            "Mathematics: Network addressing and subnetting calculations"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "TEK-COMP-003",
+      "title": "Software Development and Web Technologies",
+      "form": "Form 5",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Develop applications using modern programming languages",
+        "Create responsive web applications and services",
+        "Understand database design and management",
+        "Apply software engineering principles and version control"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "TEK-COMP-003-01",
+          "title": "Full-Stack Web Application Development",
+          "duration_minutes": 120,
+          "objectives": [
+            "Develop complete web application with frontend and backend",
+            "Implement database integration and user authentication",
+            "Deploy application to cloud platform with proper security"
+          ],
+          "activities": [
+            {
+              "type": "requirements_analysis",
+              "duration": 15,
+              "description": "Analyze user requirements and design application architecture"
+            },
+            {
+              "type": "frontend_development",
+              "duration": 40,
+              "description": "Develop responsive user interface using modern web frameworks"
+            },
+            {
+              "type": "backend_development",
+              "duration": 35,
+              "description": "Create server-side logic and RESTful API endpoints"
+            },
+            {
+              "type": "database_integration",
+              "duration": 20,
+              "description": "Design and implement database schema with data access layer"
+            },
+            {
+              "type": "deployment_testing",
+              "duration": 10,
+              "description": "Deploy application and conduct comprehensive testing"
+            }
+          ],
+          "resources": [
+            "Development environments and code editors",
+            "Web frameworks and libraries",
+            "Database management systems",
+            "Cloud hosting and deployment platforms"
+          ],
+          "assessment_criteria": [
+            "Code quality and software engineering practices (30%)",
+            "User interface design and usability (25%)",
+            "Backend functionality and database design (25%)",
+            "Deployment and security implementation (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Design Technology: User experience and interface design",
+            "Business Studies: Requirements analysis and project management"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "TEK-COMP-004",
+      "title": "Cybersecurity and IT Service Management",
+      "form": "Form 5",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand cybersecurity threats and countermeasures",
+        "Implement security policies and incident response procedures",
+        "Provide technical support and help desk services",
+        "Manage IT assets and service delivery processes"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "TEK-COMP-004-01",
+          "title": "Cybersecurity Incident Response and Digital Forensics",
+          "duration_minutes": 120,
+          "objectives": [
+            "Detect and analyze cybersecurity threats and incidents",
+            "Implement incident response procedures and forensic analysis",
+            "Develop security awareness training and policies"
+          ],
+          "activities": [
+            {
+              "type": "threat_simulation",
+              "duration": 30,
+              "description": "Simulate various cybersecurity attacks in controlled environment"
+            },
+            {
+              "type": "incident_response",
+              "duration": 40,
+              "description": "Practice incident response procedures and evidence collection"
+            },
+            {
+              "type": "forensic_analysis",
+              "duration": 30,
+              "description": "Conduct digital forensic analysis using professional tools"
+            },
+            {
+              "type": "policy_development",
+              "duration": 15,
+              "description": "Develop security policies and awareness training materials"
+            },
+            {
+              "type": "presentation_delivery",
+              "duration": 5,
+              "description": "Present findings and recommendations to stakeholders"
+            }
+          ],
+          "resources": [
+            "Cybersecurity simulation platforms",
+            "Digital forensics tools and software",
+            "Network security monitoring equipment",
+            "Security awareness training materials"
+          ],
+          "assessment_criteria": [
+            "Threat detection and analysis accuracy (30%)",
+            "Incident response procedure effectiveness (25%)",
+            "Forensic investigation quality (25%)",
+            "Policy development and communication (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Law and Ethics: Legal aspects of cybersecurity and privacy",
+            "Psychology: Social engineering and human factors in security"
+          ]
+        }
+      ]
+    }
+  ],
+  "practical_work": {
+    "laboratory_projects": [
+      "Complete computer system build and optimization",
+      "Enterprise network design and implementation",
+      "Full-stack web application development and deployment",
+      "Cybersecurity assessment and incident response simulation"
+    ],
+    "real_world_applications": [
+      "Help desk and technical support services",
+      "IT infrastructure maintenance and monitoring",
+      "Software development for local businesses",
+      "Digital literacy training for community"
+    ],
+    "capstone_projects": [
+      "Smart campus IoT system design and implementation",
+      "E-commerce platform with mobile application",
+      "Cybersecurity assessment for local organization",
+      "Digital transformation solution for small business"
+    ]
+  },
+  "industry_certifications": {
+    "hardware_certifications": [
+      "CompTIA A+ certification preparation",
+      "Intel/AMD processor specialist certifications",
+      "Hardware troubleshooting and repair credentials"
+    ],
+    "networking_certifications": [
+      "CompTIA Network+ certification",
+      "Cisco Certified Network Associate (CCNA)",
+      "Ubiquiti UniFi certification"
+    ],
+    "security_certifications": [
+      "CompTIA Security+ certification",
+      "Certified Ethical Hacker (CEH) preparation",
+      "Information security awareness certifications"
+    ],
+    "software_certifications": [
+      "Microsoft Technology Associate (MTA) certifications",
+      "Oracle Database certification",
+      "Cloud platform certifications (AWS, Azure, Google Cloud)"
+    ]
+  },
+  "assessment_framework": {
+    "formative_assessments": [
+      "Weekly hands-on laboratory exercises",
+      "Code review and programming assignments",
+      "Network configuration and troubleshooting tasks",
+      "Security vulnerability assessments"
+    ],
+    "summative_assessments": [
+      "Practical skills examinations (35%)",
+      "Major project portfolio (30%)",
+      "Written technical examinations (20%)",
+      "Industry certification preparation (15%)"
+    ],
+    "grading_criteria": {
+      "technical_skills_and_implementation": 40,
+      "problem_solving_and_troubleshooting": 25,
+      "system_design_and_architecture": 20,
+      "documentation_and_communication": 15
+    }
+  },
+  "resources": {
+    "equipment_and_facilities": [
+      "Computer hardware laboratory with latest components",
+      "Networking laboratory with enterprise equipment",
+      "Software development workstations",
+      "Cybersecurity testing and analysis tools"
+    ],
+    "software_and_platforms": [
+      "Professional development environments and tools",
+      "Network simulation and management software",
+      "Cybersecurity testing and monitoring platforms",
+      "Cloud computing and deployment services"
+    ],
+    "digital_resources": [
+      "Online learning platforms and tutorials",
+      "Technical documentation and reference materials",
+      "Industry forums and communities",
+      "Certification study materials and practice exams"
+    ]
+  },
+  "career_pathways": [
+    "Computer support specialist and help desk technician",
+    "Network administrator and systems engineer",
+    "Software developer and web application programmer",
+    "Information security analyst and cybersecurity specialist",
+    "Database administrator and data analyst",
+    "Cloud systems administrator",
+    "IT project coordinator and systems analyst",
+    "Digital forensics investigator"
+  ],
+  "industry_partnerships": {
+    "internship_programs": [
+      "Local IT companies and service providers",
+      "Government agencies and educational institutions",
+      "Healthcare and financial services IT departments",
+      "Technology startups and software development firms"
+    ],
+    "professional_development": [
+      "Industry expert guest lectures and workshops",
+      "Technology company facility tours",
+      "Professional networking events and meetups",
+      "Hackathons and programming competitions"
+    ],
+    "employment_preparation": [
+      "Portfolio development and GitHub showcase",
+      "Technical interview preparation and coding challenges",
+      "Professional certification pathway guidance",
+      "Career counseling and job placement assistance"
+    ]
+  }
+}

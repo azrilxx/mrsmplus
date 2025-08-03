@@ -1,0 +1,26 @@
+{
+  "id": "math_sains_tulen_001",
+  "type": "multiple_choice",
+  "question": "What is the derivative of f(x) = 3x² + 2x - 5?",
+  "options": ["6x + 2", "6x - 2", "3x + 2", "6x + 5"],
+  "answer": "6x + 2",
+  "explanation": {
+    "en": "Using the power rule: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-5) = 0. Therefore, f'(x) = 6x + 2.",
+    "bm": "Menggunakan peraturan kuasa: d/dx(3x²) = 6x, d/dx(2x) = 2, d/dx(-5) = 0. Oleh itu, f'(x) = 6x + 2."
+  },
+  "hint": {
+    "en": "Apply the power rule: d/dx(xⁿ) = nxⁿ⁻¹",
+    "bm": "Gunakan peraturan kuasa: d/dx(xⁿ) = nxⁿ⁻¹"
+  },
+  "difficulty": "medium",
+  "xp_value": 25,
+  "subject": "mathematics",
+  "program": "sains_tulen",
+  "topic": "calculus",
+  "subtopic": "differentiation",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_6",
+    "curriculum": "mrsm"
+  }
+}

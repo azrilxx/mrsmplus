@@ -1,0 +1,26 @@
+{
+  "id": "tech_sains_teknologi_001",
+  "type": "multiple_choice",
+  "question": "What does IoT stand for in modern technology?",
+  "options": ["Internet of Things", "Interface of Technology", "Integration of Tools", "Information of Technology"],
+  "answer": "Internet of Things",
+  "explanation": {
+    "en": "IoT (Internet of Things) refers to the network of interconnected devices that can communicate and exchange data over the internet.",
+    "bm": "IoT (Internet of Things) merujuk kepada rangkaian peranti yang saling berkait yang boleh berkomunikasi dan bertukar data melalui internet."
+  },
+  "hint": {
+    "en": "Think about connected smart devices communicating online",
+    "bm": "Fikirkan tentang peranti pintar yang berkait berkomunikasi dalam talian"
+  },
+  "difficulty": "easy",
+  "xp_value": 15,
+  "subject": "technology",
+  "program": "sains_teknologi",
+  "topic": "emerging_technologies",
+  "subtopic": "iot",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_5",
+    "curriculum": "mrsm"
+  }
+}

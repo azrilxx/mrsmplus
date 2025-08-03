@@ -1,0 +1,26 @@
+{
+  "id": "econ_perdagangan_keusahawanan_002",
+  "type": "multiple_choice",
+  "question": "What is GDP?",
+  "options": ["Gross Domestic Product", "General Development Plan", "Global Distribution Program", "Government Debt Policy"],
+  "answer": "Gross Domestic Product",
+  "explanation": {
+    "en": "GDP (Gross Domestic Product) is the total monetary value of all finished goods and services produced within a country's borders in a specific time period.",
+    "bm": "KDNK (Keluaran Dalam Negara Kasar) adalah jumlah nilai monetari semua barang dan perkhidmatan siap yang dihasilkan dalam sempadan sesebuah negara dalam tempoh masa tertentu."
+  },
+  "hint": {
+    "en": "Think about measuring a country's economic output",
+    "bm": "Fikirkan tentang mengukur keluaran ekonomi sesebuah negara"
+  },
+  "difficulty": "medium",
+  "xp_value": 20,
+  "subject": "economics",
+  "program": "perdagangan_keusahawanan",
+  "topic": "macroeconomics",
+  "subtopic": "national_income",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_5",
+    "curriculum": "mrsm"
+  }
+}

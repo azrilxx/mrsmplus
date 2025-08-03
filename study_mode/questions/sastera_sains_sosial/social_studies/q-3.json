@@ -1,0 +1,26 @@
+{
+  "id": "social_sastera_sains_sosial_003",
+  "type": "multiple_choice",
+  "question": "What are human rights?",
+  "options": ["Basic rights and freedoms that belong to every person", "Rights only for citizens", "Rights given by government", "Rights that can be taken away"],
+  "answer": "Basic rights and freedoms that belong to every person",
+  "explanation": {
+    "en": "Human rights are fundamental rights and freedoms that belong to every person regardless of race, gender, nationality, religion, or other status.",
+    "bm": "Hak asasi manusia adalah hak dan kebebasan asas yang dimiliki oleh setiap orang tanpa mengira bangsa, jantina, kewarganegaraan, agama, atau status lain."
+  },
+  "hint": {
+    "en": "Think about rights that are universal and inalienable",
+    "bm": "Fikirkan tentang hak yang universal dan tidak boleh dipisahkan"
+  },
+  "difficulty": "medium",
+  "xp_value": 20,
+  "subject": "social_studies",
+  "program": "sastera_sains_sosial",
+  "topic": "human_rights",
+  "subtopic": "basic_concepts",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_5",
+    "curriculum": "mrsm"
+  }
+}

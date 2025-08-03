@@ -1,0 +1,26 @@
+{
+  "id": "physics_sains_tulen_003",
+  "type": "multiple_choice",
+  "question": "What happens to the resistance of a conductor when its temperature increases?",
+  "options": ["Increases", "Decreases", "Remains constant", "Becomes zero"],
+  "answer": "Increases",
+  "explanation": {
+    "en": "For most conductors, resistance increases with temperature due to increased atomic vibrations that impede electron flow.",
+    "bm": "Bagi kebanyakan konduktor, rintangan meningkat dengan suhu kerana peningkatan getaran atom yang menghalang aliran elektron."
+  },
+  "hint": {
+    "en": "Think about how heat affects atomic motion in metals",
+    "bm": "Fikirkan bagaimana haba mempengaruhi pergerakan atom dalam logam"
+  },
+  "difficulty": "medium",
+  "xp_value": 25,
+  "subject": "physics",
+  "program": "sains_tulen",
+  "topic": "electricity",
+  "subtopic": "resistance",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_5",
+    "curriculum": "mrsm"
+  }
+}

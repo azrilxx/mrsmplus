@@ -1,0 +1,26 @@
+{
+  "id": "eng_sains_teknologi_002",
+  "type": "multiple_choice",
+  "question": "Which material is commonly used in construction due to its high tensile strength?",
+  "options": ["Steel", "Wood", "Concrete", "Plastic"],
+  "answer": "Steel",
+  "explanation": {
+    "en": "Steel has excellent tensile strength, making it ideal for construction applications where materials need to resist stretching forces.",
+    "bm": "Keluli mempunyai kekuatan tegangan yang sangat baik, menjadikannya ideal untuk aplikasi pembinaan di mana bahan perlu menahan daya regangan."
+  },
+  "hint": {
+    "en": "Consider which material can best resist pulling forces",
+    "bm": "Pertimbangkan bahan mana yang boleh menahan daya tarik dengan terbaik"
+  },
+  "difficulty": "easy",
+  "xp_value": 15,
+  "subject": "engineering",
+  "program": "sains_teknologi",
+  "topic": "materials_engineering",
+  "subtopic": "material_properties",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

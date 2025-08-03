@@ -1,0 +1,348 @@
+{
+  "program": "Ulul Albab (Quran + STEM Integration)",
+  "subject": "Arabic Language",
+  "curriculum_code": "MRSM-UA-ARA",
+  "year_levels": ["Form 4", "Form 5"],
+  "overview": {
+    "description": "Comprehensive Arabic language curriculum integrating classical Arabic scholarship with modern scientific and technical terminology, emphasizing Quranic Arabic, Islamic texts, and contemporary Arabic usage in academic and scientific contexts",
+    "duration": "2 years (Form 4-5)",
+    "total_periods": 240,
+    "periods_per_week": 6
+  },
+  "learning_objectives": [
+    "Master classical Arabic grammar, syntax, and morphology",
+    "Develop proficiency in reading and understanding Quranic and Islamic texts",
+    "Acquire modern Arabic scientific and technical vocabulary",
+    "Apply Arabic language skills to Islamic scholarship and contemporary texts",
+    "Integrate Arabic language learning with STEM subjects and Islamic studies"
+  ],
+  "units": [
+    {
+      "unit_id": "UA-ARA-001",
+      "title": "Classical Arabic Grammar and Quranic Language",
+      "form": "Form 4",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Master Arabic morphology (Sarf) and syntax (Nahw)",
+        "Understand grammatical structures in Quranic Arabic",
+        "Apply grammatical knowledge to text analysis and comprehension",
+        "Develop skills in Arabic linguistic analysis"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "UA-ARA-001-01",
+          "title": "Advanced Arabic Morphology and Word Formation",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand Arabic root system and word derivation patterns",
+            "Apply morphological rules to form and analyze words",
+            "Recognize morphological patterns in Quranic and classical texts"
+          ],
+          "activities": [
+            {
+              "type": "morphological_analysis",
+              "duration": 25,
+              "description": "Analyze word formation patterns and root derivations"
+            },
+            {
+              "type": "pattern_recognition",
+              "duration": 30,
+              "description": "Practice recognizing and applying morphological patterns"
+            },
+            {
+              "type": "text_application",
+              "duration": 20,
+              "description": "Apply morphological knowledge to analyze Quranic verses"
+            },
+            {
+              "type": "vocabulary_building",
+              "duration": 5,
+              "description": "Build vocabulary through morphological understanding"
+            }
+          ],
+          "resources": [
+            "Classical Arabic morphology texts",
+            "Quranic word analysis tools",
+            "Arabic root dictionaries",
+            "Morphological analysis software"
+          ],
+          "assessment_criteria": [
+            "Morphological rule understanding (35%)",
+            "Pattern recognition accuracy (25%)",
+            "Text analysis application (25%)",
+            "Vocabulary development (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Quran Studies: Linguistic analysis of Quranic texts",
+            "Islamic Science: Arabic scientific terminology"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "UA-ARA-002",
+      "title": "Arabic Scientific and Technical Terminology",
+      "form": "Form 4",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Master Arabic scientific vocabulary across STEM fields",
+        "Understand Arabic technical terminology formation",
+        "Apply Arabic scientific language to academic contexts",
+        "Connect classical and modern Arabic scientific usage"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "UA-ARA-002-01",
+          "title": "Mathematics and Science Vocabulary in Arabic",
+          "duration_minutes": 80,
+          "objectives": [
+            "Learn Arabic mathematical and scientific terminology",
+            "Understand scientific concept expression in Arabic",
+            "Apply Arabic scientific vocabulary in academic contexts"
+          ],
+          "activities": [
+            {
+              "type": "terminology_study",
+              "duration": 25,
+              "description": "Study Arabic scientific and mathematical terminology systematically"
+            },
+            {
+              "type": "concept_expression",
+              "duration": 30,
+              "description": "Practice expressing scientific concepts in Arabic"
+            },
+            {
+              "type": "text_reading",
+              "duration": 20,
+              "description": "Read modern Arabic scientific texts and articles"
+            },
+            {
+              "type": "translation_practice",
+              "duration": 5,
+              "description": "Practice translating scientific concepts between Arabic and English"
+            }
+          ],
+          "resources": [
+            "Arabic scientific dictionaries",
+            "Modern Arabic scientific texts",
+            "Mathematical terminology references",
+            "Bilingual scientific materials"
+          ],
+          "assessment_criteria": [
+            "Terminology accuracy and usage (35%)",
+            "Scientific concept expression (25%)",
+            "Reading comprehension (25%)",
+            "Translation skills (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Mathematics: Arabic mathematical language",
+            "Science: Scientific terminology and expression"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "UA-ARA-003",
+      "title": "Classical Islamic Texts and Scholarly Writing",
+      "form": "Form 5",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Read and analyze classical Islamic scholarly texts",
+        "Understand different styles of Islamic scholarly writing",
+        "Develop skills in Arabic academic writing and composition",
+        "Apply textual analysis skills to Islamic literature"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "UA-ARA-003-01",
+          "title": "Reading Classical Islamic Scientific and Philosophical Texts",
+          "duration_minutes": 80,
+          "objectives": [
+            "Read and comprehend classical Islamic scientific works",
+            "Understand scholarly Arabic writing styles and conventions",
+            "Analyze arguments and methodologies in classical texts"
+          ],
+          "activities": [
+            {
+              "type": "text_reading_session",
+              "duration": 30,
+              "description": "Read selections from classical Islamic scientific and philosophical works"
+            },
+            {
+              "type": "linguistic_analysis",
+              "duration": 25,
+              "description": "Analyze linguistic features and scholarly writing styles"
+            },
+            {
+              "type": "content_discussion",
+              "duration": 20,
+              "description": "Discuss content, arguments, and methodologies in the texts"
+            },
+            {
+              "type": "contemporary_relevance",
+              "duration": 5,
+              "description": "Connect classical insights to contemporary knowledge"
+            }
+          ],
+          "resources": [
+            "Classical Islamic scientific texts (Al-Biruni, Ibn Sina, etc.)",
+            "Linguistic analysis guides",
+            "Historical context materials",
+            "Modern scholarly commentaries"
+          ],
+          "assessment_criteria": [
+            "Text comprehension accuracy (35%)",
+            "Linguistic analysis depth (25%)",
+            "Content understanding (25%)",
+            "Critical thinking application (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Islamic Science: Primary source analysis",
+            "History: Historical scientific and philosophical development"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "UA-ARA-004",
+      "title": "Contemporary Arabic and Academic Communication",
+      "form": "Form 5",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Develop proficiency in modern standard Arabic communication",
+        "Master Arabic academic writing and research skills",
+        "Understand contemporary Arabic media and discourse",
+        "Apply Arabic language skills to current academic and professional contexts"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "UA-ARA-004-01",
+          "title": "Arabic Academic Writing and Research Skills",
+          "duration_minutes": 80,
+          "objectives": [
+            "Develop skills in Arabic academic writing and composition",
+            "Learn to conduct research using Arabic sources",
+            "Master Arabic citation and documentation styles"
+          ],
+          "activities": [
+            {
+              "type": "writing_workshop",
+              "duration": 30,
+              "description": "Practice Arabic academic writing with focus on structure and style"
+            },
+            {
+              "type": "research_project",
+              "duration": 25,
+              "description": "Conduct research project using Arabic academic sources"
+            },
+            {
+              "type": "presentation_preparation",
+              "duration": 20,
+              "description": "Prepare and deliver academic presentations in Arabic"
+            },
+            {
+              "type": "peer_review",
+              "duration": 5,
+              "description": "Peer review and feedback on Arabic academic writing"
+            }
+          ],
+          "resources": [
+            "Arabic academic writing guides",
+            "Contemporary Arabic academic journals",
+            "Research methodology texts in Arabic",
+            "Arabic presentation tools and materials"
+          ],
+          "assessment_criteria": [
+            "Writing quality and accuracy (35%)",
+            "Research skills and source use (25%)",
+            "Presentation effectiveness (25%)",
+            "Academic language proficiency (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Research Methods: Academic research in Arabic",
+            "Multiple Subjects: Arabic language application across disciplines"
+          ]
+        }
+      ]
+    }
+  ],
+  "language_skills_development": {
+    "listening_comprehension": [
+      "Classical Arabic recitation and understanding",
+      "Modern Arabic lectures and presentations",
+      "Arabic scientific and academic discussions",
+      "Contemporary Arabic media comprehension"
+    ],
+    "speaking_proficiency": [
+      "Classical Arabic recitation and pronunciation",
+      "Academic presentation skills in Arabic",
+      "Scientific and technical discussion in Arabic",
+      "Formal and informal conversation skills"
+    ],
+    "reading_skills": [
+      "Quranic and classical text comprehension",
+      "Modern Arabic scientific and academic texts",
+      "Contemporary Arabic literature and media",
+      "Technical and specialized Arabic materials"
+    ],
+    "writing_abilities": [
+      "Classical Arabic composition and style",
+      "Modern Arabic academic and scientific writing",
+      "Creative writing and literary expression",
+      "Technical documentation and reporting"
+    ]
+  },
+  "assessment_framework": {
+    "formative_assessments": [
+      "Weekly vocabulary and grammar exercises",
+      "Text reading comprehension activities",
+      "Oral presentation and discussion participation",
+      "Writing practice and peer review sessions"
+    ],
+    "summative_assessments": [
+      "Comprehensive language examinations (40%)",
+      "Classical text analysis projects (25%)",
+      "Academic writing portfolio (20%)",
+      "Oral proficiency assessments (15%)"
+    ],
+    "grading_criteria": {
+      "grammatical_accuracy_and_morphology": 30,
+      "reading_comprehension_and_analysis": 25,
+      "writing_proficiency": 25,
+      "oral_communication": 20
+    }
+  },
+  "resources": {
+    "textbooks_and_references": [
+      "Advanced Arabic Grammar and Morphology",
+      "Quranic Arabic Language Guide",
+      "Arabic Scientific Terminology Dictionary",
+      "Classical Islamic Text Reader"
+    ],
+    "digital_resources": [
+      "Arabic language learning software",
+      "Online Arabic dictionaries and databases",
+      "Digital Islamic text libraries",
+      "Arabic academic journal databases"
+    ],
+    "supplementary_materials": [
+      "Audio materials for pronunciation and listening",
+      "Classical and contemporary Arabic texts",
+      "Arabic scientific and technical publications",
+      "Language exchange and conversation partners"
+    ]
+  },
+  "career_connections": [
+    "Islamic scholarship and academic research",
+    "Translation and interpretation services",
+    "International relations and diplomacy",
+    "Arabic language education and curriculum development",
+    "Cross-cultural communication and consulting"
+  ],
+  "cultural_integration": {
+    "islamic_heritage": "Connection to Islamic literary and scholarly traditions",
+    "arab_culture": "Understanding of Arabic cultural contexts and expressions",
+    "global_arabic": "Awareness of Arabic language diversity across regions",
+    "contemporary_relevance": "Application of Arabic skills to modern contexts and needs"
+  }
+}

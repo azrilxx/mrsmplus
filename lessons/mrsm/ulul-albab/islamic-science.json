@@ -1,0 +1,343 @@
+{
+  "program": "Ulul Albab (Quran + STEM Integration)",
+  "subject": "Islamic Science",
+  "curriculum_code": "MRSM-UA-ISCI",
+  "year_levels": ["Form 4", "Form 5"],
+  "overview": {
+    "description": "Integrated Islamic science curriculum that explores scientific principles through Islamic perspectives, historical Muslim contributions to science, and contemporary applications of Islamic ethics in scientific research",
+    "duration": "2 years (Form 4-5)",
+    "total_periods": 280,
+    "periods_per_week": 7
+  },
+  "learning_objectives": [
+    "Understand scientific principles from Islamic historical and philosophical perspectives",
+    "Master fundamental concepts in physics, chemistry, and biology with Islamic context",
+    "Apply Islamic ethics and values to scientific research and applications",
+    "Appreciate historical Muslim contributions to scientific advancement",
+    "Integrate Islamic worldview with modern scientific methodology"
+  ],
+  "units": [
+    {
+      "unit_id": "UA-ISCI-001",
+      "title": "Islamic Philosophy of Science and Historical Foundations",
+      "form": "Form 4",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand Islamic philosophy of knowledge and scientific inquiry",
+        "Appreciate historical Muslim contributions to mathematics and astronomy",
+        "Analyze the integration of Islamic values with scientific method",
+        "Develop appreciation for the Islamic Golden Age of science"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "UA-ISCI-001-01",
+          "title": "Muslim Scientists and the Development of Scientific Method",
+          "duration_minutes": 80,
+          "objectives": [
+            "Study contributions of Ibn al-Haytham, Al-Biruni, and other Muslim scientists",
+            "Understand how Islamic principles influenced scientific methodology",
+            "Analyze the role of Islamic institutions in preserving and advancing knowledge"
+          ],
+          "activities": [
+            {
+              "type": "historical_investigation",
+              "duration": 25,
+              "description": "Research and present on famous Muslim scientists and their contributions"
+            },
+            {
+              "type": "methodology_analysis",
+              "duration": 30,
+              "description": "Analyze how Islamic principles shaped early scientific methodology"
+            },
+            {
+              "type": "institution_study",
+              "duration": 20,
+              "description": "Study the role of Bayt al-Hikma and other Islamic centers of learning"
+            },
+            {
+              "type": "legacy_discussion",
+              "duration": 5,
+              "description": "Discuss the lasting impact of Islamic contributions to science"
+            }
+          ],
+          "resources": [
+            "Biographies of Muslim scientists",
+            "Historical texts and translations",
+            "Maps and timelines of Islamic scientific achievements",
+            "Documentary materials on Islamic Golden Age"
+          ],
+          "assessment_criteria": [
+            "Historical knowledge accuracy (30%)",
+            "Understanding of scientific contributions (25%)",
+            "Analysis of Islamic influence on science (25%)",
+            "Presentation and research skills (20%)"
+          ],
+          "cross_curricular_connections": [
+            "History: Islamic civilization and cultural achievements",
+            "Geography: Centers of learning in the Islamic world"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "UA-ISCI-002",
+      "title": "Physics and Astronomy in Islamic Tradition",
+      "form": "Form 4",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Understand fundamental physics concepts with Islamic historical context",
+        "Study Islamic astronomical traditions and observational methods",
+        "Apply physics principles to understand Islamic practices and rituals",
+        "Appreciate Islamic contributions to optics and mechanics"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "UA-ISCI-002-01",
+          "title": "Islamic Astronomy and the Science of Timekeeping",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand Islamic astronomical observations and calculations",
+            "Study the determination of prayer times and Qibla direction",
+            "Analyze Islamic contributions to astronomical instruments"
+          ],
+          "activities": [
+            {
+              "type": "astronomical_calculation",
+              "duration": 25,
+              "description": "Calculate prayer times and Qibla direction using astronomical principles"
+            },
+            {
+              "type": "instrument_study",
+              "duration": 30,
+              "description": "Study Islamic astronomical instruments like astrolabe and quadrant"
+            },
+            {
+              "type": "observation_project",
+              "duration": 20,
+              "description": "Conduct astronomical observations using traditional and modern methods"
+            },
+            {
+              "type": "application_discussion",
+              "duration": 5,
+              "description": "Discuss modern applications of Islamic astronomical knowledge"
+            }
+          ],
+          "resources": [
+            "Astronomical calculation software",
+            "Replicas of Islamic astronomical instruments",
+            "Star charts and celestial observation tools",
+            "Historical astronomical texts and translations"
+          ],
+          "assessment_criteria": [
+            "Astronomical calculation accuracy (30%)",
+            "Understanding of Islamic astronomy (25%)",
+            "Observation and measurement skills (25%)",
+            "Historical knowledge integration (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Mathematics: Trigonometry and spherical geometry",
+            "Geography: Global coordinates and navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "UA-ISCI-003",
+      "title": "Chemistry and Alchemy in Islamic Tradition",
+      "form": "Form 5",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand chemistry concepts through Islamic historical development",
+        "Study contributions of Jabir ibn Hayyan and Al-Razi to chemistry",
+        "Apply chemical principles to understand traditional Islamic medicine",
+        "Analyze the transition from alchemy to modern chemistry in Islamic context"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "UA-ISCI-003-01",
+          "title": "Islamic Alchemy and the Foundations of Chemistry",
+          "duration_minutes": 80,
+          "objectives": [
+            "Study the work of Jabir ibn Hayyan and early Islamic chemists",
+            "Understand chemical processes described in Islamic texts",
+            "Analyze the philosophical and practical aspects of Islamic alchemy"
+          ],
+          "activities": [
+            {
+              "type": "historical_chemistry_lab",
+              "duration": 30,
+              "description": "Recreate historical chemical experiments from Islamic texts"
+            },
+            {
+              "type": "text_analysis",
+              "duration": 25,
+              "description": "Analyze chemical descriptions in classical Islamic texts"
+            },
+            {
+              "type": "modern_comparison",
+              "duration": 20,
+              "description": "Compare historical Islamic chemistry with modern chemical principles"
+            },
+            {
+              "type": "philosophy_discussion",
+              "duration": 5,
+              "description": "Discuss the philosophical foundations of Islamic alchemy"
+            }
+          ],
+          "resources": [
+            "Translations of Islamic chemistry texts",
+            "Laboratory equipment for historical experiments",
+            "Comparative chemistry reference materials",
+            "Islamic philosophy of science texts"
+          ],
+          "assessment_criteria": [
+            "Understanding of historical chemistry (30%)",
+            "Laboratory skills and safety (25%)",
+            "Textual analysis ability (25%)",
+            "Philosophical understanding (20%)"
+          ],
+          "cross_curricular_connections": [
+            "History: Development of scientific knowledge",
+            "Philosophy: Islamic philosophy of science"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "UA-ISCI-004",
+      "title": "Biology and Medicine in Islamic Tradition",
+      "form": "Form 5",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Understand biological concepts through Islamic medical traditions",
+        "Study contributions of Ibn Sina, Al-Razi, and other Islamic physicians",
+        "Apply Islamic principles to modern medical ethics and practice",
+        "Analyze holistic approaches to health in Islamic tradition"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "UA-ISCI-004-01",
+          "title": "Islamic Medicine and Holistic Health Approaches",
+          "duration_minutes": 80,
+          "objectives": [
+            "Study Islamic approaches to anatomy, physiology, and disease",
+            "Understand the integration of spiritual and physical healing",
+            "Analyze contemporary relevance of Islamic medical principles"
+          ],
+          "activities": [
+            {
+              "type": "medical_text_study",
+              "duration": 25,
+              "description": "Study anatomical and medical descriptions from Islamic texts"
+            },
+            {
+              "type": "holistic_health_analysis",
+              "duration": 30,
+              "description": "Analyze Islamic holistic approaches to health and healing"
+            },
+            {
+              "type": "modern_application",
+              "duration": 20,
+              "description": "Apply Islamic medical principles to modern healthcare challenges"
+            },
+            {
+              "type": "ethics_discussion",
+              "duration": 5,
+              "description": "Discuss Islamic medical ethics in contemporary contexts"
+            }
+          ],
+          "resources": [
+            "Classical Islamic medical texts and translations",
+            "Anatomical models and medical instruments",
+            "Comparative medical ethics materials",
+            "Contemporary Islamic bioethics texts"
+          ],
+          "assessment_criteria": [
+            "Medical knowledge understanding (30%)",
+            "Holistic approach comprehension (25%)",
+            "Modern application ability (25%)",
+            "Ethical reasoning quality (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Biology: Human anatomy and physiology",
+            "Ethics: Medical ethics and bioethics"
+          ]
+        }
+      ]
+    }
+  ],
+  "practical_work": {
+    "historical_experiments": [
+      "Reproduction of classical Islamic scientific experiments",
+      "Traditional Islamic astronomical observations",
+      "Chemical processes described in Islamic texts",
+      "Islamic mathematical and geometric constructions"
+    ],
+    "contemporary_applications": [
+      "Modern applications of Islamic scientific principles",
+      "Integration of Islamic ethics with current scientific research",
+      "Environmental projects based on Islamic stewardship principles",
+      "Health and wellness programs incorporating Islamic holistic approaches"
+    ],
+    "research_projects": [
+      "Independent investigation of specific Muslim scientists",
+      "Comparative study of Islamic and modern scientific approaches",
+      "Analysis of Islamic contributions to specific scientific fields",
+      "Contemporary relevance of Islamic scientific principles"
+    ]
+  },
+  "assessment_framework": {
+    "formative_assessments": [
+      "Weekly reflection on Islamic scientific principles",
+      "Historical experiment reports",
+      "Comparison essays between Islamic and modern science",
+      "Ethical analysis of scientific applications"
+    ],
+    "summative_assessments": [
+      "Comprehensive examinations on Islamic science history and principles (40%)",
+      "Laboratory practical assessments (25%)",
+      "Independent research project on chosen Islamic scientist or topic (25%)",
+      "Portfolio of integrated Islamic-scientific investigations (10%)"
+    ],
+    "grading_criteria": {
+      "historical_and_philosophical_understanding": 30,
+      "scientific_knowledge_and_application": 30,
+      "integration_and_synthesis": 25,
+      "ethical_reasoning_and_values": 15
+    }
+  },
+  "resources": {
+    "historical_texts": [
+      "Translations of classical Islamic scientific works",
+      "Biographies and collected works of Muslim scientists",
+      "Historical accounts of Islamic scientific institutions",
+      "Comparative studies of Islamic and Western science"
+    ],
+    "laboratory_equipment": [
+      "Replicas of historical Islamic scientific instruments",
+      "Modern laboratory equipment for comparative experiments",
+      "Astronomical observation tools",
+      "Materials for traditional Islamic experiments"
+    ],
+    "digital_resources": [
+      "Digital libraries of Islamic scientific texts",
+      "Virtual tours of historical Islamic scientific centers",
+      "Interactive timelines of Islamic scientific achievements",
+      "Online databases of Muslim scientists and their contributions"
+    ]
+  },
+  "career_connections": [
+    "History and philosophy of science",
+    "Science education with cultural integration",
+    "Medical ethics and Islamic bioethics",
+    "Environmental science with stewardship principles",
+    "International development and appropriate technology"
+  ],
+  "integration_with_other_subjects": {
+    "quran_studies": "Scientific verses and Islamic epistemology",
+    "arabic": "Scientific terminology and classical texts",
+    "mathematics": "Islamic mathematical contributions and applications",
+    "regular_science": "Comparative approaches and ethical considerations",
+    "history": "Islamic civilization and scientific achievements"
+  }
+}

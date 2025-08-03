@@ -1,0 +1,26 @@
+{
+  "id": "agri_agro_teknologi_003",
+  "type": "multiple_choice",
+  "question": "Which farming practice helps prevent soil erosion on slopes?",
+  "options": ["Contour farming", "Monoculture", "Overgrazing", "Deep plowing"],
+  "answer": "Contour farming",
+  "explanation": {
+    "en": "Contour farming involves planting across slopes following the natural contours of the land, which helps slow water runoff and prevent soil erosion.",
+    "bm": "Penanaman kontur melibatkan penanaman merentasi cerun mengikut kontur semula jadi tanah, yang membantu melambatkan aliran air dan mencegah hakisan tanah."
+  },
+  "hint": {
+    "en": "Think about farming methods that follow the shape of the land",
+    "bm": "Fikirkan tentang kaedah pertanian yang mengikut bentuk tanah"
+  },
+  "difficulty": "medium",
+  "xp_value": 25,
+  "subject": "agriculture",
+  "program": "agro_teknologi",
+  "topic": "soil_conservation",
+  "subtopic": "erosion_control",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_5",
+    "curriculum": "mrsm"
+  }
+}

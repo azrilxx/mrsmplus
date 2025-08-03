@@ -1,0 +1,26 @@
+{
+  "id": "social_sastera_sains_sosial_001",
+  "type": "multiple_choice",
+  "question": "What is the highest law of Malaysia?",
+  "options": ["Federal Constitution", "Civil Law", "Syariah Law", "Common Law"],
+  "answer": "Federal Constitution",
+  "explanation": {
+    "en": "The Federal Constitution is the supreme law of Malaysia, establishing the framework of government and fundamental rights of citizens.",
+    "bm": "Perlembagaan Persekutuan adalah undang-undang tertinggi Malaysia, yang menetapkan rangka kerja kerajaan dan hak asasi rakyat."
+  },
+  "hint": {
+    "en": "Think about the document that established Malaysia's government structure",
+    "bm": "Fikirkan tentang dokumen yang menubuhkan struktur kerajaan Malaysia"
+  },
+  "difficulty": "easy",
+  "xp_value": 15,
+  "subject": "social_studies",
+  "program": "sastera_sains_sosial",
+  "topic": "civics",
+  "subtopic": "constitution",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

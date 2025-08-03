@@ -1,0 +1,26 @@
+{
+  "id": "econ_perdagangan_keusahawanan_001",
+  "type": "multiple_choice",
+  "question": "What is the law of demand?",
+  "options": ["As price increases, quantity demanded decreases", "As price increases, quantity demanded increases", "Price and demand are not related", "Demand always stays constant"],
+  "answer": "As price increases, quantity demanded decreases",
+  "explanation": {
+    "en": "The law of demand states that, all other factors being equal, as the price of a good increases, the quantity demanded by consumers decreases.",
+    "bm": "Hukum permintaan menyatakan bahawa, dengan semua faktor lain adalah sama, apabila harga sesuatu barang meningkat, kuantiti yang diminta oleh pengguna menurun."
+  },
+  "hint": {
+    "en": "Think about how you buy less when prices go up",
+    "bm": "Fikirkan tentang bagaimana anda membeli kurang apabila harga naik"
+  },
+  "difficulty": "easy",
+  "xp_value": 15,
+  "subject": "economics",
+  "program": "perdagangan_keusahawanan",
+  "topic": "microeconomics",
+  "subtopic": "demand",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

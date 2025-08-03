@@ -1,0 +1,26 @@
+{
+  "id": "eng_sains_teknologi_001",
+  "type": "multiple_choice",
+  "question": "What is the basic principle behind Ohm's Law?",
+  "options": ["V = I × R", "P = V × I", "F = m × a", "E = m × c²"],
+  "answer": "V = I × R",
+  "explanation": {
+    "en": "Ohm's Law states that voltage (V) equals current (I) multiplied by resistance (R). This fundamental principle governs electrical circuits.",
+    "bm": "Hukum Ohm menyatakan bahawa voltan (V) sama dengan arus (I) didarab dengan rintangan (R). Prinsip asas ini mengawal litar elektrik."
+  },
+  "hint": {
+    "en": "Think about the relationship between voltage, current, and resistance",
+    "bm": "Fikirkan tentang hubungan antara voltan, arus, dan rintangan"
+  },
+  "difficulty": "medium",
+  "xp_value": 25,
+  "subject": "engineering",
+  "program": "sains_teknologi",
+  "topic": "electrical_engineering",
+  "subtopic": "basic_laws",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_5",
+    "curriculum": "mrsm"
+  }
+}

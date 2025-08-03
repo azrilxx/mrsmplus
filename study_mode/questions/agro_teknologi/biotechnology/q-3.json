@@ -1,0 +1,26 @@
+{
+  "id": "biotech_agro_teknologi_003",
+  "type": "multiple_choice",
+  "question": "What are GMOs?",
+  "options": ["Genetically Modified Organisms", "Generally Modified Objects", "Genetic Molecular Operations", "Growth Monitoring Organisms"],
+  "answer": "Genetically Modified Organisms",
+  "explanation": {
+    "en": "GMOs (Genetically Modified Organisms) are living organisms whose genetic material has been artificially altered using genetic engineering techniques.",
+    "bm": "GMO (Organisma Diubahsuai Genetik) adalah organisma hidup yang bahan genetiknya telah diubah secara buatan menggunakan teknik kejuruteraan genetik."
+  },
+  "hint": {
+    "en": "Think about organisms with altered genetic makeup",
+    "bm": "Fikirkan tentang organisma dengan susunan genetik yang diubah"
+  },
+  "difficulty": "medium",
+  "xp_value": 20,
+  "subject": "biotechnology",
+  "program": "agro_teknologi",
+  "topic": "genetic_modification",
+  "subtopic": "gmo_basics",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_5",
+    "curriculum": "mrsm"
+  }
+}

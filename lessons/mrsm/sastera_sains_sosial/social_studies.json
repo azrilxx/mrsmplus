@@ -1,0 +1,536 @@
+{
+  "program": "Sastera Sains Sosial (Social Sciences and Humanities)",
+  "subject": "Social Studies",
+  "curriculum_code": "MRSM-SSL-SOC",
+  "year_levels": ["Form 4", "Form 5"],
+  "overview": {
+    "description": "Comprehensive social studies curriculum exploring Malaysian society, governance, civil rights, social issues, and global citizenship for active democratic participation",
+    "duration": "2 years (Form 4-5)",
+    "total_periods": 200,
+    "periods_per_week": 5
+  },
+  "learning_objectives": [
+    "Understand Malaysian political system and governance structures",
+    "Analyze social issues and their impact on communities",
+    "Develop civic responsibility and democratic participation skills",
+    "Evaluate human rights and social justice concepts",
+    "Apply critical thinking to contemporary social and political issues"
+  ],
+  "units": [
+    {
+      "unit_id": "SSL-SOC-001",
+      "title": "Malaysian Political System and Governance",
+      "form": "Form 4",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand the structure and function of Malaysian government",
+        "Analyze the federal system and state-federal relations",
+        "Evaluate the role of political parties and elections",
+        "Assess the implementation of democratic principles"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "SSL-SOC-001-01",
+          "title": "Federal Constitution and Democratic Principles",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand the key provisions of the Federal Constitution",
+            "Analyze the separation of powers and checks and balances",
+            "Evaluate the protection of fundamental rights"
+          ],
+          "activities": [
+            {
+              "type": "constitutional_analysis",
+              "duration": 25,
+              "description": "Analyze key articles of the Federal Constitution"
+            },
+            {
+              "type": "powers_mapping",
+              "duration": 20,
+              "description": "Map the separation of powers between executive, legislative, and judicial branches"
+            },
+            {
+              "type": "rights_case_study",
+              "duration": 25,
+              "description": "Study landmark cases involving fundamental rights"
+            },
+            {
+              "type": "contemporary_application",
+              "duration": 10,
+              "description": "Apply constitutional principles to current issues"
+            }
+          ],
+          "resources": [
+            "Federal Constitution text and annotations",
+            "Government structure diagrams",
+            "Constitutional law case studies",
+            "Current news and legal decisions"
+          ],
+          "assessment_criteria": [
+            "Constitutional understanding (35%)",
+            "Powers analysis accuracy (25%)",
+            "Case study interpretation (25%)",
+            "Application to current issues (15%)"
+          ],
+          "cross_curricular_connections": [
+            "History: Constitutional development and amendments",
+            "Law: Legal interpretation and jurisprudence"
+          ]
+        },
+        {
+          "lesson_id": "SSL-SOC-001-02",
+          "title": "Elections and Democratic Participation",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand the electoral system and voting processes",
+            "Analyze the role of political parties and campaigns",
+            "Evaluate factors affecting voter participation and choice"
+          ],
+          "activities": [
+            {
+              "type": "electoral_simulation",
+              "duration": 30,
+              "description": "Simulate a general election with campaigning and voting"
+            },
+            {
+              "type": "party_analysis",
+              "duration": 25,
+              "description": "Analyze political party platforms and ideologies"
+            },
+            {
+              "type": "participation_study",
+              "duration": 20,
+              "description": "Study factors affecting voter turnout and engagement"
+            },
+            {
+              "type": "improvement_brainstorm",
+              "duration": 5,
+              "description": "Brainstorm ways to improve democratic participation"
+            }
+          ],
+          "resources": [
+            "Electoral Commission guidelines and procedures",
+            "Political party manifestos and materials",
+            "Voting statistics and demographic data",
+            "Mock election materials"
+          ],
+          "assessment_criteria": [
+            "Electoral process understanding (30%)",
+            "Political analysis skills (30%)",
+            "Participation in simulation (25%)",
+            "Critical thinking about improvements (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Mathematics: Statistical analysis of election data",
+            "Communication: Political rhetoric and persuasion"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "SSL-SOC-002",
+      "title": "Social Issues and Community Development",
+      "form": "Form 4",
+      "duration_weeks": 8,
+      "learning_outcomes": [
+        "Identify and analyze major social issues in Malaysian society",
+        "Understand the causes and effects of social problems",
+        "Evaluate government and community responses to social issues",
+        "Develop skills for community engagement and social action"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "SSL-SOC-002-01",
+          "title": "Poverty and Economic Inequality",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand the nature and extent of poverty in Malaysia",
+            "Analyze factors contributing to economic inequality",
+            "Evaluate poverty reduction programs and their effectiveness"
+          ],
+          "activities": [
+            {
+              "type": "data_analysis",
+              "duration": 25,
+              "description": "Analyze poverty statistics and income distribution data"
+            },
+            {
+              "type": "community_mapping",
+              "duration": 25,
+              "description": "Map local poverty indicators and affected communities"
+            },
+            {
+              "type": "program_evaluation",
+              "duration": 25,
+              "description": "Evaluate government poverty reduction programs like BR1M"
+            },
+            {
+              "type": "solution_brainstorm",
+              "duration": 5,
+              "description": "Brainstorm additional solutions to address poverty"
+            }
+          ],
+          "resources": [
+            "Department of Statistics poverty data",
+            "Community demographic information",
+            "Government program documentation",
+            "NGO reports on poverty issues"
+          ],
+          "assessment_criteria": [
+            "Data interpretation skills (30%)",
+            "Community analysis accuracy (25%)",
+            "Program evaluation depth (30%)",
+            "Solution creativity and feasibility (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Economics: Income distribution and welfare policies",
+            "Geography: Spatial patterns of poverty and development"
+          ]
+        },
+        {
+          "lesson_id": "SSL-SOC-002-02",
+          "title": "Environmental Justice and Sustainability",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand environmental challenges facing Malaysian communities",
+            "Analyze the unequal distribution of environmental impacts",
+            "Evaluate community responses to environmental issues"
+          ],
+          "activities": [
+            {
+              "type": "case_study_investigation",
+              "duration": 25,
+              "description": "Investigate environmental justice cases like Lynas and palm oil"
+            },
+            {
+              "type": "impact_assessment",
+              "duration": 25,
+              "description": "Assess environmental impacts on different communities"
+            },
+            {
+              "type": "advocacy_planning",
+              "duration": 25,
+              "description": "Plan community advocacy campaigns for environmental protection"
+            },
+            {
+              "type": "action_commitment",
+              "duration": 5,
+              "description": "Commit to personal environmental actions"
+            }
+          ],
+          "resources": [
+            "Environmental impact case studies",
+            "Community health and environmental data",
+            "Advocacy campaign examples",
+            "Sustainability action guides"
+          ],
+          "assessment_criteria": [
+            "Case study analysis quality (30%)",
+            "Impact assessment understanding (25%)",
+            "Advocacy planning effectiveness (30%)",
+            "Personal commitment reflection (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Environmental Science: Pollution and ecosystem health",
+            "Health Science: Environmental health impacts"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "SSL-SOC-003",
+      "title": "Human Rights and Social Justice",
+      "form": "Form 5",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Understand universal human rights principles and Malaysian context",
+        "Analyze issues of discrimination and marginalization",
+        "Evaluate mechanisms for protecting and promoting rights",
+        "Develop advocacy skills for social justice causes"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "SSL-SOC-003-01",
+          "title": "Universal Human Rights and Malaysian Implementation",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand the Universal Declaration of Human Rights",
+            "Analyze Malaysia's human rights record and commitments",
+            "Evaluate gaps between international standards and local practice"
+          ],
+          "activities": [
+            {
+              "type": "declaration_study",
+              "duration": 20,
+              "description": "Study key articles of the Universal Declaration of Human Rights"
+            },
+            {
+              "type": "comparative_analysis",
+              "duration": 30,
+              "description": "Compare international standards with Malaysian laws and practices"
+            },
+            {
+              "type": "gap_identification",
+              "duration": 25,
+              "description": "Identify areas where implementation can be improved"
+            },
+            {
+              "type": "action_planning",
+              "duration": 5,
+              "description": "Plan actions to promote human rights awareness"
+            }
+          ],
+          "resources": [
+            "Universal Declaration of Human Rights",
+            "Malaysian human rights reports",
+            "Comparative human rights data",
+            "NGO advocacy materials"
+          ],
+          "assessment_criteria": [
+            "Understanding of human rights principles (30%)",
+            "Comparative analysis skills (35%)",
+            "Critical evaluation of gaps (25%)",
+            "Action planning quality (10%)"
+          ],
+          "cross_curricular_connections": [
+            "Law: International and domestic human rights law",
+            "Philosophy: Ethics and moral reasoning"
+          ]
+        },
+        {
+          "lesson_id": "SSL-SOC-003-02",
+          "title": "Indigenous Rights and Cultural Preservation",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand the rights and challenges of indigenous communities",
+            "Analyze threats to indigenous lands and cultures",
+            "Evaluate efforts to protect indigenous rights and heritage"
+          ],
+          "activities": [
+            {
+              "type": "community_profile",
+              "duration": 25,
+              "description": "Profile different indigenous communities and their challenges"
+            },
+            {
+              "type": "rights_analysis",
+              "duration": 25,
+              "description": "Analyze indigenous land rights and cultural protection laws"
+            },
+            {
+              "type": "preservation_project",
+              "duration": 25,
+              "description": "Design a cultural preservation project proposal"
+            },
+            {
+              "type": "solidarity_discussion",
+              "duration": 5,
+              "description": "Discuss ways to show solidarity with indigenous communities"
+            }
+          ],
+          "resources": [
+            "Indigenous community documentation",
+            "Land rights legal materials",
+            "Cultural preservation case studies",
+            "Indigenous rights advocacy resources"
+          ],
+          "assessment_criteria": [
+            "Community understanding depth (30%)",
+            "Rights analysis accuracy (25%)",
+            "Project proposal quality (30%)",
+            "Solidarity awareness (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Anthropology: Indigenous cultures and traditions",
+            "Environmental Science: Traditional ecological knowledge"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "SSL-SOC-004",
+      "title": "Global Citizenship and International Relations",
+      "form": "Form 5",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand Malaysia's role in international organizations",
+        "Analyze global challenges and collaborative responses",
+        "Develop global perspective and intercultural competence",
+        "Apply principles of global citizenship to local and international issues"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "SSL-SOC-004-01",
+          "title": "Malaysia in ASEAN and Global Organizations",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand Malaysia's membership and role in international organizations",
+            "Analyze benefits and challenges of international cooperation",
+            "Evaluate Malaysia's foreign policy priorities and strategies"
+          ],
+          "activities": [
+            {
+              "type": "organization_mapping",
+              "duration": 20,
+              "description": "Map Malaysia's membership in international organizations"
+            },
+            {
+              "type": "policy_analysis",
+              "duration": 30,
+              "description": "Analyze Malaysia's foreign policy positions on key issues"
+            },
+            {
+              "type": "cooperation_evaluation",
+              "duration": 25,
+              "description": "Evaluate the effectiveness of international cooperation"
+            },
+            {
+              "type": "future_visioning",
+              "duration": 5,
+              "description": "Envision Malaysia's future role in global affairs"
+            }
+          ],
+          "resources": [
+            "Foreign ministry policy documents",
+            "International organization membership records",
+            "ASEAN cooperation agreements",
+            "Global affairs analysis reports"
+          ],
+          "assessment_criteria": [
+            "Organization knowledge (25%)",
+            "Policy analysis depth (35%)",
+            "Cooperation evaluation skills (25%)",
+            "Future vision creativity (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Economics: International trade and economic cooperation",
+            "Geography: Regional and global spatial relationships"
+          ]
+        },
+        {
+          "lesson_id": "SSL-SOC-004-02",
+          "title": "Global Challenges and Sustainable Development",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand major global challenges like climate change and inequality",
+            "Analyze the Sustainable Development Goals and their implementation",
+            "Evaluate individual and collective responses to global challenges"
+          ],
+          "activities": [
+            {
+              "type": "challenge_research",
+              "duration": 25,
+              "description": "Research a specific global challenge and its local impacts"
+            },
+            {
+              "type": "sdg_mapping",
+              "duration": 25,
+              "description": "Map SDG targets to local and national development priorities"
+            },
+            {
+              "type": "action_project",
+              "duration": 25,
+              "description": "Design a project addressing a global challenge locally"
+            },
+            {
+              "type": "global_citizen_commitment",
+              "duration": 5,
+              "description": "Make personal commitments as global citizens"
+            }
+          ],
+          "resources": [
+            "UN Sustainable Development Goals documentation",
+            "Global challenge research databases",
+            "Local development project examples",
+            "Global citizenship action guides"
+          ],
+          "assessment_criteria": [
+            "Challenge research quality (30%)",
+            "SDG understanding and application (25%)",
+            "Action project feasibility (30%)",
+            "Personal commitment authenticity (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Environmental Science: Global environmental challenges",
+            "Economics: Sustainable development economics"
+          ]
+        }
+      ]
+    }
+  ],
+  "practical_work": {
+    "core_experiments": [
+      "Survey research on community social issues",
+      "Government institution visits and interviews",
+      "Mock legislative and judicial proceedings",
+      "Human rights advocacy campaign planning",
+      "International cooperation simulation exercises"
+    ],
+    "field_studies": [
+      "Local government observation and participation",
+      "Community organization volunteering",
+      "Social service agency visits",
+      "Cultural diversity community events"
+    ],
+    "project_work": [
+      "Community needs assessment and action plan",
+      "Policy proposal development and presentation",
+      "Social justice advocacy campaign",
+      "Global citizenship action project"
+    ]
+  },
+  "assessment_framework": {
+    "formative_assessments": [
+      "Weekly current events analysis",
+      "Community engagement reflection journals",
+      "Civic participation activity logs",
+      "Peer discussion and debate contributions"
+    ],
+    "summative_assessments": [
+      "Unit examinations with essay components (35%)",
+      "Research project and policy proposal (30%)",
+      "Community action project (20%)",
+      "Civic engagement portfolio (15%)"
+    ],
+    "grading_criteria": {
+      "civic_knowledge": 35,
+      "critical_analysis": 25,
+      "community_engagement": 25,
+      "communication_and_advocacy": 15
+    }
+  },
+  "resources": {
+    "textbooks": [
+      "Malaysian Government and Politics",
+      "Social Issues in Contemporary Malaysia",
+      "Global Citizenship and Human Rights"
+    ],
+    "equipment": [
+      "Government documents and policy materials",
+      "Survey and research tools",
+      "Presentation and communication equipment",
+      "Community engagement planning materials"
+    ],
+    "digital_resources": [
+      "Government and NGO websites and databases",
+      "Online civic engagement platforms",
+      "International organization resources",
+      "Current affairs and news analysis tools"
+    ]
+  },
+  "career_connections": [
+    "Public policy analyst and government officer",
+    "Social worker and community organizer",
+    "Human rights advocate and NGO worker",
+    "Diplomat and international relations specialist",
+    "Civic educator and political scientist"
+  ],
+  "cross_curricular_integration": {
+    "history": "Historical development of democratic institutions",
+    "economics": "Public policy and economic development",
+    "geography": "Spatial dimensions of social and political issues",
+    "law": "Legal frameworks and constitutional principles",
+    "communication": "Public speaking and advocacy skills",
+    "research_methods": "Social research and policy analysis"
+  }
+}

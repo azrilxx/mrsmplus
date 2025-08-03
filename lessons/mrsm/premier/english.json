@@ -1,0 +1,322 @@
+{
+  "program": "Premier (Balanced Curriculum)",
+  "subject": "English Language",
+  "curriculum_code": "MRSM-PREM-ENG",
+  "year_levels": ["Form 4", "Form 5"],
+  "overview": {
+    "description": "Comprehensive English language curriculum focusing on communication skills, critical thinking, literature appreciation, and global perspectives for well-rounded students",
+    "duration": "2 years (Form 4-5)",
+    "total_periods": 240,
+    "periods_per_week": 6
+  },
+  "learning_objectives": [
+    "Develop advanced reading comprehension and analysis skills",
+    "Master academic and creative writing techniques",
+    "Enhance oral communication and presentation abilities",
+    "Appreciate literature from diverse cultures and perspectives",
+    "Apply critical thinking to media and contemporary issues"
+  ],
+  "units": [
+    {
+      "unit_id": "PREM-ENG-001",
+      "title": "Academic Reading and Critical Analysis",
+      "form": "Form 4",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Analyze academic texts for main ideas and supporting details",
+        "Evaluate author's purpose, tone, and bias",
+        "Synthesize information from multiple sources",
+        "Apply critical reading strategies across disciplines"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "PREM-ENG-001-01",
+          "title": "Reading Strategies for Academic Success",
+          "duration_minutes": 80,
+          "objectives": [
+            "Apply pre-reading, during-reading, and post-reading strategies",
+            "Identify text structures and organizational patterns",
+            "Use context clues and inference skills effectively"
+          ],
+          "activities": [
+            {
+              "type": "strategy_modeling",
+              "duration": 20,
+              "description": "Demonstrate effective reading strategies using think-aloud protocol"
+            },
+            {
+              "type": "guided_practice",
+              "duration": 30,
+              "description": "Practice reading strategies with cross-curricular texts"
+            },
+            {
+              "type": "independent_application",
+              "duration": 25,
+              "description": "Apply strategies to self-selected academic articles"
+            },
+            {
+              "type": "reflection_sharing",
+              "duration": 5,
+              "description": "Share insights and effective strategies with peers"
+            }
+          ],
+          "resources": [
+            "Academic articles from various disciplines",
+            "Reading strategy reference guides",
+            "Digital annotation tools",
+            "Graphic organizers"
+          ],
+          "assessment_criteria": [
+            "Strategy application effectiveness (30%)",
+            "Comprehension accuracy (25%)",
+            "Text analysis depth (25%)",
+            "Reflection quality (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Science: Scientific journal articles",
+            "History: Primary and secondary historical sources"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "PREM-ENG-002",
+      "title": "Academic Writing and Research",
+      "form": "Form 4",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Write clear, coherent academic essays",
+        "Conduct research using credible sources",
+        "Apply proper citation and documentation",
+        "Develop persuasive and analytical writing skills"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "PREM-ENG-002-01",
+          "title": "Essay Structure and Organization",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand academic essay structure and components",
+            "Write effective introductions and conclusions",
+            "Develop coherent body paragraphs with evidence"
+          ],
+          "activities": [
+            {
+              "type": "model_analysis",
+              "duration": 20,
+              "description": "Analyze model essays for structure and effectiveness"
+            },
+            {
+              "type": "collaborative_planning",
+              "duration": 25,
+              "description": "Plan essay structure using graphic organizers"
+            },
+            {
+              "type": "writing_workshop",
+              "duration": 30,
+              "description": "Draft and revise essay paragraphs with peer feedback"
+            },
+            {
+              "type": "sharing_conference",
+              "duration": 5,
+              "description": "Share writing goals and challenges"
+            }
+          ],
+          "resources": [
+            "Model essay examples",
+            "Essay planning templates",
+            "Peer review checklists",
+            "Writing rubrics"
+          ],
+          "assessment_criteria": [
+            "Essay organization and structure (30%)",
+            "Content development and evidence (25%)",
+            "Language use and mechanics (25%)",
+            "Revision and improvement (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Social Studies: Research and argumentation",
+            "Science: Scientific writing and documentation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "PREM-ENG-003",
+      "title": "Literature and Global Perspectives",
+      "form": "Form 5",
+      "duration_weeks": 14,
+      "learning_outcomes": [
+        "Analyze literary works from diverse cultural backgrounds",
+        "Understand universal themes and cultural contexts",
+        "Compare literary techniques and styles",
+        "Connect literature to contemporary global issues"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "PREM-ENG-003-01",
+          "title": "Short Stories from Around the World",
+          "duration_minutes": 80,
+          "objectives": [
+            "Analyze short stories from different cultural contexts",
+            "Identify universal themes and cultural specifics",
+            "Compare narrative techniques across cultures"
+          ],
+          "activities": [
+            {
+              "type": "cultural_context_introduction",
+              "duration": 15,
+              "description": "Explore cultural backgrounds of selected stories"
+            },
+            {
+              "type": "close_reading_analysis",
+              "duration": 35,
+              "description": "Analyze literary elements and techniques"
+            },
+            {
+              "type": "comparative_discussion",
+              "duration": 25,
+              "description": "Compare themes and techniques across cultures"
+            },
+            {
+              "type": "personal_connection",
+              "duration": 5,
+              "description": "Connect stories to personal and contemporary experiences"
+            }
+          ],
+          "resources": [
+            "Anthology of world short stories",
+            "Cultural context materials",
+            "Literary analysis guides",
+            "Discussion protocols"
+          ],
+          "assessment_criteria": [
+            "Literary analysis depth (35%)",
+            "Cultural understanding (25%)",
+            "Comparative thinking (25%)",
+            "Personal connections (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Geography: Cultural and regional studies",
+            "History: Historical and social contexts"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "PREM-ENG-004",
+      "title": "Media Literacy and Digital Communication",
+      "form": "Form 5",
+      "duration_weeks": 8,
+      "learning_outcomes": [
+        "Analyze media messages and techniques",
+        "Evaluate information credibility and bias",
+        "Create effective digital presentations",
+        "Understand impact of social media on communication"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "PREM-ENG-004-01",
+          "title": "Analyzing Media Messages and Bias",
+          "duration_minutes": 80,
+          "objectives": [
+            "Identify persuasive techniques in media",
+            "Recognize bias and propaganda in news sources",
+            "Evaluate credibility of online information"
+          ],
+          "activities": [
+            {
+              "type": "media_sampling",
+              "duration": 20,
+              "description": "Examine various media samples for persuasive techniques"
+            },
+            {
+              "type": "bias_detection_workshop",
+              "duration": 30,
+              "description": "Practice identifying bias in news articles and sources"
+            },
+            {
+              "type": "fact_checking_activity",
+              "duration": 25,
+              "description": "Use fact-checking tools to verify information claims"
+            },
+            {
+              "type": "media_literacy_reflection",
+              "duration": 5,
+              "description": "Reflect on personal media consumption habits"
+            }
+          ],
+          "resources": [
+            "Media samples from various sources",
+            "Bias detection guides and checklists",
+            "Fact-checking websites and tools",
+            "Media literacy frameworks"
+          ],
+          "assessment_criteria": [
+            "Media analysis accuracy (30%)",
+            "Bias identification skills (25%)",
+            "Critical evaluation ability (25%)",
+            "Application to real situations (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Social Studies: Current events and civic engagement",
+            "Computer Science: Digital citizenship and ethics"
+          ]
+        }
+      ]
+    }
+  ],
+  "assessment_framework": {
+    "formative_assessments": [
+      "Weekly reading response journals",
+      "Peer review and feedback sessions",
+      "Vocabulary development activities",
+      "Oral presentation practice"
+    ],
+    "summative_assessments": [
+      "Unit examinations with reading and writing components (40%)",
+      "Research projects and analytical essays (25%)",
+      "Oral presentations and discussions (20%)",
+      "Portfolio of written work (15%)"
+    ],
+    "grading_criteria": {
+      "reading_comprehension": 25,
+      "writing_proficiency": 30,
+      "oral_communication": 20,
+      "critical_thinking": 25
+    }
+  },
+  "resources": {
+    "textbooks": [
+      "English for Premier Programme: Global Perspectives",
+      "Academic Writing Guide for Malaysian Students",
+      "World Literature Anthology"
+    ],
+    "technology": [
+      "Digital research databases",
+      "Writing and editing software",
+      "Presentation tools",
+      "Online collaboration platforms"
+    ],
+    "supplementary_materials": [
+      "Contemporary articles and media samples",
+      "Audio and video resources",
+      "Global literature collections",
+      "Language learning applications"
+    ]
+  },
+  "career_connections": [
+    "Journalism and media communication",
+    "International business and diplomacy",
+    "Education and academic writing",
+    "Public relations and marketing",
+    "Translation and cross-cultural communication"
+  ],
+  "cross_curricular_integration": {
+    "social_studies": "Research and argumentation skills",
+    "science": "Scientific communication and literacy",
+    "mathematics": "Data interpretation and presentation",
+    "history": "Historical context and analysis",
+    "global_studies": "Cultural awareness and perspectives"
+  }
+}

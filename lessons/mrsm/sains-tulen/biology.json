@@ -1,0 +1,486 @@
+{
+  "program": "Sains Tulen (Pure Science)",
+  "subject": "Biology",
+  "curriculum_code": "MRSM-ST-BIO",
+  "year_levels": ["Form 4", "Form 5"],
+  "overview": {
+    "description": "Advanced biology curriculum emphasizing molecular biology, genetics, ecology, and research methodology for Pure Science students",
+    "duration": "2 years (Form 4-5)",
+    "total_periods": 200,
+    "periods_per_week": 5
+  },
+  "learning_objectives": [
+    "Understand biological systems at molecular and cellular levels",
+    "Apply scientific inquiry and research methodology",
+    "Analyze genetic principles and biotechnology applications",
+    "Explore ecological relationships and environmental science",
+    "Connect biological concepts to other scientific disciplines"
+  ],
+  "units": [
+    {
+      "unit_id": "ST-BIO-001",
+      "title": "Cell Biology and Biochemistry",
+      "form": "Form 4",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand cell structure and organelle function",
+        "Analyze metabolic pathways and enzyme kinetics",
+        "Explore membrane transport mechanisms",
+        "Investigate cellular communication systems"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "ST-BIO-001-01",
+          "title": "Advanced Cell Structure and Function",
+          "duration_minutes": 80,
+          "objectives": [
+            "Compare prokaryotic and eukaryotic cell organization",
+            "Analyze organelle specialization and cooperation",
+            "Understand endomembrane system relationships"
+          ],
+          "activities": [
+            {
+              "type": "microscopy_investigation",
+              "duration": 25,
+              "description": "Advanced microscopy techniques to observe cellular structures"
+            },
+            {
+              "type": "model_analysis",
+              "duration": 30,
+              "description": "Analyze 3D cell models and organelle interactions"
+            },
+            {
+              "type": "comparative_study",
+              "duration": 20,
+              "description": "Compare specialized cell types and their adaptations"
+            },
+            {
+              "type": "synthesis",
+              "duration": 5,
+              "description": "Connect structure to function principles"
+            }
+          ],
+          "resources": [
+            "Advanced light and electron microscopes",
+            "Cell fractionation equipment",
+            "3D cell models",
+            "Cellular imaging software"
+          ],
+          "assessment_criteria": [
+            "Microscopy technique and observation (30%)",
+            "Understanding of organelle function (30%)",
+            "Comparative analysis skills (25%)",
+            "Scientific drawing and labeling (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Chemistry: Membrane lipid chemistry",
+            "Physics: Microscopy and imaging principles"
+          ]
+        },
+        {
+          "lesson_id": "ST-BIO-001-02",
+          "title": "Enzyme Kinetics and Metabolic Pathways",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand enzyme structure-function relationships",
+            "Analyze factors affecting enzyme activity",
+            "Explore metabolic pathway regulation"
+          ],
+          "activities": [
+            {
+              "type": "enzyme_assay",
+              "duration": 30,
+              "description": "Investigate enzyme kinetics using spectrophotometry"
+            },
+            {
+              "type": "data_analysis",
+              "duration": 25,
+              "description": "Calculate Km and Vmax values from experimental data"
+            },
+            {
+              "type": "pathway_mapping",
+              "duration": 20,
+              "description": "Map metabolic pathways and regulatory mechanisms"
+            },
+            {
+              "type": "application",
+              "duration": 5,
+              "description": "Connect enzyme function to disease states"
+            }
+          ],
+          "resources": [
+            "Spectrophotometers",
+            "Enzyme assay kits",
+            "Biochemical pathway charts",
+            "Graphing and analysis software"
+          ],
+          "assessment_criteria": [
+            "Experimental technique (25%)",
+            "Mathematical analysis of kinetic data (35%)",
+            "Understanding of enzyme regulation (25%)",
+            "Application to biological systems (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Chemistry: Catalysis and reaction mechanisms",
+            "Mathematics: Kinetic equations and curve fitting"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "ST-BIO-002",
+      "title": "Genetics and Molecular Biology",
+      "form": "Form 4",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Understand DNA structure, replication, and repair",
+        "Analyze gene expression and regulation",
+        "Explore genetic inheritance patterns",
+        "Investigate biotechnology applications"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "ST-BIO-002-01",
+          "title": "DNA Replication and Repair Mechanisms",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand molecular mechanisms of DNA replication",
+            "Analyze DNA repair pathways and their importance",
+            "Explore factors affecting genome stability"
+          ],
+          "activities": [
+            {
+              "type": "model_building",
+              "duration": 20,
+              "description": "Build 3D models of DNA replication machinery"
+            },
+            {
+              "type": "simulation_analysis",
+              "duration": 30,
+              "description": "Analyze DNA replication using computer simulations"
+            },
+            {
+              "type": "case_study",
+              "duration": 25,
+              "description": "Investigate genetic diseases caused by DNA repair defects"
+            },
+            {
+              "type": "research_presentation",
+              "duration": 5,
+              "description": "Present findings on DNA repair and cancer"
+            }
+          ],
+          "resources": [
+            "DNA model kits",
+            "Molecular simulation software",
+            "Scientific literature databases",
+            "Presentation software"
+          ],
+          "assessment_criteria": [
+            "Understanding of replication mechanisms (35%)",
+            "Analysis of repair pathways (30%)",
+            "Case study investigation (20%)",
+            "Scientific communication (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Chemistry: Nucleic acid chemistry",
+            "Physics: Molecular forces and interactions"
+          ]
+        },
+        {
+          "lesson_id": "ST-BIO-002-02",
+          "title": "Gene Expression and Regulation",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand transcription and translation mechanisms",
+            "Analyze gene regulation at multiple levels",
+            "Explore epigenetic modifications"
+          ],
+          "activities": [
+            {
+              "type": "molecular_modeling",
+              "duration": 25,
+              "description": "Model transcription factor-DNA interactions"
+            },
+            {
+              "type": "experimental_design",
+              "duration": 30,
+              "description": "Design experiments to study gene regulation"
+            },
+            {
+              "type": "data_interpretation",
+              "duration": 20,
+              "description": "Interpret gene expression data from microarray studies"
+            },
+            {
+              "type": "application_discussion",
+              "duration": 5,
+              "description": "Discuss therapeutic applications of gene regulation"
+            }
+          ],
+          "resources": [
+            "Molecular modeling software",
+            "Gene expression databases",
+            "Laboratory protocols",
+            "Scientific calculators"
+          ],
+          "assessment_criteria": [
+            "Understanding of gene expression (30%)",
+            "Experimental design quality (30%)",
+            "Data interpretation skills (25%)",
+            "Application to medicine (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Chemistry: Protein structure and function",
+            "Mathematics: Bioinformatics and data analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "ST-BIO-003",
+      "title": "Ecology and Environmental Biology",
+      "form": "Form 5",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand ecosystem structure and function",
+        "Analyze population dynamics and community interactions",
+        "Explore conservation biology principles",
+        "Investigate environmental problem-solving"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "ST-BIO-003-01",
+          "title": "Population Dynamics and Mathematical Modeling",
+          "duration_minutes": 80,
+          "objectives": [
+            "Apply mathematical models to population growth",
+            "Understand factors regulating population size",
+            "Analyze predator-prey relationships"
+          ],
+          "activities": [
+            {
+              "type": "field_study",
+              "duration": 30,
+              "description": "Collect population data from local ecosystem"
+            },
+            {
+              "type": "mathematical_modeling",
+              "duration": 25,
+              "description": "Apply exponential and logistic growth models"
+            },
+            {
+              "type": "simulation_exercise",
+              "duration": 20,
+              "description": "Run population simulations with varying parameters"
+            },
+            {
+              "type": "prediction_analysis",
+              "duration": 5,
+              "description": "Make predictions about population futures"
+            }
+          ],
+          "resources": [
+            "Field sampling equipment",
+            "Population modeling software",
+            "Statistical analysis programs",
+            "Ecological databases"
+          ],
+          "assessment_criteria": [
+            "Field data collection accuracy (25%)",
+            "Mathematical model application (35%)",
+            "Simulation analysis (25%)",
+            "Prediction reasoning (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Mathematics: Differential equations and modeling",
+            "Environmental Science: Conservation strategies"
+          ]
+        },
+        {
+          "lesson_id": "ST-BIO-003-02",
+          "title": "Biodiversity and Conservation Biology",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand measures of biodiversity",
+            "Analyze threats to biodiversity",
+            "Develop conservation strategies"
+          ],
+          "activities": [
+            {
+              "type": "biodiversity_assessment",
+              "duration": 30,
+              "description": "Conduct biodiversity survey of school grounds"
+            },
+            {
+              "type": "data_analysis",
+              "duration": 25,
+              "description": "Calculate diversity indices and compare ecosystems"
+            },
+            {
+              "type": "conservation_planning",
+              "duration": 20,
+              "description": "Design conservation plan for local species"
+            },
+            {
+              "type": "presentation",
+              "duration": 5,
+              "description": "Present conservation recommendations"
+            }
+          ],
+          "resources": [
+            "Identification guides",
+            "Quadrats and sampling tools",
+            "GIS mapping software",
+            "Conservation databases"
+          ],
+          "assessment_criteria": [
+            "Biodiversity assessment technique (30%)",
+            "Statistical analysis accuracy (25%)",
+            "Conservation plan quality (30%)",
+            "Presentation effectiveness (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Mathematics: Statistical analysis and indices",
+            "Geography: GIS and spatial analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "ST-BIO-004",
+      "title": "Biotechnology and Applied Biology",
+      "form": "Form 5",
+      "duration_weeks": 8,
+      "learning_outcomes": [
+        "Understand biotechnology principles and applications",
+        "Explore genetic engineering techniques",
+        "Analyze ethical implications of biotechnology",
+        "Investigate medical and agricultural applications"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "ST-BIO-004-01",
+          "title": "Genetic Engineering and CRISPR Technology",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand principles of genetic modification",
+            "Analyze CRISPR-Cas9 mechanism and applications",
+            "Evaluate benefits and risks of genetic engineering"
+          ],
+          "activities": [
+            {
+              "type": "technique_analysis",
+              "duration": 25,
+              "description": "Analyze steps in genetic engineering protocols"
+            },
+            {
+              "type": "virtual_lab",
+              "duration": 30,
+              "description": "Simulate CRISPR gene editing using software"
+            },
+            {
+              "type": "case_study_debate",
+              "duration": 20,
+              "description": "Debate ethical implications of gene editing"
+            },
+            {
+              "type": "application_research",
+              "duration": 5,
+              "description": "Research current applications in medicine"
+            }
+          ],
+          "resources": [
+            "Virtual laboratory software",
+            "Scientific literature databases",
+            "Ethical case studies",
+            "Video demonstrations"
+          ],
+          "assessment_criteria": [
+            "Understanding of genetic engineering (30%)",
+            "Analysis of CRISPR technology (30%)",
+            "Ethical reasoning quality (25%)",
+            "Research and communication (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Chemistry: Molecular techniques and analysis",
+            "Ethics: Bioethics and societal implications"
+          ]
+        }
+      ]
+    }
+  ],
+  "practical_work": {
+    "core_experiments": [
+      "Microscopy and cell observation techniques",
+      "Enzyme kinetics investigation",
+      "DNA extraction and analysis",
+      "Ecological sampling and analysis",
+      "Biotechnology simulation exercises"
+    ],
+    "research_projects": [
+      "Independent biology research investigation",
+      "Literature review on current biological topics",
+      "Scientific poster presentation",
+      "Data collection and statistical analysis"
+    ],
+    "field_studies": [
+      "Local ecosystem biodiversity survey",
+      "Water quality assessment",
+      "Plant population dynamics study",
+      "Conservation area evaluation"
+    ]
+  },
+  "assessment_framework": {
+    "formative_assessments": [
+      "Weekly laboratory reports",
+      "Conceptual understanding checks",
+      "Peer review activities",
+      "Research progress updates"
+    ],
+    "summative_assessments": [
+      "Unit examinations (40%)",
+      "Practical assessments (30%)",
+      "Research project (20%)",
+      "Field study report (10%)"
+    ],
+    "grading_criteria": {
+      "conceptual_understanding": 35,
+      "scientific_inquiry_skills": 30,
+      "data_analysis_and_interpretation": 20,
+      "communication": 15
+    }
+  },
+  "resources": {
+    "textbooks": [
+      "Campbell Biology - Reece et al.",
+      "Molecular Biology of the Cell - Alberts et al.",
+      "Malaysian STPM Biology Reference"
+    ],
+    "laboratory_equipment": [
+      "Advanced microscopy systems",
+      "Molecular biology equipment",
+      "Field sampling tools",
+      "Computer-based data acquisition"
+    ],
+    "digital_resources": [
+      "Virtual laboratory simulations",
+      "Bioinformatics databases",
+      "Scientific literature access",
+      "Statistical analysis software"
+    ]
+  },
+  "career_connections": [
+    "Research biologist",
+    "Biotechnology scientist",
+    "Medical researcher",
+    "Environmental consultant",
+    "Genetic counselor"
+  ],
+  "cross_curricular_integration": {
+    "chemistry": "Biochemistry and molecular interactions",
+    "physics": "Biophysics and imaging techniques",
+    "mathematics": "Biostatistics and mathematical modeling",
+    "environmental_science": "Ecological applications and conservation"
+  }
+}

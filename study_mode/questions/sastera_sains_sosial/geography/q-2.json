@@ -1,0 +1,26 @@
+{
+  "id": "geography_sastera_sains_sosial_002",
+  "type": "multiple_choice",
+  "question": "What type of climate does Malaysia have?",
+  "options": ["Tropical rainforest climate", "Desert climate", "Temperate climate", "Arctic climate"],
+  "answer": "Tropical rainforest climate",
+  "explanation": {
+    "en": "Malaysia has a tropical rainforest climate characterized by high temperatures, high humidity, and abundant rainfall throughout the year.",
+    "bm": "Malaysia mempunyai iklim hutan hujan tropika yang dicirikan oleh suhu tinggi, kelembapan tinggi, dan hujan yang banyak sepanjang tahun."
+  },
+  "hint": {
+    "en": "Think about Malaysia's location near the equator",
+    "bm": "Fikirkan tentang lokasi Malaysia berhampiran khatulistiwa"
+  },
+  "difficulty": "easy",
+  "xp_value": 15,
+  "subject": "geography",
+  "program": "sastera_sains_sosial",
+  "topic": "climate",
+  "subtopic": "tropical_climate",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

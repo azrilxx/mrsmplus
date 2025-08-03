@@ -1,0 +1,26 @@
+{
+  "id": "accounting_perdagangan_keusahawanan_001",
+  "type": "multiple_choice",
+  "question": "What is the accounting equation?",
+  "options": ["Assets = Liabilities + Equity", "Income = Revenue - Expenses", "Profit = Sales - Costs", "Cash = Receipts - Payments"],
+  "answer": "Assets = Liabilities + Equity",
+  "explanation": {
+    "en": "The fundamental accounting equation states that Assets = Liabilities + Owner's Equity. This equation must always balance in double-entry bookkeeping.",
+    "bm": "Persamaan perakaunan asas menyatakan bahawa Aset = Liabiliti + Ekuiti Pemilik. Persamaan ini mesti sentiasa seimbang dalam simpan kira catatan berganda."
+  },
+  "hint": {
+    "en": "Think about what a company owns versus what it owes",
+    "bm": "Fikirkan tentang apa yang dimiliki syarikat berbanding apa yang terhutang"
+  },
+  "difficulty": "easy",
+  "xp_value": 15,
+  "subject": "accounting",
+  "program": "perdagangan_keusahawanan",
+  "topic": "financial_accounting",
+  "subtopic": "basic_principles",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

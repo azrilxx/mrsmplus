@@ -1,0 +1,69 @@
+{
+  "program": "ulul-albab",
+  "name": "Ulul Albab Program",
+  "description": "Tahfiz-integrated STEM education",
+  "learning_focus": "Tahfiz-integrated STEM education with Islamic values",
+  "subjects": [
+    "Quran & Tajweed",
+    "Tahfiz Al-Quran",
+    "Islamic Studies",
+    "Arabic Language",
+    "Hadith Studies",
+    "Fiqh & Usul Fiqh",
+    "Mathematics",
+    "Physics",
+    "Chemistry",
+    "Biology",
+    "English Language",
+    "Bahasa Malaysia",
+    "Computer Science",
+    "Environmental Science"
+  ],
+  "modules": [
+    "Tahfiz Integration",
+    "Islamic Sciences",
+    "STEM Integration",
+    "Character Building (Akhlaq)",
+    "Da'wah & Communication",
+    "Islamic Leadership",
+    "Interfaith Dialogue",
+    "Community Service (Khidmat Masyarakat)"
+  ],
+  "curriculum_alignment": "Islamic-integrated National Curriculum with Tahfiz specialization",
+  "syllabus_pdf_url": "https://www.mara.gov.my/documents/ulul-albab-curriculum.pdf",
+  "academic_levels": [
+    "Tahfiz Foundation",
+    "Intermediate Tahfiz",
+    "Advanced Tahfiz",
+    "STEM Integration"
+  ],
+  "specializations": [
+    "Tahfiz & Science",
+    "Islamic Studies & Technology",
+    "Da'wah & Communication"
+  ],
+  "assessment_methods": [
+    "Quran Recitation",
+    "Memorization Tests",
+    "Islamic Project Work",
+    "STEM Assessments",
+    "Character Evaluation"
+  ],
+  "graduation_requirements": {
+    "minimum_credits": 140,
+    "quran_memorization": "15 Juz minimum",
+    "compulsory_subjects": 12,
+    "islamic_projects": 2
+  },
+  "career_pathways": [
+    "Islamic Universities",
+    "Religious Leadership",
+    "Islamic Finance",
+    "Halal Industry",
+    "Education Sector"
+  ],
+  "scraped_at": "2025-08-02T23:41:24.412Z",
+  "source": "MARA Official Documentation",
+  "data_version": "2024-2025",
+  "last_updated": "2025-08-02T23:41:24.412Z"
+}

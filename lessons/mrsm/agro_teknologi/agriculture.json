@@ -1,0 +1,488 @@
+{
+  "program": "Agro Teknologi (Agricultural Technology)",
+  "subject": "Agriculture",
+  "curriculum_code": "MRSM-AT-AGR",
+  "year_levels": ["Form 4", "Form 5"],
+  "overview": {
+    "description": "Comprehensive agriculture curriculum focusing on sustainable farming practices, crop science, soil management, and modern agricultural technologies",
+    "duration": "2 years (Form 4-5)",
+    "total_periods": 200,
+    "periods_per_week": 5
+  },
+  "learning_objectives": [
+    "Understand principles of sustainable agriculture and farming systems",
+    "Master crop production techniques and plant nutrition management",
+    "Apply soil science knowledge to improve agricultural productivity",
+    "Integrate modern technologies in agricultural practices",
+    "Develop skills in agricultural planning and farm management"
+  ],
+  "units": [
+    {
+      "unit_id": "AT-AGR-001",
+      "title": "Fundamentals of Agriculture and Plant Science",
+      "form": "Form 4",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand plant anatomy and physiology",
+        "Master essential plant nutrition concepts",
+        "Apply knowledge of plant growth and development",
+        "Identify and classify major crop plants"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "AT-AGR-001-01",
+          "title": "Plant Nutrition and NPK Management",
+          "duration_minutes": 80,
+          "objectives": [
+            "Identify essential plant nutrients and their functions",
+            "Understand NPK (Nitrogen, Phosphorus, Potassium) requirements",
+            "Apply appropriate fertilizer management strategies"
+          ],
+          "activities": [
+            {
+              "type": "demonstration",
+              "duration": 20,
+              "description": "Visual demonstration of nutrient deficiency symptoms in plants"
+            },
+            {
+              "type": "laboratory_work",
+              "duration": 35,
+              "description": "Soil testing for NPK levels and pH analysis"
+            },
+            {
+              "type": "practical_application",
+              "duration": 20,
+              "description": "Calculate fertilizer requirements for different crops"
+            },
+            {
+              "type": "discussion",
+              "duration": 5,
+              "description": "Compare organic vs synthetic fertilizers"
+            }
+          ],
+          "resources": [
+            "Soil testing kits",
+            "Fertilizer samples",
+            "Plant specimens showing deficiency symptoms",
+            "Calculators for fertilizer calculations"
+          ],
+          "assessment_criteria": [
+            "Accuracy in soil testing procedures (30%)",
+            "Correct identification of nutrient deficiencies (25%)",
+            "Fertilizer calculation accuracy (30%)",
+            "Understanding of NPK principles (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Chemistry: Soil pH and chemical reactions",
+            "Biology: Plant physiology and metabolism"
+          ]
+        },
+        {
+          "lesson_id": "AT-AGR-001-02",
+          "title": "Crop Classification and Selection",
+          "duration_minutes": 80,
+          "objectives": [
+            "Classify crops based on different criteria",
+            "Select appropriate crops for specific growing conditions",
+            "Understand crop rotation principles"
+          ],
+          "activities": [
+            {
+              "type": "field_identification",
+              "duration": 25,
+              "description": "Identify and classify crops in the school garden"
+            },
+            {
+              "type": "group_project",
+              "duration": 30,
+              "description": "Research and present different crop families and their characteristics"
+            },
+            {
+              "type": "planning_exercise",
+              "duration": 20,
+              "description": "Design a crop rotation plan for sustainable farming"
+            },
+            {
+              "type": "evaluation",
+              "duration": 5,
+              "description": "Assess crop selection criteria for local conditions"
+            }
+          ],
+          "resources": [
+            "Crop identification guides",
+            "Seed samples collection",
+            "Local climate data",
+            "Crop rotation charts"
+          ],
+          "assessment_criteria": [
+            "Crop identification accuracy (35%)",
+            "Understanding of classification systems (25%)",
+            "Quality of rotation plan design (25%)",
+            "Presentation and communication skills (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Biology: Plant taxonomy and genetics",
+            "Geography: Climate and agricultural zones"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "AT-AGR-002",
+      "title": "Soil Science and Management",
+      "form": "Form 4",
+      "duration_weeks": 8,
+      "learning_outcomes": [
+        "Understand soil composition and properties",
+        "Analyze soil health and fertility indicators",
+        "Apply soil conservation and improvement techniques",
+        "Implement sustainable soil management practices"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "AT-AGR-002-01",
+          "title": "Soil Composition and Structure Analysis",
+          "duration_minutes": 80,
+          "objectives": [
+            "Identify soil components and their proportions",
+            "Analyze soil texture and structure",
+            "Understand the relationship between soil properties and plant growth"
+          ],
+          "activities": [
+            {
+              "type": "hands_on_analysis",
+              "duration": 30,
+              "description": "Conduct jar test to determine soil texture composition"
+            },
+            {
+              "type": "microscopy_work",
+              "duration": 25,
+              "description": "Examine soil samples under microscope to identify components"
+            },
+            {
+              "type": "data_collection",
+              "duration": 20,
+              "description": "Measure and record soil characteristics from different locations"
+            },
+            {
+              "type": "analysis_discussion",
+              "duration": 5,
+              "description": "Correlate soil properties with crop suitability"
+            }
+          ],
+          "resources": [
+            "Soil sample collection jars",
+            "Microscopes and slides",
+            "Measuring cylinders",
+            "Data recording sheets"
+          ],
+          "assessment_criteria": [
+            "Laboratory technique proficiency (30%)",
+            "Accuracy of soil analysis (35%)",
+            "Data collection and recording (20%)",
+            "Understanding of soil-plant relationships (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Chemistry: Soil minerals and chemical properties",
+            "Physics: Soil physics and water movement"
+          ]
+        },
+        {
+          "lesson_id": "AT-AGR-002-02",
+          "title": "Soil Conservation and Improvement Methods",
+          "duration_minutes": 80,
+          "objectives": [
+            "Identify causes and effects of soil erosion",
+            "Apply soil conservation techniques",
+            "Implement soil improvement strategies"
+          ],
+          "activities": [
+            {
+              "type": "field_observation",
+              "duration": 25,
+              "description": "Observe and document soil erosion examples around campus"
+            },
+            {
+              "type": "practical_construction",
+              "duration": 30,
+              "description": "Build small-scale terracing and contouring models"
+            },
+            {
+              "type": "experimental_setup",
+              "duration": 20,
+              "description": "Set up composting trials with different organic materials"
+            },
+            {
+              "type": "planning_session",
+              "duration": 5,
+              "description": "Plan long-term soil improvement strategies"
+            }
+          ],
+          "resources": [
+            "Model building materials",
+            "Organic waste materials",
+            "Measuring tools",
+            "Camera for documentation"
+          ],
+          "assessment_criteria": [
+            "Field observation skills (25%)",
+            "Quality of conservation models (35%)",
+            "Understanding of composting principles (25%)",
+            "Strategic planning abilities (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Environmental Science: Ecosystem conservation",
+            "Geography: Landform management and erosion"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "AT-AGR-003",
+      "title": "Sustainable Farming Systems",
+      "form": "Form 5",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Design and implement sustainable farming systems",
+        "Apply integrated pest management principles",
+        "Utilize renewable energy in agriculture",
+        "Evaluate economic and environmental sustainability"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "AT-AGR-003-01",
+          "title": "Integrated Pest Management (IPM)",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand IPM principles and strategies",
+            "Identify beneficial and harmful insects",
+            "Apply biological control methods"
+          ],
+          "activities": [
+            {
+              "type": "field_survey",
+              "duration": 25,
+              "description": "Survey and identify insects in crop fields"
+            },
+            {
+              "type": "laboratory_identification",
+              "duration": 30,
+              "description": "Use identification keys to classify beneficial vs pest insects"
+            },
+            {
+              "type": "solution_development",
+              "duration": 20,
+              "description": "Develop IPM strategies for specific pest problems"
+            },
+            {
+              "type": "evaluation",
+              "duration": 5,
+              "description": "Compare IPM with conventional pest control methods"
+            }
+          ],
+          "resources": [
+            "Insect collection and identification guides",
+            "Magnifying glasses",
+            "IPM strategy templates",
+            "Pest damage assessment sheets"
+          ],
+          "assessment_criteria": [
+            "Insect identification accuracy (30%)",
+            "Understanding of IPM principles (30%)",
+            "Quality of IPM strategy development (25%)",
+            "Comparative analysis skills (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Biology: Entomology and ecosystem relationships",
+            "Environmental Science: Pesticide impacts and alternatives"
+          ]
+        },
+        {
+          "lesson_id": "AT-AGR-003-02",
+          "title": "Precision Agriculture and Technology Integration",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand GPS and GIS applications in agriculture",
+            "Apply sensor technology for crop monitoring",
+            "Evaluate drone usage in farming operations"
+          ],
+          "activities": [
+            {
+              "type": "technology_demonstration",
+              "duration": 25,
+              "description": "Demonstrate GPS mapping and GIS software for field management"
+            },
+            {
+              "type": "sensor_experimentation",
+              "duration": 30,
+              "description": "Use soil moisture and pH sensors to monitor field conditions"
+            },
+            {
+              "type": "data_analysis",
+              "duration": 20,
+              "description": "Analyze agricultural data and create management recommendations"
+            },
+            {
+              "type": "future_planning",
+              "duration": 5,
+              "description": "Discuss emerging technologies in agriculture"
+            }
+          ],
+          "resources": [
+            "GPS devices",
+            "Soil sensors",
+            "Tablet computers with GIS software",
+            "Data analysis software"
+          ],
+          "assessment_criteria": [
+            "Technology operation proficiency (25%)",
+            "Data collection accuracy (30%)",
+            "Analysis and interpretation skills (30%)",
+            "Understanding of technology applications (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Computer Science: GPS technology and data analysis",
+            "Mathematics: Statistical analysis and mapping"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "AT-AGR-004",
+      "title": "Agricultural Economics and Farm Management",
+      "form": "Form 5",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand agricultural market systems",
+        "Apply farm business planning and budgeting",
+        "Analyze profitability and risk management",
+        "Develop marketing strategies for agricultural products"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "AT-AGR-004-01",
+          "title": "Farm Business Planning and Budgeting",
+          "duration_minutes": 80,
+          "objectives": [
+            "Develop comprehensive farm business plans",
+            "Calculate production costs and profit margins",
+            "Apply financial planning tools"
+          ],
+          "activities": [
+            {
+              "type": "case_study_analysis",
+              "duration": 20,
+              "description": "Analyze successful farm business models"
+            },
+            {
+              "type": "budgeting_exercise",
+              "duration": 35,
+              "description": "Create detailed budgets for different crop enterprises"
+            },
+            {
+              "type": "presentation_preparation",
+              "duration": 20,
+              "description": "Prepare business plan presentations"
+            },
+            {
+              "type": "peer_evaluation",
+              "duration": 5,
+              "description": "Evaluate and provide feedback on business plans"
+            }
+          ],
+          "resources": [
+            "Business plan templates",
+            "Agricultural cost data",
+            "Calculators and spreadsheet software",
+            "Market price information"
+          ],
+          "assessment_criteria": [
+            "Business plan completeness and viability (40%)",
+            "Financial calculation accuracy (30%)",
+            "Presentation quality (20%)",
+            "Understanding of business principles (10%)"
+          ],
+          "cross_curricular_connections": [
+            "Economics: Market analysis and financial planning",
+            "Mathematics: Financial calculations and statistics"
+          ]
+        }
+      ]
+    }
+  ],
+  "practical_work": {
+    "core_experiments": [
+      "Soil testing and analysis procedures",
+      "Plant nutrition trials and fertilizer application",
+      "Crop growth monitoring and data collection",
+      "Pest identification and IPM implementation",
+      "Farm technology operation and maintenance"
+    ],
+    "field_studies": [
+      "Local farm visits and case studies",
+      "Crop production cycle observation",
+      "Soil conservation project implementation",
+      "Market research and price analysis"
+    ],
+    "project_work": [
+      "Sustainable farming system design",
+      "Agricultural technology innovation project",
+      "Farm business plan development",
+      "Community agriculture extension program"
+    ]
+  },
+  "assessment_framework": {
+    "formative_assessments": [
+      "Weekly practical work reports",
+      "Field observation journals",
+      "Technology usage demonstrations",
+      "Peer collaboration evaluations"
+    ],
+    "summative_assessments": [
+      "Unit examinations (35%)",
+      "Practical skills assessments (30%)",
+      "Project work and presentations (25%)",
+      "Field study reports (10%)"
+    ],
+    "grading_criteria": {
+      "technical_knowledge": 35,
+      "practical_skills": 30,
+      "problem_solving": 20,
+      "communication_and_teamwork": 15
+    }
+  },
+  "resources": {
+    "textbooks": [
+      "Principles of Agronomy - Malaysian Agricultural Practices",
+      "Sustainable Farming Systems for Tropical Agriculture",
+      "Soil Science and Plant Nutrition"
+    ],
+    "equipment": [
+      "Soil testing equipment and laboratory tools",
+      "Agricultural sensors and measuring devices",
+      "Field equipment for practical work",
+      "Computer systems with GIS and analysis software"
+    ],
+    "digital_resources": [
+      "Agricultural databases and market information",
+      "Virtual farm simulation software",
+      "Weather monitoring and prediction tools",
+      "Online agricultural extension resources"
+    ]
+  },
+  "career_connections": [
+    "Agricultural engineer",
+    "Farm manager and agricultural consultant",
+    "Soil scientist and agricultural researcher",
+    "Agricultural technology specialist",
+    "Sustainable farming advisor"
+  ],
+  "cross_curricular_integration": {
+    "biology": "Plant and soil biology, ecosystem interactions",
+    "chemistry": "Soil chemistry, fertilizer composition and reactions",
+    "physics": "Agricultural machinery and irrigation systems",
+    "environmental_science": "Sustainable practices and conservation",
+    "economics": "Agricultural markets and farm business management",
+    "technology": "Precision agriculture and digital farming tools"
+  }
+}

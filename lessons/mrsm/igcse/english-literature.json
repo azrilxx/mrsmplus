@@ -1,0 +1,361 @@
+{
+  "program": "IGCSE (International Curriculum)",
+  "subject": "IGCSE English Literature",
+  "curriculum_code": "MRSM-IGCSE-ELIT",
+  "year_levels": ["Form 4", "Form 5"],
+  "overview": {
+    "description": "Cambridge IGCSE English Literature curriculum designed to develop appreciation for literature, critical analysis skills, and cultural understanding through study of diverse literary works",
+    "duration": "2 years (Form 4-5)",
+    "total_periods": 240,
+    "periods_per_week": 6
+  },
+  "learning_objectives": [
+    "Develop appreciation and enjoyment of literature from different cultures and periods",
+    "Master skills in literary analysis and critical interpretation",
+    "Understand literary techniques and their effects",
+    "Express ideas clearly and persuasively in written and oral form",
+    "Make connections between literature and broader cultural contexts"
+  ],
+  "units": [
+    {
+      "unit_id": "IGCSE-ELIT-001",
+      "title": "Poetry Analysis and Appreciation",
+      "form": "Form 4",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Analyze poetic techniques and their effects",
+        "Understand different forms and structures of poetry",
+        "Compare poems from different cultures and time periods",
+        "Develop personal responses to poetry with textual support"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "IGCSE-ELIT-001-01",
+          "title": "Comparative Poetry Analysis: Themes Across Cultures",
+          "duration_minutes": 80,
+          "objectives": [
+            "Compare treatment of universal themes in poems from different cultures",
+            "Analyze how cultural context influences poetic expression",
+            "Develop skills in comparative literary analysis"
+          ],
+          "activities": [
+            {
+              "type": "close_reading_analysis",
+              "duration": 25,
+              "description": "Close reading of selected poems focusing on theme and technique"
+            },
+            {
+              "type": "comparative_discussion",
+              "duration": 30,
+              "description": "Group discussions comparing treatment of themes across cultures"
+            },
+            {
+              "type": "analytical_writing",
+              "duration": 20,
+              "description": "Write comparative analysis paragraphs with textual evidence"
+            },
+            {
+              "type": "peer_review",
+              "duration": 5,
+              "description": "Peer review and feedback on analytical writing"
+            }
+          ],
+          "resources": [
+            "IGCSE Poetry Anthology",
+            "Audio recordings of poetry performances",
+            "Cultural context materials",
+            "Literary analysis guides"
+          ],
+          "assessment_criteria": [
+            "Understanding of poetic techniques (30%)",
+            "Comparative analysis skills (25%)",
+            "Use of textual evidence (25%)",
+            "Written expression and structure (20%)"
+          ],
+          "cross_curricular_connections": [
+            "History: Historical contexts of literature",
+            "Global Perspectives: Cultural understanding and diversity"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "IGCSE-ELIT-002",
+      "title": "Drama Study and Performance",
+      "form": "Form 4",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand dramatic techniques and stagecraft",
+        "Analyze character development and relationships",
+        "Explore different interpretations through performance",
+        "Understand social and historical contexts of dramatic works"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "IGCSE-ELIT-002-01",
+          "title": "Character Analysis Through Performance",
+          "duration_minutes": 80,
+          "objectives": [
+            "Analyze character development and motivation",
+            "Explore different interpretations through dramatic performance",
+            "Understand how performance choices affect meaning"
+          ],
+          "activities": [
+            {
+              "type": "character_analysis",
+              "duration": 20,
+              "description": "Analyze key characters using textual evidence and critical frameworks"
+            },
+            {
+              "type": "performance_workshop",
+              "duration": 35,
+              "description": "Rehearse and perform key scenes with different interpretations"
+            },
+            {
+              "type": "interpretation_comparison",
+              "duration": 20,
+              "description": "Compare different performance interpretations and their effects"
+            },
+            {
+              "type": "critical_reflection",
+              "duration": 5,
+              "description": "Reflect on how performance enhances understanding"
+            }
+          ],
+          "resources": [
+            "Complete dramatic texts for study",
+            "Video recordings of professional performances",
+            "Character analysis worksheets",
+            "Performance space and basic props"
+          ],
+          "assessment_criteria": [
+            "Understanding of character and motivation (30%)",
+            "Performance skills and interpretation (25%)",
+            "Comparative analysis of interpretations (25%)",
+            "Critical reflection and evaluation (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Performing Arts: Drama techniques and stagecraft",
+            "Psychology: Character motivation and human behavior"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "IGCSE-ELIT-003",
+      "title": "Prose Fiction Analysis",
+      "form": "Form 5",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Analyze narrative techniques and structure",
+        "Understand character development and relationships",
+        "Explore themes and their development",
+        "Understand cultural and social contexts of prose fiction"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "IGCSE-ELIT-003-01",
+          "title": "Narrative Technique and Reader Response",
+          "duration_minutes": 80,
+          "objectives": [
+            "Analyze narrative perspective and its effects on reader understanding",
+            "Understand how authors manipulate reader response",
+            "Explore the relationship between narrative technique and theme"
+          ],
+          "activities": [
+            {
+              "type": "narrative_analysis",
+              "duration": 25,
+              "description": "Analyze narrative perspective and technique in key passages"
+            },
+            {
+              "type": "reader_response_discussion",
+              "duration": 30,
+              "description": "Discuss how narrative choices affect reader interpretation"
+            },
+            {
+              "type": "creative_response",
+              "duration": 20,
+              "description": "Rewrite passages from different narrative perspectives"
+            },
+            {
+              "type": "technique_evaluation",
+              "duration": 5,
+              "description": "Evaluate effectiveness of different narrative techniques"
+            }
+          ],
+          "resources": [
+            "Selected prose fiction texts",
+            "Narrative technique guides",
+            "Reader response theory materials",
+            "Creative writing materials"
+          ],
+          "assessment_criteria": [
+            "Understanding of narrative techniques (35%)",
+            "Analysis of reader response (25%)",
+            "Creative application of concepts (25%)",
+            "Evaluation and critical thinking (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Psychology: Reader psychology and response",
+            "Media Studies: Narrative in different media forms"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "IGCSE-ELIT-004",
+      "title": "Literary Criticism and Independent Study",
+      "form": "Form 5",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Apply different critical approaches to literary analysis",
+        "Conduct independent research on literary topics",
+        "Develop sophisticated analytical writing skills",
+        "Understand the role of context in literary interpretation"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "IGCSE-ELIT-004-01",
+          "title": "Independent Literary Investigation",
+          "duration_minutes": 80,
+          "objectives": [
+            "Conduct independent research on chosen literary topic",
+            "Apply appropriate critical frameworks to analysis",
+            "Present findings in clear, well-structured format"
+          ],
+          "activities": [
+            {
+              "type": "research_planning",
+              "duration": 15,
+              "description": "Plan independent research project with clear focus and methodology"
+            },
+            {
+              "type": "research_execution",
+              "duration": 40,
+              "description": "Conduct research using primary and secondary sources"
+            },
+            {
+              "type": "analysis_synthesis",
+              "duration": 20,
+              "description": "Synthesize research findings into coherent analysis"
+            },
+            {
+              "type": "presentation_preparation",
+              "duration": 5,
+              "description": "Prepare presentation of research findings"
+            }
+          ],
+          "resources": [
+            "Access to literary databases and criticism",
+            "Research methodology guides",
+            "Literary theory and criticism texts",
+            "Presentation tools and materials"
+          ],
+          "assessment_criteria": [
+            "Research planning and methodology (25%)",
+            "Use of sources and evidence (30%)",
+            "Analysis depth and sophistication (30%)",
+            "Presentation and communication (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Research Methods: Academic research skills",
+            "History: Historical literary contexts"
+          ]
+        }
+      ]
+    }
+  ],
+  "literary_texts": {
+    "poetry_selection": [
+      "Poems from IGCSE Poetry Anthology representing diverse cultures",
+      "Contemporary and classical poetry from different continents",
+      "Poems exploring universal themes with cultural variations",
+      "Works by both established and emerging poets"
+    ],
+    "drama_texts": [
+      "Shakespeare plays (Romeo and Juliet, Macbeth, or others)",
+      "Modern drama from different cultural backgrounds",
+      "Plays exploring social and political themes",
+      "Works suitable for performance and analysis"
+    ],
+    "prose_fiction": [
+      "Novels and short stories from diverse authors",
+      "Works representing different time periods and cultures",
+      "Fiction exploring universal themes and human experiences",
+      "Texts suitable for detailed literary analysis"
+    ]
+  },
+  "igcse_preparation": {
+    "assessment_objectives": [
+      "AO1: Show detailed knowledge and understanding of literary texts",
+      "AO2: Understand how writers achieve effects through language, structure and form",
+      "AO3: Explore relationships and comparisons between texts",
+      "AO4: Relate texts to their social, cultural and historical contexts"
+    ],
+    "examination_structure": [
+      "Paper 1: Poetry and Prose (1 hour 30 minutes, 50%)",
+      "Paper 2: Drama (1 hour 30 minutes, 50%)",
+      "Coursework Option: Portfolio of written work (100%)"
+    ],
+    "assessment_skills": [
+      "Close textual analysis with supporting quotations",
+      "Comparative analysis across texts and genres",
+      "Understanding of literary techniques and effects",
+      "Contextual understanding and cultural awareness"
+    ]
+  },
+  "assessment_framework": {
+    "formative_assessments": [
+      "Weekly close reading exercises and annotations",
+      "Regular comparative analysis tasks",
+      "Peer review and discussion sessions",
+      "Creative response and interpretation activities"
+    ],
+    "summative_assessments": [
+      "Mock IGCSE examinations (40%)",
+      "Coursework portfolio (if applicable) (30%)",
+      "Extended analytical essays (20%)",
+      "Oral presentation and discussion (10%)"
+    ],
+    "grading_criteria": {
+      "knowledge_and_understanding": 30,
+      "analysis_and_interpretation": 35,
+      "comparison_and_context": 20,
+      "expression_and_communication": 15
+    }
+  },
+  "resources": {
+    "textbooks": [
+      "Cambridge IGCSE English Literature Complete Coursebook",
+      "IGCSE Poetry Anthology",
+      "Selected drama and prose texts for detailed study"
+    ],
+    "digital_resources": [
+      "Online literary databases and critical resources",
+      "Audio and video recordings of literary performances",
+      "Interactive literary analysis tools",
+      "Virtual library access for research"
+    ],
+    "supplementary_materials": [
+      "Literary criticism and theory guides",
+      "Cultural context materials and documentaries",
+      "Creative writing and response materials",
+      "Past papers and mark scheme collections"
+    ]
+  },
+  "career_connections": [
+    "Journalism and media writing",
+    "Publishing and editorial work",
+    "Education and literary scholarship",
+    "Creative writing and authorship",
+    "Cultural criticism and arts administration"
+  ],
+  "university_preparation": {
+    "english_programs": "Strong foundation for A-level English Literature and university study",
+    "humanities_disciplines": "Critical thinking and analytical writing skills",
+    "creative_writing": "Understanding of literary techniques and forms",
+    "cultural_studies": "Appreciation of diverse cultural perspectives",
+    "international_recognition": "Globally recognized qualification for university admission"
+  }
+}

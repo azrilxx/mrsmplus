@@ -1,0 +1,26 @@
+{
+  "id": "cs_sains_teknologi_001",
+  "type": "multiple_choice",
+  "question": "What does CPU stand for?",
+  "options": ["Central Processing Unit", "Computer Processing Unit", "Central Program Unit", "Computer Program Unit"],
+  "answer": "Central Processing Unit",
+  "explanation": {
+    "en": "CPU stands for Central Processing Unit, which is the main component of a computer that performs most processing tasks.",
+    "bm": "CPU bermaksud Unit Pemprosesan Pusat, yang merupakan komponen utama komputer yang melaksanakan kebanyakan tugas pemprosesan."
+  },
+  "hint": {
+    "en": "Think of the 'brain' of the computer",
+    "bm": "Fikirkan 'otak' komputer"
+  },
+  "difficulty": "easy",
+  "xp_value": 10,
+  "subject": "computer_science",
+  "program": "sains_teknologi",
+  "topic": "computer_hardware",
+  "subtopic": "components",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

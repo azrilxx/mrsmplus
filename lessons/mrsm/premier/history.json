@@ -1,0 +1,322 @@
+{
+  "program": "Premier (Balanced Curriculum)",
+  "subject": "History",
+  "curriculum_code": "MRSM-PREM-HIS",
+  "year_levels": ["Form 4", "Form 5"],
+  "overview": {
+    "description": "Comprehensive history curriculum that balances Malaysian history with global perspectives, emphasizing critical thinking, source analysis, and understanding historical connections to contemporary issues",
+    "duration": "2 years (Form 4-5)",
+    "total_periods": 200,
+    "periods_per_week": 5
+  },
+  "learning_objectives": [
+    "Understand Malaysian history within global historical contexts",
+    "Develop skills in historical source analysis and interpretation",
+    "Apply historical thinking to analyze cause and effect relationships",
+    "Connect historical knowledge to contemporary issues and challenges",
+    "Appreciate diverse perspectives and cultural contributions to history"
+  ],
+  "units": [
+    {
+      "unit_id": "PREM-HIS-001",
+      "title": "Malaysia in the Age of Exploration and Trade",
+      "form": "Form 4",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand Malaysia's role in global trade networks",
+        "Analyze the impact of external influences on local societies",
+        "Evaluate the transformation of traditional kingdoms",
+        "Compare Malaysian experiences with other Southeast Asian regions"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "PREM-HIS-001-01",
+          "title": "The Malacca Sultanate in Global Context",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand Malacca's strategic position in global trade",
+            "Analyze the multicultural nature of Malaccan society",
+            "Evaluate the Sultanate's diplomatic relationships"
+          ],
+          "activities": [
+            {
+              "type": "map_analysis",
+              "duration": 20,
+              "description": "Analyze trade route maps showing Malacca's global connections"
+            },
+            {
+              "type": "primary_source_investigation",
+              "duration": 30,
+              "description": "Examine accounts from Chinese, Arab, and European traders"
+            },
+            {
+              "type": "comparative_study",
+              "duration": 25,
+              "description": "Compare Malacca with contemporary trading cities worldwide"
+            },
+            {
+              "type": "legacy_discussion",
+              "duration": 5,
+              "description": "Discuss Malacca's influence on modern Malaysian society"
+            }
+          ],
+          "resources": [
+            "Historical trade route maps",
+            "Primary source documents from multiple perspectives",
+            "Archaeological evidence and artifacts",
+            "Comparative case studies"
+          ],
+          "assessment_criteria": [
+            "Understanding of global trade networks (30%)",
+            "Source analysis skills (25%)",
+            "Comparative thinking ability (25%)",
+            "Connection to modern implications (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Geography: Trade routes and monsoon patterns",
+            "Economics: Historical trade systems and currency"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "PREM-HIS-002",
+      "title": "Colonialism and Resistance in Global Perspective",
+      "form": "Form 4",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Compare colonial experiences across different regions",
+        "Analyze various forms of resistance to colonial rule",
+        "Evaluate the impact of colonial policies on societies",
+        "Understand the global context of decolonization movements"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "PREM-HIS-002-01",
+          "title": "British Colonial Policies: Malaysia and Global Comparisons",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand British colonial administrative systems",
+            "Compare colonial policies in Malaysia with other colonies",
+            "Analyze the economic impact of colonial rule"
+          ],
+          "activities": [
+            {
+              "type": "policy_comparison_chart",
+              "duration": 25,
+              "description": "Create comparative charts of colonial policies across regions"
+            },
+            {
+              "type": "case_study_analysis",
+              "duration": 30,
+              "description": "Analyze specific colonial policies and their impacts"
+            },
+            {
+              "type": "perspective_role_play",
+              "duration": 20,
+              "description": "Role-play different stakeholder perspectives on colonial policies"
+            },
+            {
+              "type": "modern_connections",
+              "duration": 5,
+              "description": "Connect colonial legacies to contemporary issues"
+            }
+          ],
+          "resources": [
+            "Colonial government documents and reports",
+            "Comparative case studies from different colonies",
+            "Economic data and statistical records",
+            "Maps showing colonial administrative divisions"
+          ],
+          "assessment_criteria": [
+            "Comparative analysis depth (35%)",
+            "Understanding of policy impacts (25%)",
+            "Multiple perspective awareness (25%)",
+            "Connection to contemporary issues (15%)"
+          ],
+          "cross_curricular_connections": [
+            "Economics: Colonial economic systems and trade",
+            "Political Science: Governance and administration"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "PREM-HIS-003",
+      "title": "Independence Movements and Nation Building",
+      "form": "Form 5",
+      "duration_weeks": 12,
+      "learning_outcomes": [
+        "Understand the development of Malaysian nationalism",
+        "Compare independence movements across different countries",
+        "Analyze challenges in post-independence nation building",
+        "Evaluate Malaysia's role in regional and international affairs"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "PREM-HIS-003-01",
+          "title": "Malaysian Independence in Global Context",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand the process of Malaysian independence",
+            "Compare with other decolonization movements",
+            "Analyze factors contributing to peaceful transition"
+          ],
+          "activities": [
+            {
+              "type": "timeline_construction",
+              "duration": 20,
+              "description": "Create parallel timelines of independence movements globally"
+            },
+            {
+              "type": "negotiation_simulation",
+              "duration": 35,
+              "description": "Simulate independence negotiations with different stakeholders"
+            },
+            {
+              "type": "comparative_analysis",
+              "duration": 20,
+              "description": "Compare Malaysian independence with other nations"
+            },
+            {
+              "type": "legacy_reflection",
+              "duration": 5,
+              "description": "Reflect on the lasting impact of independence agreements"
+            }
+          ],
+          "resources": [
+            "Independence negotiation documents",
+            "Comparative case studies of decolonization",
+            "Biographical materials on independence leaders",
+            "Constitutional documents and agreements"
+          ],
+          "assessment_criteria": [
+            "Understanding of independence process (30%)",
+            "Comparative analysis quality (25%)",
+            "Simulation participation (25%)",
+            "Reflection on historical significance (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Civics: Constitutional law and governance",
+            "International Relations: Diplomacy and negotiation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "PREM-HIS-004",
+      "title": "Malaysia in the Modern World",
+      "form": "Form 5",
+      "duration_weeks": 10,
+      "learning_outcomes": [
+        "Understand Malaysia's development since independence",
+        "Analyze Malaysia's role in international organizations",
+        "Evaluate challenges and achievements in nation building",
+        "Connect historical development to contemporary global issues"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "PREM-HIS-004-01",
+          "title": "Malaysia's Economic Development and Transformation",
+          "duration_minutes": 80,
+          "objectives": [
+            "Understand Malaysia's economic transformation since 1957",
+            "Analyze development policies and their impacts",
+            "Compare Malaysia's development with other emerging economies"
+          ],
+          "activities": [
+            {
+              "type": "data_analysis_project",
+              "duration": 25,
+              "description": "Analyze economic data showing Malaysia's development trajectory"
+            },
+            {
+              "type": "policy_evaluation",
+              "duration": 30,
+              "description": "Evaluate major development policies and their effectiveness"
+            },
+            {
+              "type": "comparative_study",
+              "duration": 20,
+              "description": "Compare Malaysia's development with other Asian nations"
+            },
+            {
+              "type": "future_planning",
+              "duration": 5,
+              "description": "Discuss implications for Malaysia's future development"
+            }
+          ],
+          "resources": [
+            "Economic development statistics and reports",
+            "Government policy documents",
+            "Comparative development case studies",
+            "Current news and analysis materials"
+          ],
+          "assessment_criteria": [
+            "Data analysis accuracy (30%)",
+            "Policy evaluation depth (25%)",
+            "Comparative understanding (25%)",
+            "Future thinking quality (20%)"
+          ],
+          "cross_curricular_connections": [
+            "Economics: Development economics and policy",
+            "Geography: Regional development patterns"
+          ]
+        }
+      ]
+    }
+  ],
+  "assessment_framework": {
+    "formative_assessments": [
+      "Weekly source analysis exercises",
+      "Historical thinking skills development",
+      "Current events connection activities",
+      "Peer discussion and debate participation"
+    ],
+    "summative_assessments": [
+      "Unit examinations with essay and source analysis (45%)",
+      "Research project on chosen historical topic (25%)",
+      "Historical investigation portfolio (20%)",
+      "Oral presentation on historical connections (10%)"
+    ],
+    "grading_criteria": {
+      "historical_knowledge": 30,
+      "source_analysis_skills": 25,
+      "critical_thinking": 25,
+      "communication": 20
+    }
+  },
+  "resources": {
+    "textbooks": [
+      "Malaysian History in Global Context",
+      "Historical Thinking and Source Analysis",
+      "Comparative Studies in Decolonization"
+    ],
+    "equipment": [
+      "Historical document collections",
+      "Maps and timeline materials",
+      "Audio-visual equipment",
+      "Research materials and databases"
+    ],
+    "digital_resources": [
+      "Online historical archives",
+      "Virtual museum collections",
+      "Historical simulation software",
+      "Current events databases"
+    ]
+  },
+  "career_connections": [
+    "Historical research and academia",
+    "International relations and diplomacy",
+    "Cultural heritage and museum work",
+    "Journalism and media analysis",
+    "Public policy and governance"
+  ],
+  "cross_curricular_integration": {
+    "geography": "Historical geography and spatial analysis",
+    "economics": "Historical economic development",
+    "political_science": "Political development and governance",
+    "sociology": "Social change and cultural transformation",
+    "international_studies": "Global connections and relationships"
+  }
+}

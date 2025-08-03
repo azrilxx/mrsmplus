@@ -1,0 +1,26 @@
+{
+  "id": "env_agro_teknologi_001",
+  "type": "multiple_choice",
+  "question": "What is the main cause of global warming?",
+  "options": ["Greenhouse gas emissions", "Solar radiation", "Ocean currents", "Volcanic eruptions"],
+  "answer": "Greenhouse gas emissions",
+  "explanation": {
+    "en": "Global warming is primarily caused by increased greenhouse gas emissions from human activities, which trap heat in the atmosphere.",
+    "bm": "Pemanasan global terutamanya disebabkan oleh peningkatan pelepasan gas rumah hijau daripada aktiviti manusia, yang memerangkap haba dalam atmosfera."
+  },
+  "hint": {
+    "en": "Think about gases that trap heat in the atmosphere",
+    "bm": "Fikirkan tentang gas yang memerangkap haba dalam atmosfera"
+  },
+  "difficulty": "easy",
+  "xp_value": 15,
+  "subject": "environmental_science",
+  "program": "agro_teknologi",
+  "topic": "climate_change",
+  "subtopic": "global_warming",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}
