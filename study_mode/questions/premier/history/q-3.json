@@ -1,0 +1,25 @@
+{
+  "id": "history_premier_3",
+  "type": "true_false",
+  "question": "Malaysia's independence process was unique compared to other decolonization movements because it was achieved through violent revolution.",
+  "answer": "False",
+  "explanation": {
+    "en": "Malaysia's independence was achieved through peaceful negotiations and constitutional means, unlike many other decolonization movements that involved armed struggle or violent revolution. The process involved careful diplomatic negotiations between British authorities and local leaders.",
+    "bm": "Kemerdekaan Malaysia dicapai melalui rundingan aman dan cara berperlembagaan, tidak seperti banyak gerakan dekolonisasi lain yang melibatkan perjuangan bersenjata atau revolusi kekerasan. Proses ini melibatkan rundingan diplomatik yang teliti antara pihak berkuasa British dan pemimpin tempatan."
+  },
+  "hint": {
+    "en": "Consider the nature of Malaysia's path to independence compared to countries like Algeria or Vietnam.",
+    "bm": "Pertimbangkan sifat laluan Malaysia ke kemerdekaan berbanding dengan negara seperti Algeria atau Vietnam."
+  },
+  "difficulty": "easy",
+  "xp_value": 20,
+  "subject": "history",
+  "program": "premier",
+  "topic": "Independence Movements and Nation Building",
+  "subtopic": "Malaysian Independence in Global Context",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_5",
+    "curriculum": "mrsm"
+  }
+}

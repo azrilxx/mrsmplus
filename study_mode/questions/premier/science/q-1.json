@@ -1,0 +1,31 @@
+{
+  "id": "science_premier_1",
+  "type": "multiple_choice",
+  "question": "According to Newton's Second Law of Motion, if the net force acting on an object increases while the mass remains constant, what happens to the acceleration?",
+  "options": [
+    "Acceleration decreases",
+    "Acceleration increases",
+    "Acceleration remains constant",
+    "Acceleration becomes zero"
+  ],
+  "answer": "Acceleration increases",
+  "explanation": {
+    "en": "Newton's Second Law states that F = ma, so acceleration is directly proportional to force when mass is constant. If force increases, acceleration increases proportionally.",
+    "bm": "Hukum Kedua Newton menyatakan bahawa F = ma, jadi pecutan adalah berkadar terus dengan daya apabila jisim adalah malar. Jika daya bertambah, pecutan bertambah secara berkadar."
+  },
+  "hint": {
+    "en": "Remember the formula F = ma and think about the relationship between force and acceleration.",
+    "bm": "Ingat formula F = ma dan fikirkan hubungan antara daya dan pecutan."
+  },
+  "difficulty": "medium",
+  "xp_value": 25,
+  "subject": "science",
+  "program": "premier",
+  "topic": "Force and Motion",
+  "subtopic": "Newton's Laws of Motion",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

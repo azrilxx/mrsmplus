@@ -1,0 +1,34 @@
+{
+  "id": "history_bitara_1",
+  "type": "multiple_choice",
+  "question": {
+    "en": "Who was the first Prime Minister of Malaysia?",
+    "bm": "Siapakah Perdana Menteri pertama Malaysia?"
+  },
+  "options": [
+    "Tunku Abdul Rahman",
+    "Tun Abdul Razak",
+    "Tun Hussein Onn",
+    "Tun Dr. Mahathir"
+  ],
+  "answer": "Tunku Abdul Rahman",
+  "explanation": {
+    "en": "Tunku Abdul Rahman Putra Al-Haj was Malaysia's first Prime Minister, serving from 1957 to 1970. He played a crucial role in Malaysia's independence and is known as the 'Father of Independence'.",
+    "bm": "Tunku Abdul Rahman Putra Al-Haj adalah Perdana Menteri pertama Malaysia, berkhidmat dari 1957 hingga 1970. Beliau memainkan peranan penting dalam kemerdekaan Malaysia dan dikenali sebagai 'Bapa Kemerdekaan'."
+  },
+  "hint": {
+    "en": "Think about who led Malaysia when it gained independence in 1957",
+    "bm": "Fikir tentang siapa yang memimpin Malaysia ketika mencapai kemerdekaan pada 1957"
+  },
+  "difficulty": "easy",
+  "xp_value": 50,
+  "subject": "history",
+  "program": "bitara",
+  "topic": "Malaysian History",
+  "subtopic": "Independence and Early Leadership",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

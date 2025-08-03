@@ -1,0 +1,28 @@
+{
+  "id": "history_bitara_3",
+  "type": "true_false",
+  "question": {
+    "en": "The Malacca Sultanate was established in the 15th century.",
+    "bm": "Kesultanan Melaka ditubuhkan pada abad ke-15."
+  },
+  "answer": "True",
+  "explanation": {
+    "en": "The Malacca Sultanate was established around 1400 CE by Parameswara, making it a 15th-century establishment. It became a major trading port and Islamic center in Southeast Asia.",
+    "bm": "Kesultanan Melaka ditubuhkan sekitar 1400 Masihi oleh Parameswara, menjadikannya penubuhan abad ke-15. Ia menjadi pelabuhan perdagangan utama dan pusat Islam di Asia Tenggara."
+  },
+  "hint": {
+    "en": "Consider when the 15th century spans and the founding of this important Malay sultanate",
+    "bm": "Pertimbangkan bila abad ke-15 bermula dan penubuhan kesultanan Melayu yang penting ini"
+  },
+  "difficulty": "medium",
+  "xp_value": 50,
+  "subject": "history",
+  "program": "bitara",
+  "topic": "Southeast Asian History",
+  "subtopic": "Early Malay Kingdoms",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

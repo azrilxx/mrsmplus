@@ -1,0 +1,31 @@
+{
+  "id": "english_premier_1",
+  "type": "multiple_choice",
+  "question": "Which reading strategy involves making predictions about the text content before actually reading it?",
+  "options": [
+    "Post-reading strategy",
+    "During-reading strategy", 
+    "Pre-reading strategy",
+    "Speed reading strategy"
+  ],
+  "answer": "Pre-reading strategy",
+  "explanation": {
+    "en": "Pre-reading strategies involve activities done before reading, such as previewing the text, making predictions, and activating prior knowledge to prepare for comprehension.",
+    "bm": "Strategi pra-bacaan melibatkan aktiviti yang dilakukan sebelum membaca, seperti pratonton teks, membuat ramalan, dan mengaktifkan pengetahuan sedia ada untuk persediaan pemahaman."
+  },
+  "hint": {
+    "en": "Think about what 'pre-' means and when predictions about content would be most useful.",
+    "bm": "Fikirkan maksud 'pra-' dan bila ramalan mengenai kandungan akan paling berguna."
+  },
+  "difficulty": "easy",
+  "xp_value": 20,
+  "subject": "english",
+  "program": "premier",
+  "topic": "Academic Reading and Critical Analysis",
+  "subtopic": "Reading Strategies for Academic Success",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

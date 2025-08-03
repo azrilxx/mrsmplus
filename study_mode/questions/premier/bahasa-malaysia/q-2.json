@@ -1,0 +1,25 @@
+{
+  "id": "bahasa_malaysia_premier_2",
+  "type": "short_answer",
+  "question": "Jelaskan tiga unsur penting yang perlu ada dalam pengenalan karangan yang berkesan.",
+  "answer": "Tiga unsur penting dalam pengenalan karangan yang berkesan ialah: 1) Kenyataan pembuka yang menarik perhatian pembaca, 2) Latar belakang atau konteks topik yang dibincangkan, dan 3) Tesis atau pernyataan yang jelas mengenai hujah utama karangan.",
+  "explanation": {
+    "en": "An effective essay introduction should capture attention, provide context, and present a clear thesis statement that guides the entire essay structure.",
+    "bm": "Pengenalan karangan yang berkesan perlu menarik perhatian, memberikan konteks, dan menyampaikan pernyataan tesis yang jelas untuk membimbing keseluruhan struktur karangan."
+  },
+  "hint": {
+    "en": "Consider the purpose of an introduction: to engage, inform, and guide the reader.",
+    "bm": "Pertimbangkan tujuan pengenalan: untuk menarik minat, memaklumkan, dan membimbing pembaca."
+  },
+  "difficulty": "hard",
+  "xp_value": 40,
+  "subject": "bahasa-malaysia",
+  "program": "premier",
+  "topic": "Kemahiran Menulis Kreatif dan Akademik",
+  "subtopic": "Struktur dan Organisasi Karangan",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

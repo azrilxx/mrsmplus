@@ -1,0 +1,25 @@
+{
+  "id": "bahasa_malaysia_premier_3",
+  "type": "true_false",
+  "question": "Novel Malaysia kontemporari hanya boleh dianalisis berdasarkan unsur intrinsik sahaja.",
+  "answer": "Palsu",
+  "explanation": {
+    "en": "Contemporary Malaysian novels should be analyzed using both intrinsic elements (plot, character, setting, theme) and extrinsic elements (historical context, author's background, social issues) for comprehensive understanding.",
+    "bm": "Novel Malaysia kontemporari perlu dianalisis menggunakan unsur intrinsik (plot, watak, latar, tema) dan unsur ekstrinsik (konteks sejarah, latar belakang pengarang, isu sosial) untuk pemahaman yang menyeluruh."
+  },
+  "hint": {
+    "en": "Think about the different approaches to literary analysis and their importance.",
+    "bm": "Fikirkan tentang pendekatan berbeza dalam analisis sastera dan kepentingannya."
+  },
+  "difficulty": "easy",
+  "xp_value": 15,
+  "subject": "bahasa-malaysia",
+  "program": "premier",
+  "topic": "Sastera Malaysia dan Analisis Kritikal",
+  "subtopic": "Analisis Novel Malaysia Kontemporari",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_5",
+    "curriculum": "mrsm"
+  }
+}

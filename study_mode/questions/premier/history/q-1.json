@@ -1,0 +1,31 @@
+{
+  "id": "history_premier_1",
+  "type": "multiple_choice",
+  "question": "What was the primary factor that made Malacca an important trading center in the global trade network during the 15th century?",
+  "options": [
+    "Its large population",
+    "Its strategic location along major trade routes",
+    "Its military strength",
+    "Its agricultural resources"
+  ],
+  "answer": "Its strategic location along major trade routes",
+  "explanation": {
+    "en": "Malacca's strategic position along the Strait of Malacca, a crucial maritime trade route between China and India, made it an essential stopover for merchants from around the world.",
+    "bm": "Kedudukan strategik Melaka di sepanjang Selat Melaka, laluan perdagangan maritim penting antara China dan India, menjadikannya perhentian penting bagi pedagang dari seluruh dunia."
+  },
+  "hint": {
+    "en": "Consider what geographical advantage Malacca had for international maritime trade.",
+    "bm": "Pertimbangkan kelebihan geografi yang dimiliki Melaka untuk perdagangan maritim antarabangsa."
+  },
+  "difficulty": "medium",
+  "xp_value": 25,
+  "subject": "history",
+  "program": "premier",
+  "topic": "Malaysia in the Age of Exploration and Trade",
+  "subtopic": "The Malacca Sultanate in Global Context",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

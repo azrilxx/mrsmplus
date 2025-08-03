@@ -1,0 +1,25 @@
+{
+  "id": "english_premier_2",
+  "type": "short_answer",
+  "question": "Explain the key components that make an academic essay introduction effective and engaging.",
+  "answer": "An effective academic essay introduction should include: 1) A hook or attention-grabbing opening statement, 2) Background information providing context for the topic, 3) A clear thesis statement that presents the main argument or purpose of the essay, and 4) A brief preview of the main points to be discussed.",
+  "explanation": {
+    "en": "These components work together to engage the reader, establish the essay's context and purpose, and provide a roadmap for the discussion that follows.",
+    "bm": "Komponen-komponen ini berfungsi bersama untuk menarik minat pembaca, menetapkan konteks dan tujuan karangan, serta memberikan peta jalan untuk perbincangan yang akan diikuti."
+  },
+  "hint": {
+    "en": "Consider what readers need to understand and feel motivated to continue reading your essay.",
+    "bm": "Pertimbangkan apa yang pembaca perlu faham dan rasa bermotivasi untuk terus membaca karangan anda."
+  },
+  "difficulty": "medium",
+  "xp_value": 30,
+  "subject": "english",
+  "program": "premier",
+  "topic": "Academic Writing and Research",
+  "subtopic": "Essay Structure and Organization",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

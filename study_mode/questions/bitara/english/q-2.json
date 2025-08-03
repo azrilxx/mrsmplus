@@ -1,0 +1,34 @@
+{
+  "id": "english_bitara_2",
+  "type": "multiple_choice",
+  "question": {
+    "en": "What is the correct past tense of the verb 'go'?",
+    "bm": "Apakah bentuk lampau yang betul bagi kata kerja 'go'?"
+  },
+  "options": [
+    "goed",
+    "went",
+    "gone",
+    "going"
+  ],
+  "answer": "went",
+  "explanation": {
+    "en": "The past tense of 'go' is 'went'. This is an irregular verb, so it doesn't follow the typical -ed pattern. 'Gone' is the past participle, and 'going' is the present participle.",
+    "bm": "Bentuk lampau 'go' ialah 'went'. Ini adalah kata kerja tidak teratur, jadi ia tidak mengikut pola biasa -ed. 'Gone' adalah past participle, dan 'going' adalah present participle."
+  },
+  "hint": {
+    "en": "Remember that 'go' is an irregular verb with a unique past tense form",
+    "bm": "Ingat bahawa 'go' adalah kata kerja tidak teratur dengan bentuk lampau yang unik"
+  },
+  "difficulty": "easy",
+  "xp_value": 50,
+  "subject": "english",
+  "program": "bitara",
+  "topic": "Grammar",
+  "subtopic": "Verb Tenses",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

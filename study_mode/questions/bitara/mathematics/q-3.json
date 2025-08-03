@@ -1,0 +1,28 @@
+{
+  "id": "mathematics_bitara_3",
+  "type": "short_answer",
+  "question": {
+    "en": "Solve for x: 3x + 7 = 22. Show your working steps.",
+    "bm": "Selesaikan untuk x: 3x + 7 = 22. Tunjukkan langkah kerja anda."
+  },
+  "answer": "x = 5 (Working: 3x + 7 = 22 → 3x = 22 - 7 → 3x = 15 → x = 15 ÷ 3 → x = 5)",
+  "explanation": {
+    "en": "To solve linear equations, isolate the variable by using inverse operations. First subtract 7 from both sides, then divide by 3 to find x = 5.",
+    "bm": "Untuk menyelesaikan persamaan linear, asingkan pembolehubah dengan menggunakan operasi songsang. Mula-mula tolak 7 dari kedua-dua belah, kemudian bahagi dengan 3 untuk mendapat x = 5."
+  },
+  "hint": {
+    "en": "Use inverse operations to isolate x: subtract first, then divide",
+    "bm": "Gunakan operasi songsang untuk mengasingkan x: tolak dahulu, kemudian bahagi"
+  },
+  "difficulty": "easy",
+  "xp_value": 50,
+  "subject": "mathematics",
+  "program": "bitara",
+  "topic": "Algebraic Expressions",
+  "subtopic": "Linear Equations",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}

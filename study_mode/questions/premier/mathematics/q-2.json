@@ -1,0 +1,25 @@
+{
+  "id": "mathematics_premier_2",
+  "type": "short_answer",
+  "question": "Find the equation of the line that passes through points A(2, 5) and B(6, 13). Express your answer in the form y = mx + c.",
+  "answer": "y = 2x + 1",
+  "explanation": {
+    "en": "First, find the slope: m = (13-5)/(6-2) = 8/4 = 2. Then use point-slope form with point A(2,5): y - 5 = 2(x - 2), which simplifies to y - 5 = 2x - 4, therefore y = 2x + 1.",
+    "bm": "Pertama, cari kecerunan: m = (13-5)/(6-2) = 8/4 = 2. Kemudian gunakan bentuk titik-kecerunan dengan titik A(2,5): y - 5 = 2(x - 2), yang dipermudahkan kepada y - 5 = 2x - 4, oleh itu y = 2x + 1."
+  },
+  "hint": {
+    "en": "Use the slope formula m = (y₂-y₁)/(x₂-x₁), then substitute into the point-slope form.",
+    "bm": "Gunakan formula kecerunan m = (y₂-y₁)/(x₂-x₁), kemudian gantikan ke dalam bentuk titik-kecerunan."
+  },
+  "difficulty": "medium",
+  "xp_value": 30,
+  "subject": "mathematics",
+  "program": "premier",
+  "topic": "Coordinate Geometry",
+  "subtopic": "Lines and Linear Equations",
+  "metadata": {
+    "created_date": "2025-08-03",
+    "level": "form_4",
+    "curriculum": "mrsm"
+  }
+}
