@@ -1,0 +1,45 @@
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .sparkle { 
+        animation: sparkle 2s infinite ease-in-out; 
+        transform-origin: center;
+      }
+      .sparkle:nth-child(2) { animation-delay: 0.2s; }
+      .sparkle:nth-child(3) { animation-delay: 0.4s; }
+      .sparkle:nth-child(4) { animation-delay: 0.6s; }
+      .sparkle:nth-child(5) { animation-delay: 0.8s; }
+      .sparkle:nth-child(6) { animation-delay: 1.0s; }
+      
+      @keyframes sparkle {
+        0%, 100% { opacity: 0; transform: scale(0) rotate(0deg); }
+        50% { opacity: 1; transform: scale(1) rotate(180deg); }
+      }
+    </style>
+  </defs>
+  
+  <!-- Sparkle particles -->
+  <g class="sparkle">
+    <polygon points="10,50 12,54 16,54 13,57 14,61 10,58 6,61 7,57 4,54 8,54" fill="#FFD700"/>
+  </g>
+  
+  <g class="sparkle">
+    <polygon points="40,30 42,34 46,34 43,37 44,41 40,38 36,41 37,37 34,34 38,34" fill="#FF6B6B"/>
+  </g>
+  
+  <g class="sparkle">
+    <polygon points="70,65 72,69 76,69 73,72 74,76 70,73 66,76 67,72 64,69 68,69" fill="#4ECDC4"/>
+  </g>
+  
+  <g class="sparkle">
+    <polygon points="100,25 102,29 106,29 103,32 104,36 100,33 96,36 97,32 94,29 98,29" fill="#95E1D3"/>
+  </g>
+  
+  <g class="sparkle">
+    <polygon points="130,75 132,79 136,79 133,82 134,86 130,83 126,86 127,82 124,79 128,79" fill="#FFA726"/>
+  </g>
+  
+  <g class="sparkle">
+    <polygon points="160,40 162,44 166,44 163,47 164,51 160,48 156,51 157,47 154,44 158,44" fill="#BA68C8"/>
+  </g>
+</svg>

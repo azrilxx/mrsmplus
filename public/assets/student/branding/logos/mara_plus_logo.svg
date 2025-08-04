@@ -1,0 +1,21 @@
+<svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1E40AF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- MARA text -->
+  <text x="5" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="url(#logoGradient)">MARA</text>
+  
+  <!-- Plus symbol -->
+  <circle cx="65" cy="20" r="8" fill="#10B981"/>
+  <path d="M61 20 L69 20 M65 16 L65 24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Decorative Islamic pattern element -->
+  <g transform="translate(85, 12)">
+    <polygon points="8,0 12,6 8,12 4,6" fill="#F59E0B" opacity="0.8"/>
+    <polygon points="16,6 20,12 16,18 12,12" fill="#EF4444" opacity="0.6"/>
+  </g>
+</svg>

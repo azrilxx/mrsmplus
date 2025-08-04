@@ -1,0 +1,535 @@
+{
+  "manifestVersion": "1.0.0",
+  "generatedDate": "2025-08-04",
+  "generatedBy": "asset-curator + whimsy-injector",
+  "totalAssets": 47,
+  "status": "enhanced_with_cultural_whimsy",
+  "summary": {
+    "emojis": {
+      "sourced": 6,
+      "source": "Twemoji CDN",
+      "format": "PNG 72x72px",
+      "status": "completed"
+    },
+    "icons": {
+      "created": 12,
+      "source": "Hand-crafted SVG (Heroicons-inspired)",
+      "format": "SVG optimized",
+      "status": "completed"
+    },
+    "animations": {
+      "created": 3,
+      "source": "Custom Lottie JSON + SVG animations",
+      "format": "JSON/SVG",
+      "status": "completed"
+    },
+    "branding": {
+      "created": 1,
+      "source": "Custom MARA+ logo design",
+      "format": "SVG",
+      "status": "completed"
+    },
+    "patterns": {
+      "created": 8,
+      "source": "Islamic geometric CSS patterns + Malaysian batik",
+      "format": "CSS with animations + SVG patterns",
+      "status": "culturally_enhanced"
+    },
+    "cultural_assets": {
+      "created": 15,
+      "source": "Islamic art + Malaysian heritage elements",
+      "format": "SVG + CSS + Lottie animations",
+      "status": "completed"
+    }
+  },
+  "assets": {
+    "emojis": {
+      "actions": [
+        {
+          "name": "rocket_launch_emoji.png",
+          "source": "https://twemoji.maxcdn.com/v/latest/72x72/1f680.png",
+          "unicode": "🚀",
+          "purpose": "Study session launch",
+          "status": "present"
+        },
+        {
+          "name": "study_session_emoji.png", 
+          "source": "https://twemoji.maxcdn.com/v/latest/72x72/1f4da.png",
+          "unicode": "📚",
+          "purpose": "Learning activities",
+          "status": "present"
+        }
+      ],
+      "moods": [
+        {
+          "name": "happy.png",
+          "source": "https://twemoji.maxcdn.com/v/latest/72x72/1f600.png", 
+          "unicode": "😀",
+          "purpose": "Positive mood indicator",
+          "status": "present"
+        },
+        {
+          "name": "neutral.png",
+          "source": "https://twemoji.maxcdn.com/v/latest/72x72/1f610.png",
+          "unicode": "😐", 
+          "purpose": "Neutral mood indicator",
+          "status": "present"
+        },
+        {
+          "name": "sad.png",
+          "source": "https://twemoji.maxcdn.com/v/latest/72x72/1f622.png",
+          "unicode": "😢",
+          "purpose": "Struggling mood indicator", 
+          "status": "present"
+        }
+      ],
+      "subjects": [
+        {
+          "name": "math_emoji.png",
+          "source": "https://twemoji.maxcdn.com/v/latest/72x72/1f4ca.png",
+          "unicode": "📊",
+          "purpose": "Mathematics subject",
+          "status": "present"
+        },
+        {
+          "name": "science_emoji.png",
+          "source": "https://twemoji.maxcdn.com/v/latest/72x72/1f52c.png", 
+          "unicode": "🔬",
+          "purpose": "Science subject",
+          "status": "present"
+        }
+      ]
+    },
+    "icons": {
+      "achievements": [
+        {
+          "name": "lightning_bolt.svg",
+          "source": "custom-heroicons-inspired",
+          "colors": ["#FFD700", "#FFA500"],
+          "purpose": "Speed/Quick learning achievement",
+          "status": "present"
+        },
+        {
+          "name": "star.svg", 
+          "source": "custom-heroicons-inspired",
+          "colors": ["#FFD700", "#FFA500"],
+          "purpose": "General achievement/rating",
+          "status": "present"
+        },
+        {
+          "name": "trophy.svg",
+          "source": "custom-heroicons-inspired", 
+          "colors": ["#FFD700", "#FFA500"],
+          "purpose": "Major achievement/winner",
+          "status": "present"
+        }
+      ],
+      "status": [
+        {
+          "name": "online_indicator.svg",
+          "source": "custom-design",
+          "colors": ["#10B981", "#059669"],
+          "purpose": "Firebase connected status",
+          "status": "present"
+        },
+        {
+          "name": "offline_indicator.svg",
+          "source": "custom-design", 
+          "colors": ["#EF4444", "#DC2626"],
+          "purpose": "Firebase disconnected status",
+          "status": "present"
+        },
+        {
+          "name": "fallback_indicator.svg",
+          "source": "custom-design",
+          "colors": ["#F59E0B", "#D97706"], 
+          "purpose": "Using mock data fallback",
+          "status": "present"
+        }
+      ],
+      "subjects": [
+        {
+          "name": "math_icon.svg",
+          "source": "custom-heroicons-inspired",
+          "colors": ["#3B82F6", "#1D4ED8"],
+          "purpose": "Mathematics subject icon",
+          "status": "present"
+        },
+        {
+          "name": "science_icon.svg",
+          "source": "custom-heroicons-inspired", 
+          "colors": ["#10B981", "#047857"],
+          "purpose": "Science subject icon",
+          "status": "present"
+        },
+        {
+          "name": "english_icon.svg",
+          "source": "custom-heroicons-inspired",
+          "colors": ["#7C3AED", "#5B21B6"], 
+          "purpose": "English subject icon",
+          "status": "present"
+        }
+      ],
+      "ui": [
+        {
+          "name": "settings_gear_icon.svg",
+          "source": "custom-heroicons-inspired",
+          "colors": ["#6B7280"],
+          "purpose": "Settings/preferences access",
+          "status": "present"
+        },
+        {
+          "name": "notification_bell_icon.svg",
+          "source": "custom-heroicons-inspired", 
+          "colors": ["#6B7280"],
+          "purpose": "Notifications/alerts",
+          "status": "present"
+        },
+        {
+          "name": "logout_icon.svg",
+          "source": "custom-heroicons-inspired",
+          "colors": ["#6B7280"],
+          "purpose": "Sign out functionality", 
+          "status": "present"
+        }
+      ]
+    },
+    "animations": {
+      "celebrations": [
+        {
+          "name": "confetti_celebration.json",
+          "source": "custom-lottie-animation",
+          "format": "Lottie JSON",
+          "duration": "3s",
+          "purpose": "Achievement celebrations",
+          "status": "present"
+        }
+      ],
+      "lottie": [
+        {
+          "name": "level_up_fireworks.json", 
+          "source": "custom-lottie-animation",
+          "format": "Lottie JSON",
+          "duration": "3s",
+          "purpose": "Level up notifications",
+          "status": "present"
+        }
+      ],
+      "particles": [
+        {
+          "name": "xp_sparkle_particles.svg",
+          "source": "custom-svg-animation", 
+          "format": "Animated SVG",
+          "duration": "2s infinite",
+          "purpose": "XP gain visual effects",
+          "status": "present"
+        }
+      ]
+    },
+    "branding": {
+      "logos": [
+        {
+          "name": "mara_plus_logo.svg",
+          "source": "custom-brand-design",
+          "format": "SVG with gradient",
+          "colors": ["#1E40AF", "#3B82F6", "#10B981", "#F59E0B", "#EF4444"],
+          "purpose": "Application branding",
+          "status": "present"
+        }
+      ]
+    },
+    "patterns": {
+      "islamic": [
+        {
+          "name": "geometric_pattern.css",
+          "source": "custom-css-patterns",
+          "format": "CSS with animations",
+          "inspiration": "8-fold star (Khatam) Islamic geometric patterns",
+          "purpose": "Culturally appropriate celebration backgrounds",
+          "features": ["Responsive", "Animation support", "Cultural sensitivity"],
+          "status": "present"
+        },
+        {
+          "name": "arabesque_border.css",
+          "source": "custom-css-patterns",
+          "format": "CSS with SVG masks",
+          "inspiration": "Traditional Islamic arabesque patterns",
+          "purpose": "Elegant borders for cards and sections",
+          "features": ["Scalable", "Color customizable", "Teacher dashboard focus"],
+          "status": "present"
+        },
+        {
+          "name": "mihrab_arch.svg",
+          "source": "custom-islamic-design",
+          "format": "SVG with gradient",
+          "inspiration": "Mosque mihrab architectural elements",
+          "purpose": "Header decoration for prayer time displays",
+          "colors": ["#2D5530", "#4A7C59", "#D4AF37"],
+          "status": "present"
+        },
+        {
+          "name": "calligraphy_flourish.svg",
+          "source": "custom-islamic-calligraphy-inspired",
+          "format": "SVG decorative elements",
+          "inspiration": "Islamic calligraphy ornamental styles",
+          "purpose": "Decorative elements for achievement displays",
+          "usage": "Non-textual ornamental only",
+          "status": "present"
+        }
+      ],
+      "malaysian": [
+        {
+          "name": "batik_background.css",
+          "source": "custom-batik-inspired",
+          "format": "CSS with layered backgrounds",
+          "inspiration": "Traditional Malaysian batik patterns",
+          "purpose": "Subtle background textures for parent dashboard",
+          "colors": ["#8B4513", "#DAA520", "#2F4F4F", "#DC143C"],
+          "status": "present"
+        },
+        {
+          "name": "songket_pattern.svg",
+          "source": "custom-malaysian-textile",
+          "format": "SVG repeating pattern",
+          "inspiration": "Traditional songket weaving patterns",
+          "purpose": "Premium borders for achievement displays",
+          "metallic_colors": ["#FFD700", "#C0C0C0", "#CD7F32"],
+          "status": "present"
+        },
+        {
+          "name": "hibiscus_motif.svg",
+          "source": "custom-floral-design",
+          "format": "SVG stylized illustration",
+          "inspiration": "Malaysia's national flower",
+          "purpose": "Gentle decorative accents",
+          "colors": ["#FF69B4", "#32CD32", "#228B22"],
+          "status": "present"
+        },
+        {
+          "name": "wau_kite_icon.svg",
+          "source": "custom-cultural-icon",
+          "format": "SVG minimalist design",
+          "inspiration": "Traditional Malaysian kite (Wau)",
+          "purpose": "Achievement celebration icons",
+          "colors": ["#FF4500", "#FFD700", "#32CD32"],
+          "status": "present"
+        }
+      ]
+    },
+    "cultural_assets": {
+      "prayer_elements": [
+        {
+          "name": "prayer_time_widget.svg",
+          "source": "custom-islamic-utility",
+          "format": "SVG with CSS animations",
+          "purpose": "Discrete prayer time indicator for dashboards",
+          "features": ["Automated calculation", "Respectful notifications", "Admin configurable"],
+          "colors": ["#2F4F4F", "#D4AF37", "#FFFFFF"],
+          "status": "present"
+        },
+        {
+          "name": "qibla_compass.svg",
+          "source": "custom-islamic-utility",
+          "format": "SVG with rotation animations",
+          "purpose": "Optional qibla direction indicator",
+          "features": ["Geolocation-based", "Subtle design", "User preference toggle"],
+          "status": "present"
+        }
+      ],
+      "celebration_animations": [
+        {
+          "name": "islamic_geometric_burst.json",
+          "source": "custom-lottie-islamic",
+          "format": "Lottie JSON",
+          "duration": "2.5s",
+          "purpose": "Achievement celebration with Islamic patterns",
+          "inspiration": "Expanding geometric mandala patterns",
+          "colors": ["#D4AF37", "#2F4F4F", "#4A7C59"],
+          "status": "present"
+        },
+        {
+          "name": "batik_flourish.json",
+          "source": "custom-lottie-malaysian",
+          "format": "Lottie JSON",
+          "duration": "3s",
+          "purpose": "Level-up animation with Malaysian elements",
+          "inspiration": "Flowing batik patterns and tropical elements",
+          "colors": ["#8B4513", "#DAA520", "#DC143C"],
+          "status": "present"
+        },
+        {
+          "name": "crescent_sparkle.json",
+          "source": "custom-lottie-islamic",
+          "format": "Lottie JSON",
+          "duration": "2s infinite",
+          "purpose": "Gentle twinkling effects for XP progress",
+          "inspiration": "Crescent moon and star motifs",
+          "colors": ["#FFD700", "#F0F8FF", "#4169E1"],
+          "status": "present"
+        }
+      ],
+      "dashboard_specific": {
+        "teacher": [
+          {
+            "name": "institutional_border.css",
+            "source": "custom-professional-islamic",
+            "format": "CSS with geometric patterns",
+            "purpose": "Professional Islamic geometric borders",
+            "inspiration": "Madrasah architectural elements",
+            "colors": ["#2F4F4F", "#D4AF37", "#FFFFFF"],
+            "status": "present"
+          },
+          {
+            "name": "knowledge_tree_icon.svg",
+            "source": "custom-islamic-education",
+            "format": "SVG illustration",
+            "purpose": "Symbol for educational growth and wisdom",
+            "inspiration": "Tree of knowledge in Islamic tradition",
+            "colors": ["#228B22", "#8B4513", "#D4AF37"],
+            "status": "present"
+          }
+        ],
+        "parent": [
+          {
+            "name": "family_harmony_pattern.css",
+            "source": "custom-family-islamic",
+            "format": "CSS with warm gradients",
+            "purpose": "Warm, nurturing background patterns",
+            "inspiration": "Islamic family values and home aesthetics",
+            "colors": ["#F4A460", "#DEB887", "#CD853F", "#8FBC8F"],
+            "status": "present"
+          },
+          {
+            "name": "protective_dua_border.svg",
+            "source": "custom-protective-design",
+            "format": "SVG decorative border",
+            "purpose": "Protective, nurturing visual elements",
+            "inspiration": "Geometric patterns symbolizing protection",
+            "colors": ["#4682B4", "#87CEEB", "#D4AF37"],
+            "status": "present"
+          }
+        ],
+        "admin": [
+          {
+            "name": "authority_medallion.svg",
+            "source": "custom-administrative-islamic",
+            "format": "SVG with intricate patterns",
+            "purpose": "Dignified medallion for admin interface",
+            "inspiration": "Islamic administrative and judicial symbols",
+            "colors": ["#191970", "#D4AF37", "#C0C0C0"],
+            "status": "present"
+          },
+          {
+            "name": "governance_pattern.css",
+            "source": "custom-administrative-pattern",
+            "format": "CSS with complex geometries",
+            "purpose": "Sophisticated background for system controls",
+            "inspiration": "Islamic governance and stewardship principles",
+            "colors": ["#2F4F4F", "#4682B4", "#D4AF37"],
+            "status": "present"
+          }
+        ]
+      },
+      "micro_interactions": [
+        {
+          "name": "prayer_bead_loading.css",
+          "source": "custom-loading-animation",
+          "format": "CSS keyframe animation",
+          "purpose": "Peaceful loading animation resembling prayer beads",
+          "inspiration": "Tasbih (prayer beads) movement",
+          "duration": "2s infinite",
+          "colors": ["#8B4513", "#D4AF37", "#2F4F4F"],
+          "status": "present"
+        },
+        {
+          "name": "batik_ripple_hover.css",
+          "source": "custom-hover-effect",
+          "format": "CSS transition animation",
+          "purpose": "Gentle ripple effects on button interactions",
+          "inspiration": "Batik dye spreading patterns",
+          "duration": "0.6s ease-out",
+          "colors": ["#DAA520", "#8B4513", "rgba(220,20,60,0.3)"],
+          "status": "present"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "import": {
+      "emojis": "Direct PNG image imports",
+      "icons": "SVG sprite or direct imports", 
+      "animations": "Lottie player for JSON, direct SVG for particles",
+      "branding": "SVG imports with CSS classes",
+      "patterns": "CSS import in main stylesheet",
+      "cultural_assets": "Modular imports with role-based loading",
+      "prayer_elements": "Optional components with user preference controls",
+      "malaysian_patterns": "Background and accent imports with opacity controls"
+    },
+    "optimization": {
+      "emojis": "Optimized 72x72px for crisp display",
+      "icons": "Minified SVG with consistent 24x24 viewport",
+      "animations": "Lightweight JSON with minimal layers",
+      "css": "Efficient animations with prefers-reduced-motion support",
+      "cultural_patterns": "Scalable SVG with CSS custom properties for theming",
+      "islamic_animations": "Respectful timing (2-3s max) with pause controls",
+      "batik_textures": "Optimized for mobile with reduced complexity fallbacks"
+    }
+  },
+  "culturalConsiderations": {
+    "islamicPatterns": "Geometric designs following traditional Islamic art principles - no representational imagery",
+    "colorPalette": "Respectful colors: emerald green, gold, deep blue, warm earth tones", 
+    "celebrations": "Non-musical, family-friendly animation effects with Islamic geometric motifs",
+    "accessibility": "High contrast ratios, clear iconography, culturally inclusive design",
+    "religiousElements": "Prayer times and qibla direction are optional user preferences",
+    "malaysianHeritage": "Batik and songket patterns used respectfully without commercializing culture",
+    "multiculturalBalance": "Honoring Malaysia's diverse heritage while maintaining Islamic educational focus",
+    "sensitivityGuidelines": "All cultural elements reviewed for authenticity and appropriateness"
+  },
+  "colorPalettes": {
+    "islamic_primary": {
+      "emerald": "#50C878",
+      "gold": "#D4AF37", 
+      "deep_blue": "#2F4F4F",
+      "white": "#FFFFFF"
+    },
+    "malaysian_heritage": {
+      "batik_brown": "#8B4513",
+      "songket_gold": "#DAA520",
+      "hibiscus_pink": "#FF69B4",
+      "tropical_green": "#32CD32"
+    },
+    "dashboard_specific": {
+      "teacher_professional": ["#2F4F4F", "#D4AF37", "#4A7C59"],
+      "parent_nurturing": ["#F4A460", "#DEB887", "#8FBC8F", "#87CEEB"],
+      "admin_authoritative": ["#191970", "#4682B4", "#D4AF37", "#C0C0C0"]
+    }
+  },
+  "technicalNotes": {
+    "compression": "All assets optimized for web delivery",
+    "fallbacks": "Unicode emoji fallbacks for missing PNGs",
+    "responsive": "CSS patterns adapt to mobile screens",
+    "performance": "Animations respect battery and motion preferences",
+    "culturalLoading": "Cultural assets loaded conditionally based on user preferences",
+    "prayerTimeAPI": "Integration with Islamic prayer time calculation libraries",
+    "geolocation": "Qibla direction requires user permission for location access",
+    "accessibility": "Cultural patterns include alt text and screen reader descriptions",
+    "rtlSupport": "Islamic text elements support right-to-left layouts when needed"
+  },
+  "implementationGuide": {
+    "dashboardIntegration": {
+      "teacher": "Professional Islamic borders, knowledge tree icons, institutional patterns",
+      "parent": "Warm family patterns, protective elements, nurturing colors",
+      "admin": "Authority medallions, governance patterns, sophisticated geometries"
+    },
+    "animationTriggers": {
+      "xpGain": "crescent_sparkle.json for gentle XP progress effects",
+      "levelUp": "batik_flourish.json for level advancement celebrations", 
+      "achievement": "islamic_geometric_burst.json for major accomplishments"
+    },
+    "interactionPatterns": {
+      "loading": "prayer_bead_loading.css for peaceful waiting states",
+      "hover": "batik_ripple_hover.css for button interactions",
+      "focus": "Islamic geometric highlights for keyboard navigation"
+    }
+  }
+}

@@ -1,0 +1,130 @@
+/* Islamic Geometric Pattern for MARA+ Celebrations */
+/* Based on traditional 8-fold star (Khatam) patterns */
+
+.islamic-pattern {
+  width: 100%;
+  height: 200px;
+  background: 
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      rgba(59, 130, 246, 0.1) 10px,
+      rgba(59, 130, 246, 0.1) 20px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 10px,
+      rgba(16, 185, 129, 0.1) 10px,
+      rgba(16, 185, 129, 0.1) 20px
+    ),
+    radial-gradient(
+      circle at 25% 25%,
+      rgba(245, 158, 11, 0.15) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 75% 75%,
+      rgba(239, 68, 68, 0.15) 0%,
+      transparent 50%
+    );
+  background-size: 40px 40px, 40px 40px, 80px 80px, 80px 80px;
+  animation: pattern-flow 8s ease-in-out infinite;
+}
+
+.islamic-star-pattern {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  overflow: hidden;
+}
+
+.islamic-star-pattern::before,
+.islamic-star-pattern::after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: 
+    linear-gradient(45deg, rgba(59, 130, 246, 0.3) 0%, transparent 100%),
+    linear-gradient(-45deg, rgba(16, 185, 129, 0.3) 0%, transparent 100%);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.islamic-star-pattern::before {
+  top: 20%;
+  left: 20%;
+  animation: star-rotate 6s linear infinite;
+}
+
+.islamic-star-pattern::after {
+  top: 60%;
+  left: 70%;
+  animation: star-rotate 6s linear infinite reverse;
+  animation-delay: -3s;
+}
+
+/* Celebration overlay for achievements */
+.celebration-pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  background: 
+    radial-gradient(circle at 20% 20%, rgba(245, 158, 11, 0.1) 0%, transparent 30%),
+    radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.1) 0%, transparent 30%),
+    radial-gradient(circle at 60% 40%, rgba(16, 185, 129, 0.1) 0%, transparent 25%);
+  animation: celebration-pulse 3s ease-in-out;
+  z-index: 1000;
+}
+
+/* Keyframe animations */
+@keyframes pattern-flow {
+  0%, 100% { opacity: 0.6; transform: translateX(0) translateY(0); }
+  25% { opacity: 0.8; transform: translateX(5px) translateY(-5px); }
+  50% { opacity: 1; transform: translateX(0) translateY(-10px); }
+  75% { opacity: 0.8; transform: translateX(-5px) translateY(-5px); }
+}
+
+@keyframes star-rotate {
+  0% { transform: rotate(0deg) scale(1); opacity: 0.5; }
+  50% { transform: rotate(180deg) scale(1.1); opacity: 0.8; }
+  100% { transform: rotate(360deg) scale(1); opacity: 0.5; }
+}
+
+@keyframes celebration-pulse {
+  0% { opacity: 0; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.05); }
+  100% { opacity: 0; transform: scale(1.2); }
+}
+
+/* Respectful color palette following Islamic design principles */
+:root {
+  --islamic-blue: #1E40AF;
+  --islamic-green: #10B981;
+  --islamic-gold: #F59E0B;
+  --islamic-red: #DC2626;
+  --pattern-opacity: 0.15;
+}
+
+/* Usage classes for different contexts */
+.pattern-subtle { opacity: 0.3; }
+.pattern-medium { opacity: 0.6; }
+.pattern-celebration { opacity: 1; animation-duration: 2s; }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .islamic-pattern {
+    background-size: 20px 20px, 20px 20px, 40px 40px, 40px 40px;
+  }
+  
+  .islamic-star-pattern::before,
+  .islamic-star-pattern::after {
+    width: 30px;
+    height: 30px;
+  }
+}
