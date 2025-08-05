@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import StudyLauncher from '../../components/StudyLauncher';
-import SubjectStudyPage from './[subject]';
+import StudySession from './[subject]';
 
 const StudyModePage: React.FC = () => {
   const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
@@ -14,7 +14,7 @@ const StudyModePage: React.FC = () => {
   };
 
   if (selectedSubject) {
-    return <SubjectStudyPage subject={selectedSubject} onBack={handleBackToLauncher} />;
+    return <StudySession subject={selectedSubject} onBack={handleBackToLauncher} />;
   }
 
   return <StudyLauncher onLaunchStudy={handleLaunchStudy} />;

@@ -1,0 +1,41 @@
+{
+  "subject": "English",
+  "form_level": "Form 4",
+  "description": "English language skills and literature",
+  "topics": [
+    {
+      "id": "grammar",
+      "name": "Grammar",
+      "description": "Sentence structure and language rules",
+      "questions": 6,
+      "xp_reward": 12,
+      "difficulty": "medium"
+    },
+    {
+      "id": "vocabulary",
+      "name": "Vocabulary",
+      "description": "Word meanings and usage",
+      "questions": 5,
+      "xp_reward": 10,
+      "difficulty": "easy"
+    },
+    {
+      "id": "comprehension",
+      "name": "Reading Comprehension",
+      "description": "Understanding written texts",
+      "questions": 4,
+      "xp_reward": 16,
+      "difficulty": "medium"
+    },
+    {
+      "id": "writing",
+      "name": "Writing Skills",
+      "description": "Essay structure and composition",
+      "questions": 3,
+      "xp_reward": 20,
+      "difficulty": "hard"
+    }
+  ],
+  "total_questions": 18,
+  "estimated_time": "30 minutes"
+}

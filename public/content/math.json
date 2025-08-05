@@ -1,0 +1,41 @@
+{
+  "subject": "Math",
+  "form_level": "Form 4",
+  "description": "Mathematical concepts and problem solving",
+  "topics": [
+    {
+      "id": "algebra",
+      "name": "Algebra",
+      "description": "Basic algebraic operations and equations",
+      "questions": 5,
+      "xp_reward": 15,
+      "difficulty": "medium"
+    },
+    {
+      "id": "geometry",
+      "name": "Geometry",
+      "description": "Shapes, angles, and spatial relationships",
+      "questions": 4,
+      "xp_reward": 12,
+      "difficulty": "medium"
+    },
+    {
+      "id": "arithmetic",
+      "name": "Arithmetic",
+      "description": "Basic mathematical operations",
+      "questions": 6,
+      "xp_reward": 10,
+      "difficulty": "easy"
+    },
+    {
+      "id": "statistics",
+      "name": "Statistics",
+      "description": "Data analysis and probability",
+      "questions": 3,
+      "xp_reward": 18,
+      "difficulty": "hard"
+    }
+  ],
+  "total_questions": 18,
+  "estimated_time": "25 minutes"
+}

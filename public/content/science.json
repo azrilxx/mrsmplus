@@ -1,0 +1,33 @@
+{
+  "subject": "Science",
+  "form_level": "Form 4",
+  "description": "Scientific concepts and natural phenomena",
+  "topics": [
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "description": "Chemical reactions and molecular structures",
+      "questions": 4,
+      "xp_reward": 16,
+      "difficulty": "medium"
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "description": "Living organisms and life processes",
+      "questions": 5,
+      "xp_reward": 14,
+      "difficulty": "medium"
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "description": "Forces, energy, and motion",
+      "questions": 4,
+      "xp_reward": 18,
+      "difficulty": "hard"
+    }
+  ],
+  "total_questions": 13,
+  "estimated_time": "20 minutes"
+}

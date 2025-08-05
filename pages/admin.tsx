@@ -1,44 +1,105 @@
 import React, { useEffect, useState } from 'react';
 import { useAuth } from '../hooks/useAuth';
-import { useFirebaseWithFallback } from '../hooks/useFirebaseWithFallback';
-import { DashboardData } from '../types/dashboard';
 import { ProtectedRoute } from '../components/auth/ProtectedRoute';
 import { ConnectionStatus } from '../components/dashboard/ConnectionStatus';
+import {
+  getAllUsers,
+  getUsersByRole,
+  getAllStudentProgress,
+  getAllUploads,
+  FirebaseUser,
+  StudentProgress,
+  UploadData
+} from '../firebase/queries';
 
 const AdminDashboard: React.FC = () => {
   const { user, loading } = useAuth();
-  const { getDashboardData, isUsingMockData } = useFirebaseWithFallback();
-  const [dashboardData, setDashboardData] = useState<DashboardData | null>(null);
+  const [allUsers, setAllUsers] = useState<FirebaseUser[]>([]);
+  const [studentProgress, setStudentProgress] = useState<StudentProgress[]>([]);
+  const [uploads, setUploads] = useState<UploadData[]>([]);
   const [dataLoading, setDataLoading] = useState(true);
+  const [isUsingMockData, setIsUsingMockData] = useState(false);
 
   useEffect(() => {
     if (!loading && user) {
-      loadDashboardData();
+      loadAdminData();
     }
   }, [user, loading]);
 
-  const loadDashboardData = async () => {
+  const loadAdminData = async () => {
     try {
       setDataLoading(true);
-      const data = await getDashboardData('admin');
-      setDashboardData(data);
+      
+      // Get all system data
+      const [users, progress, allUploads] = await Promise.all([
+        getAllUsers(),
+        getAllStudentProgress(),
+        getAllUploads()
+      ]);
+      
+      if (users.length > 0) {
+        setAllUsers(users);
+        setStudentProgress(progress);
+        setUploads(allUploads);
+      } else {
+        // Fallback to mock data if no users found
+        setIsUsingMockData(true);
+        setAllUsers([
+          {
+            uid: 'user-1',
+            role: 'student',
+            name: 'Ahmad Rahman',
+            email: 'ahmad@student.mrsm.edu.my',
+            studentId: 'student-1'
+          },
+          {
+            uid: 'user-2',
+            role: 'teacher',
+            name: 'Dr. Siti Aminah',
+            email: 'siti@teacher.mrsm.edu.my'
+          },
+          {
+            uid: 'user-3',
+            role: 'parent',
+            name: 'Encik Rahman',
+            email: 'rahman@parent.mrsm.edu.my',
+            linkedStudentId: 'student-1'
+          }
+        ]);
+        setStudentProgress([
+          {
+            studentId: 'student-1',
+            currentXP: 2450,
+            level: 12,
+            xpToNextLevel: 550,
+            totalXP: 2450,
+            weeklyProgress: 320,
+            lastActivity: new Date(),
+            streakDays: 15,
+            subjectProgress: {},
+            reflectionLogs: []
+          }
+        ]);
+      }
     } catch (error) {
-      console.error('Failed to load dashboard data:', error);
+      console.error('Failed to load admin data:', error);
+      setIsUsingMockData(true);
     } finally {
       setDataLoading(false);
     }
   };
 
   const SystemOverview: React.FC = () => {
-    const mockStats = {
-      totalUsers: 1247,
-      activeToday: 234,
-      totalStudents: 987,
-      totalTeachers: 45,
-      totalParents: 203,
-      totalContent: 89,
-      systemHealth: 98.5
-    };
+    const totalStudents = allUsers.filter(u => u.role === 'student').length;
+    const totalTeachers = allUsers.filter(u => u.role === 'teacher').length;
+    const totalParents = allUsers.filter(u => u.role === 'parent').length;
+    
+    // Calculate active users (those with activity in last 7 days)
+    const weekAgo = new Date();
+    weekAgo.setDate(weekAgo.getDate() - 7);
+    const activeStudents = studentProgress.filter(p => 
+      p.lastActivity && p.lastActivity > weekAgo
+    ).length;
 
     return (
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
@@ -46,7 +107,7 @@ const AdminDashboard: React.FC = () => {
           <div className="flex items-center">
             <div className="text-3xl mr-4">👥</div>
             <div>
-              <div className="text-2xl font-bold text-gray-800">{mockStats.totalUsers.toLocaleString()}</div>
+              <div className="text-2xl font-bold text-gray-800">{allUsers.length.toLocaleString()}</div>
               <div className="text-sm text-gray-600">Total Users</div>
             </div>
           </div>
@@ -56,7 +117,7 @@ const AdminDashboard: React.FC = () => {
           <div className="flex items-center">
             <div className="text-3xl mr-4">📚</div>
             <div>
-              <div className="text-2xl font-bold text-blue-600">{mockStats.totalStudents.toLocaleString()}</div>
+              <div className="text-2xl font-bold text-blue-600">{totalStudents.toLocaleString()}</div>
               <div className="text-sm text-gray-600">Students</div>
             </div>
           </div>
@@ -66,7 +127,7 @@ const AdminDashboard: React.FC = () => {
           <div className="flex items-center">
             <div className="text-3xl mr-4">🍎</div>
             <div>
-              <div className="text-2xl font-bold text-green-600">{mockStats.totalTeachers}</div>
+              <div className="text-2xl font-bold text-green-600">{totalTeachers}</div>
               <div className="text-sm text-gray-600">Teachers</div>
             </div>
           </div>
@@ -74,10 +135,10 @@ const AdminDashboard: React.FC = () => {
         
         <div className="bg-white p-6 rounded-lg shadow-sm border">
           <div className="flex items-center">
-            <div className="text-3xl mr-4">✅</div>
+            <div className="text-3xl mr-4">⚡</div>
             <div>
-              <div className="text-2xl font-bold text-purple-600">{mockStats.systemHealth}%</div>
-              <div className="text-sm text-gray-600">System Health</div>
+              <div className="text-2xl font-bold text-purple-600">{activeStudents}</div>
+              <div className="text-sm text-gray-600">Active This Week</div>
             </div>
           </div>
         </div>
@@ -86,13 +147,6 @@ const AdminDashboard: React.FC = () => {
   };
 
   const UserManagement: React.FC = () => {
-    const mockUsers = [
-      { id: 1, name: 'Ahmad bin Ali', email: 'ahmad@student.mrsm.my', role: 'student', status: 'active', lastActive: '2 hours ago' },
-      { id: 2, name: 'Dr. Siti Aminah', email: 'siti@teacher.mrsm.my', role: 'teacher', status: 'active', lastActive: '1 hour ago' },
-      { id: 3, name: 'Encik Rahman', email: 'rahman@parent.mrsm.my', role: 'parent', status: 'active', lastActive: '3 hours ago' },
-      { id: 4, name: 'Fatimah binti Omar', email: 'fatimah@student.mrsm.my', role: 'student', status: 'inactive', lastActive: '2 days ago' }
-    ];
-
     const getRoleColor = (role: string) => {
       switch (role) {
         case 'student': return 'bg-blue-100 text-blue-800';
@@ -103,8 +157,25 @@ const AdminDashboard: React.FC = () => {
       }
     };
 
+    const getUserStatus = (userId: string, role: string) => {
+      if (role === 'student') {
+        const progress = studentProgress.find(p => p.studentId === userId);
+        if (progress?.lastActivity) {
+          const daysSinceActivity = Math.floor(
+            (new Date().getTime() - progress.lastActivity.getTime()) / (1000 * 60 * 60 * 24)
+          );
+          return daysSinceActivity < 7 ? 'active' : 'inactive';
+        }
+      }
+      return 'unknown';
+    };
+
     const getStatusColor = (status: string) => {
-      return status === 'active' ? 'text-green-600' : 'text-red-600';
+      switch (status) {
+        case 'active': return 'text-green-600';
+        case 'inactive': return 'text-red-600';
+        default: return 'text-gray-600';
+      }
     };
 
     return (
@@ -124,33 +195,42 @@ const AdminDashboard: React.FC = () => {
                 <th className="px-3 py-2 text-left">Email</th>
                 <th className="px-3 py-2 text-left">Role</th>
                 <th className="px-3 py-2 text-left">Status</th>
-                <th className="px-3 py-2 text-left">Last Active</th>
                 <th className="px-3 py-2 text-left">Actions</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200">
-              {mockUsers.map((user) => (
-                <tr key={user.id} className="hover:bg-gray-50">
-                  <td className="px-3 py-2 font-medium text-gray-800">{user.name}</td>
-                  <td className="px-3 py-2 text-gray-600">{user.email}</td>
-                  <td className="px-3 py-2">
-                    <span className={`px-2 py-1 rounded-full text-xs font-medium ${getRoleColor(user.role)}`}>
-                      {user.role}
-                    </span>
-                  </td>
-                  <td className={`px-3 py-2 font-medium ${getStatusColor(user.status)}`}>
-                    {user.status}
-                  </td>
-                  <td className="px-3 py-2 text-gray-500">{user.lastActive}</td>
-                  <td className="px-3 py-2">
-                    <button className="text-blue-600 hover:text-blue-800 mr-2">Edit</button>
-                    <button className="text-red-600 hover:text-red-800">Delete</button>
-                  </td>
-                </tr>
-              ))}
+              {allUsers.slice(0, 10).map((user) => {
+                const status = getUserStatus(user.studentId || user.uid, user.role);
+                return (
+                  <tr key={user.uid} className="hover:bg-gray-50">
+                    <td className="px-3 py-2 font-medium text-gray-800">{user.name}</td>
+                    <td className="px-3 py-2 text-gray-600">{user.email}</td>
+                    <td className="px-3 py-2">
+                      <span className={`px-2 py-1 rounded-full text-xs font-medium ${getRoleColor(user.role)}`}>
+                        {user.role}
+                      </span>
+                    </td>
+                    <td className={`px-3 py-2 font-medium ${getStatusColor(status)}`}>
+                      {status}
+                    </td>
+                    <td className="px-3 py-2">
+                      <button className="text-blue-600 hover:text-blue-800 mr-2">Edit</button>
+                      <button className="text-red-600 hover:text-red-800">Delete</button>
+                    </td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>
+        
+        {allUsers.length === 0 && (
+          <div className="text-center py-8 text-gray-500">
+            <div className="text-4xl mb-2">👥</div>
+            <div>No users found</div>
+            <div className="text-sm">Users will appear here once the system is in use</div>
+          </div>
+        )}
       </div>
     );
   };
@@ -285,40 +365,71 @@ const AdminDashboard: React.FC = () => {
           <div className="mt-6 bg-white p-6 rounded-lg shadow-sm border">
             <h3 className="text-lg font-semibold text-gray-800 mb-4">📈 Recent Activity</h3>
             <div className="space-y-3">
-              <div className="flex items-center justify-between p-3 border rounded">
-                <div className="flex items-center">
-                  <div className="text-xl mr-3">👤</div>
-                  <div>
-                    <div className="font-medium text-gray-800">New user registration</div>
-                    <div className="text-sm text-gray-500">Ahmad bin Hassan registered as student</div>
-                  </div>
+              {uploads.length > 0 ? (
+                <>
+                  {uploads.slice(0, 3).map((upload) => (
+                    <div key={upload.fileId} className="flex items-center justify-between p-3 border rounded">
+                      <div className="flex items-center">
+                        <div className="text-xl mr-3">📤</div>
+                        <div>
+                          <div className="font-medium text-gray-800">Content uploaded</div>
+                          <div className="text-sm text-gray-500">{upload.fileName} - {upload.subject}</div>
+                        </div>
+                      </div>
+                      <span className="text-sm text-gray-400">{upload.uploadDate.toLocaleDateString()}</span>
+                    </div>
+                  ))}
+                  
+                  {allUsers.slice(-2).map((user) => (
+                    <div key={user.uid} className="flex items-center justify-between p-3 border rounded">
+                      <div className="flex items-center">
+                        <div className="text-xl mr-3">👤</div>
+                        <div>
+                          <div className="font-medium text-gray-800">User registered</div>
+                          <div className="text-sm text-gray-500">{user.name} joined as {user.role}</div>
+                        </div>
+                      </div>
+                      <span className="text-sm text-gray-400">Recently</span>
+                    </div>
+                  ))}
+                </>
+              ) : (
+                <div className="text-center py-8 text-gray-500">
+                  <div className="text-4xl mb-2">📊</div>
+                  <div>No recent activity</div>
+                  <div className="text-sm">System activity will appear here</div>
                 </div>
-                <span className="text-sm text-gray-400">2 hours ago</span>
-              </div>
-              
-              <div className="flex items-center justify-between p-3 border rounded">
-                <div className="flex items-center">
-                  <div className="text-xl mr-3">📤</div>
-                  <div>
-                    <div className="font-medium text-gray-800">Content uploaded</div>
-                    <div className="text-sm text-gray-500">Dr. Siti uploaded Mathematics Chapter 6</div>
-                  </div>
-                </div>
-                <span className="text-sm text-gray-400">4 hours ago</span>
-              </div>
-              
-              <div className="flex items-center justify-between p-3 border rounded">
-                <div className="flex items-center">
-                  <div className="text-xl mr-3">🔧</div>
-                  <div>
-                    <div className="font-medium text-gray-800">System maintenance</div>
-                    <div className="text-sm text-gray-500">Database optimization completed</div>
-                  </div>
-                </div>
-                <span className="text-sm text-gray-400">1 day ago</span>
-              </div>
+              )}
             </div>
           </div>
+
+          {studentProgress.length > 0 && (
+            <div className="mt-6 bg-white p-6 rounded-lg shadow-sm border">
+              <h3 className="text-lg font-semibold text-gray-800 mb-4">📊 Student Analytics</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="p-4 bg-blue-50 rounded-lg">
+                  <div className="font-medium text-blue-800 mb-2">Average XP</div>
+                  <div className="text-2xl font-bold text-blue-600">
+                    {Math.round(studentProgress.reduce((sum, p) => sum + p.currentXP, 0) / studentProgress.length)}
+                  </div>
+                </div>
+                
+                <div className="p-4 bg-green-50 rounded-lg">
+                  <div className="font-medium text-green-800 mb-2">Total XP Earned</div>
+                  <div className="text-2xl font-bold text-green-600">
+                    {studentProgress.reduce((sum, p) => sum + p.totalXP, 0).toLocaleString()}
+                  </div>
+                </div>
+                
+                <div className="p-4 bg-purple-50 rounded-lg">
+                  <div className="font-medium text-purple-800 mb-2">Average Streak</div>
+                  <div className="text-2xl font-bold text-purple-600">
+                    {Math.round(studentProgress.reduce((sum, p) => sum + p.streakDays, 0) / studentProgress.length)} days
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </ProtectedRoute>

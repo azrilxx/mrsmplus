@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useAuth } from '../hooks/useAuth';
-import { useFirebaseWithFallback } from '../hooks/useFirebaseWithFallback';
-import { DashboardData, StudyReflection } from '../types/dashboard';
 import { ProtectedRoute } from '../components/auth/ProtectedRoute';
 import { ConnectionStatus } from '../components/dashboard/ConnectionStatus';
 import { 
@@ -9,28 +7,194 @@ import {
   LessonTracker, 
   RecentAnswers 
 } from '../components/dashboard/widgets';
+import { 
+  getStudentProgress, 
+  getUserData, 
+  subscribeToStudentProgress,
+  StudentProgress as FirebaseStudentProgress,
+  StudyReflection
+} from '../firebase/queries';
+import {
+  GamifiedStudentProgress,
+  subscribeToGamifiedProgress,
+  trackDailyStreak,
+  assignDailyMissions,
+  completeMission,
+  initializeGamifiedProgress,
+  updateMissionProgress
+} from '../firebase/gamification';
+import XPBadge from '../components/XPBadge';
+import AchievementPopup from '../components/AchievementPopup';
+import MissionTracker from '../components/MissionTracker';
 
 const StudentDashboard: React.FC = () => {
   const { user, loading } = useAuth();
-  const { getDashboardData, isUsingMockData } = useFirebaseWithFallback();
-  const [dashboardData, setDashboardData] = useState<DashboardData | null>(null);
+  const [studentProgress, setStudentProgress] = useState<FirebaseStudentProgress | null>(null);
+  const [gamifiedProgress, setGamifiedProgress] = useState<GamifiedStudentProgress | null>(null);
+  const [userData, setUserData] = useState<any>(null);
   const [dataLoading, setDataLoading] = useState(true);
+  const [isUsingMockData, setIsUsingMockData] = useState(false);
+  const [showAchievement, setShowAchievement] = useState<string | null>(null);
+  const [levelUpEffect, setLevelUpEffect] = useState(false);
+  const [newLevel, setNewLevel] = useState<number | null>(null);
 
   useEffect(() => {
     if (!loading && user) {
-      loadDashboardData();
+      loadStudentData();
     }
   }, [user, loading]);
 
-  const loadDashboardData = async () => {
+  const loadStudentData = async () => {
     try {
       setDataLoading(true);
-      const data = await getDashboardData('student');
-      setDashboardData(data);
+      
+      // Get user data to find studentId
+      const userInfo = await getUserData(user.uid);
+      setUserData(userInfo);
+      
+      if (userInfo?.studentId) {
+        // Initialize gamified progress if it doesn't exist
+        await initializeGamifiedProgress(userInfo.studentId);
+        
+        // Track daily streak and assign missions
+        await trackDailyStreak(userInfo.studentId);
+        await assignDailyMissions(userInfo.studentId);
+        
+        // Get student progress (legacy)
+        const progress = await getStudentProgress(userInfo.studentId);
+        setStudentProgress(progress);
+        
+        // Set up real-time listener for gamified progress
+        const unsubscribeGamified = subscribeToGamifiedProgress(userInfo.studentId, (updatedProgress) => {
+          setGamifiedProgress(updatedProgress);
+          
+          // Check for level up effects
+          if (updatedProgress?.levelUpEffects?.triggered) {
+            setLevelUpEffect(true);
+            setNewLevel(updatedProgress.levelUpEffects.newLevel);
+            
+            setTimeout(() => {
+              setLevelUpEffect(false);
+              setNewLevel(null);
+            }, 4000);
+          }
+          
+          // Check for new achievements
+          if (updatedProgress?.recentAchievements?.length > 0) {
+            const unviewedAchievement = updatedProgress.recentAchievements.find(a => !a.viewed);
+            if (unviewedAchievement) {
+              setShowAchievement(unviewedAchievement.achievementId);
+            }
+          }
+        });
+        
+        // Set up real-time listener for legacy progress
+        const unsubscribeLegacy = subscribeToStudentProgress(userInfo.studentId, (updatedProgress) => {
+          setStudentProgress(updatedProgress);
+        });
+        
+        return () => {
+          unsubscribeGamified();
+          unsubscribeLegacy();
+        };
+      } else {
+        // Fallback to mock data if no studentId
+        setIsUsingMockData(true);
+        const mockGamifiedData: GamifiedStudentProgress = {
+          studentId: user.uid,
+          xp: 2450,
+          level: 12,
+          lastActiveDate: new Date().toISOString(),
+          currentStreak: 7,
+          longestStreak: 14,
+          achievements: ['badge_first_mission', 'badge_7_day_streak'],
+          activeMissions: [
+            {
+              id: 'mission_1',
+              title: 'Daily Questions Challenge',
+              subject: 'math',
+              type: 'questions',
+              goal: 5,
+              progress: 3,
+              rewardXP: 30,
+              completed: false,
+              dateAssigned: new Date()
+            },
+            {
+              id: 'mission_2',
+              title: 'XP Hunter',
+              subject: 'general',
+              type: 'xp',
+              goal: 50,
+              progress: 35,
+              rewardXP: 25,
+              completed: false,
+              dateAssigned: new Date()
+            }
+          ],
+          completedMissions: [],
+          totalXP: 2450,
+          xpToNextLevel: 550,
+          weeklyProgress: 320,
+          subjectProgress: {
+            'math': {
+              completedLessons: 15,
+              totalLessons: 20,
+              lastAccessed: new Date(),
+              difficulty: 'intermediate' as const,
+              xpEarned: 450
+            }
+          }
+        };
+        setGamifiedProgress(mockGamifiedData);
+        
+        const mockData = {
+          currentXP: 2450,
+          level: 12,
+          xpToNextLevel: 550,
+          totalXP: 2450,
+          weeklyProgress: 320,
+          lastActivity: new Date(),
+          streakDays: 7,
+          subjectProgress: {
+            'Mathematics': {
+              completedLessons: 15,
+              totalLessons: 20,
+              lastAccessed: new Date(),
+              difficulty: 'intermediate' as const
+            }
+          },
+          reflectionLogs: [{
+            id: 'reflection-1',
+            userId: user.uid,
+            date: new Date(),
+            mood: 'good' as const,
+            insights: ['Making good progress', 'Understanding concepts better'],
+            areasForImprovement: ['Time management', 'Practice more problems'],
+            strengths: ['Strong analytical skills', 'Good memorization'],
+            confidenceLevel: 7
+          }]
+        } as FirebaseStudentProgress;
+        setStudentProgress(mockData);
+      }
     } catch (error) {
-      console.error('Failed to load dashboard data:', error);
+      console.error('Failed to load student data:', error);
+      setIsUsingMockData(true);
     } finally {
       setDataLoading(false);
+    }
+  };
+
+  const handleMissionComplete = async (missionId: string) => {
+    if (!userData?.studentId) return;
+    
+    try {
+      const result = await completeMission(userData.studentId, missionId);
+      if (result.success) {
+        console.log(`Mission completed! Awarded ${result.xpAwarded} XP`);
+      }
+    } catch (error) {
+      console.error('Error completing mission:', error);
     }
   };
 
@@ -137,9 +301,7 @@ const StudentDashboard: React.FC = () => {
     );
   }
 
-  const studentData = dashboardData?.student;
-
-  if (!studentData) {
+  if (!studentProgress || !gamifiedProgress) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
@@ -149,6 +311,47 @@ const StudentDashboard: React.FC = () => {
       </div>
     );
   }
+
+  // Transform Firebase data to match widget expectations
+  const xpProgressData = {
+    currentXP: gamifiedProgress.xp,
+    level: gamifiedProgress.level,
+    xpToNextLevel: gamifiedProgress.xpToNextLevel,
+    totalXP: gamifiedProgress.totalXP,
+    weeklyProgress: gamifiedProgress.weeklyProgress
+  };
+
+  const lessonProgressData = Object.entries(studentProgress.subjectProgress || {}).map(([subject, progress]) => ({
+    subject,
+    completedLessons: progress.completedLessons,
+    totalLessons: progress.totalLessons,
+    lastAccessed: progress.lastAccessed,
+    difficulty: progress.difficulty
+  }));
+
+  // Mock recent answers for now (would come from a separate collection)
+  const recentAnswersData = [
+    {
+      id: '1',
+      question: 'What is the derivative of x²?',
+      answer: '2x',
+      isCorrect: true,
+      subject: 'Mathematics',
+      timestamp: new Date(),
+      xpEarned: 15
+    }
+  ];
+
+  const latestReflection = studentProgress.reflectionLogs?.[0] || {
+    id: 'default',
+    userId: user.uid,
+    date: new Date(),
+    mood: 'neutral' as const,
+    insights: ['Continue practicing'],
+    areasForImprovement: ['Stay consistent'],
+    strengths: ['Good effort'],
+    confidenceLevel: 5
+  };
 
   return (
     <ProtectedRoute allowedRoles={['student']}>
@@ -182,23 +385,61 @@ const StudentDashboard: React.FC = () => {
           </div>
         )}
         
+        {/* Gamification Header */}
+        <div className="bg-gradient-to-r from-blue-600 to-purple-700 rounded-xl shadow-lg p-6 mb-6 text-white">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center space-x-6">
+              <XPBadge 
+                currentXP={gamifiedProgress.xp}
+                level={gamifiedProgress.level}
+                xpToNextLevel={gamifiedProgress.xpToNextLevel}
+                leveledUp={levelUpEffect}
+                newLevel={newLevel}
+                animate={levelUpEffect}
+                size="large"
+              />
+              <div>
+                <h2 className="text-2xl font-bold">Level {gamifiedProgress.level} Scholar</h2>
+                <p className="opacity-90">Welcome back, {user.email?.split('@')[0]}!</p>
+                <div className="flex items-center space-x-4 mt-2">
+                  <div className="flex items-center space-x-1">
+                    <span>🔥</span>
+                    <span className="font-medium">{gamifiedProgress.currentStreak} day streak</span>
+                  </div>
+                  <div className="flex items-center space-x-1">
+                    <span>🏆</span>
+                    <span className="font-medium">{gamifiedProgress.achievements.length} achievements</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="text-right">
+              <div className="text-3xl font-bold">{gamifiedProgress.totalXP}</div>
+              <div className="text-sm opacity-90">Total XP</div>
+            </div>
+          </div>
+        </div>
+        
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="lg:col-span-1">
-            <XPProgress data={studentData.xpProgress} />
+            <MissionTracker 
+              missions={gamifiedProgress.activeMissions}
+              onMissionComplete={handleMissionComplete}
+            />
           </div>
           
           <div className="lg:col-span-2">
-            <LessonTracker lessons={studentData.lessonProgress} />
+            <LessonTracker lessons={lessonProgressData} />
           </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
           <div>
-            <RecentAnswers answers={studentData.recentAnswers} />
+            <RecentAnswers answers={recentAnswersData} />
           </div>
           
           <div>
-            <StudyReflectionCard reflection={studentData.studyReflection} />
+            <StudyReflectionCard reflection={latestReflection} />
           </div>
         </div>
 
@@ -230,8 +471,43 @@ const StudentDashboard: React.FC = () => {
             </button>
           </div>
         </div>
+
+        {/* Achievement Badge Display */}
+        <div className="mt-6 bg-white rounded-xl shadow-lg p-6">
+          <h3 className="text-lg font-semibold text-gray-800 mb-4 flex items-center">
+            <span className="text-2xl mr-2">🏆</span>
+            Your Achievements
+          </h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            {gamifiedProgress.achievements.map((achievementId) => (
+              <div key={achievementId} className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center text-2xl mb-2 shadow-lg">
+                  🏆
+                </div>
+                <div className="text-xs font-medium text-gray-600 truncate">
+                  {achievementId.replace('badge_', '').replace('_', ' ')}
+                </div>
+              </div>
+            ))}
+            {Array.from({ length: Math.max(0, 6 - gamifiedProgress.achievements.length) }).map((_, i) => (
+              <div key={`empty-${i}`} className="text-center opacity-50">
+                <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center text-2xl mb-2">
+                  🔒
+                </div>
+                <div className="text-xs text-gray-400">Locked</div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
       </div>
+
+      {/* Achievement Popup */}
+      <AchievementPopup
+        achievementId={showAchievement}
+        visible={!!showAchievement}
+        onClose={() => setShowAchievement(null)}
+      />
     </ProtectedRoute>
   );
 };

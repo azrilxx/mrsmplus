@@ -1,88 +1,102 @@
 import React, { useEffect, useState } from 'react';
 import { useAuth } from '../hooks/useAuth';
-import { useFirebaseWithFallback } from '../hooks/useFirebaseWithFallback';
-import { DashboardData } from '../types/dashboard';
 import { ProtectedRoute } from '../components/auth/ProtectedRoute';
 import { ConnectionStatus } from '../components/dashboard/ConnectionStatus';
+import {
+  getLinkedStudentData,
+  FirebaseUser,
+  StudentProgress
+} from '../firebase/queries';
 
 const ParentDashboard: React.FC = () => {
   const { user, loading } = useAuth();
-  const { getDashboardData, isUsingMockData } = useFirebaseWithFallback();
-  const [dashboardData, setDashboardData] = useState<DashboardData | null>(null);
+  const [linkedStudent, setLinkedStudent] = useState<{user: FirebaseUser, progress: StudentProgress} | null>(null);
   const [dataLoading, setDataLoading] = useState(true);
-  const [selectedChild, setSelectedChild] = useState('child1');
+  const [isUsingMockData, setIsUsingMockData] = useState(false);
 
   useEffect(() => {
     if (!loading && user) {
-      loadDashboardData();
+      loadParentData();
     }
   }, [user, loading]);
 
-  const loadDashboardData = async () => {
+  const loadParentData = async () => {
     try {
       setDataLoading(true);
-      const data = await getDashboardData('parent');
-      setDashboardData(data);
+      
+      // Get linked student data
+      const studentData = await getLinkedStudentData(user.uid);
+      
+      if (studentData) {
+        setLinkedStudent(studentData);
+      } else {
+        // Fallback to mock data if no linked student
+        setIsUsingMockData(true);
+        setLinkedStudent({
+          user: {
+            uid: 'student-1',
+            role: 'student',
+            name: 'Ahmad Rahman',
+            email: 'ahmad@student.mrsm.edu.my',
+            studentId: 'student-1'
+          },
+          progress: {
+            studentId: 'student-1',
+            currentXP: 2450,
+            level: 12,
+            xpToNextLevel: 550,
+            totalXP: 2450,
+            weeklyProgress: 320,
+            lastActivity: new Date(),
+            streakDays: 15,
+            subjectProgress: {
+              'Mathematics': {
+                completedLessons: 15,
+                totalLessons: 20,
+                lastAccessed: new Date(),
+                difficulty: 'intermediate'
+              },
+              'Science': {
+                completedLessons: 12,
+                totalLessons: 18,
+                lastAccessed: new Date(),
+                difficulty: 'advanced'
+              }
+            },
+            reflectionLogs: []
+          }
+        });
+      }
     } catch (error) {
-      console.error('Failed to load dashboard data:', error);
+      console.error('Failed to load parent data:', error);
+      setIsUsingMockData(true);
     } finally {
       setDataLoading(false);
     }
   };
 
   const ProgressOverview: React.FC = () => {
-    const mockChildren = [
-      { id: 'child1', name: 'Ahmad', class: 'Form 4 Cemerlang' },
-      { id: 'child2', name: 'Fatimah', class: 'Form 2 Bestari' }
-    ];
+    if (!linkedStudent) {
+      return (
+        <div className="bg-white p-6 rounded-lg shadow-sm border">
+          <div className="text-center py-8 text-gray-500">
+            <div className="text-4xl mb-2">👨‍👩‍👧‍👦</div>
+            <div>No linked student found</div>
+            <div className="text-sm">Contact admin to link your child's account</div>
+          </div>
+        </div>
+      );
+    }
 
-    const mockProgress = {
-      child1: {
-        name: 'Ahmad',
-        class: 'Form 4 Cemerlang',
-        subjects: [
-          { name: 'Mathematics', progress: 85, grade: 'A' },
-          { name: 'Science', progress: 78, grade: 'B+' },
-          { name: 'English', progress: 92, grade: 'A+' },
-          { name: 'Bahasa Malaysia', progress: 88, grade: 'A' }
-        ],
-        weeklyActivity: 24,
-        totalXP: 1450,
-        streak: 7
-      },
-      child2: {
-        name: 'Fatimah',
-        class: 'Form 2 Bestari',
-        subjects: [
-          { name: 'Mathematics', progress: 72, grade: 'B' },
-          { name: 'Science', progress: 81, grade: 'A-' },
-          { name: 'English', progress: 75, grade: 'B+' },
-          { name: 'Bahasa Malaysia', progress: 79, grade: 'B+' }
-        ],
-        weeklyActivity: 18,
-        totalXP: 980,
-        streak: 4
-      }
-    };
-
-    const currentChild = mockProgress[selectedChild as keyof typeof mockProgress];
+    const { user: student, progress } = linkedStudent;
+    const subjects = Object.entries(progress.subjectProgress || {});
 
     return (
       <div className="space-y-6">
         <div className="bg-white p-6 rounded-lg shadow-sm border">
           <div className="flex justify-between items-center mb-4">
-            <h3 className="text-lg font-semibold text-gray-800">👨‍👩‍👧‍👦 Select Child</h3>
-            <select
-              value={selectedChild}
-              onChange={(e) => setSelectedChild(e.target.value)}
-              className="border rounded-md px-3 py-2 text-sm"
-            >
-              {mockChildren.map(child => (
-                <option key={child.id} value={child.id}>
-                  {child.name} - {child.class}
-                </option>
-              ))}
-            </select>
+            <h3 className="text-lg font-semibold text-gray-800">👨‍👩‍👧‍👦 Child Progress</h3>
+            <div className="text-sm text-gray-600">{student.name}</div>
           </div>
         </div>
 
@@ -91,16 +105,20 @@ const ParentDashboard: React.FC = () => {
             <h4 className="text-md font-semibold text-gray-700 mb-4">📊 Quick Stats</h4>
             <div className="space-y-3">
               <div className="flex justify-between items-center">
-                <span className="text-sm text-gray-600">Weekly Study Hours</span>
-                <span className="font-semibold text-blue-600">{currentChild.weeklyActivity}h</span>
+                <span className="text-sm text-gray-600">Current Level</span>
+                <span className="font-semibold text-blue-600">Level {progress.level}</span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-sm text-gray-600">Total XP Earned</span>
-                <span className="font-semibold text-purple-600">{currentChild.totalXP.toLocaleString()}</span>
+                <span className="font-semibold text-purple-600">{progress.totalXP.toLocaleString()}</span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-sm text-gray-600">Study Streak</span>
-                <span className="font-semibold text-orange-600">{currentChild.streak} days</span>
+                <span className="font-semibold text-orange-600">{progress.streakDays} days</span>
+              </div>
+              <div className="flex justify-between items-center">
+                <span className="text-sm text-gray-600">Weekly Progress</span>
+                <span className="font-semibold text-green-600">+{progress.weeklyProgress} XP</span>
               </div>
             </div>
           </div>
@@ -108,23 +126,34 @@ const ParentDashboard: React.FC = () => {
           <div className="lg:col-span-2 bg-white p-6 rounded-lg shadow-sm border">
             <h4 className="text-md font-semibold text-gray-700 mb-4">📚 Subject Progress</h4>
             <div className="space-y-4">
-              {currentChild.subjects.map((subject, index) => (
-                <div key={index} className="flex items-center justify-between">
-                  <div className="flex-1">
-                    <div className="flex justify-between items-center mb-1">
-                      <span className="text-sm font-medium text-gray-700">{subject.name}</span>
-                      <span className="text-sm font-semibold text-gray-600">{subject.grade}</span>
+              {subjects.length > 0 ? subjects.map(([subjectName, subjectData]) => {
+                const progressPercentage = Math.round((subjectData.completedLessons / subjectData.totalLessons) * 100);
+                return (
+                  <div key={subjectName} className="flex items-center justify-between">
+                    <div className="flex-1">
+                      <div className="flex justify-between items-center mb-1">
+                        <span className="text-sm font-medium text-gray-700">{subjectName}</span>
+                        <span className="text-sm text-gray-600">
+                          {subjectData.completedLessons}/{subjectData.totalLessons} lessons
+                        </span>
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-2">
+                        <div 
+                          className="bg-gradient-to-r from-blue-500 to-purple-600 h-2 rounded-full transition-all duration-300"
+                          style={{ width: `${progressPercentage}%` }}
+                        ></div>
+                      </div>
                     </div>
-                    <div className="w-full bg-gray-200 rounded-full h-2">
-                      <div 
-                        className="bg-gradient-to-r from-blue-500 to-purple-600 h-2 rounded-full transition-all duration-300"
-                        style={{ width: `${subject.progress}%` }}
-                      ></div>
-                    </div>
+                    <span className="ml-4 text-sm font-medium text-gray-600">{progressPercentage}%</span>
                   </div>
-                  <span className="ml-4 text-sm font-medium text-gray-600">{subject.progress}%</span>
+                );
+              }) : (
+                <div className="text-center py-8 text-gray-500">
+                  <div className="text-4xl mb-2">📖</div>
+                  <div>No subject progress available</div>
+                  <div className="text-sm">Encourage your child to start studying!</div>
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </div>
@@ -133,35 +162,56 @@ const ParentDashboard: React.FC = () => {
   };
 
   const RecentActivity: React.FC = () => {
-    const mockActivities = [
-      {
-        date: '2024-01-15',
-        subject: 'Mathematics',
-        activity: 'Completed Chapter 5 Quiz',
-        score: '92%',
-        xp: 150
-      },
-      {
-        date: '2024-01-14',
-        subject: 'Science',
-        activity: 'Study Session - Physics',
-        score: '88%',
-        xp: 120
-      },
-      {
-        date: '2024-01-13',
-        subject: 'English',
-        activity: 'Grammar Practice',
-        score: '95%',
-        xp: 180
+    if (!linkedStudent) {
+      return (
+        <div className="bg-white p-6 rounded-lg shadow-sm border">
+          <h3 className="text-lg font-semibold text-gray-800 mb-4">📝 Recent Activity</h3>
+          <div className="text-center py-8 text-gray-500">
+            <div className="text-4xl mb-2">📊</div>
+            <div>No activity data available</div>
+          </div>
+        </div>
+      );
+    }
+
+    const { progress } = linkedStudent;
+    
+    // Generate basic activity from reflection logs and progress data
+    const activities = [];
+    
+    if (progress.reflectionLogs && progress.reflectionLogs.length > 0) {
+      progress.reflectionLogs.slice(0, 3).forEach(log => {
+        activities.push({
+          date: log.date.toLocaleDateString(),
+          subject: 'Study Reflection',
+          activity: `Completed reflection - feeling ${log.mood}`,
+          score: `${log.confidenceLevel}/10 confidence`,
+          xp: 50
+        });
+      });
+    }
+
+    // Add subject progress activities
+    Object.entries(progress.subjectProgress || {}).forEach(([subject, data]) => {
+      if (data.lastAccessed) {
+        activities.push({
+          date: data.lastAccessed.toLocaleDateString(),
+          subject: subject,
+          activity: `Continued ${subject} lessons`,
+          score: `${data.completedLessons}/${data.totalLessons} completed`,
+          xp: 25
+        });
       }
-    ];
+    });
+
+    // Sort by most recent (mock dates for now)
+    activities.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
     return (
       <div className="bg-white p-6 rounded-lg shadow-sm border">
         <h3 className="text-lg font-semibold text-gray-800 mb-4">📝 Recent Activity</h3>
         <div className="space-y-3">
-          {mockActivities.map((activity, index) => (
+          {activities.length > 0 ? activities.slice(0, 5).map((activity, index) => (
             <div key={index} className="flex items-center justify-between p-3 border rounded hover:bg-gray-50">
               <div className="flex-1">
                 <div className="font-medium text-gray-800">{activity.activity}</div>
@@ -172,7 +222,13 @@ const ParentDashboard: React.FC = () => {
                 <div className="text-sm text-purple-600">+{activity.xp} XP</div>
               </div>
             </div>
-          ))}
+          )) : (
+            <div className="text-center py-8 text-gray-500">
+              <div className="text-4xl mb-2">🎯</div>
+              <div>No recent activity</div>
+              <div className="text-sm">Encourage your child to start studying!</div>
+            </div>
+          )}
         </div>
       </div>
     );
@@ -267,13 +323,35 @@ const ParentDashboard: React.FC = () => {
                 </div>
               </div>
               
-              <div className="p-4 bg-green-50 rounded-lg">
-                <div className="font-medium text-green-800 mb-2">🎉 Celebrate Success</div>
-                <div className="text-sm text-green-700">
-                  Your child has maintained a 7-day study streak! Consider a small reward to 
-                  acknowledge their dedication and consistency.
+              {linkedStudent && linkedStudent.progress.streakDays > 5 && (
+                <div className="p-4 bg-green-50 rounded-lg">
+                  <div className="font-medium text-green-800 mb-2">🎉 Celebrate Success</div>
+                  <div className="text-sm text-green-700">
+                    {linkedStudent.user.name} has maintained a {linkedStudent.progress.streakDays}-day study streak! 
+                    Consider a small reward to acknowledge their dedication and consistency.
+                  </div>
                 </div>
-              </div>
+              )}
+              
+              {linkedStudent && linkedStudent.progress.weeklyProgress > 200 && (
+                <div className="p-4 bg-purple-50 rounded-lg">
+                  <div className="font-medium text-purple-800 mb-2">⚡ Great Progress</div>
+                  <div className="text-sm text-purple-700">
+                    {linkedStudent.user.name} earned {linkedStudent.progress.weeklyProgress} XP this week! 
+                    They're showing excellent engagement with their studies.
+                  </div>
+                </div>
+              )}
+              
+              {linkedStudent && Object.keys(linkedStudent.progress.subjectProgress || {}).length === 0 && (
+                <div className="p-4 bg-yellow-50 rounded-lg">
+                  <div className="font-medium text-yellow-800 mb-2">📚 Getting Started</div>
+                  <div className="text-sm text-yellow-700">
+                    Help {linkedStudent.user.name} explore different subjects on the platform. 
+                    Starting with their favorite subject can build confidence!
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>

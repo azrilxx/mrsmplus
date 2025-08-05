@@ -1,29 +1,98 @@
 import React, { useEffect, useState } from 'react';
 import { useAuth } from '../hooks/useAuth';
-import { useFirebaseWithFallback } from '../hooks/useFirebaseWithFallback';
-import { DashboardData } from '../types/dashboard';
 import { ProtectedRoute } from '../components/auth/ProtectedRoute';
 import { ConnectionStatus } from '../components/dashboard/ConnectionStatus';
+import {
+  getTeacherClasses,
+  getStudentsInClass,
+  getStudentProgressBatch,
+  getTeacherUploads,
+  FirebaseUser,
+  StudentProgress,
+  ClassData,
+  UploadData
+} from '../firebase/queries';
 
 const TeacherDashboard: React.FC = () => {
   const { user, loading } = useAuth();
-  const { getDashboardData, isUsingMockData } = useFirebaseWithFallback();
-  const [dashboardData, setDashboardData] = useState<DashboardData | null>(null);
+  const [classes, setClasses] = useState<ClassData[]>([]);
+  const [students, setStudents] = useState<FirebaseUser[]>([]);
+  const [studentProgress, setStudentProgress] = useState<StudentProgress[]>([]);
+  const [uploads, setUploads] = useState<UploadData[]>([]);
   const [dataLoading, setDataLoading] = useState(true);
+  const [isUsingMockData, setIsUsingMockData] = useState(false);
 
   useEffect(() => {
     if (!loading && user) {
-      loadDashboardData();
+      loadTeacherData();
     }
   }, [user, loading]);
 
-  const loadDashboardData = async () => {
+  const loadTeacherData = async () => {
     try {
       setDataLoading(true);
-      const data = await getDashboardData('teacher');
-      setDashboardData(data);
+      
+      // Get teacher's classes
+      const teacherClasses = await getTeacherClasses(user.uid);
+      setClasses(teacherClasses);
+      
+      if (teacherClasses.length > 0) {
+        // Get all students from all classes
+        const allStudentsPromises = teacherClasses.map(cls => getStudentsInClass(cls.classId));
+        const allStudentsArrays = await Promise.all(allStudentsPromises);
+        const allStudents = allStudentsArrays.flat();
+        
+        // Remove duplicates
+        const uniqueStudents = allStudents.filter((student, index, self) => 
+          index === self.findIndex(s => s.uid === student.uid)
+        );
+        setStudents(uniqueStudents);
+        
+        // Get student progress for all students
+        const studentIds = uniqueStudents.map(s => s.studentId).filter(Boolean) as string[];
+        const progressData = await getStudentProgressBatch(studentIds);
+        setStudentProgress(progressData);
+        
+        // Get teacher uploads
+        const teacherUploads = await getTeacherUploads(user.uid, 10);
+        setUploads(teacherUploads);
+      } else {
+        // Fallback to mock data if no classes found
+        setIsUsingMockData(true);
+        setStudents([
+          {
+            uid: 'student-1',
+            role: 'student',
+            name: 'Ahmad Rahman',
+            email: 'ahmad@student.mrsm.edu.my',
+            studentId: 'student-1'
+          },
+          {
+            uid: 'student-2', 
+            role: 'student',
+            name: 'Siti Aminah',
+            email: 'siti@student.mrsm.edu.my',
+            studentId: 'student-2'
+          }
+        ]);
+        setStudentProgress([
+          {
+            studentId: 'student-1',
+            currentXP: 2450,
+            level: 12,
+            xpToNextLevel: 550,
+            totalXP: 2450,
+            weeklyProgress: 320,
+            lastActivity: new Date(),
+            streakDays: 15,
+            subjectProgress: {},
+            reflectionLogs: []
+          }
+        ]);
+      }
     } catch (error) {
-      console.error('Failed to load dashboard data:', error);
+      console.error('Failed to load teacher data:', error);
+      setIsUsingMockData(true);
     } finally {
       setDataLoading(false);
     }
@@ -200,15 +269,25 @@ const TeacherDashboard: React.FC = () => {
               <div className="space-y-4">
                 <div className="flex justify-between items-center p-3 bg-gray-50 rounded">
                   <span className="text-gray-700">Total Students</span>
-                  <span className="font-semibold text-blue-600">45</span>
+                  <span className="font-semibold text-blue-600">{students.length}</span>
                 </div>
                 <div className="flex justify-between items-center p-3 bg-gray-50 rounded">
                   <span className="text-gray-700">Active This Week</span>
-                  <span className="font-semibold text-green-600">38</span>
+                  <span className="font-semibold text-green-600">
+                    {studentProgress.filter(p => {
+                      const weekAgo = new Date();
+                      weekAgo.setDate(weekAgo.getDate() - 7);
+                      return p.lastActivity && p.lastActivity > weekAgo;
+                    }).length}
+                  </span>
                 </div>
                 <div className="flex justify-between items-center p-3 bg-gray-50 rounded">
-                  <span className="text-gray-700">Average Progress</span>
-                  <span className="font-semibold text-purple-600">72%</span>
+                  <span className="text-gray-700">Average XP</span>
+                  <span className="font-semibold text-purple-600">
+                    {studentProgress.length > 0 
+                      ? Math.round(studentProgress.reduce((sum, p) => sum + p.currentXP, 0) / studentProgress.length)
+                      : 0}
+                  </span>
                 </div>
               </div>
             </div>
@@ -246,29 +325,68 @@ const TeacherDashboard: React.FC = () => {
           <div className="mt-6 bg-white p-6 rounded-lg shadow-sm border">
             <h3 className="text-lg font-semibold text-gray-800 mb-4">📚 Recent Uploads</h3>
             <div className="space-y-3">
-              <div className="flex items-center justify-between p-3 border rounded">
-                <div className="flex items-center">
-                  <div className="text-xl mr-3">📄</div>
-                  <div>
-                    <div className="font-medium text-gray-800">Math Chapter 5 Exercises</div>
-                    <div className="text-sm text-gray-500">Uploaded 2 days ago</div>
+              {uploads.length > 0 ? uploads.map((upload) => (
+                <div key={upload.fileId} className="flex items-center justify-between p-3 border rounded">
+                  <div className="flex items-center">
+                    <div className="text-xl mr-3">📄</div>
+                    <div>
+                      <div className="font-medium text-gray-800">{upload.fileName}</div>
+                      <div className="text-sm text-gray-500">
+                        {upload.subject} • {upload.uploadDate.toLocaleDateString()} • {upload.questionsFound} questions
+                      </div>
+                    </div>
                   </div>
+                  <span className={`text-sm ${upload.isActive ? 'text-green-600' : 'text-gray-400'}`}>
+                    {upload.isActive ? 'Active' : 'Inactive'}
+                  </span>
                 </div>
-                <span className="text-sm text-green-600">Active</span>
-              </div>
-              
-              <div className="flex items-center justify-between p-3 border rounded">
-                <div className="flex items-center">
-                  <div className="text-xl mr-3">📊</div>
-                  <div>
-                    <div className="font-medium text-gray-800">Science Quiz Questions</div>
-                    <div className="text-sm text-gray-500">Uploaded 1 week ago</div>
-                  </div>
+              )) : (
+                <div className="text-center py-8 text-gray-500">
+                  <div className="text-4xl mb-2">📁</div>
+                  <div>No uploads yet</div>
+                  <div className="text-sm">Upload some content to get started</div>
                 </div>
-                <span className="text-sm text-green-600">Active</span>
-              </div>
+              )}
             </div>
           </div>
+
+          {students.length > 0 && (
+            <div className="mt-6 bg-white p-6 rounded-lg shadow-sm border">
+              <h3 className="text-lg font-semibold text-gray-800 mb-4">👥 Student Leaderboard</h3>
+              <div className="space-y-3">
+                {students
+                  .map(student => {
+                    const progress = studentProgress.find(p => p.studentId === student.studentId);
+                    return {
+                      ...student,
+                      currentXP: progress?.currentXP || 0,
+                      level: progress?.level || 1,
+                      lastActivity: progress?.lastActivity
+                    };
+                  })
+                  .sort((a, b) => b.currentXP - a.currentXP)
+                  .slice(0, 10)
+                  .map((student, index) => (
+                    <div key={student.uid} className="flex items-center justify-between p-3 border rounded">
+                      <div className="flex items-center">
+                        <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center text-sm font-bold text-blue-600 mr-3">
+                          {index + 1}
+                        </div>
+                        <div>
+                          <div className="font-medium text-gray-800">{student.name}</div>
+                          <div className="text-sm text-gray-500">
+                            Level {student.level} • {student.lastActivity ? student.lastActivity.toLocaleDateString() : 'No activity'}
+                          </div>
+                        </div>
+                      </div>
+                      <div className="text-right">
+                        <div className="font-semibold text-purple-600">{student.currentXP.toLocaleString()} XP</div>
+                      </div>
+                    </div>
+                  ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </ProtectedRoute>

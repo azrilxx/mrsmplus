@@ -7,7 +7,7 @@ const onFail = require('./hooks/onFail');
 const onRetry = require('./hooks/onRetry');
 
 async function runAgent(agentName, preferredModel) {
-  const agentPath = path.join(__dirname, '..', '.claude', `${agentName}.md`);
+  const agentPath = path.join(__dirname, '..', '.claude', 'agents', `${agentName}.md`);
   if (!fs.existsSync(agentPath)) {
     console.error(`❌ Agent file not found: ${agentPath}`);
     return;
