@@ -6,7 +6,7 @@ const onComplete = require('./hooks/onComplete');
 const onFail = require('./hooks/onFail');
 const onRetry = require('./hooks/onRetry');
 
-async function runAgent(agentName, model) {
+async function runAgent(agentName, preferredModel) {
   const agentPath = path.join(__dirname, '..', '.claude', `${agentName}.md`);
   if (!fs.existsSync(agentPath)) {
     console.error(`❌ Agent file not found: ${agentPath}`);
@@ -14,31 +14,34 @@ async function runAgent(agentName, model) {
   }
 
   const input = fs.readFileSync(agentPath, 'utf-8');
-  onStart(agentName, model);
+  const modelFallbackOrder = {
+    opus: ['opus', 'sonnet', 'haiku'],
+    sonnet: ['sonnet', 'haiku'],
+    haiku: ['haiku']
+  };
 
-  let output = '';
-  const maxRetries = 2;
-  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+  const fallbackModels = modelFallbackOrder[preferredModel] || [preferredModel];
+
+  for (const model of fallbackModels) {
+    onStart(agentName, model);
     try {
-      // Execute the Claude CLI with model and file
       const result = execSync(`claude ${agentPath} --model ${model}`, { encoding: 'utf-8' });
-      output = result.trim();
+      const output = result.trim();
       onComplete(agentName, model, output);
       return;
     } catch (error) {
       onFail(agentName, model, error);
-      if (attempt < maxRetries) {
-        onRetry(agentName, model, attempt);
-      }
+      onRetry(agentName, model, 1); // No retry loop, just fallback sequence
     }
   }
-  console.error(`💥 All attempts failed for ${agentName}`);
+
+  console.error(`💥 All model fallbacks failed for agent: ${agentName}`);
 }
 
 // CLI usage
 const [,, agentName, model] = process.argv;
 if (!agentName || !model) {
-  console.error('Usage: node agentRunner.js <agent-name> <model>');
+  console.error('Usage: node agentRunner.js <agent-name> <preferred-model>');
   process.exit(1);
 }
 
