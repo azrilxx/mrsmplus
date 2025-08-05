@@ -1,24 +1,20 @@
-{
-  "subject": "Science",
-  "form_level": "Form 1",
-  "topics": [
-    {
-      "id": "biology_cells",
-      "name": "Cells and Living Things",
-      "questions": 14,
-      "xp_reward": 10
-    },
-    {
-      "id": "physics_motion",
-      "name": "Forces and Motion",
-      "questions": 12,
-      "xp_reward": 9
-    },
-    {
-      "id": "chemistry_matter",
-      "name": "States of Matter",
-      "questions": 16,
-      "xp_reward": 11
-    }
-  ]
-}
+[
+  { "q": "What is the chemical symbol for water?", "a": "H2O" },
+  { "q": "Which planet is closest to the Sun?", "a": "Mercury" },
+  { "q": "What is the process by which plants make their own food?", "a": "Photosynthesis" },
+  { "q": "What gas do plants absorb from the atmosphere during photosynthesis?", "a": "Carbon dioxide" },
+  { "q": "What is the basic unit of life?", "a": "Cell" },
+  { "q": "What force keeps us on the ground?", "a": "Gravity" },
+  { "q": "What is the center of an atom called?", "a": "Nucleus" },
+  { "q": "What is the chemical formula for salt?", "a": "NaCl" },
+  { "q": "How many bones are in the adult human body?", "a": "206" },
+  { "q": "What is the speed of light in vacuum?", "a": "300,000,000 m/s" },
+  { "q": "What organ pumps blood through the body?", "a": "Heart" },
+  { "q": "What is the largest planet in our solar system?", "a": "Jupiter" },
+  { "q": "What is the chemical symbol for gold?", "a": "Au" },
+  { "q": "What type of animal is a frog?", "a": "Amphibian" },
+  { "q": "What is the hardest natural substance?", "a": "Diamond" },
+  { "q": "How many chambers does a human heart have?", "a": "4" },
+  { "q": "What is the study of living things called?", "a": "Biology" },
+  { "q": "What is the smallest unit of matter?", "a": "Atom" }
+]

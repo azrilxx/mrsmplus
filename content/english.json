@@ -1,24 +1,17 @@
-{
-  "subject": "English",
-  "form_level": "Form 1",
-  "topics": [
-    {
-      "id": "grammar_basics",
-      "name": "Basic Grammar",
-      "questions": 20,
-      "xp_reward": 12
-    },
-    {
-      "id": "reading_comprehension",
-      "name": "Reading Comprehension",
-      "questions": 15,
-      "xp_reward": 10
-    },
-    {
-      "id": "vocabulary",
-      "name": "Vocabulary Building",
-      "questions": 18,
-      "xp_reward": 9
-    }
-  ]
-}
+[
+  { "q": "Choose the correct spelling", "a": "receive" },
+  { "q": "What is the plural of 'child'?", "a": "children" },
+  { "q": "What is the past tense of 'go'?", "a": "went" },
+  { "q": "What is the opposite of 'hot'?", "a": "cold" },
+  { "q": "What type of word is 'quickly'?", "a": "adverb" },
+  { "q": "What is the comparative form of 'good'?", "a": "better" },
+  { "q": "What punctuation mark ends a question?", "a": "question mark" },
+  { "q": "What is the past tense of 'write'?", "a": "wrote" },
+  { "q": "What is a group of words that expresses a complete thought?", "a": "sentence" },
+  { "q": "What is the plural of 'mouse'?", "a": "mice" },
+  { "q": "What is the superlative form of 'big'?", "a": "biggest" },
+  { "q": "What do we call words that sound the same but have different meanings?", "a": "homophones" },
+  { "q": "What is the past tense of 'bring'?", "a": "brought" },
+  { "q": "What type of word is 'beautiful'?", "a": "adjective" },
+  { "q": "What is the opposite of 'early'?", "a": "late" }
+]

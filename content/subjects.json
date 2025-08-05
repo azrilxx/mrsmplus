@@ -1,0 +1,37 @@
+[
+  {
+    "id": "math",
+    "name": "Mathematics",
+    "description": "Master mathematical concepts",
+    "questionCount": 20,
+    "totalXP": 200
+  },
+  {
+    "id": "science", 
+    "name": "Science",
+    "description": "Explore the world of science",
+    "questionCount": 18,
+    "totalXP": 180
+  },
+  {
+    "id": "english",
+    "name": "English",
+    "description": "Improve your English skills",
+    "questionCount": 15,
+    "totalXP": 150
+  },
+  {
+    "id": "bm",
+    "name": "Bahasa Malaysia", 
+    "description": "Pelajari Bahasa Malaysia",
+    "questionCount": 12,
+    "totalXP": 120
+  },
+  {
+    "id": "ict",
+    "name": "ICT",
+    "description": "Learn Information Technology",
+    "questionCount": 14,
+    "totalXP": 140
+  }
+]

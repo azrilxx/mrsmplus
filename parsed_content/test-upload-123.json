@@ -1,0 +1,110 @@
+{
+  "subject": "Science",
+  "topic": "Respiration",
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What is the primary gas required for cellular respiration?",
+      "choices": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": "Oxygen",
+      "difficulty": "easy"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which of the following is a product of cellular respiration?",
+      "choices": [
+        "Glucose",
+        "Oxygen",
+        "Carbon dioxide",
+        "Sunlight"
+      ],
+      "answer": "Carbon dioxide",
+      "difficulty": "easy"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the chemical equation for cellular respiration?",
+      "choices": [
+        "C6H12O6 + 6O2 → 6CO2 + 6H2O + ATP",
+        "6CO2 + 6H2O → C6H12O6 + 6O2",
+        "2H2O → 2H2 + O2",
+        "NaCl → Na+ + Cl-"
+      ],
+      "answer": "C6H12O6 + 6O2 → 6CO2 + 6H2O + ATP",
+      "difficulty": "easy"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What type of nutrition do green plants exhibit?",
+      "choices": [
+        "Heterotrophic",
+        "Autotrophic",
+        "Parasitic",
+        "Saprophytic"
+      ],
+      "answer": "Autotrophic",
+      "difficulty": "easy"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which enzyme breaks down proteins?",
+      "choices": [
+        "Amylase",
+        "Lipase",
+        "Pepsin",
+        "Catalase"
+      ],
+      "answer": "Pepsin",
+      "difficulty": "easy"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the chemical equation for cellular respiration?",
+      "choices": [
+        "C6H12O6 + 6O2 → 6CO2 + 6H2O + ATP",
+        "6CO2 + 6H2O → C6H12O6 + 6O2",
+        "2H2O → 2H2 + O2",
+        "NaCl → Na+ + Cl-"
+      ],
+      "answer": "C6H12O6 + 6O2 → 6CO2 + 6H2O + ATP",
+      "difficulty": "easy"
+    },
+    {
+      "type": "fill-blank",
+      "question": "Fill in the blank: The process of respiration occurs in the _______ of the cell",
+      "answer": "True",
+      "difficulty": "easy"
+    },
+    {
+      "type": "fill-blank",
+      "question": "The energy currency of the cell is _______",
+      "answer": "product",
+      "difficulty": "easy"
+    },
+    {
+      "type": "fill-blank",
+      "question": "During respiration, glucose is broken down to release _______",
+      "answer": "Carbon",
+      "difficulty": "easy"
+    },
+    {
+      "type": "fill-blank",
+      "question": "The opening and closing of stomata is controlled by _______ cells",
+      "answer": "Saprophytic",
+      "difficulty": "easy"
+    }
+  ],
+  "uploadId": "test-upload-123",
+  "metadata": {
+    "uploadedBy": "test-teacher",
+    "uploadedAt": "2025-08-05T07:30:00.902Z",
+    "originalFileName": "sample_questions.txt",
+    "fileType": ".txt",
+    "totalQuestions": 10
+  }
+}

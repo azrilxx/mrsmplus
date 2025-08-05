@@ -1,24 +1,14 @@
-{
-  "subject": "Bahasa Malaysia", 
-  "form_level": "Form 1",
-  "topics": [
-    {
-      "id": "tatabahasa_dasar",
-      "name": "Tatabahasa Dasar",
-      "questions": 16,
-      "xp_reward": 10
-    },
-    {
-      "id": "pemahaman_bacaan",
-      "name": "Pemahaman Bacaan",
-      "questions": 14,
-      "xp_reward": 9
-    },
-    {
-      "id": "karangan_ringkas",
-      "name": "Karangan Ringkas",
-      "questions": 12,
-      "xp_reward": 11
-    }
-  ]
-}
+[
+  { "q": "Apakah maksud perkataan 'belajar'?", "a": "to learn" },
+  { "q": "Bagaimana cara untuk mengucapkan 'selamat pagi' dalam bahasa Inggeris?", "a": "good morning" },
+  { "q": "Apakah kata nama bagi 'book' dalam Bahasa Malaysia?", "a": "buku" },
+  { "q": "Siapakah yang menulis pantun?", "a": "penyair" },
+  { "q": "Apakah kata kerja untuk 'makan'?", "a": "eat" },
+  { "q": "Berapa bilangan suku kata dalam perkataan 'Malaysia'?", "a": "4" },
+  { "q": "Apakah antonim bagi perkataan 'besar'?", "a": "kecil" },
+  { "q": "Apakah sinonim bagi perkataan 'gembira'?", "a": "riang" },
+  { "q": "Apakah kata nama bagi 'water' dalam Bahasa Malaysia?", "a": "air" },
+  { "q": "Apakah maksud perkataan 'sekolah'?", "a": "school" },
+  { "q": "Bagaimana cara menulis 'thank you' dalam Bahasa Malaysia?", "a": "terima kasih" },
+  { "q": "Apakah kata sifat untuk menggambarkan cuaca yang sejuk?", "a": "dingin" }
+]

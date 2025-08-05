@@ -1,24 +1,22 @@
-{
-  "subject": "Mathematics",
-  "form_level": "Form 1",
-  "topics": [
-    {
-      "id": "algebra_basics",
-      "name": "Basic Algebra",
-      "questions": 15,
-      "xp_reward": 10
-    },
-    {
-      "id": "geometry_intro",
-      "name": "Introduction to Geometry", 
-      "questions": 12,
-      "xp_reward": 8
-    },
-    {
-      "id": "fractions",
-      "name": "Fractions and Decimals",
-      "questions": 18,
-      "xp_reward": 12
-    }
-  ]
-}
+[
+  { "q": "What is 5 + 3?", "a": "8" },
+  { "q": "Solve: 2x = 10. What is x?", "a": "5" },
+  { "q": "What is the area of a rectangle with length 4 and width 3?", "a": "12" },
+  { "q": "What is 15 - 7?", "a": "8" },
+  { "q": "What is 6 × 4?", "a": "24" },
+  { "q": "What is 20 ÷ 4?", "a": "5" },
+  { "q": "What is the perimeter of a square with side length 5?", "a": "20" },
+  { "q": "What is 3²?", "a": "9" },
+  { "q": "What is the value of π (pi) rounded to 2 decimal places?", "a": "3.14" },
+  { "q": "What is 1/2 + 1/4?", "a": "3/4" },
+  { "q": "What is 25% of 80?", "a": "20" },
+  { "q": "What is the square root of 16?", "a": "4" },
+  { "q": "What is 7 × 8?", "a": "56" },
+  { "q": "What is 100 - 35?", "a": "65" },
+  { "q": "What is 9 + 6?", "a": "15" },
+  { "q": "What is 45 ÷ 9?", "a": "5" },
+  { "q": "What is 2/3 as a decimal?", "a": "0.67" },
+  { "q": "What is 10% of 50?", "a": "5" },
+  { "q": "What is the sum of angles in a triangle?", "a": "180" },
+  { "q": "What is 4³?", "a": "64" }
+]

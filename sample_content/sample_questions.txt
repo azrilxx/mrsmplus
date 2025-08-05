@@ -1,0 +1,68 @@
+Chapter 5: Respiration in Living Organisms
+
+What is the primary gas required for cellular respiration?
+a) Carbon dioxide
+b) Oxygen
+c) Nitrogen
+d) Hydrogen
+Answer: b
+
+Explain the difference between aerobic and anaerobic respiration.
+Answer: Aerobic respiration requires oxygen and produces more ATP (38 molecules), while anaerobic respiration occurs without oxygen and produces less ATP (2 molecules).
+
+True or False: Plants only carry out photosynthesis and do not respire.
+Answer: False
+
+Fill in the blank: The process of respiration occurs in the _______ of the cell.
+Answer: mitochondria
+
+Which of the following is a product of cellular respiration?
+a) Glucose
+b) Oxygen
+c) Carbon dioxide
+d) Sunlight
+Answer: c
+
+The energy currency of the cell is _______.
+Answer: ATP
+
+During respiration, glucose is broken down to release _______.
+Answer: energy
+
+What happens to the rate of respiration when temperature increases within normal limits?
+Answer: The rate of respiration increases as enzymes work more efficiently at higher temperatures.
+
+Multiple Choice: What is the chemical equation for cellular respiration?
+a) C6H12O6 + 6O2 → 6CO2 + 6H2O + ATP
+b) 6CO2 + 6H2O → C6H12O6 + 6O2
+c) 2H2O → 2H2 + O2
+d) NaCl → Na+ + Cl-
+Answer: a
+
+Short Answer: Why do we breathe faster during exercise?
+Answer: During exercise, our muscles need more energy, so we breathe faster to supply more oxygen for cellular respiration and to remove excess carbon dioxide.
+
+Chapter 6: Life Processes - Nutrition
+
+What type of nutrition do green plants exhibit?
+a) Heterotrophic
+b) Autotrophic
+c) Parasitic
+d) Saprophytic
+Answer: b
+
+True or False: Chlorophyll is essential for photosynthesis.
+Answer: True
+
+The opening and closing of stomata is controlled by _______ cells.
+Answer: guard
+
+Describe the role of the small intestine in digestion.
+Answer: The small intestine is where most digestion and absorption occurs. It has villi that increase surface area for better absorption of nutrients into the bloodstream.
+
+Which enzyme breaks down proteins?
+a) Amylase
+b) Lipase
+c) Pepsin
+d) Catalase
+Answer: c

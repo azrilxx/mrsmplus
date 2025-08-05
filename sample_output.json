@@ -1,0 +1,70 @@
+{
+  "subject": "Science",
+  "topic": "Respiration in Living Organisms",
+  "uploadId": "12345-sample-uuid",
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What is the primary gas required for cellular respiration?",
+      "choices": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+      "answer": "Oxygen",
+      "explanation": "Oxygen is required for cellular respiration to break down glucose and produce energy.",
+      "difficulty": "easy",
+      "topic": "Cellular Respiration"
+    },
+    {
+      "type": "short-answer",
+      "question": "Explain the difference between aerobic and anaerobic respiration.",
+      "answer": "Aerobic respiration requires oxygen and produces more ATP (38 molecules), while anaerobic respiration occurs without oxygen and produces less ATP (2 molecules).",
+      "difficulty": "medium"
+    },
+    {
+      "type": "true-false",
+      "question": "Plants only carry out photosynthesis and do not respire.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "Plants perform both photosynthesis and cellular respiration. They respire continuously but photosynthesize only in the presence of light.",
+      "difficulty": "medium"
+    },
+    {
+      "type": "fill-blank",
+      "question": "The process of respiration occurs in the _______ of the cell.",
+      "answer": "mitochondria",
+      "explanation": "Mitochondria are the powerhouses of the cell where cellular respiration takes place.",
+      "difficulty": "easy"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which of the following is a product of cellular respiration?",
+      "choices": ["Glucose", "Oxygen", "Carbon dioxide", "Sunlight"],
+      "answer": "Carbon dioxide",
+      "explanation": "Cellular respiration produces carbon dioxide, water, and ATP as end products.",
+      "difficulty": "easy"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What type of nutrition do green plants exhibit?",
+      "choices": ["Heterotrophic", "Autotrophic", "Parasitic", "Saprophytic"],
+      "answer": "Autotrophic",
+      "explanation": "Green plants are autotrophic as they make their own food through photosynthesis.",
+      "difficulty": "medium",
+      "topic": "Plant Nutrition"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which enzyme breaks down proteins?",
+      "choices": ["Amylase", "Lipase", "Pepsin", "Catalase"],
+      "answer": "Pepsin",
+      "explanation": "Pepsin is a protease enzyme that breaks down proteins in the stomach.",
+      "difficulty": "medium",
+      "topic": "Digestion"
+    }
+  ],
+  "metadata": {
+    "uploadedBy": "teacher123",
+    "uploadedAt": "2025-01-08T10:30:00Z",
+    "originalFileName": "science_chapter5_questions.txt",
+    "fileType": ".txt",
+    "totalQuestions": 7
+  }
+}

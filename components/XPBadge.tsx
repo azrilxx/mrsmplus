@@ -6,6 +6,7 @@ interface XPBadgeProps {
   animate?: boolean;
   size?: 'small' | 'medium' | 'large';
   showParticles?: boolean;
+  rewardMessage?: string;
 }
 
 export const XPBadge: React.FC<XPBadgeProps> = ({
@@ -13,7 +14,8 @@ export const XPBadge: React.FC<XPBadgeProps> = ({
   gainedXP = 0,
   animate = false,
   size = 'medium',
-  showParticles = true
+  showParticles = true,
+  rewardMessage = 'Great job!'
 }) => {
   const [isAnimating, setIsAnimating] = useState(false);
   const [showGain, setShowGain] = useState(false);
@@ -26,7 +28,7 @@ export const XPBadge: React.FC<XPBadgeProps> = ({
       const timer = setTimeout(() => {
         setIsAnimating(false);
         setShowGain(false);
-      }, 2000);
+      }, 3000); // Extended duration for better visibility
 
       return () => clearTimeout(timer);
     }
@@ -103,18 +105,17 @@ export const XPBadge: React.FC<XPBadgeProps> = ({
         </span>
       </div>
 
-      {/* Gained XP Popup */}
+      {/* Gained XP Popup with Reward Message */}
       {showGain && gainedXP > 0 && (
-        <div
-          className={`
-            absolute -top-8 left-1/2 transform -translate-x-1/2
-            px-2 py-1 bg-green-500 text-white text-xs font-bold rounded-full
-            shadow-lg animate-bounce
-            ${showGain ? 'opacity-100' : 'opacity-0'}
-            transition-opacity duration-300
-          `}
-        >
-          +{gainedXP} XP
+        <div className="absolute -top-16 left-1/2 transform -translate-x-1/2 z-20">
+          <div className="text-center">
+            <div className="bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg animate-bounce mb-1">
+              +{gainedXP} XP
+            </div>
+            <div className="bg-blue-500 text-white text-xs px-2 py-1 rounded-full shadow-md animate-pulse">
+              {rewardMessage}
+            </div>
+          </div>
         </div>
       )}
     </div>

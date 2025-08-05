@@ -205,16 +205,22 @@ const StudentDashboard: React.FC = () => {
         <div className="mt-6 bg-white p-6 rounded-lg shadow-sm border">
           <h3 className="text-lg font-semibold text-gray-800 mb-4">🚀 Quick Actions</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <button className="p-4 border rounded-lg hover:bg-gray-50 transition-colors text-left">
+            <button 
+              onClick={() => window.location.href = '/study'}
+              className="p-4 border rounded-lg hover:bg-gray-50 transition-colors text-left"
+            >
               <div className="text-2xl mb-2">📖</div>
               <div className="font-medium text-gray-800">Start Study Session</div>
-              <div className="text-sm text-gray-600">Continue your learning journey</div>
+              <div className="text-sm text-gray-600">Choose a subject and start learning!</div>
             </button>
             
-            <button className="p-4 border rounded-lg hover:bg-gray-50 transition-colors text-left">
+            <button 
+              onClick={() => window.location.href = '/study'}
+              className="p-4 border rounded-lg hover:bg-gray-50 transition-colors text-left"
+            >
               <div className="text-2xl mb-2">🎯</div>
               <div className="font-medium text-gray-800">Practice Questions</div>
-              <div className="text-sm text-gray-600">Test your knowledge</div>
+              <div className="text-sm text-gray-600">Test your knowledge & earn XP</div>
             </button>
             
             <button className="p-4 border rounded-lg hover:bg-gray-50 transition-colors text-left">
