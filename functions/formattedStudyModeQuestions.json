@@ -1,9 +1,0 @@
-[
-  {
-    "type": "multiple_choice",
-    "question": "What is the capital of Malaysia?",
-    "options": ["Kuala Lumpur", "Johor Bahru", "Penang", "Putrajaya"],
-    "answer": "Kuala Lumpur",
-    "hint": "Think economic center"
-  }
-]

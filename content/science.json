@@ -1,0 +1,24 @@
+{
+  "subject": "Science",
+  "form_level": "Form 1",
+  "topics": [
+    {
+      "id": "biology_cells",
+      "name": "Cells and Living Things",
+      "questions": 14,
+      "xp_reward": 10
+    },
+    {
+      "id": "physics_motion",
+      "name": "Forces and Motion",
+      "questions": 12,
+      "xp_reward": 9
+    },
+    {
+      "id": "chemistry_matter",
+      "name": "States of Matter",
+      "questions": 16,
+      "xp_reward": 11
+    }
+  ]
+}

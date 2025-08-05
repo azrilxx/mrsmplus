@@ -1,0 +1,24 @@
+{
+  "subject": "ICT",
+  "form_level": "Form 1", 
+  "topics": [
+    {
+      "id": "computer_basics",
+      "name": "Computer Basics",
+      "questions": 10,
+      "xp_reward": 8
+    },
+    {
+      "id": "internet_safety",
+      "name": "Internet Safety",
+      "questions": 12,
+      "xp_reward": 9
+    },
+    {
+      "id": "basic_programming",
+      "name": "Introduction to Programming",
+      "questions": 14,
+      "xp_reward": 12
+    }
+  ]
+}

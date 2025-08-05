@@ -1,0 +1,24 @@
+{
+  "subject": "English",
+  "form_level": "Form 1",
+  "topics": [
+    {
+      "id": "grammar_basics",
+      "name": "Basic Grammar",
+      "questions": 20,
+      "xp_reward": 12
+    },
+    {
+      "id": "reading_comprehension",
+      "name": "Reading Comprehension",
+      "questions": 15,
+      "xp_reward": 10
+    },
+    {
+      "id": "vocabulary",
+      "name": "Vocabulary Building",
+      "questions": 18,
+      "xp_reward": 9
+    }
+  ]
+}

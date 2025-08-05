@@ -1,0 +1,24 @@
+{
+  "subject": "Mathematics",
+  "form_level": "Form 1",
+  "topics": [
+    {
+      "id": "algebra_basics",
+      "name": "Basic Algebra",
+      "questions": 15,
+      "xp_reward": 10
+    },
+    {
+      "id": "geometry_intro",
+      "name": "Introduction to Geometry", 
+      "questions": 12,
+      "xp_reward": 8
+    },
+    {
+      "id": "fractions",
+      "name": "Fractions and Decimals",
+      "questions": 18,
+      "xp_reward": 12
+    }
+  ]
+}
