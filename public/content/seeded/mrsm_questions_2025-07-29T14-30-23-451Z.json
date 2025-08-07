@@ -1,0 +1,772 @@
+[
+  {
+    "question": "What is the force required to accelerate a 5kg mass at 2m/s²?",
+    "options": [
+      "A) 2.5 N",
+      "B) 5 N",
+      "C) 10 N",
+      "D) 20 N"
+    ],
+    "correct_answer": "C) 10 N",
+    "subject": "Physics",
+    "topic": "Force and Motion",
+    "difficulty": "Beginner",
+    "bloom_level": "Apply",
+    "question_type": "MCQ",
+    "source": "https://www.moe.gov.my/menumedia/media-cetak/penerbitan/buku-teks",
+    "extracted_at": "2025-07-29T14:26:34.945Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Explain the process of photosynthesis in plants.",
+    "options": [],
+    "correct_answer": "Essay type answer explaining the process of photosynthesis",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Essay",
+    "source": "https://www.moe.gov.my/menumedia/media-cetak/penerbitan/buku-teks",
+    "extracted_at": "2025-07-29T14:26:34.945Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Calculate the area of a triangle with base 10cm and height 8cm.",
+    "options": [],
+    "correct_answer": "40 cm²",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "difficulty": "Beginner",
+    "bloom_level": "Apply",
+    "question_type": "Problem Solving",
+    "source": "https://www.moe.gov.my/menumedia/media-cetak/penerbitan/buku-teks",
+    "extracted_at": "2025-07-29T14:26:34.945Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Describe the water cycle and its importance.",
+    "options": [],
+    "correct_answer": "Essay type answer describing the water cycle and its importance",
+    "subject": "Geography",
+    "topic": "Water Cycle",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Essay",
+    "source": "https://www.moe.gov.my/menumedia/media-cetak/penerbitan/buku-teks",
+    "extracted_at": "2025-07-29T14:26:34.945Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What are the main causes of climate change?",
+    "options": [
+      "A) Deforestation and Industrialization",
+      "B) Overpopulation",
+      "C) Pollution and Greenhouse gases",
+      "D) All of the above"
+    ],
+    "correct_answer": "D) All of the above",
+    "subject": "Environmental Science",
+    "topic": "Climate Change",
+    "difficulty": "Intermediate",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "https://www.moe.gov.my/menumedia/media-cetak/penerbitan/buku-teks",
+    "extracted_at": "2025-07-29T14:26:34.945Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What is the force required to accelerate a 5kg mass at 2m/s²?",
+    "options": [
+      "A) 2.5 N",
+      "B) 5 N",
+      "C) 10 N",
+      "D) 7.5 N"
+    ],
+    "correct_answer": "C) 10 N",
+    "subject": "Physics",
+    "topic": "Force and Motion",
+    "difficulty": "Intermediate",
+    "bloom_level": "Apply",
+    "question_type": "MCQ",
+    "source": "https://www.scribd.com/search?query=MRSM+matematik",
+    "extracted_at": "2025-07-29T14:27:16.893Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Explain the process of photosynthesis in plants.",
+    "correct_answer": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll pigments. In this process, water and carbon dioxide are converted into glucose and oxygen with the help of sunlight.",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Short Answer",
+    "source": "https://www.scribd.com/search?query=MRSM+matematik",
+    "extracted_at": "2025-07-29T14:27:16.893Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Calculate the area of a triangle with base 10cm and height 8cm.",
+    "options": [
+      "A) 40 cm²",
+      "B) 80 cm²",
+      "C) 20 cm²",
+      "D) 60 cm²"
+    ],
+    "correct_answer": "A) 40 cm²",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "difficulty": "Beginner",
+    "bloom_level": "Apply",
+    "question_type": "MCQ",
+    "source": "https://www.scribd.com/search?query=MRSM+matematik",
+    "extracted_at": "2025-07-29T14:27:16.893Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Describe the water cycle and its importance.",
+    "correct_answer": "The water cycle, also known as the hydrologic cycle, is the process by which water circulates between the earth's oceans, atmosphere and land, involving precipitation as rain and snow, drainage in streams and rivers, and return to the atmosphere by evaporation and transpiration. It is important as it helps to distribute heat around the planet, and it also helps to purify the earth's water supply.",
+    "subject": "Geography",
+    "topic": "Water Cycle",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Short Answer",
+    "source": "https://www.scribd.com/search?query=MRSM+matematik",
+    "extracted_at": "2025-07-29T14:27:16.893Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What are the main causes of climate change?",
+    "options": [
+      "A) Deforestation and Industrialization",
+      "B) Overpopulation",
+      "C) Use of Fossil Fuels",
+      "D) All of the above"
+    ],
+    "correct_answer": "D) All of the above",
+    "subject": "Geography",
+    "topic": "Climate Change",
+    "difficulty": "Intermediate",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "https://www.scribd.com/search?query=MRSM+matematik",
+    "extracted_at": "2025-07-29T14:27:16.893Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What is the force required to accelerate a 5kg mass at 2m/s²?",
+    "options": [
+      "A) 2.5N",
+      "B) 5N",
+      "C) 10N",
+      "D) 20N"
+    ],
+    "correct_answer": "C) 10N",
+    "subject": "Physics",
+    "topic": "Force and Motion",
+    "difficulty": "Intermediate",
+    "bloom_level": "Apply",
+    "question_type": "MCQ",
+    "source": "https://www.scribd.com/search?query=MRSM+sains",
+    "extracted_at": "2025-07-29T14:28:04.756Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Explain the process of photosynthesis in plants.",
+    "correct_answer": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll pigments. It involves the conversion of carbon dioxide and water into glucose and oxygen, with sunlight as the energy source.",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Short Answer",
+    "source": "https://www.scribd.com/search?query=MRSM+sains",
+    "extracted_at": "2025-07-29T14:28:04.756Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Calculate the area of a triangle with base 10cm and height 8cm.",
+    "correct_answer": "40 cm²",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "difficulty": "Beginner",
+    "bloom_level": "Apply",
+    "question_type": "Problem Solving",
+    "source": "https://www.scribd.com/search?query=MRSM+sains",
+    "extracted_at": "2025-07-29T14:28:04.756Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Describe the water cycle and its importance.",
+    "correct_answer": "The water cycle is the continuous process by which water moves from Earth's surface to the atmosphere and back. It includes processes like evaporation, condensation, precipitation, and collection. It's important because it helps regulate Earth's climate, distributes heat around the globe, and makes life possible on Earth.",
+    "subject": "Geography",
+    "topic": "Water Cycle",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Short Answer",
+    "source": "https://www.scribd.com/search?query=MRSM+sains",
+    "extracted_at": "2025-07-29T14:28:04.756Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What are the main causes of climate change?",
+    "options": [
+      "A) Deforestation",
+      "B) Industrialization",
+      "C) Burning of fossil fuels",
+      "D) All of the above"
+    ],
+    "correct_answer": "D) All of the above",
+    "subject": "Geography",
+    "topic": "Climate Change",
+    "difficulty": "Intermediate",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "https://www.scribd.com/search?query=MRSM+sains",
+    "extracted_at": "2025-07-29T14:28:04.756Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What is the force required to accelerate a 5kg mass at 2m/s²?",
+    "options": [
+      "A) 2.5N",
+      "B) 10N",
+      "C) 7.5N",
+      "D) 5N"
+    ],
+    "correct_answer": "B) 10N",
+    "subject": "Physics",
+    "topic": "Force and Motion",
+    "difficulty": "Intermediate",
+    "bloom_level": "Apply",
+    "question_type": "MCQ",
+    "source": "https://www.scribd.com/search?query=MRSM+bahasa+melayu",
+    "extracted_at": "2025-07-29T14:28:47.340Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Explain the process of photosynthesis in plants.",
+    "correct_answer": "Photosynthesis is a process used by plants and other organisms to convert light energy, usually from the Sun, into chemical energy that can be later released to fuel the organisms' activities. This chemical energy is stored in carbohydrate molecules, such as sugars, which are synthesized from carbon dioxide and water.",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Short Answer",
+    "source": "https://www.scribd.com/search?query=MRSM+bahasa+melayu",
+    "extracted_at": "2025-07-29T14:28:47.340Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Calculate the area of a triangle with base 10cm and height 8cm.",
+    "correct_answer": "40 cm²",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "difficulty": "Beginner",
+    "bloom_level": "Apply",
+    "question_type": "Problem Solving",
+    "source": "https://www.scribd.com/search?query=MRSM+bahasa+melayu",
+    "extracted_at": "2025-07-29T14:28:47.340Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Describe the water cycle and its importance.",
+    "correct_answer": "The water cycle, also known as the hydrologic cycle, describes the continuous movement of water on, above, and below the surface of the Earth. It's important because it makes water available for various forms of life, it helps in the distribution of heat around the planet, and it also plays a crucial role in the planet's climate.",
+    "subject": "Geography",
+    "topic": "Water Cycle",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Short Answer",
+    "source": "https://www.scribd.com/search?query=MRSM+bahasa+melayu",
+    "extracted_at": "2025-07-29T14:28:47.340Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What are the main causes of climate change?",
+    "options": [
+      "A) Deforestation",
+      "B) Industrialization",
+      "C) Greenhouse gases",
+      "D) All of the above"
+    ],
+    "correct_answer": "D) All of the above",
+    "subject": "Geography",
+    "topic": "Climate Change",
+    "difficulty": "Intermediate",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "https://www.scribd.com/search?query=MRSM+bahasa+melayu",
+    "extracted_at": "2025-07-29T14:28:47.340Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What is the force required to accelerate a 5kg mass at 2m/s²?",
+    "options": [
+      "A) 2.5N",
+      "B) 5N",
+      "C) 10N",
+      "D) 20N"
+    ],
+    "correct_answer": "C) 10N",
+    "subject": "Physics",
+    "topic": "Force and Motion",
+    "difficulty": "Intermediate",
+    "bloom_level": "Apply",
+    "question_type": "MCQ",
+    "source": "https://www.scribd.com/search?query=MRSM+english",
+    "extracted_at": "2025-07-29T14:29:32.821Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Explain the process of photosynthesis in plants.",
+    "correct_answer": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll pigments. In this process, water and carbon dioxide are converted into glucose and oxygen in the presence of sunlight.",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Short Answer",
+    "source": "https://www.scribd.com/search?query=MRSM+english",
+    "extracted_at": "2025-07-29T14:29:32.821Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Calculate the area of a triangle with base 10cm and height 8cm.",
+    "correct_answer": "40cm²",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "difficulty": "Beginner",
+    "bloom_level": "Apply",
+    "question_type": "Problem Solving",
+    "source": "https://www.scribd.com/search?query=MRSM+english",
+    "extracted_at": "2025-07-29T14:29:32.821Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Describe the water cycle and its importance.",
+    "correct_answer": "The water cycle describes how water evaporates from the surface of the earth, rises into the atmosphere, cools and condenses into clouds, and falls back to the surface as precipitation. The water that falls to the earth as precipitation either evaporates, is taken up by plants, or flows into rivers and oceans, where it can begin the cycle again. The water cycle is important because it distributes water throughout the earth's ecosystems.",
+    "subject": "Geography",
+    "topic": "Water Cycle",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Short Answer",
+    "source": "https://www.scribd.com/search?query=MRSM+english",
+    "extracted_at": "2025-07-29T14:29:32.821Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What are the main causes of climate change?",
+    "options": [
+      "A) Industrialization",
+      "B) Deforestation",
+      "C) Greenhouse gases",
+      "D) All of the above"
+    ],
+    "correct_answer": "D) All of the above",
+    "subject": "Geography",
+    "topic": "Climate Change",
+    "difficulty": "Intermediate",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "https://www.scribd.com/search?query=MRSM+english",
+    "extracted_at": "2025-07-29T14:29:32.821Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "A car accelerates from rest to 20 m/s in 4 seconds. Calculate the acceleration.",
+    "options": [
+      "A) 5 m/s²",
+      "B) 10 m/s²",
+      "C) 15 m/s²",
+      "D) 20 m/s²"
+    ],
+    "correct_answer": "A) 5 m/s²",
+    "subject": "Physics",
+    "topic": "Motion and Force",
+    "difficulty": "Intermediate",
+    "bloom_level": "Apply",
+    "question_type": "MCQ",
+    "source": "Sample Physics questions on Force and Motion",
+    "extracted_at": "2025-07-29T14:30:18.389Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Explain Newton's Third Law of Motion with two real-world examples.",
+    "options": [],
+    "correct_answer": "For every action, there is an equal and opposite reaction. Examples: walking, rocket propulsion",
+    "subject": "Physics",
+    "topic": "Laws of Motion",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Essay",
+    "source": "Sample Physics questions on Force and Motion",
+    "extracted_at": "2025-07-29T14:30:18.389Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Calculate the kinetic energy of a 2kg object moving at 10 m/s.",
+    "options": [
+      "A) 50 J",
+      "B) 100 J",
+      "C) 200 J",
+      "D) 400 J"
+    ],
+    "correct_answer": "B) 100 J",
+    "subject": "Physics",
+    "topic": "Energy",
+    "difficulty": "Intermediate",
+    "bloom_level": "Apply",
+    "question_type": "Problem Solving",
+    "source": "Sample Physics questions on Force and Motion",
+    "extracted_at": "2025-07-29T14:30:18.389Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What happens to the resistance of a conductor when its temperature increases?",
+    "options": [
+      "A) Increases",
+      "B) Decreases",
+      "C) Remains constant",
+      "D) Becomes zero"
+    ],
+    "correct_answer": "A) Increases",
+    "subject": "Physics",
+    "topic": "Electricity",
+    "difficulty": "Advanced",
+    "bloom_level": "Understand",
+    "question_type": "MCQ",
+    "source": "Sample Physics questions on Force and Motion",
+    "extracted_at": "2025-07-29T14:30:18.389Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Which element has the chemical symbol 'Na'?",
+    "options": [
+      "A) Nitrogen",
+      "B) Sodium",
+      "C) Nickel",
+      "D) Neon"
+    ],
+    "correct_answer": "B) Sodium",
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "difficulty": "Beginner",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "Sample Chemistry questions on Periodic Table",
+    "extracted_at": "2025-07-29T14:30:19.405Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Balance the chemical equation: CH₄ + O₂ → CO₂ + H₂O",
+    "options": [],
+    "correct_answer": "CH₄ + 2O₂ → CO₂ + 2H₂O",
+    "subject": "Chemistry",
+    "topic": "Chemical Equations",
+    "difficulty": "Intermediate",
+    "bloom_level": "Apply",
+    "question_type": "Problem Solving",
+    "source": "Sample Chemistry questions on Periodic Table",
+    "extracted_at": "2025-07-29T14:30:19.405Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What is the pH of a neutral solution at 25°C?",
+    "options": [
+      "A) 0",
+      "B) 7",
+      "C) 14",
+      "D) 1"
+    ],
+    "correct_answer": "B) 7",
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "difficulty": "Beginner",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "Sample Chemistry questions on Periodic Table",
+    "extracted_at": "2025-07-29T14:30:19.405Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Explain the difference between ionic and covalent bonding.",
+    "options": [],
+    "correct_answer": "Ionic bonding involves transfer of electrons between metals and non-metals. Covalent bonding involves sharing of electrons between non-metals.",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Essay",
+    "source": "Sample Chemistry questions on Periodic Table",
+    "extracted_at": "2025-07-29T14:30:19.405Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What is the main function of mitochondria in a cell?",
+    "options": [
+      "A) Protein synthesis",
+      "B) Energy production",
+      "C) DNA storage",
+      "D) Waste removal"
+    ],
+    "correct_answer": "B) Energy production",
+    "subject": "Biology",
+    "topic": "Cell Structure",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "MCQ",
+    "source": "Sample Biology questions on Cell Structure",
+    "extracted_at": "2025-07-29T14:30:20.414Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Describe the process of photosynthesis and its importance to life on Earth.",
+    "options": [],
+    "correct_answer": "Photosynthesis converts CO₂ and water into glucose using sunlight. It produces oxygen and is the base of food chains.",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Essay",
+    "source": "Sample Biology questions on Cell Structure",
+    "extracted_at": "2025-07-29T14:30:20.414Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Which blood type is considered the universal donor?",
+    "options": [
+      "A) A",
+      "B) B",
+      "C) AB",
+      "D) O"
+    ],
+    "correct_answer": "D) O",
+    "subject": "Biology",
+    "topic": "Human Biology",
+    "difficulty": "Beginner",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "Sample Biology questions on Cell Structure",
+    "extracted_at": "2025-07-29T14:30:20.414Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What are the four stages of mitosis?",
+    "options": [
+      "A) Prophase, Metaphase, Anaphase, Telophase",
+      "B) Interphase, Prophase, Anaphase, Cytokinesis",
+      "C) G1, S, G2, M",
+      "D) Prophase, Anaphase, Metaphase, Telophase"
+    ],
+    "correct_answer": "A) Prophase, Metaphase, Anaphase, Telophase",
+    "subject": "Biology",
+    "topic": "Cell Division",
+    "difficulty": "Intermediate",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "Sample Biology questions on Cell Structure",
+    "extracted_at": "2025-07-29T14:30:20.414Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Solve for x: 2x + 5 = 15",
+    "options": [
+      "A) x = 5",
+      "B) x = 10",
+      "C) x = 7.5",
+      "D) x = 2.5"
+    ],
+    "correct_answer": "A) x = 5",
+    "subject": "Mathematics",
+    "topic": "Linear Equations",
+    "difficulty": "Beginner",
+    "bloom_level": "Apply",
+    "question_type": "Problem Solving",
+    "source": "Sample Mathematics questions on Algebra",
+    "extracted_at": "2025-07-29T14:30:21.430Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What is the derivative of x² + 3x - 2?",
+    "options": [
+      "A) 2x + 3",
+      "B) x² + 3",
+      "C) 2x - 2",
+      "D) x + 3"
+    ],
+    "correct_answer": "A) 2x + 3",
+    "subject": "Mathematics",
+    "topic": "Calculus",
+    "difficulty": "Advanced",
+    "bloom_level": "Apply",
+    "question_type": "MCQ",
+    "source": "Sample Mathematics questions on Algebra",
+    "extracted_at": "2025-07-29T14:30:21.430Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Find the area of a circle with radius 7 cm. (Use π = 22/7)",
+    "options": [
+      "A) 154 cm²",
+      "B) 44 cm²",
+      "C) 308 cm²",
+      "D) 22 cm²"
+    ],
+    "correct_answer": "A) 154 cm²",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "difficulty": "Intermediate",
+    "bloom_level": "Apply",
+    "question_type": "Problem Solving",
+    "source": "Sample Mathematics questions on Algebra",
+    "extracted_at": "2025-07-29T14:30:21.430Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "If log₂(8) = x, find the value of x.",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 8"
+    ],
+    "correct_answer": "B) 3",
+    "subject": "Mathematics",
+    "topic": "Logarithms",
+    "difficulty": "Intermediate",
+    "bloom_level": "Apply",
+    "question_type": "MCQ",
+    "source": "Sample Mathematics questions on Algebra",
+    "extracted_at": "2025-07-29T14:30:21.430Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What are the main factors that influence climate in Malaysia?",
+    "options": [],
+    "correct_answer": "Tropical location, monsoon winds, maritime influence, topography",
+    "subject": "Geography",
+    "topic": "Climate and Weather",
+    "difficulty": "Intermediate",
+    "bloom_level": "Analyze",
+    "question_type": "Essay",
+    "source": "Sample Geography questions on Climate",
+    "extracted_at": "2025-07-29T14:30:22.436Z",
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question": "Which mountain range forms the backbone of Peninsular Malaysia?",
+    "options": [
+      "A) Himalayas",
+      "B) Titiwangsa Range",
+      "C) Crocker Range",
+      "D) Banjaran Santubon"
+    ],
+    "correct_answer": "B) Titiwangsa Range",
+    "subject": "Geography",
+    "topic": "Physical Geography",
+    "difficulty": "Beginner",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "Sample Geography questions on Climate",
+    "extracted_at": "2025-07-29T14:30:22.436Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Explain the formation of river meanders.",
+    "options": [],
+    "correct_answer": "River meanders form due to lateral erosion on the outer bank and deposition on the inner bank of river bends.",
+    "subject": "Geography",
+    "topic": "River Systems",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Essay",
+    "source": "Sample Geography questions on Climate",
+    "extracted_at": "2025-07-29T14:30:22.436Z",
+    "stream": [
+      "Premier"
+    ]
+  }
+]

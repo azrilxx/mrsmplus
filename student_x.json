@@ -1,0 +1,38 @@
+{
+  "uid": "MRSM007",
+  "xp_log": [
+    {
+      "topic": "Thermodynamics",
+      "bloom": "Apply",
+      "xp": 10
+    },
+    {
+      "topic": "Thermodynamics",
+      "bloom": "Understand",
+      "xp": 30
+    },
+    {
+      "topic": "Stress & Strain",
+      "bloom": "Analyze",
+      "xp": 5
+    }
+  ],
+  "journal": [
+    {
+      "date": "2025-08-06",
+      "mood": "tired",
+      "duration": 30,
+      "reflection": "Thermodynamics was difficult"
+    },
+    {
+      "date": "2025-08-07",
+      "mood": "focused",
+      "duration": 45,
+      "reflection": "Stress topic was manageable"
+    }
+  ],
+  "usage_patterns": {
+    "preferred_time": "morning",
+    "avg_session_duration": 35
+  }
+}

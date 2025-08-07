@@ -1,0 +1,202 @@
+[
+  {
+    "question": "State Newton's First Law of Motion and explain how it applies to a stationary crane holding a heavy load.",
+    "answer": "Newton's First Law states that an object at rest stays at rest and an object in motion stays in motion at constant velocity unless acted upon by an unbalanced force. For a stationary crane holding a heavy load, the load remains at rest because the upward force from the crane cable exactly balances the downward gravitational force. The net force is zero, so there is no acceleration - demonstrating the law of inertia.",
+    "topic": "Forces and equilibrium",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Basic",
+    "bloom_level": "Understand",
+    "stream": ["Teknikal"],
+    "id": "mech_001_forces_newton1"
+  },
+  {
+    "question": "A 500N weight is suspended by two cables making angles of 30° and 45° with the horizontal. Calculate the tension in each cable.",
+    "answer": "Using force equilibrium: ΣFx = 0 and ΣFy = 0. Let T1 be tension at 30° and T2 at 45°. Horizontal: T1cos30° = T2cos45°, so T1(0.866) = T2(0.707). Vertical: T1sin30° + T2sin45° = 500N, so T1(0.5) + T2(0.707) = 500. Solving simultaneously: T1 = 366N and T2 = 448N. This demonstrates vector resolution in static equilibrium problems common in structural engineering.",
+    "topic": "Forces and equilibrium",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Moderate",
+    "bloom_level": "Apply",
+    "stream": ["Teknikal"],
+    "id": "mech_002_forces_vectors"
+  },
+  {
+    "question": "Distinguish between static and dynamic equilibrium with examples from Malaysian construction industry.",
+    "answer": "Static equilibrium occurs when forces and moments are balanced and the object remains at rest, like a completed building structure or a stationary tower crane. Dynamic equilibrium occurs when forces are balanced but the object moves at constant velocity, like a construction elevator moving up at steady speed or a concrete mixer truck traveling at constant speed on PLUS highway. Both require net force = 0, but static has zero velocity while dynamic has constant non-zero velocity.",
+    "topic": "Forces and equilibrium",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Moderate",
+    "bloom_level": "Analyze",
+    "stream": ["Teknikal"],
+    "id": "mech_003_forces_equilibrium"
+  },
+  {
+    "question": "What is the resultant force when three forces act on a point: 100N east, 80N north, and 60N at 30° south of west?",
+    "answer": "Using component method: Force 1: Fx1 = 100N, Fy1 = 0. Force 2: Fx2 = 0, Fy2 = 80N. Force 3: Fx3 = -60cos30° = -52N, Fy3 = -60sin30° = -30N. Sum: ΣFx = 100 + 0 + (-52) = 48N. ΣFy = 0 + 80 + (-30) = 50N. Resultant magnitude: R = √(48² + 50²) = 69.3N. Direction: θ = tan⁻¹(50/48) = 46.2° north of east. This vector addition skill is essential for analyzing forces in mechanical systems.",
+    "topic": "Forces and equilibrium",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Moderate",
+    "bloom_level": "Apply",
+    "stream": ["Teknikal"],
+    "id": "mech_004_forces_resultant"
+  },
+  {
+    "question": "Define torque and explain its relationship to force and moment arm.",
+    "answer": "Torque (or moment) is the rotational effect of a force about a pivot point, measured as the product of force magnitude and perpendicular distance from the pivot to the line of action. Formula: T = F × r × sinθ, where F is force, r is distance from pivot, and θ is angle between force and radius vector. Maximum torque occurs when force is perpendicular to the moment arm (θ = 90°). Units are Newton-meters (N⋅m). This principle is crucial in designing wrenches, motors, and rotating machinery.",
+    "topic": "Torque and leverage",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Basic",
+    "bloom_level": "Understand",
+    "stream": ["Teknikal"],
+    "id": "mech_005_torque_definition"
+  },
+  {
+    "question": "A mechanic uses a 40cm wrench to tighten a bolt. If 80N force is applied perpendicular to the wrench, what torque is generated? How would this change if the force is applied at 60° to the wrench?",
+    "answer": "For perpendicular force: T = F × r = 80N × 0.40m = 32 N⋅m. For 60° angle: T = F × r × sin60° = 80N × 0.40m × 0.866 = 27.7 N⋅m. The angled force produces less torque because only the perpendicular component contributes to rotation. This explains why mechanics apply force perpendicular to wrench handles for maximum effectiveness, and why longer wrenches provide mechanical advantage in automotive repair work.",
+    "topic": "Torque and leverage",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Moderate",
+    "bloom_level": "Apply",
+    "stream": ["Teknikal"],
+    "id": "mech_006_torque_calculation"
+  },
+  {
+    "question": "Explain rotational equilibrium and its application in balancing a seesaw with unequal weights.",
+    "answer": "Rotational equilibrium occurs when the sum of clockwise moments equals the sum of counterclockwise moments about any point (ΣM = 0). For a seesaw with weights W1 and W2 at distances d1 and d2 from the fulcrum: W1 × d1 = W2 × d2. If a 600N child sits 2m from the fulcrum, a 400N child must sit at distance d2 = (600N × 2m)/400N = 3m from the fulcrum on the opposite side. This principle applies to crane counterweights and beam design in construction.",
+    "topic": "Torque and leverage",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Moderate",
+    "bloom_level": "Apply",
+    "stream": ["Teknikal"],
+    "id": "mech_007_torque_equilibrium"
+  },
+  {
+    "question": "Analyze why a longer wrench provides greater mechanical advantage when loosening tight bolts in automotive maintenance.",
+    "answer": "A longer wrench increases the moment arm (perpendicular distance from pivot to force application point), resulting in greater torque for the same applied force (T = F × r). If doubling the wrench length from 20cm to 40cm, the same 100N force produces torque of 20 N⋅m versus 40 N⋅m respectively. This mechanical advantage allows technicians to overcome high resistance with less muscular effort. However, longer wrenches require more space and may flex under high loads, so optimal length depends on bolt torque requirements and workspace constraints.",
+    "topic": "Torque and leverage",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Moderate",
+    "bloom_level": "Analyze",
+    "stream": ["Teknikal"],
+    "id": "mech_008_torque_advantage"
+  },
+  {
+    "question": "Define stress and strain, and explain the difference between tensile and compressive stress.",
+    "answer": "Stress is internal force per unit area within a material (σ = F/A), measured in Pascals (Pa) or N/m². Strain is the deformation per unit length (ε = ΔL/L), dimensionless. Tensile stress occurs when forces pull the material apart (like a rope under tension), while compressive stress occurs when forces push the material together (like a concrete column supporting a building). Both are crucial in structural design - steel reinforcement handles tensile stress while concrete handles compressive stress in Malaysian building construction.",
+    "topic": "Stress and strain",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Basic",
+    "bloom_level": "Understand",
+    "stream": ["Teknikal"],
+    "id": "mech_009_stress_strain_basic"
+  },
+  {
+    "question": "A steel rod with diameter 10mm and length 2m is subjected to a tensile force of 5000N. Calculate the stress and strain if the elongation is 1.2mm.",
+    "answer": "Area = π × (d/2)² = π × (0.005m)² = 7.85 × 10⁻⁵ m². Stress = F/A = 5000N / (7.85 × 10⁻⁵ m²) = 63.7 × 10⁶ Pa = 63.7 MPa. Strain = ΔL/L = 0.0012m / 2m = 0.0006 or 0.06%. This stress level is within the elastic range for steel (yield strength ≈ 250 MPa), making it suitable for structural applications. Understanding these calculations is essential for material selection in mechanical design projects.",
+    "topic": "Stress and strain",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Moderate",
+    "bloom_level": "Apply",
+    "stream": ["Teknikal"],
+    "id": "mech_010_stress_calculation"
+  },
+  {
+    "question": "Explain Hooke's Law and its significance in material testing for construction materials.",
+    "answer": "Hooke's Law states that stress is directly proportional to strain within the elastic limit: σ = E × ε, where E is the modulus of elasticity (Young's modulus). This means materials deform linearly under load and return to original shape when load is removed. For construction materials like steel (E ≈ 200 GPa) and concrete (E ≈ 30 GPa), this relationship helps engineers predict deformation under service loads. Materials testing in Malaysian construction must verify Hooke's Law compliance to ensure structures remain within elastic limits during normal use.",
+    "topic": "Stress and strain",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Moderate",
+    "bloom_level": "Understand",
+    "stream": ["Teknikal"],
+    "id": "mech_011_hookes_law"
+  },
+  {
+    "question": "Compare the material properties of steel and aluminum in terms of stress-strain behavior for aerospace applications.",
+    "answer": "Steel has higher tensile strength (400-2000 MPa vs 90-300 MPa for aluminum) and elastic modulus (200 GPa vs 70 GPa), providing greater stiffness and load capacity. However, aluminum has lower density (2.7 g/cm³ vs 7.8 g/cm³), giving better strength-to-weight ratio crucial for aircraft. Steel shows distinct yield point while aluminum yields gradually. Aluminum exhibits better corrosion resistance in marine environments. For Malaysian aerospace industry (like aircraft maintenance at KLIA), material choice depends on specific requirements: steel for high-stress components, aluminum for weight-sensitive structures.",
+    "topic": "Stress and strain",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Moderate",
+    "bloom_level": "Analyze",
+    "stream": ["Teknikal"],
+    "id": "mech_012_material_comparison"
+  },
+  {
+    "question": "Define work, energy, and power, and state their SI units.",
+    "answer": "Work is energy transferred when a force moves an object through a distance: W = F × d × cosθ, measured in Joules (J). Energy is the capacity to do work, existing as kinetic (motion) or potential (position) energy, also measured in Joules. Power is the rate of doing work or energy transfer: P = W/t or P = F × v, measured in Watts (W). These fundamental concepts govern all mechanical systems - from hand tools requiring human power input to industrial machinery converting electrical power to mechanical work in Malaysian manufacturing plants.",
+    "topic": "Basic mechanics",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Basic",
+    "bloom_level": "Remember",
+    "stream": ["Teknikal"],
+    "id": "mech_013_work_energy_power"
+  },
+  {
+    "question": "A 2000kg car accelerates from rest to 60 km/h. Calculate the kinetic energy gained and the work done by the engine (ignoring friction).",
+    "answer": "First convert velocity: 60 km/h = 60/3.6 = 16.67 m/s. Initial KE = 0 (at rest). Final KE = ½mv² = ½ × 2000kg × (16.67m/s)² = 278,000 J = 278 kJ. Work done = ΔKE = 278 kJ. This work must be supplied by the engine through fuel combustion and transmission to the wheels. In automotive engineering, understanding energy conversion helps optimize fuel efficiency and performance - crucial for Malaysia's automotive industry including Proton and Perodua development.",
+    "topic": "Basic mechanics",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Moderate",
+    "bloom_level": "Apply",
+    "stream": ["Teknikal"],
+    "id": "mech_014_kinetic_energy"
+  },
+  {
+    "question": "Explain the principle of conservation of mechanical energy using a pendulum example.",
+    "answer": "Conservation of mechanical energy states that total energy (KE + PE) remains constant in the absence of non-conservative forces like friction. For a pendulum: at highest points, velocity = 0 so KE = 0 and PE = maximum; at lowest point, height is minimum so PE = 0 and KE = maximum. Energy continuously converts between kinetic and potential forms. At any point: KE + PE = constant = mgh (where h is initial release height). This principle applies to roller coasters, crane operations, and vibrating machinery in industrial applications.",
+    "topic": "Basic mechanics",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Moderate",
+    "bloom_level": "Understand",
+    "stream": ["Teknikal"],
+    "id": "mech_015_energy_conservation"
+  },
+  {
+    "question": "A motor rated at 5 kW lifts a 500kg load vertically. Calculate the maximum speed at which it can lift the load, and analyze factors affecting actual performance.",
+    "answer": "Theoretical maximum speed: P = F × v, so v = P/F = 5000W / (500kg × 9.81m/s²) = 5000W / 4905N = 1.02 m/s. However, actual performance is lower due to: motor efficiency (typically 80-95%), friction in pulley systems, acceleration requirements, and safety factors. Real lifting speed might be 0.6-0.8 m/s. In crane design for Malaysian construction sites, engineers must account for these losses when specifying motor power to achieve required lifting speeds while maintaining safety margins.",
+    "topic": "Basic mechanics",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Moderate",
+    "bloom_level": "Analyze",
+    "stream": ["Teknikal"],
+    "id": "mech_016_power_analysis"
+  },
+  {
+    "question": "Identify and describe the three classes of levers with one practical example of each from workshop tools.",
+    "answer": "Class 1 lever: Fulcrum between effort and load (like pliers or scissors). Fulcrum is centrally located, providing variable mechanical advantage depending on effort arm to load arm ratio. Class 2 lever: Load between fulcrum and effort (like wheelbarrow or bottle opener). Always provides mechanical advantage since effort arm is longer than load arm. Class 3 lever: Effort between fulcrum and load (like hammer or tweezers). Provides mechanical disadvantage but increases speed and range of motion. Each class serves different purposes in workshop applications and machine design.",
+    "topic": "Simple machines",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Basic",
+    "bloom_level": "Remember",
+    "stream": ["Teknikal"],
+    "id": "mech_017_lever_classes"
+  },
+  {
+    "question": "Calculate the mechanical advantage of a pulley system with 4 supporting ropes lifting a 1000N load, and explain how it reduces required effort force.",
+    "answer": "For a pulley system, mechanical advantage (MA) equals the number of supporting ropes: MA = 4. Required effort force = Load/MA = 1000N/4 = 250N. The system trades distance for force - while you pull 4 times the distance, you only need ¼ of the load weight as effort. If the load rises 1m, you must pull 4m of rope. This principle is used in construction hoists, engine lifts in automotive workshops, and crane systems where heavy loads must be lifted with limited human strength or smaller motors.",
+    "topic": "Simple machines",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Moderate",
+    "bloom_level": "Apply",
+    "stream": ["Teknikal"],
+    "id": "mech_018_pulley_advantage"
+  },
+  {
+    "question": "Explain how gear ratios provide mechanical advantage in a car transmission system.",
+    "answer": "Gear ratio is the ratio of teeth on driven gear to teeth on driving gear. For example, if driving gear has 20 teeth and driven gear has 60 teeth, ratio = 60:20 = 3:1. This provides torque multiplication of 3× but speed reduction of 1/3. In car transmissions: low gears (high ratios like 4:1) provide high torque for starting/climbing hills but low speed; high gears (low ratios like 0.8:1) provide high speed but low torque for highway cruising. Malaysian automotive technicians must understand this to diagnose transmission problems and optimize performance.",
+    "topic": "Simple machines",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Moderate",
+    "bloom_level": "Understand",
+    "stream": ["Teknikal"],
+    "id": "mech_019_gear_ratios"
+  },
+  {
+    "question": "Analyze the efficiency of a compound machine system consisting of a lever (MA=3) connected to a pulley system (MA=2), and calculate overall mechanical advantage when 20% energy is lost to friction.",
+    "answer": "Theoretical MA = MA₁ × MA₂ = 3 × 2 = 6. If 1000N load needs lifting, theoretical effort = 1000N/6 = 167N. However, with 20% energy loss to friction, efficiency = 80% = 0.8. Actual MA = Theoretical MA × efficiency = 6 × 0.8 = 4.8. Actual effort required = 1000N/4.8 = 208N. Real systems always have lower efficiency due to friction, bearing losses, and material deformation. Engineers must account for these losses in design calculations for industrial equipment and manufacturing machinery used in Malaysian factories.",
+    "topic": "Simple machines",
+    "subject": "Mechanical Engineering",
+    "difficulty": "Moderate",
+    "bloom_level": "Analyze",
+    "stream": ["Teknikal"],
+    "id": "mech_020_compound_machines"
+  }
+]

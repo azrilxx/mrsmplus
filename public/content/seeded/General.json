@@ -1,0 +1,16 @@
+[
+  {
+    "id": "78ba19be134e616c",
+    "question": "Calculate the molarity of a solution containing 5.85 g of NaCl dissolved in 500 mL of water.",
+    "answer": "Given: Mass of NaCl = 5.85 g, Volume of solution = 500 mL = 0.5 L. Molar mass of NaCl = 58.5 g/mol. Number of moles = 5.85/58.5 = 0.1 mol. Molarity = moles/volume in L = 0.1/0.5 = 0.2 M. Therefore, the molarity of the NaCl solution is 0.2 M.",
+    "subject": "General",
+    "topic": "General",
+    "bloom_level": "Apply",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "moe_malaysia_1754461492625",
+    "stream": [
+      "Premier"
+    ]
+  }
+]

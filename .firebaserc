@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "maraplus-ecd9d",
+    "dev": "maraplus-ecd9d",
+    "prod": "maraplus-production"
+  },
+  "targets": {},
+  "etags": {}
+}

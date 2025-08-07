@@ -1,0 +1,52 @@
+[
+  {
+    "question": "An atom of oxygen has 8 protons. How many electrons does a neutral oxygen atom have, and what is its electronic structure?",
+    "answer": "A neutral oxygen atom has 8 electrons to balance the 8 protons. The electronic structure is 2,6 meaning 2 electrons in the first shell and 6 electrons in the second shell. This gives oxygen 6 valence electrons, making it likely to gain 2 electrons to achieve a stable octet configuration.",
+    "topic": "Atomic Structure and Electronic Configuration",
+    "subject": "Chemistry",
+    "difficulty": "Easy",
+    "bloom_level": "Apply",
+    "stream": ["IGCSE"],
+    "id": "u1v2w3x4y5z6a7b8"
+  },
+  {
+    "question": "Explain the difference between ionic and covalent bonding, giving one example of each.",
+    "answer": "Ionic bonding occurs when electrons are transferred from metal atoms to non-metal atoms, creating charged ions held together by electrostatic attraction. Example: NaCl (sodium chloride). Covalent bonding occurs when non-metal atoms share pairs of electrons. Example: H₂O (water) where oxygen shares electrons with two hydrogen atoms.",
+    "topic": "Chemical Bonding Types",
+    "subject": "Chemistry",
+    "difficulty": "Moderate",
+    "bloom_level": "Understand",
+    "stream": ["IGCSE"],
+    "id": "v2w3x4y5z6a7b8c9"
+  },
+  {
+    "question": "Draw the dot-and-cross diagram for methane (CH₄) and explain the bonding.",
+    "answer": "In methane, carbon (4 valence electrons) forms 4 covalent bonds with 4 hydrogen atoms (1 electron each). The dot-and-cross diagram shows carbon in the center with 4 shared electron pairs around it. Each C-H bond is formed by sharing one electron from carbon and one from hydrogen, giving carbon and hydrogen stable electronic configurations.",
+    "topic": "Covalent Bonding and Molecular Structure",
+    "subject": "Chemistry",
+    "difficulty": "Moderate",
+    "bloom_level": "Apply",
+    "stream": ["IGCSE"],
+    "id": "w3x4y5z6a7b8c9d0"
+  },
+  {
+    "question": "What is the difference between a strong acid and a weak acid? Give examples of each.",
+    "answer": "Strong acids completely ionize in water, releasing all their hydrogen ions (H⁺). Examples: hydrochloric acid (HCl), sulfuric acid (H₂SO₄), nitric acid (HNO₃). Weak acids only partially ionize in water, releasing few H⁺ ions. Examples: ethanoic acid (CH₃COOH), carbonic acid (H₂CO₃). Strong acids have pH closer to 0, weak acids have higher pH values.",
+    "topic": "Acids, Bases and pH",
+    "subject": "Chemistry",
+    "difficulty": "Moderate",
+    "bloom_level": "Understand",
+    "stream": ["IGCSE"],
+    "id": "x4y5z6a7b8c9d0e1"
+  },
+  {
+    "question": "Explain what happens when zinc metal reacts with hydrochloric acid. Write the balanced chemical equation.",
+    "answer": "When zinc reacts with hydrochloric acid, it displaces hydrogen gas and forms zinc chloride salt. The balanced equation is: Zn + 2HCl → ZnCl₂ + H₂. This is an acid-metal reaction producing a salt and hydrogen gas. The reaction is exothermic and hydrogen gas can be tested with a lighted splint (pop test).",
+    "topic": "Acid-Metal Reactions",
+    "subject": "Chemistry",
+    "difficulty": "Moderate",
+    "bloom_level": "Apply",
+    "stream": ["IGCSE"],
+    "id": "y5z6a7b8c9d0e1f2"
+  }
+]

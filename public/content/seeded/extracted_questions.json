@@ -1,0 +1,2959 @@
+[
+  {
+    "question_id": "sej2023_k1_001",
+    "subject": "Sejarah",
+    "topic": "Kerajaan Alam Melayu",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah tujuan utama Inskripsi Telaga Batu dalam sejarah kerajaan Funan?",
+    "answer_choices": [
+      "Menyeru taat setia kepada raja",
+      "Menjelaskan struktur pemerintahan",
+      "Menerangkan undang-undang perdagangan",
+      "Menyatakan senarai raja"
+    ],
+    "correct_answer": "Menyeru taat setia kepada raja",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_002",
+    "subject": "Sejarah",
+    "topic": "Kesultanan Melayu Melaka",
+    "difficulty": "Medium",
+    "bloom_level": "Remember",
+    "question_text": "Siapakah bertanggungjawab dalam mengutip cukai dalam Kesultanan Melayu Melaka?",
+    "answer_choices": [
+      "Syahbandar",
+      "Laksamana",
+      "Bentara",
+      "Penghulu Bendahari"
+    ],
+    "correct_answer": "Syahbandar",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_003",
+    "subject": "Sejarah",
+    "topic": "Penjajahan Portugis",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Apakah faktor yang menyebabkan kejatuhan kerajaan Melaka kepada Portugis pada 1511?",
+    "answer_choices": [
+      "Pertempuran dalaman",
+      "Kelemahan pertahanan pelabuhan",
+      "Kekurangan senjata api",
+      "Pengkhianatan pedagang asing"
+    ],
+    "correct_answer": "Kelemahan pertahanan pelabuhan",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_004",
+    "subject": "Sejarah",
+    "topic": "Pembentukan Persekutuan Tanah Melayu",
+    "difficulty": "Medium",
+    "bloom_level": "Remember",
+    "question_text": "Jawatankuasa mana yang ditubuhkan untuk merangka Perjanjian Persekutuan 1948?",
+    "answer_choices": [
+      "Jawatankuasa Kerja",
+      "Majlis Perundangan",
+      "Suruhanjaya Reid",
+      "Majlis Raja-Raja"
+    ],
+    "correct_answer": "Jawatankuasa Kerja",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_005",
+    "subject": "Sejarah",
+    "topic": "Dasar British",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah tujuan dasar Pentadbiran Barat memperkenalkan Undang-undang Tanah untuk orang Melayu?",
+    "answer_choices": [
+      "Menarik pelabur asing",
+      "Mengawal pengeluaran getah",
+      "Menghadkan milikan tanah kaum Cina",
+      "Mencegah monopoli British"
+    ],
+    "correct_answer": "Menghadkan milikan tanah kaum Cina",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_006",
+    "subject": "Sejarah",
+    "topic": "Malayan Union",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Mengapakah Malayan Union ditentang hebat oleh orang Melayu?",
+    "answer_choices": [
+      "Menafikan kuasa raja-raja Melayu",
+      "Meningkatkan cukai ke atas orang Melayu",
+      "Membenarkan imigran memegang jawatan",
+      "Menghapuskan agama Islam"
+    ],
+    "correct_answer": "Menafikan kuasa raja-raja Melayu",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_007",
+    "subject": "Sejarah",
+    "topic": "Gerakan Nasionalisme",
+    "difficulty": "Medium",
+    "bloom_level": "Remember",
+    "question_text": "Siapakah tokoh yang memimpin gerakan Kesatuan Melayu Muda (KMM)?",
+    "answer_choices": [
+      "Ibrahim Yaacob",
+      "Tok Janggut",
+      "Dato' Bahaman",
+      "Ahmad Boestamam"
+    ],
+    "correct_answer": "Ibrahim Yaacob",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_008",
+    "subject": "Sejarah",
+    "topic": "Gerakan Kiri",
+    "difficulty": "Hard",
+    "bloom_level": "Analysis",
+    "question_text": "Apakah peranan pengasas Malayan Communist Party (MCP) dalam perjuangan menentang British?",
+    "answer_choices": [
+      "Menggerakkan mogok pekerja",
+      "Mendukung konsep Raja Berperlembagaan",
+      "Menyokong Malayan Union",
+      "Melobi dewan undangan"
+    ],
+    "correct_answer": "Menggerakkan mogok pekerja",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_009",
+    "subject": "Sejarah",
+    "topic": "Pendudukan Jepun",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah kesan dasar ekonomi Jepun terhadap Tanah Melayu semasa Pendudukan Jepun?",
+    "answer_choices": [
+      "Eksport getah meningkat",
+      "Bekalan makanan semakin mencukupi",
+      "Inflasi tinggi dan kekurangan barangan",
+      "Kadar celik huruf meningkat"
+    ],
+    "correct_answer": "Inflasi tinggi dan kekurangan barangan",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_010",
+    "subject": "Sejarah",
+    "topic": "Perlembagaan 1957",
+    "difficulty": "Medium",
+    "bloom_level": "Remember",
+    "question_text": "Siapakah yang mengetuai Suruhanjaya Reid untuk menggubal Perlembagaan Persekutuan?",
+    "answer_choices": [
+      "Lord Reid",
+      "Tunku Abdul Rahman",
+      "Dato' Onn Jaafar",
+      "Tun Tan Cheng Lock"
+    ],
+    "correct_answer": "Lord Reid",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_011",
+    "subject": "Sejarah",
+    "topic": "Perpaduan Nasional",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah tujuan penubuhan Rukun Negara?",
+    "answer_choices": [
+      "Menjamin keselamatan negara",
+      "Mewujudkan perpaduan nasional",
+      "Meningkatkan ekonomi rakyat",
+      "Memupuk minat terhadap sejarah"
+    ],
+    "correct_answer": "Mewujudkan perpaduan nasional",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_012",
+    "subject": "Sejarah",
+    "topic": "Kemerdekaan",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Bilakah Malaysia merdeka daripada British?",
+    "answer_choices": [
+      "31 Ogos 1957",
+      "16 September 1963",
+      "1 Jun 1948",
+      "31 Ogos 1960"
+    ],
+    "correct_answer": "31 Ogos 1957",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_013",
+    "subject": "Sejarah",
+    "topic": "Dasar Ekonomi Baru",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah matlamat Dasar Ekonomi Baru?",
+    "answer_choices": [
+      "Membasmi kemiskinan",
+      "Menghapuskan raja-raja Melayu",
+      "Memaksa pendidikan Inggeris",
+      "Melindungi perusahaan asing"
+    ],
+    "correct_answer": "Membasmi kemiskinan",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_014",
+    "subject": "Sejarah",
+    "topic": "Sejarah British",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah kesan Revolusi Keagungan 1688 ke atas Tanah Melayu?",
+    "answer_choices": [
+      "Pengiktirafan Raja Berperlembagaan",
+      "Pengenalan demokrasi berparlimen",
+      "Pelaksanaan cukai kepala",
+      "Penghapusan perhambaan"
+    ],
+    "correct_answer": "Pengiktirafan Raja Berperlembagaan",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_015",
+    "subject": "Sejarah",
+    "topic": "Penentangan",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Siapakah tokoh yang mengetuai penentangan terhadap Cukai Jizyah di Terengganu?",
+    "answer_choices": [
+      "Tok Ku Paloh",
+      "Tok Janggut",
+      "Dato' Bahaman",
+      "Haji Abdul Rahman Limbong"
+    ],
+    "correct_answer": "Haji Abdul Rahman Limbong",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_016",
+    "subject": "Sejarah",
+    "topic": "Dasar-dasar kerajaan",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah tujuan Dasar Pandang Ke Timur?",
+    "answer_choices": [
+      "Mencontohi budaya kerja Jepun",
+      "Menghapuskan pengaruh Barat",
+      "Menyeru rakyat ke kawasan luar bandar",
+      "Memperkukuh pertahanan"
+    ],
+    "correct_answer": "Mencontohi budaya kerja Jepun",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_017",
+    "subject": "Sejarah",
+    "topic": "Persekutuan Tanah Melayu",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Berapa buah negeri bersekutu yang membentuk Persekutuan Tanah Melayu?",
+    "answer_choices": [
+      "4",
+      "9",
+      "11",
+      "13"
+    ],
+    "correct_answer": "11",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_018",
+    "subject": "Sejarah",
+    "topic": "Perpaduan dan konflik",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah kesan tragedi 13 Mei 1969 terhadap politik Malaysia?",
+    "answer_choices": [
+      "Penggantungan Parlimen",
+      "Pembubaran semua parti",
+      "Pengisytiharan darurat di Sabah",
+      "Pembentukan Gagasan 1Malaysia"
+    ],
+    "correct_answer": "Penggantungan Parlimen",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_019",
+    "subject": "Sejarah",
+    "topic": "Institusi Beraja",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Siapakah Yang di-Pertuan Agong pertama Malaysia?",
+    "answer_choices": [
+      "Tuanku Abdul Rahman",
+      "Sultan Iskandar",
+      "Sultan Salahuddin",
+      "Tuanku Syed Putra"
+    ],
+    "correct_answer": "Tuanku Abdul Rahman",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_020",
+    "subject": "Sejarah",
+    "topic": "Dasar Pembangunan Nasional",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah tujuan program Dasar Pembangunan Nasional menggantikan DEB?",
+    "answer_choices": [
+      "Meneruskan dasar pembangunan seimbang",
+      "Memansuhkan sektor swasta",
+      "Menghapuskan sistem kuota",
+      "Mewujudkan dominasi kaum tertentu"
+    ],
+    "correct_answer": "Meneruskan dasar pembangunan seimbang",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_021",
+    "subject": "Sejarah",
+    "topic": "Pembentukan Malaysia",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Bilakah pembentukan Malaysia berlaku?",
+    "answer_choices": [
+      "16 September 1963",
+      "31 Ogos 1957",
+      "1 November 1963",
+      "16 September 1965"
+    ],
+    "correct_answer": "16 September 1963",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_022",
+    "subject": "Sejarah",
+    "topic": "Rukun Negara",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah salah satu prinsip Rukun Negara?",
+    "answer_choices": [
+      "Kesetiaan kepada Raja dan Negara",
+      "Dasar berpaksikan agama tertentu",
+      "Memajukan negara-negara jiran",
+      "Menjaga keturunan raja"
+    ],
+    "correct_answer": "Kesetiaan kepada Raja dan Negara",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_023",
+    "subject": "Sejarah",
+    "topic": "Perjanjian Inggeris-Belanda",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah kesan Perjanjian Inggeris-Belanda 1824 kepada Alam Melayu?",
+    "answer_choices": [
+      "Perpecahan wilayah pengaruh",
+      "Pembukaan sekolah Inggeris",
+      "Pengharaman amalan agama",
+      "Pembentukan kerajaan baharu"
+    ],
+    "correct_answer": "Perpecahan wilayah pengaruh",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_024",
+    "subject": "Sejarah",
+    "topic": "Gerakan Nasionalisme",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Siapakah tokoh nasionalisme yang berjuang melalui akhbar Utusan Melayu?",
+    "answer_choices": [
+      "Dato' Onn Jaafar",
+      "Syed Jaafar Albar",
+      "Tan Cheng Lock",
+      "Lim Kit Siang"
+    ],
+    "correct_answer": "Dato' Onn Jaafar",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_025",
+    "subject": "Sejarah",
+    "topic": "Campur Tangan British",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah kesan pengenalan Residen British di negeri-negeri Melayu?",
+    "answer_choices": [
+      "Campur tangan dalam pentadbiran",
+      "Penubuhan parlimen",
+      "Pertambahan sekolah vernakular",
+      "Kemerdekaan segera"
+    ],
+    "correct_answer": "Campur tangan dalam pentadbiran",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_026",
+    "subject": "Sejarah",
+    "topic": "Undang-Undang Tubuh",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Undang-undang Tubuh Negeri Johor dipengaruhi oleh negara manakah?",
+    "answer_choices": [
+      "Turki Uthmaniyah",
+      "Amerika Syarikat",
+      "Portugal",
+      "Perancis"
+    ],
+    "correct_answer": "Turki Uthmaniyah",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_027",
+    "subject": "Sejarah",
+    "topic": "Gerakan Kiri",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Siapakah tokoh yang menubuhkan Parti Kebangsaan Melayu Malaya (PKMM)?",
+    "answer_choices": [
+      "Ahmad Boestamam",
+      "Ibrahim Yaacob",
+      "Burhanuddin al-Helmy",
+      "Tok Janggut"
+    ],
+    "correct_answer": "Ahmad Boestamam",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_028",
+    "subject": "Sejarah",
+    "topic": "Perjanjian Bangkok",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah tujuan perjanjian Bangkok 1909?",
+    "answer_choices": [
+      "Pembahagian sempadan Siam-British",
+      "Penyelesaian pertikaian kuasa raja",
+      "Pembentukan negeri-negeri selat",
+      "Menaikkan taraf pendidikan"
+    ],
+    "correct_answer": "Pembahagian sempadan Siam-British",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_029",
+    "subject": "Sejarah",
+    "topic": "Migrasi",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah faktor utama kemasukan imigran Cina ke Tanah Melayu pada abad ke-19?",
+    "answer_choices": [
+      "Industri perlombongan bijih timah",
+      "Pelaburan dalam pendidikan",
+      "Perdagangan tekstil",
+      "Penyebaran agama"
+    ],
+    "correct_answer": "Industri perlombongan bijih timah",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_030",
+    "subject": "Sejarah",
+    "topic": "Gerakan Nasionalisme",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Gerakan Apakah yang menuntut penubuhan Malayan Union digantikan dengan Persekutuan?",
+    "answer_choices": [
+      "UMNO",
+      "PAS",
+      "MCP",
+      "MCA"
+    ],
+    "correct_answer": "UMNO",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_031",
+    "subject": "Sejarah",
+    "topic": "Institusi Beraja",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah maksud konsep Raja Berperlembagaan?",
+    "answer_choices": [
+      "Raja memerintah berdasarkan perlembagaan",
+      "Raja mempunyai kuasa mutlak",
+      "Raja dilantik setiap dua tahun",
+      "Raja tidak perlu mematuhi undang-undang"
+    ],
+    "correct_answer": "Raja memerintah berdasarkan perlembagaan",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_032",
+    "subject": "Sejarah",
+    "topic": "Pilihan Raya 1955",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Mengapakah pilihan raya 1955 penting untuk kemerdekaan?",
+    "answer_choices": [
+      "Membuktikan kesediaan rakyat untuk berkerajaan sendiri",
+      "Menarik pelabur Eropah",
+      "Menghapuskan pengaruh komunis",
+      "Menyeragamkan cukai"
+    ],
+    "correct_answer": "Membuktikan kesediaan rakyat untuk berkerajaan sendiri",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_033",
+    "subject": "Sejarah",
+    "topic": "Majlis Raja-Raja",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah fungsi Majlis Raja-Raja?",
+    "answer_choices": [
+      "Membincangkan kepentingan agama Islam dan hal-hal kebudayaan",
+      "Melantik Perdana Menteri",
+      "Mengadakan dasar ekonomi",
+      "Menerbitkan undang-undang"
+    ],
+    "correct_answer": "Membincangkan kepentingan agama Islam dan hal-hal kebudayaan",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_034",
+    "subject": "Sejarah",
+    "topic": "Perjanjian Pangkor",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Siapakah Sultan yang menandatangani Perjanjian Pangkor 1874?",
+    "answer_choices": [
+      "Sultan Abdullah",
+      "Sultan Ismail",
+      "Sultan Ali",
+      "Sultan Hussein"
+    ],
+    "correct_answer": "Sultan Abdullah",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_035",
+    "subject": "Sejarah",
+    "topic": "Pembentukan Malaysia",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah matlamat Suruhanjaya Cobbold 1962?",
+    "answer_choices": [
+      "Menilai pandangan rakyat Sarawak dan Sabah tentang pembentukan Malaysia",
+      "Menyusun semula sistem pendidikan",
+      "Memajukan industri perkapalan",
+      "Menandatangani perjanjian pertahanan"
+    ],
+    "correct_answer": "Menilai pandangan rakyat Sarawak dan Sabah tentang pembentukan Malaysia",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_036",
+    "subject": "Sejarah",
+    "topic": "Institusi Beraja",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Berapa lamakah tempoh jawatan Yang di-Pertuan Agong?",
+    "answer_choices": [
+      "5 tahun",
+      "4 tahun",
+      "7 tahun",
+      "9 tahun"
+    ],
+    "correct_answer": "5 tahun",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_037",
+    "subject": "Sejarah",
+    "topic": "Dasar Pendidikan",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah kesan utama Dasar Pelajaran 1956?",
+    "answer_choices": [
+      "Penggunaan bahasa Melayu sebagai bahasa pengantar",
+      "Penghapusan sekolah kebangsaan",
+      "Penghapusan bahasa Cina",
+      "Pengurangan cukai pendidikan"
+    ],
+    "correct_answer": "Penggunaan bahasa Melayu sebagai bahasa pengantar",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_038",
+    "subject": "Sejarah",
+    "topic": "Darurat",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Bagaimanakah British mengatasi pemberontakan komunis dalam Darurat?",
+    "answer_choices": [
+      "Memperkenalkan Rancangan Briggs",
+      "Menyekat kemasukan buku",
+      "Menutup semua lombong",
+      "Menghapuskan bahasa Cina"
+    ],
+    "correct_answer": "Memperkenalkan Rancangan Briggs",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_039",
+    "subject": "Sejarah",
+    "topic": "Dasar Kebudayaan",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah tujuan Dasar Kebudayaan Kebangsaan?",
+    "answer_choices": [
+      "Membentuk identiti kebangsaan berteraskan budaya Melayu",
+      "Mengenalkan budaya asing",
+      "Mewajibkan pemakaian tradisional",
+      "Menggalakkan perayaan luar negara"
+    ],
+    "correct_answer": "Membentuk identiti kebangsaan berteraskan budaya Melayu",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k1_040",
+    "subject": "Sejarah",
+    "topic": "Wasatiyah",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah pengertian konsep wasatiyah dalam Islam?",
+    "answer_choices": [
+      "Kesederhanaan",
+      "Kekayaan",
+      "Kecemerlangan",
+      "Kehormatan"
+    ],
+    "correct_answer": "Kesederhanaan",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k2_041",
+    "subject": "Sejarah",
+    "topic": "Kesultanan Melayu Melaka",
+    "difficulty": "Hard",
+    "bloom_level": "Synthesis",
+    "question_text": "Terangkan struktur pentadbiran Kesultanan Melayu Melaka dan peranan Bendahara serta Laksamana.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k2_042",
+    "subject": "Sejarah",
+    "topic": "Perjanjian Persekutuan",
+    "difficulty": "Hard",
+    "bloom_level": "Synthesis",
+    "question_text": "Jelaskan peranan Jawatankuasa Kerja dalam merangka Perjanjian Persekutuan 1948.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k2_043",
+    "subject": "Sejarah",
+    "topic": "Kedaulatan",
+    "difficulty": "Hard",
+    "bloom_level": "Synthesis",
+    "question_text": "Huraikan konsep kedaulatan dan kepentingannya kepada negara Malaysia.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k2_044",
+    "subject": "Sejarah",
+    "topic": "Dasar Kebudayaan",
+    "difficulty": "Hard",
+    "bloom_level": "Synthesis",
+    "question_text": "Bincangkan usaha kerajaan memperkasa Bahasa Kebangsaan dan Dasar Kebudayaan Kebangsaan.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k2_045",
+    "subject": "Sejarah",
+    "topic": "Nasionalisme",
+    "difficulty": "Hard",
+    "bloom_level": "Synthesis",
+    "question_text": "Huraikan perkembangan nasionalisme di Malaysia selepas Perang Dunia Kedua.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k2_046",
+    "subject": "Sejarah",
+    "topic": "Perpaduan",
+    "difficulty": "Hard",
+    "bloom_level": "Synthesis",
+    "question_text": "Terangkan peranan Jawatankuasa Hubungan Antara Kaum dalam memperkukuh perpaduan.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k2_047",
+    "subject": "Sejarah",
+    "topic": "Pembentukan Malaysia",
+    "difficulty": "Hard",
+    "bloom_level": "Synthesis",
+    "question_text": "Bincangkan faktor pembentukan Malaysia dan reaksi negeri-negeri terhadapnya.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k2_048",
+    "subject": "Sejarah",
+    "topic": "Ekonomi",
+    "difficulty": "Hard",
+    "bloom_level": "Synthesis",
+    "question_text": "Terangkan inisiatif kerajaan dalam membasmi kemiskinan dan meningkatkan taraf hidup masyarakat luar bandar.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej2023_k2_049",
+    "subject": "Sejarah",
+    "topic": "Alam Sekitar",
+    "difficulty": "Hard",
+    "bloom_level": "Synthesis",
+    "question_text": "Huraikan usaha yang diambil untuk memastikan kelestarian alam sekitar di Malaysia.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "bm2022_k1_050",
+    "subject": "Bahasa Melayu",
+    "topic": "Karangan Pendapat",
+    "difficulty": "Medium",
+    "bloom_level": "Synthesis",
+    "question_text": "Bahagian A: Berikan pendapat anda tentang manfaat penggunaan e-dompet dalam kalangan masyarakat. Huraikan antara 150 hingga 200 patah perkataan.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Pelajar perlu menulis karangan berdasarkan tema.",
+    "format": "Essay",
+    "source": "K1 MRSM 2022 (Bahasa Melayu)",
+    "year": 2022,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "bm2022_k1_051",
+    "subject": "Bahasa Melayu",
+    "topic": "Kesihatan Remaja",
+    "difficulty": "Medium",
+    "bloom_level": "Synthesis",
+    "question_text": "Bahagian B: Tuliskan sebuah karangan tentang manfaat diet seimbang dan kepentingan menjaga kesihatan dalam kalangan remaja.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Pelajar perlu menulis karangan berdasarkan tema.",
+    "format": "Essay",
+    "source": "K1 MRSM 2022 (Bahasa Melayu)",
+    "year": 2022,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "bm2022_k1_052",
+    "subject": "Bahasa Melayu",
+    "topic": "Pendidikan",
+    "difficulty": "Medium",
+    "bloom_level": "Synthesis",
+    "question_text": "Bahagian B: Huraikan keperluan mewujudkan persekitaran pembelajaran yang kondusif selepas tempoh PKP dan PdPR.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Pelajar perlu menulis karangan berdasarkan tema.",
+    "format": "Essay",
+    "source": "K1 MRSM 2022 (Bahasa Melayu)",
+    "year": 2022,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "bm2022_k1_053",
+    "subject": "Bahasa Melayu",
+    "topic": "Keselamatan Negara",
+    "difficulty": "Medium",
+    "bloom_level": "Synthesis",
+    "question_text": "Bahagian B: Tulis artikel bertajuk 'Peranan Masyarakat dalam Menjaga Keselamatan Negara', sentuh isu keselamatan seperti siber dan pendatang tanpa izin.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Pelajar perlu menulis karangan berdasarkan tema.",
+    "format": "Essay",
+    "source": "K1 MRSM 2022 (Bahasa Melayu)",
+    "year": 2022,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "bm2022_k1_054",
+    "subject": "Bahasa Melayu",
+    "topic": "Pekerjaan",
+    "difficulty": "Medium",
+    "bloom_level": "Synthesis",
+    "question_text": "Bahagian B: Jelaskan cabaran graduan dalam mendapatkan pekerjaan dan cadangkan cara meningkatkan kemahiran seperti bahasa asing dan teknologi.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Pelajar perlu menulis karangan berdasarkan tema.",
+    "format": "Essay",
+    "source": "K1 MRSM 2022 (Bahasa Melayu)",
+    "year": 2022,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej_bab1_055",
+    "subject": "Sejarah",
+    "topic": "Negara Bangsa Alam Melayu",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Antara berikut, yang manakah ciri-ciri negara bangsa kerajaan Alam Melayu? I. Pedagang Asing II. Rakyat III. Pembesar IV. Pengaruh asing",
+    "answer_choices": [
+      "I, II dan III",
+      "I, III dan IV",
+      "II, III dan IV",
+      "I, II dan IV"
+    ],
+    "correct_answer": "I, II dan III",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Nota Sejarah Tingkatan 4 Bab 1 (MRSM Pengkalan Chepa)",
+    "year": 2022,
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "sej_bab1_056",
+    "subject": "Sejarah",
+    "topic": "Kesultanan Melayu Melaka",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Kesultanan Melayu Melaka mempunyai kemudahan sistem kewangan yang sistematik untuk urusan perdagangan. Siapakah pegawai yang membantu Sultan dalam urusan cukai?",
+    "answer_choices": [
+      "Bendahara",
+      "Laksamana",
+      "Syahbandar",
+      "Temenggung"
+    ],
+    "correct_answer": "Syahbandar",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Nota Sejarah Tingkatan 4 Bab 1 (MRSM Pengkalan Chepa)",
+    "year": 2022,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej_bab1_057",
+    "subject": "Sejarah",
+    "topic": "Kesultanan Melayu Melaka",
+    "difficulty": "Medium",
+    "bloom_level": "Remember",
+    "question_text": "Apakah peranan Temenggung dalam Kesultanan Melayu Melaka?",
+    "answer_choices": [
+      "Ketua tentera",
+      "Ketua polis dan penjara",
+      "Pemungut cukai",
+      "Ketua menteri"
+    ],
+    "correct_answer": "Ketua polis dan penjara",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Nota Sejarah Tingkatan 4 Bab 1 (MRSM Pengkalan Chepa)",
+    "year": 2022,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej_bab1_058",
+    "subject": "Sejarah",
+    "topic": "Kerajaan Alam Melayu",
+    "difficulty": "Medium",
+    "bloom_level": "Comprehension",
+    "question_text": "Senaraikan dua kerajaan Alam Melayu yang masyhur pada zaman awal. ",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "",
+    "format": "Short Answer",
+    "source": "Nota Sejarah Tingkatan 4 Bab 1 (MRSM Pengkalan Chepa)",
+    "year": 2022,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej_bab1_059",
+    "subject": "Sejarah",
+    "topic": "Kerajaan Alam Melayu",
+    "difficulty": "Medium",
+    "bloom_level": "Comprehension",
+    "question_text": "Jelaskan maksud wilayah pengaruh dalam konteks kerajaan awal di Alam Melayu.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "",
+    "format": "Short Answer",
+    "source": "Nota Sejarah Tingkatan 4 Bab 1 (MRSM Pengkalan Chepa)",
+    "year": 2022,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej_bab1_060",
+    "subject": "Sejarah",
+    "topic": "Negara Bangsa Alam Melayu",
+    "difficulty": "Medium",
+    "bloom_level": "Comprehension",
+    "question_text": "Nyatakan dua ciri-ciri negara bangsa Alam Melayu.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "",
+    "format": "Short Answer",
+    "source": "Nota Sejarah Tingkatan 4 Bab 1 (MRSM Pengkalan Chepa)",
+    "year": 2022,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "sej_bab1_061",
+    "subject": "Sejarah",
+    "topic": "Kerajaan Alam Melayu",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Huraikan kepentingan pembesar dalam pentadbiran kerajaan Alam Melayu.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "",
+    "format": "Short Answer",
+    "source": "Nota Sejarah Tingkatan 4 Bab 1 (MRSM Pengkalan Chepa)",
+    "year": 2022,
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "sej_bab1_062",
+    "subject": "Sejarah",
+    "topic": "Kerajaan Alam Melayu",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Apakah tanggungjawab rakyat terhadap pemerintah dalam negara bangsa Alam Melayu?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "",
+    "format": "Short Answer",
+    "source": "Nota Sejarah Tingkatan 4 Bab 1 (MRSM Pengkalan Chepa)",
+    "year": 2022,
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "pi2023_063",
+    "subject": "Pendidikan Islam",
+    "topic": "Keluarga Islam",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Nyatakan dua sebab penceraian berlaku dalam kalangan pasangan Muslim zaman kini.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Pelajar perlu menjawab dalam format esei/struktur.",
+    "format": "Essay",
+    "source": "Koleksi Kertas Peperiksaan SPM MRSM Pendidikan Islam 2023",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "pi2023_064",
+    "subject": "Pendidikan Islam",
+    "topic": "Kerajaan Umaiyah",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Siapakah pengasas kerajaan Umaiyah dan berapa jumlah khalifahnya?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Pelajar perlu menjawab dalam format esei/struktur.",
+    "format": "Essay",
+    "source": "Koleksi Kertas Peperiksaan SPM MRSM Pendidikan Islam 2023",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "pi2023_065",
+    "subject": "Pendidikan Islam",
+    "topic": "Tokoh Islam",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Huraikan latar belakang Ahmad bin Ibrahim dan sumbangannya kepada masyarakat Islam.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Pelajar perlu menjawab dalam format esei/struktur.",
+    "format": "Essay",
+    "source": "Koleksi Kertas Peperiksaan SPM MRSM Pendidikan Islam 2023",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "pi2023_066",
+    "subject": "Pendidikan Islam",
+    "topic": "Wasatiyah",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Jelaskan maksud wasatiyah dan dua amalan rohani untuk menghayatinya.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Pelajar perlu menjawab dalam format esei/struktur.",
+    "format": "Essay",
+    "source": "Koleksi Kertas Peperiksaan SPM MRSM Pendidikan Islam 2023",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "pi2023_067",
+    "subject": "Pendidikan Islam",
+    "topic": "Wasatiyah",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Nyatakan dua amalan jasmani yang menunjukkan konsep wasatiyah.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Pelajar perlu menjawab dalam format esei/struktur.",
+    "format": "Essay",
+    "source": "Koleksi Kertas Peperiksaan SPM MRSM Pendidikan Islam 2023",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "pi2023_068",
+    "subject": "Pendidikan Islam",
+    "topic": "Wasatiyah",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Terangkan hikmah mengamalkan wasatiyah dalam kehidupan seharian.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Pelajar perlu menjawab dalam format esei/struktur.",
+    "format": "Essay",
+    "source": "Koleksi Kertas Peperiksaan SPM MRSM Pendidikan Islam 2023",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "pi2023_069",
+    "subject": "Pendidikan Islam",
+    "topic": "Alam Sekitar dalam Islam",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Apakah maksud alam sekitar dalam konteks Islam dan bagaimana cara menjaganya?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Pelajar perlu menjawab dalam format esei/struktur.",
+    "format": "Essay",
+    "source": "Koleksi Kertas Peperiksaan SPM MRSM Pendidikan Islam 2023",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "pi2023_070",
+    "subject": "Pendidikan Islam",
+    "topic": "Alam Sekitar dalam Islam",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Huraikan kesan jika masalah alam sekitar tidak ditangani mengikut prinsip Islam.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Pelajar perlu menjawab dalam format esei/struktur.",
+    "format": "Essay",
+    "source": "Koleksi Kertas Peperiksaan SPM MRSM Pendidikan Islam 2023",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "moral_071",
+    "subject": "Pendidikan Moral",
+    "topic": "Norma Masyarakat",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Jelaskan kesan buruk jika masyarakat mengabaikan norma dan nilai baik dalam kehidupan seharian.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_072",
+    "subject": "Pendidikan Moral",
+    "topic": "Prinsip Keadilan",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Bincangkan tindakan yang harus diambil apabila menghadapi kes langgar lari demi menegakkan keadilan.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_073",
+    "subject": "Pendidikan Moral",
+    "topic": "Perkhidmatan Masyarakat",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Terangkan kepentingan amalan perkhidmatan masyarakat dalam menghayati nilai kemerdekaan.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_074",
+    "subject": "Pendidikan Moral",
+    "topic": "Prinsip Keadilan",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Berdasarkan prinsip keadilan, bagaimana kerajaan menangani masalah buli di sekolah?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_075",
+    "subject": "Pendidikan Moral",
+    "topic": "Etika ICT",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Nyatakan pandangan anda tentang slogan 'Tidak Pasti, Jangan Kongsi!' dalam penggunaan ICT secara beretika.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_076",
+    "subject": "Pendidikan Moral",
+    "topic": "Etika ICT",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Jelaskan akibat menyebarkan berita palsu melalui media sosial terhadap keharmonian masyarakat.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_077",
+    "subject": "Pendidikan Moral",
+    "topic": "Integriti Akademik",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Bagaimana mengamalkan integriti dalam penulisan akademik bagi mengelakkan plagiarisme?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_078",
+    "subject": "Pendidikan Moral",
+    "topic": "Integriti Akademik",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Terangkan kesan plagiat terhadap reputasi pelajar dan institusi pendidikan.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_079",
+    "subject": "Pendidikan Moral",
+    "topic": "Integriti Keluarga",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Huraikan cara memupuk integriti dalam keluarga untuk melahirkan generasi berakhlak.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_080",
+    "subject": "Pendidikan Moral",
+    "topic": "Integriti Keluarga",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Bincangkan gaya keibubapaan yang sesuai untuk mengekalkan integriti dalam keluarga.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_081",
+    "subject": "Pendidikan Moral",
+    "topic": "Berperikemanusiaan",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Apakah kepentingan berperikemanusiaan dalam mencegah penderaan kanak-kanak?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_082",
+    "subject": "Pendidikan Moral",
+    "topic": "Berperikemanusiaan",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Cadangkan tindakan masyarakat untuk membantu mangsa bencana alam mengikut nilai berperikemanusiaan.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_083",
+    "subject": "Pendidikan Moral",
+    "topic": "Berperikemanusiaan",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Jelaskan implikasi jika masyarakat mengabaikan sikap kemanusiaan terhadap golongan tertindas.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_084",
+    "subject": "Pendidikan Moral",
+    "topic": "Hak dan Tanggungjawab Warganegara",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Huraikan tanggungjawab warganegara dalam menjaga keharmonian alam sekitar ketika menjalankan aktiviti seharian.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_085",
+    "subject": "Pendidikan Moral",
+    "topic": "Hak dan Tanggungjawab Warganegara",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Apakah perasaan anda apabila membaca berita tentang pencemaran alam sekitar dan tindakan yang boleh diambil?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_086",
+    "subject": "Pendidikan Moral",
+    "topic": "Hak dan Tanggungjawab Warganegara",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Bincangkan faktor yang menyebabkan masyarakat cuai terhadap alam sekitar dan cara mengatasinya.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_087",
+    "subject": "Pendidikan Moral",
+    "topic": "Pengurusan Perbelanjaan",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Nyatakan cara berbelanja secara berhemah bagi mengelakkan muflis akibat penggunaan kad kredit.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_088",
+    "subject": "Pendidikan Moral",
+    "topic": "Pengurusan Perbelanjaan",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Huraikan kesan pembelian impulsif ketika jualan dalam talian dan langkah-langkah kawalan.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_089",
+    "subject": "Pendidikan Moral",
+    "topic": "Keunikan Rakyat Malaysia",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Bagaimanakah kerajaan boleh mengekalkan keunikan budaya rakyat Malaysia?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_090",
+    "subject": "Pendidikan Moral",
+    "topic": "Keunikan Rakyat Malaysia",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Jelaskan cabaran yang dihadapi dalam mengekalkan identiti budaya di Malaysia moden.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_091",
+    "subject": "Pendidikan Moral",
+    "topic": "Keunikan Rakyat Malaysia",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Huraikan kepentingan mempelajari seni budaya seperti wayang kulit dan makanan tradisional. ",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_092",
+    "subject": "Pendidikan Moral",
+    "topic": "Keunikan Rakyat Malaysia",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Bincangkan cara rakyat Malaysia boleh bekerjasama mengekalkan keharmonian antara kaum.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_093",
+    "subject": "Pendidikan Moral",
+    "topic": "Kedaulatan Negara",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Berdasarkan Rukun Negara, jelaskan peranan rakyat dalam mempertahankan kedaulatan negara.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_094",
+    "subject": "Pendidikan Moral",
+    "topic": "Kedaulatan Negara",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Apakah cabaran utama yang dihadapi Malaysia dalam mengekalkan kedaulatan wilayah maritimnya?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_095",
+    "subject": "Pendidikan Moral",
+    "topic": "Kedaulatan Negara",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Cadangkan langkah untuk menanam semangat patriotisme dalam kalangan generasi muda.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_096",
+    "subject": "Pendidikan Moral",
+    "topic": "Kedaulatan Negara",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Terangkan akibat jika rakyat mengabaikan tanggungjawab mempertahankan negara.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_097",
+    "subject": "Pendidikan Moral",
+    "topic": "Norma Masyarakat Global",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Jelaskan kepentingan kempen Earth Hour dalam memupuk kesedaran global tentang penggunaan tenaga. ",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_098",
+    "subject": "Pendidikan Moral",
+    "topic": "Norma Masyarakat Global",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Bincangkan peranan pertubuhan antarabangsa dalam membantu mangsa bencana di peringkat global.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_099",
+    "subject": "Pendidikan Moral",
+    "topic": "Individu Glokal",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Apakah manfaat menyertai perayaan kebudayaan kaum lain dalam membentuk individu glokal?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_100",
+    "subject": "Pendidikan Moral",
+    "topic": "Individu Glokal",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Cadangkan cara mempromosikan makanan tradisional Malaysia ke peringkat antarabangsa.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_101",
+    "subject": "Pendidikan Moral",
+    "topic": "Kerohanian",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Huraikan nilai rohani yang dapat diamalkan bagi membendung gejala sosial dalam kalangan remaja. ",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_102",
+    "subject": "Pendidikan Moral",
+    "topic": "Kerohanian",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Apakah tanggungjawab seorang pelajar selepas tamat SPM dalam membantu masyarakat sekeliling?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "ukkm_103",
+    "subject": "UKKM",
+    "topic": "Sains – Botani",
+    "difficulty": "Medium",
+    "bloom_level": "Apply",
+    "question_text": "Antara berikut, tumbuhan manakah yang tidak berbunga?",
+    "answer_choices": [
+      "Ginkgo",
+      "Mawar",
+      "Orkid",
+      "Teratai"
+    ],
+    "correct_answer": "Ginkgo",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Contoh Soalan UKKM MRSM (ipendidikan.my)",
+    "year": 2024,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "ukkm_104",
+    "subject": "UKKM",
+    "topic": "Sains – Fizik",
+    "difficulty": "Medium",
+    "bloom_level": "Apply",
+    "question_text": "Antara objek berikut, yang manakah boleh ditarik oleh magnet?",
+    "answer_choices": [
+      "Pensel kayu",
+      "Sudip plastik",
+      "Pin kertas",
+      "Rantai emas"
+    ],
+    "correct_answer": "Pin kertas",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Contoh Soalan UKKM MRSM (ipendidikan.my)",
+    "year": 2024,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "ukkm_105",
+    "subject": "UKKM",
+    "topic": "Sains – Fizik",
+    "difficulty": "Medium",
+    "bloom_level": "Apply",
+    "question_text": "Mekanisme apakah yang digunakan oleh bar magnet untuk menarik objek logam?",
+    "answer_choices": [
+      "Daya geseran",
+      "Medan elektrik",
+      "Medan magnet",
+      "Daya graviti"
+    ],
+    "correct_answer": "Medan magnet",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Contoh Soalan UKKM MRSM (ipendidikan.my)",
+    "year": 2024,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "ukkm_106",
+    "subject": "UKKM",
+    "topic": "Matematik – Nombor",
+    "difficulty": "Medium",
+    "bloom_level": "Apply",
+    "question_text": "Cari faktor sepunya tertinggi (HCF) bagi 24 dan 36.",
+    "answer_choices": [
+      "4",
+      "6",
+      "12",
+      "8"
+    ],
+    "correct_answer": "12",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Contoh Soalan UKKM MRSM (ipendidikan.my)",
+    "year": 2024,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "ukkm_107",
+    "subject": "UKKM",
+    "topic": "Matematik – Pembundaran",
+    "difficulty": "Medium",
+    "bloom_level": "Apply",
+    "question_text": "Bulatkan 8.756 kepada dua tempat perpuluhan.",
+    "answer_choices": [
+      "8.75",
+      "8.76",
+      "8.80",
+      "8.70"
+    ],
+    "correct_answer": "8.76",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Contoh Soalan UKKM MRSM (ipendidikan.my)",
+    "year": 2024,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "ukkm_108",
+    "subject": "UKKM",
+    "topic": "Matematik – Set",
+    "difficulty": "Medium",
+    "bloom_level": "Apply",
+    "question_text": "Nyatakan set integer antara -3 hingga 2.",
+    "answer_choices": [
+      "{ -3, -2, -1, 0, 1, 2 }",
+      "{ -3, -2, -1, 0, 1 }",
+      "{ -2, -1, 0, 1, 2 }",
+      "{ -3, -2, -1, 1, 2 }"
+    ],
+    "correct_answer": "{ -3, -2, -1, 0, 1, 2 }",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Contoh Soalan UKKM MRSM (ipendidikan.my)",
+    "year": 2024,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "ukkm_109",
+    "subject": "UKKM",
+    "topic": "Matematik – Algebra",
+    "difficulty": "Medium",
+    "bloom_level": "Apply",
+    "question_text": "Hitung hasil darab (2x + 3)(x – 4).",
+    "answer_choices": [
+      "2x^2 + 3x – 8x – 12",
+      "2x^2 – 5x – 12",
+      "2x^2 – 5x + 12",
+      "x^2 – 8x + 3"
+    ],
+    "correct_answer": "2x^2 – 5x – 12",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Contoh Soalan UKKM MRSM (ipendidikan.my)",
+    "year": 2024,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "ukkm_110",
+    "subject": "UKKM",
+    "topic": "Matematik – Algebra",
+    "difficulty": "Medium",
+    "bloom_level": "Apply",
+    "question_text": "Jika p = 4 dan q = 2, selesaikan persamaan r = 2p/q.",
+    "answer_choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_answer": "4",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Contoh Soalan UKKM MRSM (ipendidikan.my)",
+    "year": 2024,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "moral_111",
+    "subject": "Pendidikan Moral",
+    "topic": "Norma Masyarakat",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Mengapakah penting untuk mematuhi undang-undang jalan raya demi keselamatan bersama?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_112",
+    "subject": "Pendidikan Moral",
+    "topic": "Perkhidmatan Masyarakat",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Jelaskan bagaimana aktiviti gotong-royong dapat memupuk perpaduan komuniti.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_113",
+    "subject": "Pendidikan Moral",
+    "topic": "Hak dan Tanggungjawab Warganegara",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Bincangkan cara-cara untuk mendidik generasi muda menghormati hak orang kurang upaya.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_114",
+    "subject": "Pendidikan Moral",
+    "topic": "Integriti",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Apakah kepentingan bercakap benar dalam semua keadaan dan akibat menipu?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_115",
+    "subject": "Pendidikan Moral",
+    "topic": "Etika ICT",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Terangkan bagaimana media sosial boleh digunakan untuk menyebarkan nilai murni.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_116",
+    "subject": "Pendidikan Moral",
+    "topic": "Alam Sekitar",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Bagaimanakah anda boleh membantu melestarikan alam sekitar melalui gaya hidup harian?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_117",
+    "subject": "Pendidikan Moral",
+    "topic": "Integriti Keluarga",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Nyatakan kepentingan nilai toleransi dalam keluarga yang berbilang agama.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_118",
+    "subject": "Pendidikan Moral",
+    "topic": "Etika ICT",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Jelaskan peranan anda sebagai pelajar untuk mencegah penularan budaya buli siber.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_119",
+    "subject": "Pendidikan Moral",
+    "topic": "Keunikan Rakyat Malaysia",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Bincangkan cara-cara memulihara warisan budaya agar tidak pupus ditelan zaman.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_120",
+    "subject": "Pendidikan Moral",
+    "topic": "Norma Masyarakat",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Apakah tindakan sesuai yang perlu diambil apabila melihat rakan melakukan vandalisme?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_121",
+    "subject": "Pendidikan Moral",
+    "topic": "Norma Masyarakat",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Huraikan mengapa sikap menghormati orang tua penting dalam kehidupan bermasyarakat.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_122",
+    "subject": "Pendidikan Moral",
+    "topic": "Prinsip Keadilan",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Jelaskan apakah yang dimaksudkan dengan keadilan sosial dan berikan contoh amalan.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_123",
+    "subject": "Pendidikan Moral",
+    "topic": "Perkhidmatan Masyarakat",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Bincangkan peranan organisasi bukan kerajaan (NGO) dalam memupuk kesejahteraan masyarakat.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_124",
+    "subject": "Pendidikan Moral",
+    "topic": "Integriti",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Apakah langkah-langkah untuk menangani gejala rasuah dalam kalangan belia?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_125",
+    "subject": "Pendidikan Moral",
+    "topic": "Berperikemanusiaan",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Huraikan kepentingan sikap empati dalam menyantuni warga emas.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_126",
+    "subject": "Pendidikan Moral",
+    "topic": "Kedaulatan Negara",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Bincangkan nilai-nilai yang perlu ada pada seorang pemimpin untuk mengekalkan perpaduan negara.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_127",
+    "subject": "Pendidikan Moral",
+    "topic": "Kerohanian",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Apakah kesan negatif budaya hedonisme terhadap perkembangan moral remaja?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_128",
+    "subject": "Pendidikan Moral",
+    "topic": "Norma Masyarakat Global",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Jelaskan bagaimana aktiviti sukarelawan antarabangsa dapat membentuk individu yang peka terhadap isu global.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_129",
+    "subject": "Pendidikan Moral",
+    "topic": "Integriti",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Jelaskan kepentingan integriti dalam penggunaan dana sekolah untuk aktiviti kokurikulum.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "moral_130",
+    "subject": "Pendidikan Moral",
+    "topic": "Alam Sekitar",
+    "difficulty": "Medium",
+    "bloom_level": "Evaluation",
+    "question_text": "Apakah peranan teknologi hijau dalam mewujudkan kelestarian alam sekitar?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "format": "Essay",
+    "source": "ASPIRASI P.Moral MRSM",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "question_id": "addhist_131",
+    "subject": "Sejarah",
+    "topic": "Sistem Pemerintahan",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah maksud konsep federalisme dalam sistem pentadbiran Malaysia?",
+    "answer_choices": [
+      "Pembahagian kuasa antara kerajaan persekutuan dan negeri",
+      "Penggabungan semua kuasa kepada kerajaan pusat",
+      "Pembahagian kuasa antara eksekutif dan kehakiman",
+      "Pemansuhan kerajaan negeri"
+    ],
+    "correct_answer": "Pembahagian kuasa antara kerajaan persekutuan dan negeri",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "addhist_132",
+    "subject": "Sejarah",
+    "topic": "Sejarah Politik",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Terangkan bagaimana peristiwa Jemaah Melayu Bersatu (1945) mempengaruhi perkembangan politik di Tanah Melayu.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "",
+    "format": "Essay",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "addhist_133",
+    "subject": "Sejarah",
+    "topic": "Dasar Negara",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah tujuan pembentukan Gagasan 1Malaysia oleh kerajaan?",
+    "answer_choices": [
+      "Memupuk perpaduan nasional",
+      "Menggalakkan persaingan kaum",
+      "Memajukan satu kaum sahaja",
+      "Meningkatkan penggunaan bahasa Inggeris"
+    ],
+    "correct_answer": "Memupuk perpaduan nasional",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "addhist_134",
+    "subject": "Sejarah",
+    "topic": "Tokoh Kemerdekaan",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Bincangkan sumbangan Tunku Abdul Rahman dalam proses kemerdekaan Tanah Melayu.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "",
+    "format": "Essay",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "addhist_135",
+    "subject": "Sejarah",
+    "topic": "Hubungan Antarabangsa",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Nyatakan tujuan penubuhan ASEAN pada 1967.",
+    "answer_choices": [
+      "Memajukan kerjasama ekonomi, sosial dan kebudayaan",
+      "Mewujudkan pakatan ketenteraan",
+      "Menghapuskan sempadan negara",
+      "Mengadakan matawang tunggal"
+    ],
+    "correct_answer": "Memajukan kerjasama ekonomi, sosial dan kebudayaan",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "addhist_136",
+    "subject": "Sejarah",
+    "topic": "Revolusi Perindustrian",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Jelaskan impak Revolusi Perindustrian ke atas sosioekonomi Tanah Melayu pada abad ke-19.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "",
+    "format": "Essay",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "addhist_137",
+    "subject": "Sejarah",
+    "topic": "Gerakan Wanita",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Siapakah tokoh wanita yang menubuhkan pertubuhan AWAS (Angkatan Wanita Sedar)?",
+    "answer_choices": [
+      "Shamsiah Fakeh",
+      "Raden Ajeng Kartini",
+      "Tun Fatimah",
+      "Siti Wan Kembang"
+    ],
+    "correct_answer": "Shamsiah Fakeh",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "addhist_138",
+    "subject": "Sejarah",
+    "topic": "Ekonomi Luar Bandar",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Bincangkan kepentingan Dasar Pembangunan Luar Bandar dalam memajukan sektor pertanian.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "",
+    "format": "Essay",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "addhist_139",
+    "subject": "Sejarah",
+    "topic": "Sistem Pemerintahan",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah konsep demokrasi berparlimen yang diamalkan di Malaysia?",
+    "answer_choices": [
+      "Rakyat memilih wakil untuk membuat undang-undang",
+      "Raja memerintah tanpa perlembagaan",
+      "Semua rakyat boleh menjadi raja",
+      "Parlimen tidak mempunyai kuasa"
+    ],
+    "correct_answer": "Rakyat memilih wakil untuk membuat undang-undang",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "addhist_140",
+    "subject": "Sejarah",
+    "topic": "Demokrasi",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Huraikan peranan penting Suruhanjaya Pilihan Raya dalam sistem demokrasi Malaysia.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "",
+    "format": "Essay",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "addhist_141",
+    "subject": "Sejarah",
+    "topic": "Sejarah Ekonomi",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah faktor utama perjanjian 1895 membawa kepada pembentukan Negeri-Negeri Melayu Bersekutu?",
+    "answer_choices": [
+      "Kepentingan ekonomi bijih timah",
+      "Keinginan British menguasai Kesultanan Johor",
+      "Pengaruh Belanda",
+      "Penentangan orang Cina"
+    ],
+    "correct_answer": "Kepentingan ekonomi bijih timah",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "addhist_142",
+    "subject": "Sejarah",
+    "topic": "Wawasan 2020",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Bincangkan cabaran-cabaran yang dihadapi Malaysia dalam usaha mencapai Wawasan 2020.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "",
+    "format": "Essay",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "addhist_143",
+    "subject": "Sejarah",
+    "topic": "Dasar Pendidikan",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah tujuan dasar De-Essentialization yang dilaksanakan dalam pendidikan selepas Merdeka?",
+    "answer_choices": [
+      "Menyatukan sistem pendidikan",
+      "Menghapuskan bahasa Melayu",
+      "Menghapuskan sekolah Cina",
+      "Memperkenalkan peperiksaan baru"
+    ],
+    "correct_answer": "Menyatukan sistem pendidikan",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "addhist_144",
+    "subject": "Sejarah",
+    "topic": "Governans",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Jelaskan peranan Jabatan Audit Negara dalam memastikan akauntabiliti kewangan kerajaan.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "",
+    "format": "Essay",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "addhist_145",
+    "subject": "Sejarah",
+    "topic": "Institusi Beraja",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Berapakah jumlah negeri di Malaysia yang mempunyai Raja Berperlembagaan?",
+    "answer_choices": [
+      "9",
+      "10",
+      "11",
+      "13"
+    ],
+    "correct_answer": "9",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "addhist_146",
+    "subject": "Sejarah",
+    "topic": "Kolonialisme",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Bincangkan kesan dasar pengasingan kaum yang dilaksanakan oleh British terhadap pembangunan masyarakat Malaysia.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "",
+    "format": "Essay",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "addhist_147",
+    "subject": "Sejarah",
+    "topic": "Program Kerajaan",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah tujuan pelaksanaan Program Latihan Khidmat Negara (PLKN)?",
+    "answer_choices": [
+      "Membina sahsiah dan patriotisme remaja",
+      "Meningkatkan hasil pendapatan kerajaan",
+      "Melatih tentera profesional",
+      "Menggalakkan pelajar belajar di luar negara"
+    ],
+    "correct_answer": "Membina sahsiah dan patriotisme remaja",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "addhist_148",
+    "subject": "Sejarah",
+    "topic": "Penentangan",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Huraikan faktor-faktor yang membawa kepada pemberontakan rakyat tempatan seperti Perang Pasir Salak.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "",
+    "format": "Essay",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "addhist_149",
+    "subject": "Sejarah",
+    "topic": "Media dan Identiti",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Apakah peranan media dalam pembentukan identiti nasional di Malaysia?",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "",
+    "format": "Essay",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question_id": "addhist_150",
+    "subject": "Sejarah",
+    "topic": "Rukun Negara",
+    "difficulty": "Medium",
+    "bloom_level": "Understanding",
+    "question_text": "Apakah kepentingan mematuhi Prinsip-prinsip Rukun Negara dalam kehidupan seharian?",
+    "answer_choices": [
+      "Memupuk perpaduan dan keharmonian",
+      "Menarik pelancong",
+      "Meningkatkan pendapatan negara",
+      "Menghapuskan cukai"
+    ],
+    "correct_answer": "Memupuk perpaduan dan keharmonian",
+    "explanation": "",
+    "format": "MCQ",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question_id": "addhist_151",
+    "subject": "Sejarah",
+    "topic": "Pendidikan Sivik",
+    "difficulty": "Medium",
+    "bloom_level": "Analysis",
+    "question_text": "Bincangkan peranan pendidikan sivik dalam melahirkan warganegara bertanggungjawab.",
+    "answer_choices": [],
+    "correct_answer": "Subjective",
+    "explanation": "",
+    "format": "Essay",
+    "source": "Synthetic MRSM History Practice",
+    "year": 2023,
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  }
+]

@@ -1,0 +1,938 @@
+[
+  {
+    "id": "moral_071",
+    "question": "Jelaskan kesan buruk jika masyarakat mengabaikan norma dan nilai baik dalam kehidupan seharian.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Norma Masyarakat",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_072",
+    "question": "Bincangkan tindakan yang harus diambil apabila menghadapi kes langgar lari demi menegakkan keadilan.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Prinsip Keadilan",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_073",
+    "question": "Terangkan kepentingan amalan perkhidmatan masyarakat dalam menghayati nilai kemerdekaan.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Perkhidmatan Masyarakat",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_074",
+    "question": "Berdasarkan prinsip keadilan, bagaimana kerajaan menangani masalah buli di sekolah?",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Prinsip Keadilan",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_075",
+    "question": "Nyatakan pandangan anda tentang slogan 'Tidak Pasti, Jangan Kongsi!' dalam penggunaan ICT secara beretika.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Etika ICT",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_076",
+    "question": "Jelaskan akibat menyebarkan berita palsu melalui media sosial terhadap keharmonian masyarakat.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Etika ICT",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_077",
+    "question": "Bagaimana mengamalkan integriti dalam penulisan akademik bagi mengelakkan plagiarisme?",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Integriti Akademik",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_078",
+    "question": "Terangkan kesan plagiat terhadap reputasi pelajar dan institusi pendidikan.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Integriti Akademik",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_079",
+    "question": "Huraikan cara memupuk integriti dalam keluarga untuk melahirkan generasi berakhlak.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Integriti Keluarga",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_080",
+    "question": "Bincangkan gaya keibubapaan yang sesuai untuk mengekalkan integriti dalam keluarga.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Integriti Keluarga",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_081",
+    "question": "Apakah kepentingan berperikemanusiaan dalam mencegah penderaan kanak-kanak?",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Berperikemanusiaan",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_082",
+    "question": "Cadangkan tindakan masyarakat untuk membantu mangsa bencana alam mengikut nilai berperikemanusiaan.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Berperikemanusiaan",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_083",
+    "question": "Jelaskan implikasi jika masyarakat mengabaikan sikap kemanusiaan terhadap golongan tertindas.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Berperikemanusiaan",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_084",
+    "question": "Huraikan tanggungjawab warganegara dalam menjaga keharmonian alam sekitar ketika menjalankan aktiviti seharian.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Hak dan Tanggungjawab Warganegara",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_085",
+    "question": "Apakah perasaan anda apabila membaca berita tentang pencemaran alam sekitar dan tindakan yang boleh diambil?",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Hak dan Tanggungjawab Warganegara",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_086",
+    "question": "Bincangkan faktor yang menyebabkan masyarakat cuai terhadap alam sekitar dan cara mengatasinya.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Hak dan Tanggungjawab Warganegara",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_087",
+    "question": "Nyatakan cara berbelanja secara berhemah bagi mengelakkan muflis akibat penggunaan kad kredit.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Pengurusan Perbelanjaan",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_088",
+    "question": "Huraikan kesan pembelian impulsif ketika jualan dalam talian dan langkah-langkah kawalan.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Pengurusan Perbelanjaan",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_089",
+    "question": "Bagaimanakah kerajaan boleh mengekalkan keunikan budaya rakyat Malaysia?",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Keunikan Rakyat Malaysia",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_090",
+    "question": "Jelaskan cabaran yang dihadapi dalam mengekalkan identiti budaya di Malaysia moden.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Keunikan Rakyat Malaysia",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_091",
+    "question": "Huraikan kepentingan mempelajari seni budaya seperti wayang kulit dan makanan tradisional. ",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Keunikan Rakyat Malaysia",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_092",
+    "question": "Bincangkan cara rakyat Malaysia boleh bekerjasama mengekalkan keharmonian antara kaum.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Keunikan Rakyat Malaysia",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_093",
+    "question": "Berdasarkan Rukun Negara, jelaskan peranan rakyat dalam mempertahankan kedaulatan negara.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Kedaulatan Negara",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_094",
+    "question": "Apakah cabaran utama yang dihadapi Malaysia dalam mengekalkan kedaulatan wilayah maritimnya?",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Kedaulatan Negara",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_095",
+    "question": "Cadangkan langkah untuk menanam semangat patriotisme dalam kalangan generasi muda.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Kedaulatan Negara",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_096",
+    "question": "Terangkan akibat jika rakyat mengabaikan tanggungjawab mempertahankan negara.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Kedaulatan Negara",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_097",
+    "question": "Jelaskan kepentingan kempen Earth Hour dalam memupuk kesedaran global tentang penggunaan tenaga. ",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Norma Masyarakat Global",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_098",
+    "question": "Bincangkan peranan pertubuhan antarabangsa dalam membantu mangsa bencana di peringkat global.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Norma Masyarakat Global",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_099",
+    "question": "Apakah manfaat menyertai perayaan kebudayaan kaum lain dalam membentuk individu glokal?",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Individu Glokal",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_100",
+    "question": "Cadangkan cara mempromosikan makanan tradisional Malaysia ke peringkat antarabangsa.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Individu Glokal",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_101",
+    "question": "Huraikan nilai rohani yang dapat diamalkan bagi membendung gejala sosial dalam kalangan remaja. ",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Kerohanian",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_102",
+    "question": "Apakah tanggungjawab seorang pelajar selepas tamat SPM dalam membantu masyarakat sekeliling?",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Kerohanian",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM (Bahagian C)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan dengan contoh.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_111",
+    "question": "Mengapakah penting untuk mematuhi undang-undang jalan raya demi keselamatan bersama?",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Norma Masyarakat",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_112",
+    "question": "Jelaskan bagaimana aktiviti gotong-royong dapat memupuk perpaduan komuniti.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Perkhidmatan Masyarakat",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_113",
+    "question": "Bincangkan cara-cara untuk mendidik generasi muda menghormati hak orang kurang upaya.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Hak dan Tanggungjawab Warganegara",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_114",
+    "question": "Apakah kepentingan bercakap benar dalam semua keadaan dan akibat menipu?",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Integriti",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_115",
+    "question": "Terangkan bagaimana media sosial boleh digunakan untuk menyebarkan nilai murni.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Etika ICT",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_116",
+    "question": "Bagaimanakah anda boleh membantu melestarikan alam sekitar melalui gaya hidup harian?",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Alam Sekitar",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_117",
+    "question": "Nyatakan kepentingan nilai toleransi dalam keluarga yang berbilang agama.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Integriti Keluarga",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_118",
+    "question": "Jelaskan peranan anda sebagai pelajar untuk mencegah penularan budaya buli siber.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Etika ICT",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_119",
+    "question": "Bincangkan cara-cara memulihara warisan budaya agar tidak pupus ditelan zaman.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Keunikan Rakyat Malaysia",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_120",
+    "question": "Apakah tindakan sesuai yang perlu diambil apabila melihat rakan melakukan vandalisme?",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Norma Masyarakat",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_121",
+    "question": "Huraikan mengapa sikap menghormati orang tua penting dalam kehidupan bermasyarakat.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Norma Masyarakat",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_122",
+    "question": "Jelaskan apakah yang dimaksudkan dengan keadilan sosial dan berikan contoh amalan.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Prinsip Keadilan",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_123",
+    "question": "Bincangkan peranan organisasi bukan kerajaan (NGO) dalam memupuk kesejahteraan masyarakat.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Perkhidmatan Masyarakat",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_124",
+    "question": "Apakah langkah-langkah untuk menangani gejala rasuah dalam kalangan belia?",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Integriti",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_125",
+    "question": "Huraikan kepentingan sikap empati dalam menyantuni warga emas.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Berperikemanusiaan",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_126",
+    "question": "Bincangkan nilai-nilai yang perlu ada pada seorang pemimpin untuk mengekalkan perpaduan negara.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Kedaulatan Negara",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_127",
+    "question": "Apakah kesan negatif budaya hedonisme terhadap perkembangan moral remaja?",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Kerohanian",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_128",
+    "question": "Jelaskan bagaimana aktiviti sukarelawan antarabangsa dapat membentuk individu yang peka terhadap isu global.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Norma Masyarakat Global",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_129",
+    "question": "Jelaskan kepentingan integriti dalam penggunaan dana sekolah untuk aktiviti kokurikulum.",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Integriti",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  },
+  {
+    "id": "moral_130",
+    "question": "Apakah peranan teknologi hijau dalam mewujudkan kelestarian alam sekitar?",
+    "answer": "Subjective",
+    "subject": "Pendidikan Moral",
+    "topic": "Alam Sekitar",
+    "bloom_level": "Evaluation",
+    "difficulty": "Medium",
+    "source": "ASPIRASI P.Moral MRSM",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier",
+      "Ulul Albab"
+    ]
+  }
+]

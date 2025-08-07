@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-08-06T06:24:52.629Z",
+  "source_id": "spm_trials_1754461492628",
+  "stats": {
+    "source": "SPM_Trials",
+    "total_questions": 5,
+    "total_files": 4,
+    "subjects_covered": [
+      "Physics",
+      "Biology",
+      "Chemistry",
+      "Mathematics"
+    ],
+    "bloom_distribution": {
+      "Recall": 2,
+      "Apply": 2,
+      "Analyze": 1
+    },
+    "difficulty_distribution": {
+      "Easy": 0,
+      "Moderate": 5,
+      "Hard": 0
+    }
+  },
+  "status": "completed"
+}

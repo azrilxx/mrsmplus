@@ -1,0 +1,156 @@
+[
+  {
+    "id": "0eaa291b1acb98a2",
+    "question": "Explain the concept of natural selection in evolution.",
+    "answer": "Natural selection is the mechanism by which organisms with favorable traits are more likely to survive and reproduce, passing these traits to offspring. The process involves: (1) Variation - individuals in a population have different traits, (2) Inheritance - traits are passed from parents to offspring, (3) Selection - environmental pressures favor certain traits, (4) Time - over many generations, beneficial traits become more common. This leads to adaptation and evolution of species.",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "bloom_level": "Recall",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "khan_academy_1754461492629",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "1080f8a5f1ee1112",
+    "question": "Describe the structure and function of mitochondria in cell biology.",
+    "answer": "Mitochondria are double-membrane organelles known as the powerhouse of the cell. Structure: They have an outer membrane and an inner membrane with cristae (folds) that increase surface area. The space inside is called the matrix. Function: Mitochondria produce ATP through cellular respiration, specifically oxidative phosphorylation. They contain their own DNA and ribosomes, suggesting they evolved from ancient bacteria. They also play roles in calcium storage and apoptosis (programmed cell death).",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "bloom_level": "Recall",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "spm_trials_1754461492628",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_0gfy5vivl",
+    "question": "Describe the process of photosynthesis and its importance to life on Earth.",
+    "answer": "Photosynthesis converts CO₂ and water into glucose using sunlight. It produces oxygen and is the base of food chains.",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "bloom_level": "Understand",
+    "difficulty": "Intermediate",
+    "source": "MRSM Biology Notes: Cell Structure and Function",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_4qz3i88gd",
+    "question": "What is the main function of mitochondria in a cell?",
+    "answer": "B) Energy production",
+    "subject": "Biology",
+    "topic": "Cell Structure",
+    "bloom_level": "Understand",
+    "difficulty": "Intermediate",
+    "source": "MRSM Biology Notes: Cell Structure and Function",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_bojymikdo",
+    "question": "Which blood type is considered the universal donor?",
+    "answer": "D) O",
+    "subject": "Biology",
+    "topic": "Human Biology",
+    "bloom_level": "Remember",
+    "difficulty": "Beginner",
+    "source": "MRSM Biology Notes: Cell Structure and Function",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_qeselodoz",
+    "question": "Explain the process of photosynthesis in plants.",
+    "answer": "Essay type answer explaining the process of photosynthesis",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "bloom_level": "Understand",
+    "difficulty": "Intermediate",
+    "source": "https://www.moe.gov.my/menumedia/media-cetak/penerbitan/buku-teks",
+    "source_id": "mrsm_questions_2025-07-29T14-30-23-451Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_vbsug88ld",
+    "question": "What are the four stages of mitosis?",
+    "answer": "A) Prophase, Metaphase, Anaphase, Telophase",
+    "subject": "Biology",
+    "topic": "Cell Division",
+    "bloom_level": "Remember",
+    "difficulty": "Intermediate",
+    "source": "MRSM Biology Notes: Cell Structure and Function",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480472_0xhvsa0s0",
+    "question": "Explain the process of photosynthesis in plants.",
+    "answer": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll pigments. In this process, water and carbon dioxide are converted into glucose and oxygen in the presence of sunlight.",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "bloom_level": "Understand",
+    "difficulty": "Intermediate",
+    "source": "https://www.scribd.com/search?query=MRSM+english",
+    "source_id": "mrsm_questions_2025-07-29T14-30-23-451Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480472_2lax2elva",
+    "question": "Explain the process of photosynthesis in plants.",
+    "answer": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll pigments. In this process, water and carbon dioxide are converted into glucose and oxygen with the help of sunlight.",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "bloom_level": "Understand",
+    "difficulty": "Intermediate",
+    "source": "https://www.scribd.com/search?query=MRSM+matematik",
+    "source_id": "mrsm_questions_2025-07-29T14-30-23-451Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480472_9bbm2420w",
+    "question": "Explain the process of photosynthesis in plants.",
+    "answer": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll pigments. It involves the conversion of carbon dioxide and water into glucose and oxygen, with sunlight as the energy source.",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "bloom_level": "Understand",
+    "difficulty": "Intermediate",
+    "source": "https://www.scribd.com/search?query=MRSM+sains",
+    "source_id": "mrsm_questions_2025-07-29T14-30-23-451Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480472_z0bzdqlk5",
+    "question": "Explain the process of photosynthesis in plants.",
+    "answer": "Photosynthesis is a process used by plants and other organisms to convert light energy, usually from the Sun, into chemical energy that can be later released to fuel the organisms' activities. This chemical energy is stored in carbohydrate molecules, such as sugars, which are synthesized from carbon dioxide and water.",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "bloom_level": "Understand",
+    "difficulty": "Intermediate",
+    "source": "https://www.scribd.com/search?query=MRSM+bahasa+melayu",
+    "source_id": "mrsm_questions_2025-07-29T14-30-23-451Z",
+    "stream": [
+      "Premier"
+    ]
+  }
+]

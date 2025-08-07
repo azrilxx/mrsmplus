@@ -1,0 +1,1541 @@
+[
+  {
+    "id": "addhist_131",
+    "question": "Apakah maksud konsep federalisme dalam sistem pentadbiran Malaysia?",
+    "answer": "Pembahagian kuasa antara kerajaan persekutuan dan negeri",
+    "subject": "Sejarah",
+    "topic": "Sistem Pemerintahan",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Pembahagian kuasa antara kerajaan persekutuan dan negeri",
+      "Penggabungan semua kuasa kepada kerajaan pusat",
+      "Pembahagian kuasa antara eksekutif dan kehakiman",
+      "Pemansuhan kerajaan negeri"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "addhist_132",
+    "question": "Terangkan bagaimana peristiwa Jemaah Melayu Bersatu (1945) mempengaruhi perkembangan politik di Tanah Melayu.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Sejarah Politik",
+    "bloom_level": "Analysis",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "addhist_133",
+    "question": "Apakah tujuan pembentukan Gagasan 1Malaysia oleh kerajaan?",
+    "answer": "Memupuk perpaduan nasional",
+    "subject": "Sejarah",
+    "topic": "Dasar Negara",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Memupuk perpaduan nasional",
+      "Menggalakkan persaingan kaum",
+      "Memajukan satu kaum sahaja",
+      "Meningkatkan penggunaan bahasa Inggeris"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "addhist_134",
+    "question": "Bincangkan sumbangan Tunku Abdul Rahman dalam proses kemerdekaan Tanah Melayu.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Tokoh Kemerdekaan",
+    "bloom_level": "Analysis",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "addhist_135",
+    "question": "Nyatakan tujuan penubuhan ASEAN pada 1967.",
+    "answer": "Memajukan kerjasama ekonomi, sosial dan kebudayaan",
+    "subject": "Sejarah",
+    "topic": "Hubungan Antarabangsa",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Memajukan kerjasama ekonomi, sosial dan kebudayaan",
+      "Mewujudkan pakatan ketenteraan",
+      "Menghapuskan sempadan negara",
+      "Mengadakan matawang tunggal"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "addhist_136",
+    "question": "Jelaskan impak Revolusi Perindustrian ke atas sosioekonomi Tanah Melayu pada abad ke-19.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Revolusi Perindustrian",
+    "bloom_level": "Analysis",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "addhist_137",
+    "question": "Siapakah tokoh wanita yang menubuhkan pertubuhan AWAS (Angkatan Wanita Sedar)?",
+    "answer": "Shamsiah Fakeh",
+    "subject": "Sejarah",
+    "topic": "Gerakan Wanita",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Shamsiah Fakeh",
+      "Raden Ajeng Kartini",
+      "Tun Fatimah",
+      "Siti Wan Kembang"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "addhist_138",
+    "question": "Bincangkan kepentingan Dasar Pembangunan Luar Bandar dalam memajukan sektor pertanian.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Ekonomi Luar Bandar",
+    "bloom_level": "Analysis",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "addhist_139",
+    "question": "Apakah konsep demokrasi berparlimen yang diamalkan di Malaysia?",
+    "answer": "Rakyat memilih wakil untuk membuat undang-undang",
+    "subject": "Sejarah",
+    "topic": "Sistem Pemerintahan",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Rakyat memilih wakil untuk membuat undang-undang",
+      "Raja memerintah tanpa perlembagaan",
+      "Semua rakyat boleh menjadi raja",
+      "Parlimen tidak mempunyai kuasa"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "addhist_140",
+    "question": "Huraikan peranan penting Suruhanjaya Pilihan Raya dalam sistem demokrasi Malaysia.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Demokrasi",
+    "bloom_level": "Analysis",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "addhist_141",
+    "question": "Apakah faktor utama perjanjian 1895 membawa kepada pembentukan Negeri-Negeri Melayu Bersekutu?",
+    "answer": "Kepentingan ekonomi bijih timah",
+    "subject": "Sejarah",
+    "topic": "Sejarah Ekonomi",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Kepentingan ekonomi bijih timah",
+      "Keinginan British menguasai Kesultanan Johor",
+      "Pengaruh Belanda",
+      "Penentangan orang Cina"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "addhist_142",
+    "question": "Bincangkan cabaran-cabaran yang dihadapi Malaysia dalam usaha mencapai Wawasan 2020.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Wawasan 2020",
+    "bloom_level": "Analysis",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "addhist_143",
+    "question": "Apakah tujuan dasar De-Essentialization yang dilaksanakan dalam pendidikan selepas Merdeka?",
+    "answer": "Menyatukan sistem pendidikan",
+    "subject": "Sejarah",
+    "topic": "Dasar Pendidikan",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Menyatukan sistem pendidikan",
+      "Menghapuskan bahasa Melayu",
+      "Menghapuskan sekolah Cina",
+      "Memperkenalkan peperiksaan baru"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "addhist_144",
+    "question": "Jelaskan peranan Jabatan Audit Negara dalam memastikan akauntabiliti kewangan kerajaan.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Governans",
+    "bloom_level": "Analysis",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "addhist_145",
+    "question": "Berapakah jumlah negeri di Malaysia yang mempunyai Raja Berperlembagaan?",
+    "answer": "9",
+    "subject": "Sejarah",
+    "topic": "Institusi Beraja",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "9",
+      "10",
+      "11",
+      "13"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "addhist_146",
+    "question": "Bincangkan kesan dasar pengasingan kaum yang dilaksanakan oleh British terhadap pembangunan masyarakat Malaysia.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Kolonialisme",
+    "bloom_level": "Analysis",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "addhist_147",
+    "question": "Apakah tujuan pelaksanaan Program Latihan Khidmat Negara (PLKN)?",
+    "answer": "Membina sahsiah dan patriotisme remaja",
+    "subject": "Sejarah",
+    "topic": "Program Kerajaan",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Membina sahsiah dan patriotisme remaja",
+      "Meningkatkan hasil pendapatan kerajaan",
+      "Melatih tentera profesional",
+      "Menggalakkan pelajar belajar di luar negara"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "addhist_148",
+    "question": "Huraikan faktor-faktor yang membawa kepada pemberontakan rakyat tempatan seperti Perang Pasir Salak.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Penentangan",
+    "bloom_level": "Analysis",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "addhist_149",
+    "question": "Apakah peranan media dalam pembentukan identiti nasional di Malaysia?",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Media dan Identiti",
+    "bloom_level": "Analysis",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "addhist_150",
+    "question": "Apakah kepentingan mematuhi Prinsip-prinsip Rukun Negara dalam kehidupan seharian?",
+    "answer": "Memupuk perpaduan dan keharmonian",
+    "subject": "Sejarah",
+    "topic": "Rukun Negara",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Memupuk perpaduan dan keharmonian",
+      "Menarik pelancong",
+      "Meningkatkan pendapatan negara",
+      "Menghapuskan cukai"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "addhist_151",
+    "question": "Bincangkan peranan pendidikan sivik dalam melahirkan warganegara bertanggungjawab.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Pendidikan Sivik",
+    "bloom_level": "Analysis",
+    "difficulty": "Medium",
+    "source": "Synthetic MRSM History Practice",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "sej_bab1_055",
+    "question": "Antara berikut, yang manakah ciri-ciri negara bangsa kerajaan Alam Melayu? I. Pedagang Asing II. Rakyat III. Pembesar IV. Pengaruh asing",
+    "answer": "I, II dan III",
+    "subject": "Sejarah",
+    "topic": "Negara Bangsa Alam Melayu",
+    "bloom_level": "Analysis",
+    "difficulty": "Medium",
+    "source": "Nota Sejarah Tingkatan 4 Bab 1 (MRSM Pengkalan Chepa)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "I, II dan III",
+      "I, III dan IV",
+      "II, III dan IV",
+      "I, II dan IV"
+    ],
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "sej_bab1_056",
+    "question": "Kesultanan Melayu Melaka mempunyai kemudahan sistem kewangan yang sistematik untuk urusan perdagangan. Siapakah pegawai yang membantu Sultan dalam urusan cukai?",
+    "answer": "Syahbandar",
+    "subject": "Sejarah",
+    "topic": "Kesultanan Melayu Melaka",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "Nota Sejarah Tingkatan 4 Bab 1 (MRSM Pengkalan Chepa)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Bendahara",
+      "Laksamana",
+      "Syahbandar",
+      "Temenggung"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej_bab1_057",
+    "question": "Apakah peranan Temenggung dalam Kesultanan Melayu Melaka?",
+    "answer": "Ketua polis dan penjara",
+    "subject": "Sejarah",
+    "topic": "Kesultanan Melayu Melaka",
+    "bloom_level": "Remember",
+    "difficulty": "Medium",
+    "source": "Nota Sejarah Tingkatan 4 Bab 1 (MRSM Pengkalan Chepa)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Ketua tentera",
+      "Ketua polis dan penjara",
+      "Pemungut cukai",
+      "Ketua menteri"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej_bab1_058",
+    "question": "Senaraikan dua kerajaan Alam Melayu yang masyhur pada zaman awal. ",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Kerajaan Alam Melayu",
+    "bloom_level": "Comprehension",
+    "difficulty": "Medium",
+    "source": "Nota Sejarah Tingkatan 4 Bab 1 (MRSM Pengkalan Chepa)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej_bab1_059",
+    "question": "Jelaskan maksud wilayah pengaruh dalam konteks kerajaan awal di Alam Melayu.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Kerajaan Alam Melayu",
+    "bloom_level": "Comprehension",
+    "difficulty": "Medium",
+    "source": "Nota Sejarah Tingkatan 4 Bab 1 (MRSM Pengkalan Chepa)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej_bab1_060",
+    "question": "Nyatakan dua ciri-ciri negara bangsa Alam Melayu.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Negara Bangsa Alam Melayu",
+    "bloom_level": "Comprehension",
+    "difficulty": "Medium",
+    "source": "Nota Sejarah Tingkatan 4 Bab 1 (MRSM Pengkalan Chepa)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej_bab1_061",
+    "question": "Huraikan kepentingan pembesar dalam pentadbiran kerajaan Alam Melayu.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Kerajaan Alam Melayu",
+    "bloom_level": "Analysis",
+    "difficulty": "Medium",
+    "source": "Nota Sejarah Tingkatan 4 Bab 1 (MRSM Pengkalan Chepa)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "sej_bab1_062",
+    "question": "Apakah tanggungjawab rakyat terhadap pemerintah dalam negara bangsa Alam Melayu?",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Kerajaan Alam Melayu",
+    "bloom_level": "Analysis",
+    "difficulty": "Medium",
+    "source": "Nota Sejarah Tingkatan 4 Bab 1 (MRSM Pengkalan Chepa)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "sej2023_k1_001",
+    "question": "Apakah tujuan utama Inskripsi Telaga Batu dalam sejarah kerajaan Funan?",
+    "answer": "Menyeru taat setia kepada raja",
+    "subject": "Sejarah",
+    "topic": "Kerajaan Alam Melayu",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Menyeru taat setia kepada raja",
+      "Menjelaskan struktur pemerintahan",
+      "Menerangkan undang-undang perdagangan",
+      "Menyatakan senarai raja"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_002",
+    "question": "Siapakah bertanggungjawab dalam mengutip cukai dalam Kesultanan Melayu Melaka?",
+    "answer": "Syahbandar",
+    "subject": "Sejarah",
+    "topic": "Kesultanan Melayu Melaka",
+    "bloom_level": "Remember",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Syahbandar",
+      "Laksamana",
+      "Bentara",
+      "Penghulu Bendahari"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_003",
+    "question": "Apakah faktor yang menyebabkan kejatuhan kerajaan Melaka kepada Portugis pada 1511?",
+    "answer": "Kelemahan pertahanan pelabuhan",
+    "subject": "Sejarah",
+    "topic": "Penjajahan Portugis",
+    "bloom_level": "Analysis",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Pertempuran dalaman",
+      "Kelemahan pertahanan pelabuhan",
+      "Kekurangan senjata api",
+      "Pengkhianatan pedagang asing"
+    ],
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "sej2023_k1_004",
+    "question": "Jawatankuasa mana yang ditubuhkan untuk merangka Perjanjian Persekutuan 1948?",
+    "answer": "Jawatankuasa Kerja",
+    "subject": "Sejarah",
+    "topic": "Pembentukan Persekutuan Tanah Melayu",
+    "bloom_level": "Remember",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Jawatankuasa Kerja",
+      "Majlis Perundangan",
+      "Suruhanjaya Reid",
+      "Majlis Raja-Raja"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_005",
+    "question": "Apakah tujuan dasar Pentadbiran Barat memperkenalkan Undang-undang Tanah untuk orang Melayu?",
+    "answer": "Menghadkan milikan tanah kaum Cina",
+    "subject": "Sejarah",
+    "topic": "Dasar British",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Menarik pelabur asing",
+      "Mengawal pengeluaran getah",
+      "Menghadkan milikan tanah kaum Cina",
+      "Mencegah monopoli British"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_006",
+    "question": "Mengapakah Malayan Union ditentang hebat oleh orang Melayu?",
+    "answer": "Menafikan kuasa raja-raja Melayu",
+    "subject": "Sejarah",
+    "topic": "Malayan Union",
+    "bloom_level": "Analysis",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Menafikan kuasa raja-raja Melayu",
+      "Meningkatkan cukai ke atas orang Melayu",
+      "Membenarkan imigran memegang jawatan",
+      "Menghapuskan agama Islam"
+    ],
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "sej2023_k1_007",
+    "question": "Siapakah tokoh yang memimpin gerakan Kesatuan Melayu Muda (KMM)?",
+    "answer": "Ibrahim Yaacob",
+    "subject": "Sejarah",
+    "topic": "Gerakan Nasionalisme",
+    "bloom_level": "Remember",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Ibrahim Yaacob",
+      "Tok Janggut",
+      "Dato' Bahaman",
+      "Ahmad Boestamam"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_008",
+    "question": "Apakah peranan pengasas Malayan Communist Party (MCP) dalam perjuangan menentang British?",
+    "answer": "Menggerakkan mogok pekerja",
+    "subject": "Sejarah",
+    "topic": "Gerakan Kiri",
+    "bloom_level": "Analysis",
+    "difficulty": "Hard",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Menggerakkan mogok pekerja",
+      "Mendukung konsep Raja Berperlembagaan",
+      "Menyokong Malayan Union",
+      "Melobi dewan undangan"
+    ],
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "sej2023_k1_009",
+    "question": "Apakah kesan dasar ekonomi Jepun terhadap Tanah Melayu semasa Pendudukan Jepun?",
+    "answer": "Inflasi tinggi dan kekurangan barangan",
+    "subject": "Sejarah",
+    "topic": "Pendudukan Jepun",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Eksport getah meningkat",
+      "Bekalan makanan semakin mencukupi",
+      "Inflasi tinggi dan kekurangan barangan",
+      "Kadar celik huruf meningkat"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_010",
+    "question": "Siapakah yang mengetuai Suruhanjaya Reid untuk menggubal Perlembagaan Persekutuan?",
+    "answer": "Lord Reid",
+    "subject": "Sejarah",
+    "topic": "Perlembagaan 1957",
+    "bloom_level": "Remember",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Lord Reid",
+      "Tunku Abdul Rahman",
+      "Dato' Onn Jaafar",
+      "Tun Tan Cheng Lock"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_011",
+    "question": "Apakah tujuan penubuhan Rukun Negara?",
+    "answer": "Mewujudkan perpaduan nasional",
+    "subject": "Sejarah",
+    "topic": "Perpaduan Nasional",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Menjamin keselamatan negara",
+      "Mewujudkan perpaduan nasional",
+      "Meningkatkan ekonomi rakyat",
+      "Memupuk minat terhadap sejarah"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_012",
+    "question": "Bilakah Malaysia merdeka daripada British?",
+    "answer": "31 Ogos 1957",
+    "subject": "Sejarah",
+    "topic": "Kemerdekaan",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "31 Ogos 1957",
+      "16 September 1963",
+      "1 Jun 1948",
+      "31 Ogos 1960"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_013",
+    "question": "Apakah matlamat Dasar Ekonomi Baru?",
+    "answer": "Membasmi kemiskinan",
+    "subject": "Sejarah",
+    "topic": "Dasar Ekonomi Baru",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Membasmi kemiskinan",
+      "Menghapuskan raja-raja Melayu",
+      "Memaksa pendidikan Inggeris",
+      "Melindungi perusahaan asing"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_014",
+    "question": "Apakah kesan Revolusi Keagungan 1688 ke atas Tanah Melayu?",
+    "answer": "Pengiktirafan Raja Berperlembagaan",
+    "subject": "Sejarah",
+    "topic": "Sejarah British",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Pengiktirafan Raja Berperlembagaan",
+      "Pengenalan demokrasi berparlimen",
+      "Pelaksanaan cukai kepala",
+      "Penghapusan perhambaan"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_015",
+    "question": "Siapakah tokoh yang mengetuai penentangan terhadap Cukai Jizyah di Terengganu?",
+    "answer": "Haji Abdul Rahman Limbong",
+    "subject": "Sejarah",
+    "topic": "Penentangan",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Tok Ku Paloh",
+      "Tok Janggut",
+      "Dato' Bahaman",
+      "Haji Abdul Rahman Limbong"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_016",
+    "question": "Apakah tujuan Dasar Pandang Ke Timur?",
+    "answer": "Mencontohi budaya kerja Jepun",
+    "subject": "Sejarah",
+    "topic": "Dasar-dasar kerajaan",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Mencontohi budaya kerja Jepun",
+      "Menghapuskan pengaruh Barat",
+      "Menyeru rakyat ke kawasan luar bandar",
+      "Memperkukuh pertahanan"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_017",
+    "question": "Berapa buah negeri bersekutu yang membentuk Persekutuan Tanah Melayu?",
+    "answer": "11",
+    "subject": "Sejarah",
+    "topic": "Persekutuan Tanah Melayu",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "4",
+      "9",
+      "11",
+      "13"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_018",
+    "question": "Apakah kesan tragedi 13 Mei 1969 terhadap politik Malaysia?",
+    "answer": "Penggantungan Parlimen",
+    "subject": "Sejarah",
+    "topic": "Perpaduan dan konflik",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Penggantungan Parlimen",
+      "Pembubaran semua parti",
+      "Pengisytiharan darurat di Sabah",
+      "Pembentukan Gagasan 1Malaysia"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_019",
+    "question": "Siapakah Yang di-Pertuan Agong pertama Malaysia?",
+    "answer": "Tuanku Abdul Rahman",
+    "subject": "Sejarah",
+    "topic": "Institusi Beraja",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Tuanku Abdul Rahman",
+      "Sultan Iskandar",
+      "Sultan Salahuddin",
+      "Tuanku Syed Putra"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_020",
+    "question": "Apakah tujuan program Dasar Pembangunan Nasional menggantikan DEB?",
+    "answer": "Meneruskan dasar pembangunan seimbang",
+    "subject": "Sejarah",
+    "topic": "Dasar Pembangunan Nasional",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Meneruskan dasar pembangunan seimbang",
+      "Memansuhkan sektor swasta",
+      "Menghapuskan sistem kuota",
+      "Mewujudkan dominasi kaum tertentu"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_021",
+    "question": "Bilakah pembentukan Malaysia berlaku?",
+    "answer": "16 September 1963",
+    "subject": "Sejarah",
+    "topic": "Pembentukan Malaysia",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "16 September 1963",
+      "31 Ogos 1957",
+      "1 November 1963",
+      "16 September 1965"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_022",
+    "question": "Apakah salah satu prinsip Rukun Negara?",
+    "answer": "Kesetiaan kepada Raja dan Negara",
+    "subject": "Sejarah",
+    "topic": "Rukun Negara",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Kesetiaan kepada Raja dan Negara",
+      "Dasar berpaksikan agama tertentu",
+      "Memajukan negara-negara jiran",
+      "Menjaga keturunan raja"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_023",
+    "question": "Apakah kesan Perjanjian Inggeris-Belanda 1824 kepada Alam Melayu?",
+    "answer": "Perpecahan wilayah pengaruh",
+    "subject": "Sejarah",
+    "topic": "Perjanjian Inggeris-Belanda",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Perpecahan wilayah pengaruh",
+      "Pembukaan sekolah Inggeris",
+      "Pengharaman amalan agama",
+      "Pembentukan kerajaan baharu"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_024",
+    "question": "Siapakah tokoh nasionalisme yang berjuang melalui akhbar Utusan Melayu?",
+    "answer": "Dato' Onn Jaafar",
+    "subject": "Sejarah",
+    "topic": "Gerakan Nasionalisme",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Dato' Onn Jaafar",
+      "Syed Jaafar Albar",
+      "Tan Cheng Lock",
+      "Lim Kit Siang"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_025",
+    "question": "Apakah kesan pengenalan Residen British di negeri-negeri Melayu?",
+    "answer": "Campur tangan dalam pentadbiran",
+    "subject": "Sejarah",
+    "topic": "Campur Tangan British",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Campur tangan dalam pentadbiran",
+      "Penubuhan parlimen",
+      "Pertambahan sekolah vernakular",
+      "Kemerdekaan segera"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_026",
+    "question": "Undang-undang Tubuh Negeri Johor dipengaruhi oleh negara manakah?",
+    "answer": "Turki Uthmaniyah",
+    "subject": "Sejarah",
+    "topic": "Undang-Undang Tubuh",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Turki Uthmaniyah",
+      "Amerika Syarikat",
+      "Portugal",
+      "Perancis"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_027",
+    "question": "Siapakah tokoh yang menubuhkan Parti Kebangsaan Melayu Malaya (PKMM)?",
+    "answer": "Ahmad Boestamam",
+    "subject": "Sejarah",
+    "topic": "Gerakan Kiri",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Ahmad Boestamam",
+      "Ibrahim Yaacob",
+      "Burhanuddin al-Helmy",
+      "Tok Janggut"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_028",
+    "question": "Apakah tujuan perjanjian Bangkok 1909?",
+    "answer": "Pembahagian sempadan Siam-British",
+    "subject": "Sejarah",
+    "topic": "Perjanjian Bangkok",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Pembahagian sempadan Siam-British",
+      "Penyelesaian pertikaian kuasa raja",
+      "Pembentukan negeri-negeri selat",
+      "Menaikkan taraf pendidikan"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_029",
+    "question": "Apakah faktor utama kemasukan imigran Cina ke Tanah Melayu pada abad ke-19?",
+    "answer": "Industri perlombongan bijih timah",
+    "subject": "Sejarah",
+    "topic": "Migrasi",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Industri perlombongan bijih timah",
+      "Pelaburan dalam pendidikan",
+      "Perdagangan tekstil",
+      "Penyebaran agama"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_030",
+    "question": "Gerakan Apakah yang menuntut penubuhan Malayan Union digantikan dengan Persekutuan?",
+    "answer": "UMNO",
+    "subject": "Sejarah",
+    "topic": "Gerakan Nasionalisme",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "UMNO",
+      "PAS",
+      "MCP",
+      "MCA"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_031",
+    "question": "Apakah maksud konsep Raja Berperlembagaan?",
+    "answer": "Raja memerintah berdasarkan perlembagaan",
+    "subject": "Sejarah",
+    "topic": "Institusi Beraja",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Raja memerintah berdasarkan perlembagaan",
+      "Raja mempunyai kuasa mutlak",
+      "Raja dilantik setiap dua tahun",
+      "Raja tidak perlu mematuhi undang-undang"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_032",
+    "question": "Mengapakah pilihan raya 1955 penting untuk kemerdekaan?",
+    "answer": "Membuktikan kesediaan rakyat untuk berkerajaan sendiri",
+    "subject": "Sejarah",
+    "topic": "Pilihan Raya 1955",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Membuktikan kesediaan rakyat untuk berkerajaan sendiri",
+      "Menarik pelabur Eropah",
+      "Menghapuskan pengaruh komunis",
+      "Menyeragamkan cukai"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_033",
+    "question": "Apakah fungsi Majlis Raja-Raja?",
+    "answer": "Membincangkan kepentingan agama Islam dan hal-hal kebudayaan",
+    "subject": "Sejarah",
+    "topic": "Majlis Raja-Raja",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Membincangkan kepentingan agama Islam dan hal-hal kebudayaan",
+      "Melantik Perdana Menteri",
+      "Mengadakan dasar ekonomi",
+      "Menerbitkan undang-undang"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_034",
+    "question": "Siapakah Sultan yang menandatangani Perjanjian Pangkor 1874?",
+    "answer": "Sultan Abdullah",
+    "subject": "Sejarah",
+    "topic": "Perjanjian Pangkor",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Sultan Abdullah",
+      "Sultan Ismail",
+      "Sultan Ali",
+      "Sultan Hussein"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_035",
+    "question": "Apakah matlamat Suruhanjaya Cobbold 1962?",
+    "answer": "Menilai pandangan rakyat Sarawak dan Sabah tentang pembentukan Malaysia",
+    "subject": "Sejarah",
+    "topic": "Pembentukan Malaysia",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Menilai pandangan rakyat Sarawak dan Sabah tentang pembentukan Malaysia",
+      "Menyusun semula sistem pendidikan",
+      "Memajukan industri perkapalan",
+      "Menandatangani perjanjian pertahanan"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_036",
+    "question": "Berapa lamakah tempoh jawatan Yang di-Pertuan Agong?",
+    "answer": "5 tahun",
+    "subject": "Sejarah",
+    "topic": "Institusi Beraja",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "5 tahun",
+      "4 tahun",
+      "7 tahun",
+      "9 tahun"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_037",
+    "question": "Apakah kesan utama Dasar Pelajaran 1956?",
+    "answer": "Penggunaan bahasa Melayu sebagai bahasa pengantar",
+    "subject": "Sejarah",
+    "topic": "Dasar Pendidikan",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Penggunaan bahasa Melayu sebagai bahasa pengantar",
+      "Penghapusan sekolah kebangsaan",
+      "Penghapusan bahasa Cina",
+      "Pengurangan cukai pendidikan"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_038",
+    "question": "Bagaimanakah British mengatasi pemberontakan komunis dalam Darurat?",
+    "answer": "Memperkenalkan Rancangan Briggs",
+    "subject": "Sejarah",
+    "topic": "Darurat",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Memperkenalkan Rancangan Briggs",
+      "Menyekat kemasukan buku",
+      "Menutup semua lombong",
+      "Menghapuskan bahasa Cina"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_039",
+    "question": "Apakah tujuan Dasar Kebudayaan Kebangsaan?",
+    "answer": "Membentuk identiti kebangsaan berteraskan budaya Melayu",
+    "subject": "Sejarah",
+    "topic": "Dasar Kebudayaan",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Membentuk identiti kebangsaan berteraskan budaya Melayu",
+      "Mengenalkan budaya asing",
+      "Mewajibkan pemakaian tradisional",
+      "Menggalakkan perayaan luar negara"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k1_040",
+    "question": "Apakah pengertian konsep wasatiyah dalam Islam?",
+    "answer": "Kesederhanaan",
+    "subject": "Sejarah",
+    "topic": "Wasatiyah",
+    "bloom_level": "Understanding",
+    "difficulty": "Medium",
+    "source": "K1 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Kesederhanaan",
+      "Kekayaan",
+      "Kecemerlangan",
+      "Kehormatan"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k2_041",
+    "question": "Terangkan struktur pentadbiran Kesultanan Melayu Melaka dan peranan Bendahara serta Laksamana.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Kesultanan Melayu Melaka",
+    "bloom_level": "Synthesis",
+    "difficulty": "Hard",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k2_042",
+    "question": "Jelaskan peranan Jawatankuasa Kerja dalam merangka Perjanjian Persekutuan 1948.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Perjanjian Persekutuan",
+    "bloom_level": "Synthesis",
+    "difficulty": "Hard",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k2_043",
+    "question": "Huraikan konsep kedaulatan dan kepentingannya kepada negara Malaysia.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Kedaulatan",
+    "bloom_level": "Synthesis",
+    "difficulty": "Hard",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k2_044",
+    "question": "Bincangkan usaha kerajaan memperkasa Bahasa Kebangsaan dan Dasar Kebudayaan Kebangsaan.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Dasar Kebudayaan",
+    "bloom_level": "Synthesis",
+    "difficulty": "Hard",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k2_045",
+    "question": "Huraikan perkembangan nasionalisme di Malaysia selepas Perang Dunia Kedua.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Nasionalisme",
+    "bloom_level": "Synthesis",
+    "difficulty": "Hard",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k2_046",
+    "question": "Terangkan peranan Jawatankuasa Hubungan Antara Kaum dalam memperkukuh perpaduan.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Perpaduan",
+    "bloom_level": "Synthesis",
+    "difficulty": "Hard",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k2_047",
+    "question": "Bincangkan faktor pembentukan Malaysia dan reaksi negeri-negeri terhadapnya.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Pembentukan Malaysia",
+    "bloom_level": "Synthesis",
+    "difficulty": "Hard",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k2_048",
+    "question": "Terangkan inisiatif kerajaan dalam membasmi kemiskinan dan meningkatkan taraf hidup masyarakat luar bandar.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Ekonomi",
+    "bloom_level": "Synthesis",
+    "difficulty": "Hard",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "sej2023_k2_049",
+    "question": "Huraikan usaha yang diambil untuk memastikan kelestarian alam sekitar di Malaysia.",
+    "answer": "Subjective",
+    "subject": "Sejarah",
+    "topic": "Alam Sekitar",
+    "bloom_level": "Synthesis",
+    "difficulty": "Hard",
+    "source": "K2 SPMRSM 2023 (Sejarah)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [],
+    "explanation": "Jawapan berbentuk esei diperlukan.",
+    "stream": [
+      "Premier"
+    ]
+  }
+]

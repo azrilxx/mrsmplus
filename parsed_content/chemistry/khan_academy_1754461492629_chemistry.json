@@ -1,0 +1,46 @@
+[
+  {
+    "id": "7f72c5870b083340",
+    "question": "What is the quadratic formula and when is it used?",
+    "answer": "The quadratic formula is x = (-b ± √(b² - 4ac)) / (2a). It is used to solve quadratic equations of the form ax² + bx + c = 0 when factoring is difficult or impossible. The discriminant (b² - 4ac) determines the nature of solutions: if positive, two real solutions; if zero, one real solution; if negative, two complex solutions.",
+    "topic": "General",
+    "subject": "Chemistry",
+    "bloom_level": "Recall",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "khan_academy_1754461492629"
+  },
+  {
+    "id": "20a123684819942a",
+    "question": "Solve the equation 2x² + 5x - 3 = 0 using the quadratic formula.",
+    "answer": "Given: 2x² + 5x - 3 = 0, so a = 2, b = 5, c = -3. Using quadratic formula: x = (-5 ± √(5² - 4(2)(-3))) / (2(2)) = (-5 ± √(25 + 24)) / 4 = (-5 ± √49) / 4 = (-5 ± 7) / 4. Therefore: x₁ = (-5 + 7)/4 = 1/2 and x₂ = (-5 - 7)/4 = -3. The solutions are x = 1/2 and x = -3.",
+    "topic": "General",
+    "subject": "Chemistry",
+    "bloom_level": "Apply",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "khan_academy_1754461492629"
+  },
+  {
+    "id": "19e70c5a113722b1",
+    "question": "What is the difference between ionic and covalent bonds?",
+    "answer": "Ionic bonds form between metals and non-metals through transfer of electrons, creating charged ions that attract each other. Example: NaCl (sodium chloride). Properties: high melting points, conduct electricity when dissolved, often soluble in water. Covalent bonds form between non-metals through sharing of electrons. Example: H₂O (water). Properties: lower melting points, generally don't conduct electricity, variable solubility. Ionic compounds form crystal lattices, while covalent compounds form discrete molecules.",
+    "topic": "Chemical Bonding",
+    "subject": "Chemistry",
+    "bloom_level": "Recall",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "khan_academy_1754461492629"
+  },
+  {
+    "id": "f133e87da087de2f",
+    "question": "Calculate the volume of a cylinder with radius 4 cm and height 10 cm.",
+    "answer": "Given: radius (r) = 4 cm, height (h) = 10 cm. Formula for volume of cylinder: V = πr²h. V = π × (4)² × 10 = π × 16 × 10 = 160π cm³ ≈ 160 × 3.14159 ≈ 502.65 cm³. Therefore, the volume is 160π cm³ or approximately 502.65 cubic centimeters.",
+    "topic": "General",
+    "subject": "Chemistry",
+    "bloom_level": "Apply",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "khan_academy_1754461492629"
+  }
+]

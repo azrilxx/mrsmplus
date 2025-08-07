@@ -1,0 +1,59 @@
+{
+  "studentId": "MRSM007",
+  "subject": "Physics",
+  "currentLevel": "Form 4",
+  "availableTime": 45,
+  "cognitiveProfile": {
+    "learningStyle": "visual",
+    "attentionSpan": 30,
+    "preferredDifficulty": "medium",
+    "fatigueThreshold": "30 minutes",
+    "preferredTime": "morning",
+    "strengths": [
+      "Understand"
+    ],
+    "weaknesses": [
+      "Apply",
+      "Analyze"
+    ],
+    "riskTopics": [
+      "Thermodynamics",
+      "Stress & Strain"
+    ],
+    "lastUpdated": "2025-08-06T10:30:00Z"
+  },
+  "recentPerformance": {
+    "accuracy": 0.75,
+    "completionRate": 0.85,
+    "engagementScore": 7.2
+  },
+  "microtasks": [
+    {
+      "id": "physics_001",
+      "topic": "Thermodynamics",
+      "microtask": "Define thermodynamic system",
+      "bloomLevel": "Recall",
+      "estimatedDuration": 10,
+      "difficulty": "easy"
+    },
+    {
+      "id": "physics_002",
+      "topic": "Thermodynamics",
+      "microtask": "Apply first law of thermodynamics",
+      "bloomLevel": "Apply",
+      "estimatedDuration": 20,
+      "difficulty": "medium"
+    },
+    {
+      "id": "physics_003",
+      "topic": "Stress & Strain",
+      "microtask": "Calculate tensile strength from stress-strain curve",
+      "bloomLevel": "Analyze",
+      "estimatedDuration": 25,
+      "difficulty": "hard"
+    }
+  ],
+  "preferences": {
+    "dailyMinutes": 45
+  }
+}

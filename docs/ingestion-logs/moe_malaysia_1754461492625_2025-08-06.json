@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-08-06T06:24:52.627Z",
+  "source_id": "moe_malaysia_1754461492625",
+  "stats": {
+    "source": "MOE_Malaysia",
+    "total_questions": 5,
+    "total_files": 3,
+    "subjects_covered": [
+      "Physics",
+      "Chemistry",
+      "General"
+    ],
+    "bloom_distribution": {
+      "Recall": 2,
+      "Apply": 2,
+      "Analyze": 1
+    },
+    "difficulty_distribution": {
+      "Easy": 0,
+      "Moderate": 5,
+      "Hard": 0
+    }
+  },
+  "status": "completed"
+}

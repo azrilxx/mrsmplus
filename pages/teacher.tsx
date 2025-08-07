@@ -12,6 +12,15 @@ import {
   ClassData,
   UploadData
 } from '../firebase/queries';
+import {
+  getClassEngagementHeatmap,
+  getTeacherAlerts,
+  getTeacherFileUploads,
+  ClassEngagementData,
+  AlertData
+} from '../firebase/teacherDashboard';
+import HeatmapTable from '../components/HeatmapTable';
+import { AlertsGroup } from '../components/AlertCard';
 
 const TeacherDashboard: React.FC = () => {
   const { user, loading } = useAuth();
@@ -19,6 +28,8 @@ const TeacherDashboard: React.FC = () => {
   const [students, setStudents] = useState<FirebaseUser[]>([]);
   const [studentProgress, setStudentProgress] = useState<StudentProgress[]>([]);
   const [uploads, setUploads] = useState<UploadData[]>([]);
+  const [engagementData, setEngagementData] = useState<ClassEngagementData[]>([]);
+  const [alerts, setAlerts] = useState<AlertData[]>([]);
   const [dataLoading, setDataLoading] = useState(true);
   const [isUsingMockData, setIsUsingMockData] = useState(false);
 
@@ -56,6 +67,14 @@ const TeacherDashboard: React.FC = () => {
         // Get teacher uploads
         const teacherUploads = await getTeacherUploads(user.uid, 10);
         setUploads(teacherUploads);
+        
+        // Get engagement heatmap data
+        const heatmapData = await getClassEngagementHeatmap(user.uid);
+        setEngagementData(heatmapData);
+        
+        // Get teacher alerts
+        const alertsData = await getTeacherAlerts(user.uid);
+        setAlerts(alertsData);
       } else {
         // Fallback to mock data if no classes found
         setIsUsingMockData(true);
@@ -293,6 +312,27 @@ const TeacherDashboard: React.FC = () => {
             </div>
           </div>
 
+          {/* Alerts Section */}
+          <div className="mt-6">
+            <AlertsGroup 
+              alerts={alerts}
+              title="⚠️ Student Alerts"
+              maxDisplay={5}
+            />
+          </div>
+
+          {/* Class Engagement Heatmap */}
+          <div className="mt-6">
+            <HeatmapTable 
+              engagementData={engagementData}
+              teacherUid={user?.uid || ''}
+              onCommentAdded={() => {
+                // Refresh data after comment is added
+                loadTeacherData();
+              }}
+            />
+          </div>
+
           <div className="mt-6 bg-white p-6 rounded-lg shadow-sm border">
             <h3 className="text-lg font-semibold text-gray-800 mb-4">🚀 Quick Actions</h3>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
@@ -304,8 +344,8 @@ const TeacherDashboard: React.FC = () => {
               
               <button className="p-4 border rounded-lg hover:bg-gray-50 transition-colors text-left">
                 <div className="text-2xl mb-2">👥</div>
-                <div className="font-medium text-gray-800">Manage Students</div>
-                <div className="text-sm text-gray-600">View student progress</div>
+                <div className="font-medium text-gray-800">Engagement Heatmap</div>
+                <div className="text-sm text-gray-600">Monitor class participation</div>
               </button>
               
               <button className="p-4 border rounded-lg hover:bg-gray-50 transition-colors text-left">
@@ -316,8 +356,8 @@ const TeacherDashboard: React.FC = () => {
               
               <button className="p-4 border rounded-lg hover:bg-gray-50 transition-colors text-left">
                 <div className="text-2xl mb-2">📈</div>
-                <div className="font-medium text-gray-800">Analytics</div>
-                <div className="text-sm text-gray-600">Class performance data</div>
+                <div className="font-medium text-gray-800">Student Alerts</div>
+                <div className="text-sm text-gray-600">Monitor at-risk students</div>
               </button>
             </div>
           </div>

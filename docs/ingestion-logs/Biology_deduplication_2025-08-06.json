@@ -1,0 +1,14 @@
+{
+  "subject": "Biology",
+  "timestamp": "2025-08-06T06:41:20.488Z",
+  "summary": {
+    "total_new_questions": 2,
+    "deduplicated_kept": 2,
+    "discarded_duplicates": 0,
+    "deduplication_rate": "0.00%"
+  },
+  "files": {
+    "output_file": "public/content/seeded/Biology.json",
+    "hash_index": "functions/dedupe_index/Biology_hashes.json"
+  }
+}

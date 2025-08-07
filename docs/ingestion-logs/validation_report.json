@@ -1,0 +1,293 @@
+{
+  "timestamp": "2025-08-06T06:25:58.090Z",
+  "overall_stats": {
+    "total_files": 10,
+    "valid_files": 9,
+    "total_questions": 15,
+    "duplicate_ids": 0,
+    "subjects_distribution": {
+      "Biology": 2,
+      "Chemistry": 6,
+      "General": 1,
+      "Mathematics": 1,
+      "Physics": 5
+    },
+    "bloom_distribution": {
+      "Recall": 7,
+      "Apply": 6,
+      "Analyze": 2
+    },
+    "difficulty_distribution": {
+      "Easy": 0,
+      "Moderate": 15,
+      "Hard": 0
+    }
+  },
+  "file_results": [
+    {
+      "filename": "khan_academy_1754461492629_biology.json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "stats": {
+        "total_questions": 1,
+        "subjects": {
+          "Biology": 1
+        },
+        "topics": {
+          "Ecology": 1
+        },
+        "bloom_levels": {
+          "Recall": 1,
+          "Apply": 0,
+          "Analyze": 0
+        },
+        "difficulties": {
+          "Easy": 0,
+          "Moderate": 1,
+          "Hard": 0
+        },
+        "sources": {
+          "ingested": 1
+        }
+      }
+    },
+    {
+      "filename": "spm_trials_1754461492628_biology.json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "stats": {
+        "total_questions": 1,
+        "subjects": {
+          "Biology": 1
+        },
+        "topics": {
+          "Cell Biology": 1
+        },
+        "bloom_levels": {
+          "Recall": 1,
+          "Apply": 0,
+          "Analyze": 0
+        },
+        "difficulties": {
+          "Easy": 0,
+          "Moderate": 1,
+          "Hard": 0
+        },
+        "sources": {
+          "ingested": 1
+        }
+      }
+    },
+    {
+      "filename": "khan_academy_1754461492629_chemistry.json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "stats": {
+        "total_questions": 4,
+        "subjects": {
+          "Chemistry": 4
+        },
+        "topics": {
+          "General": 3,
+          "Chemical Bonding": 1
+        },
+        "bloom_levels": {
+          "Recall": 2,
+          "Apply": 2,
+          "Analyze": 0
+        },
+        "difficulties": {
+          "Easy": 0,
+          "Moderate": 4,
+          "Hard": 0
+        },
+        "sources": {
+          "ingested": 4
+        }
+      }
+    },
+    {
+      "filename": "moe_malaysia_1754461492625_chemistry.json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "stats": {
+        "total_questions": 1,
+        "subjects": {
+          "Chemistry": 1
+        },
+        "topics": {
+          "Acids and Bases": 1
+        },
+        "bloom_levels": {
+          "Recall": 1,
+          "Apply": 0,
+          "Analyze": 0
+        },
+        "difficulties": {
+          "Easy": 0,
+          "Moderate": 1,
+          "Hard": 0
+        },
+        "sources": {
+          "ingested": 1
+        }
+      }
+    },
+    {
+      "filename": "spm_trials_1754461492628_chemistry.json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "stats": {
+        "total_questions": 1,
+        "subjects": {
+          "Chemistry": 1
+        },
+        "topics": {
+          "Acids and Bases": 1
+        },
+        "bloom_levels": {
+          "Recall": 0,
+          "Apply": 1,
+          "Analyze": 0
+        },
+        "difficulties": {
+          "Easy": 0,
+          "Moderate": 1,
+          "Hard": 0
+        },
+        "sources": {
+          "ingested": 1
+        }
+      }
+    },
+    {
+      "filename": "moe_malaysia_1754461492625_general.json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "stats": {
+        "total_questions": 1,
+        "subjects": {
+          "General": 1
+        },
+        "topics": {
+          "General": 1
+        },
+        "bloom_levels": {
+          "Recall": 0,
+          "Apply": 1,
+          "Analyze": 0
+        },
+        "difficulties": {
+          "Easy": 0,
+          "Moderate": 1,
+          "Hard": 0
+        },
+        "sources": {
+          "ingested": 1
+        }
+      }
+    },
+    {
+      "filename": "spm_trials_1754461492628_mathematics.json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "stats": {
+        "total_questions": 1,
+        "subjects": {
+          "Mathematics": 1
+        },
+        "topics": {
+          "Trigonometry": 1
+        },
+        "bloom_levels": {
+          "Recall": 0,
+          "Apply": 0,
+          "Analyze": 1
+        },
+        "difficulties": {
+          "Easy": 0,
+          "Moderate": 1,
+          "Hard": 0
+        },
+        "sources": {
+          "ingested": 1
+        }
+      }
+    },
+    {
+      "filename": "moe_malaysia_1754461492625_physics.json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "stats": {
+        "total_questions": 3,
+        "subjects": {
+          "Physics": 3
+        },
+        "topics": {
+          "Electricity and Magnetism": 2,
+          "Energy and Work": 1
+        },
+        "bloom_levels": {
+          "Recall": 1,
+          "Apply": 1,
+          "Analyze": 1
+        },
+        "difficulties": {
+          "Easy": 0,
+          "Moderate": 3,
+          "Hard": 0
+        },
+        "sources": {
+          "ingested": 3
+        }
+      }
+    },
+    {
+      "filename": "spm_trials_1754461492628_physics.json",
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "stats": {
+        "total_questions": 2,
+        "subjects": {
+          "Physics": 2
+        },
+        "topics": {
+          "Heat and Temperature": 1,
+          "Energy and Work": 1
+        },
+        "bloom_levels": {
+          "Recall": 1,
+          "Apply": 1,
+          "Analyze": 0
+        },
+        "difficulties": {
+          "Easy": 0,
+          "Moderate": 2,
+          "Hard": 0
+        },
+        "sources": {
+          "ingested": 2
+        }
+      }
+    },
+    {
+      "filename": "test-upload-123.json",
+      "valid": false,
+      "errors": [
+        "Content must be an array of question objects"
+      ],
+      "warnings": [],
+      "stats": null
+    }
+  ],
+  "duplicate_ids": []
+}

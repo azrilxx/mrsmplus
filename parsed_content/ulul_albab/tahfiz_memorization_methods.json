@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What are the four basic methods of memorizing Al-Quran used in traditional Tahfiz education?",
+    "answer": "The four basic methods are: 1) Sabak method - learning new verses, 2) Para Sabak method - reviewing recently memorized portions, 3) Ammokhtar method - reviewing distant memorized portions, and 4) Halaqah Dauri method - group recitation and review. Using these four methods systematically, students can memorize and maintain the entire Quran within approximately 15 hours of daily practice without looking at the mushaf.",
+    "topic": "Traditional Tahfiz Memorization Methods",
+    "subject": "Tahfiz Al-Quran",
+    "difficulty": "Moderate",
+    "bloom_level": "Remember",
+    "stream": ["Ulul Albab"],
+    "id": "k1l2m3n4o5p6q7r8"
+  },
+  {
+    "question": "What are the three memory systems utilized in effective Quranic memorization according to modern educational research?",
+    "answer": "The three memory systems are: 1) Semantic memory - understanding meaning and context of verses, 2) Episodic memory - associating verses with specific events or experiences, and 3) Visual memory - using visual patterns, page layouts, and written text appearance. Utilizing all three systems creates stronger neural pathways and more effective long-term retention of Quranic verses.",
+    "topic": "Memory Systems in Quranic Memorization",
+    "subject": "Tahfiz Al-Quran",
+    "difficulty": "Moderate",
+    "bloom_level": "Understand",
+    "stream": ["Ulul Albab"],
+    "id": "l2m3n4o5p6q7r8s9"
+  },
+  {
+    "question": "What teaching techniques do effective Tahfiz instructors use to facilitate Quranic memorization?",
+    "answer": "Effective Tahfiz teaching techniques include: 1) Ensuring correct pronunciation (tajwid) from the beginning, 2) Using a specific, consistent mushaf (Quranic text), 3) Regulating the memorization pace according to student capacity, 4) Beginning each session with dua (supplication), 5) Implementing regular murajah (review) sessions, and 6) Maintaining detailed tracking lists with checkmarks for completed verses.",
+    "topic": "Tahfiz Teaching Methodology",
+    "subject": "Tahfiz Al-Quran",
+    "difficulty": "Moderate",
+    "bloom_level": "Apply",
+    "stream": ["Ulul Albab"],
+    "id": "m3n4o5p6q7r8s9t0"
+  },
+  {
+    "question": "What are the main challenges faced by Tahfiz students, and what factors contribute to successful completion?",
+    "answer": "Main challenges include: requiring high concentration and discipline, maintaining long-term retention, and completing memorization within set timeframes. Success factors include: having appropriate learning methods suited to individual learning styles, consistent daily practice, regular review (murajah), proper teacher guidance, maintaining motivation through achievable goals, and creating supportive learning environments.",
+    "topic": "Challenges and Success Factors in Tahfiz",
+    "subject": "Tahfiz Al-Quran",
+    "difficulty": "Moderate",
+    "bloom_level": "Analyze",
+    "stream": ["Ulul Albab"],
+    "id": "n4o5p6q7r8s9t0u1"
+  },
+  {
+    "question": "Explain the importance of the murajah (review) method in maintaining Quranic memorization.",
+    "answer": "Murajah is the systematic review and repetition of previously memorized verses, which is essential for long-term retention. It prevents forgetting through the spacing effect, where repeated exposure at increasing intervals strengthens memory consolidation. Teachers implement murajah by creating tracking systems, scheduling regular review sessions, and requiring students to recite previously memorized portions before learning new material. This method ensures that the entire Quran remains accessible in memory throughout the memorization journey.",
+    "topic": "Review and Retention in Quranic Memorization",
+    "subject": "Tahfiz Al-Quran",
+    "difficulty": "Moderate",
+    "bloom_level": "Evaluate",
+    "stream": ["Ulul Albab"],
+    "id": "o5p6q7r8s9t0u1v2"
+  }
+]

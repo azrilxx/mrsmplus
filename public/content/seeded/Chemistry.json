@@ -1,0 +1,142 @@
+[
+  {
+    "id": "19e70c5a113722b1",
+    "question": "What is the difference between ionic and covalent bonds?",
+    "answer": "Ionic bonds form between metals and non-metals through transfer of electrons, creating charged ions that attract each other. Example: NaCl (sodium chloride). Properties: high melting points, conduct electricity when dissolved, often soluble in water. Covalent bonds form between non-metals through sharing of electrons. Example: H₂O (water). Properties: lower melting points, generally don't conduct electricity, variable solubility. Ionic compounds form crystal lattices, while covalent compounds form discrete molecules.",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "bloom_level": "Recall",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "khan_academy_1754461492629",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "20a123684819942a",
+    "question": "Solve the equation 2x² + 5x - 3 = 0 using the quadratic formula.",
+    "answer": "Given: 2x² + 5x - 3 = 0, so a = 2, b = 5, c = -3. Using quadratic formula: x = (-5 ± √(5² - 4(2)(-3))) / (2(2)) = (-5 ± √(25 + 24)) / 4 = (-5 ± √49) / 4 = (-5 ± 7) / 4. Therefore: x₁ = (-5 + 7)/4 = 1/2 and x₂ = (-5 - 7)/4 = -3. The solutions are x = 1/2 and x = -3.",
+    "subject": "Chemistry",
+    "topic": "General",
+    "bloom_level": "Apply",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "khan_academy_1754461492629",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "7f72c5870b083340",
+    "question": "What is the quadratic formula and when is it used?",
+    "answer": "The quadratic formula is x = (-b ± √(b² - 4ac)) / (2a). It is used to solve quadratic equations of the form ax² + bx + c = 0 when factoring is difficult or impossible. The discriminant (b² - 4ac) determines the nature of solutions: if positive, two real solutions; if zero, one real solution; if negative, two complex solutions.",
+    "subject": "Chemistry",
+    "topic": "General",
+    "bloom_level": "Recall",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "khan_academy_1754461492629",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "94b5bad896ccca28",
+    "question": "Define photosynthesis and state its overall chemical equation.",
+    "answer": "Photosynthesis is the process by which green plants and some bacteria convert light energy, usually from the sun, into chemical energy in the form of glucose. The overall chemical equation is: 6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂. This process occurs in chloroplasts and involves two main stages: light-dependent reactions and light-independent reactions (Calvin cycle).",
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "bloom_level": "Recall",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "moe_malaysia_1754461492625",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "9792a17c8ef2b80c",
+    "question": "Calculate the area of a triangle with sides 5 cm, 12 cm, and 13 cm.",
+    "answer": "First, check if it's a right triangle: 5² + 12² = 25 + 144 = 169 = 13². Yes, it's a right triangle with legs 5 cm and 12 cm, and hypotenuse 13 cm. Area of right triangle = (1/2) × base × height = (1/2) × 5 × 12 = 30 cm². Therefore, the area is 30 square centimeters.",
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "bloom_level": "Apply",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "spm_trials_1754461492628",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "f133e87da087de2f",
+    "question": "Calculate the volume of a cylinder with radius 4 cm and height 10 cm.",
+    "answer": "Given: radius (r) = 4 cm, height (h) = 10 cm. Formula for volume of cylinder: V = πr²h. V = π × (4)² × 10 = π × 16 × 10 = 160π cm³ ≈ 160 × 3.14159 ≈ 502.65 cm³. Therefore, the volume is 160π cm³ or approximately 502.65 cubic centimeters.",
+    "subject": "Chemistry",
+    "topic": "General",
+    "bloom_level": "Apply",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "khan_academy_1754461492629",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_9v7khmljl",
+    "question": "Balance the chemical equation: CH₄ + O₂ → CO₂ + H₂O",
+    "answer": "CH₄ + 2O₂ → CO₂ + 2H₂O",
+    "subject": "Chemistry",
+    "topic": "Chemical Equations",
+    "bloom_level": "Apply",
+    "difficulty": "Intermediate",
+    "source": "MRSM Chemistry Manual: Periodic Table and Elements",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_b4kahztov",
+    "question": "What is the pH of a neutral solution at 25°C?",
+    "answer": "B) 7",
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "bloom_level": "Remember",
+    "difficulty": "Beginner",
+    "source": "MRSM Chemistry Manual: Periodic Table and Elements",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_i63qff033",
+    "question": "Explain the difference between ionic and covalent bonding.",
+    "answer": "Ionic bonding involves transfer of electrons between metals and non-metals. Covalent bonding involves sharing of electrons between non-metals.",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "bloom_level": "Understand",
+    "difficulty": "Intermediate",
+    "source": "MRSM Chemistry Manual: Periodic Table and Elements",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_w9kvhikgg",
+    "question": "Which element has the chemical symbol 'Na'?",
+    "answer": "B) Sodium",
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "bloom_level": "Remember",
+    "difficulty": "Beginner",
+    "source": "MRSM Chemistry Manual: Periodic Table and Elements",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  }
+]

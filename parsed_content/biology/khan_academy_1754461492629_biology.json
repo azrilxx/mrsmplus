@@ -1,0 +1,13 @@
+[
+  {
+    "id": "0eaa291b1acb98a2",
+    "question": "Explain the concept of natural selection in evolution.",
+    "answer": "Natural selection is the mechanism by which organisms with favorable traits are more likely to survive and reproduce, passing these traits to offspring. The process involves: (1) Variation - individuals in a population have different traits, (2) Inheritance - traits are passed from parents to offspring, (3) Selection - environmental pressures favor certain traits, (4) Time - over many generations, beneficial traits become more common. This leads to adaptation and evolution of species.",
+    "topic": "Ecology",
+    "subject": "Biology",
+    "bloom_level": "Recall",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "khan_academy_1754461492629"
+  }
+]

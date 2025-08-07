@@ -1,46 +1,59 @@
+
 ---
-model: sonnet
+
+### ✅ 3. `agents/study-mode-formatter.md`
+
+```markdown
+---
+title: Claude Sub-Agent
 name: study-mode-formatter
-description: MARA+ sub-agent with structured instructions and a working example.
-color: "#0EA5E9"
-tools:
-  - write
-  - read
+description: Converts parsed educational blocks into MARA+ Q&A Study Mode format
 ---
 
-## Purpose
-You are the `study-mode-formatter` agent in the MARA+ educational platform. Your responsibility is to fulfill your role as defined in the MARA+ architecture and return structured, valid output.
+## 📄 Input
 
-## Instructions
-- Understand your specific responsibility
-- Process inputs or simulated use-case
-- Return valid JSON or markdown output
-- Follow the formatting exactly
+Structured content output from `content-parser`
 
-## Workflow
-1. Parse the example input
-2. Execute your agent logic
-3. Return the output in the exact format defined
+## 🧠 Instructions
 
-## Output Format
+- Generate 5–15 questions and answers
+- Each must be classified as:
+  - `"short"` → 1-line answers
+  - `"mcq"` → 4 options, one correct
+  - `"long"` → explanation-style
+- Subject and topic can be inferred or passed in
+
+## ✅ Output Format
+
 ```json
 {
   "agent": "study-mode-formatter",
   "status": "success",
-  "output": "... generated content ..."
+  "output": {
+    "subject": "Physics",
+    "topic": "Newton Laws",
+    "questions": [
+      {
+        "type": "short",
+        "question": "What is Newton’s First Law?",
+        "answer": "An object remains at rest or in motion unless acted on by force."
+      },
+      {
+        "type": "mcq",
+        "question": "Which of the following is an example of Newton’s Third Law?",
+        "options": [
+          "A book on a table",
+          "Ball rolling down a hill",
+          "Jumping off a boat and the boat moves back",
+          "Object in free fall"
+        ],
+        "answer": "Jumping off a boat and the boat moves back"
+      },
+      {
+        "type": "long",
+        "question": "Explain the difference between mass and weight.",
+        "answer": "Mass is the amount of matter in an object... Weight is the force due to gravity..."
+      }
+    ]
+  }
 }
-```
-
-<example>
-Input:
-"Simulate a task typically handled by the study-mode-formatter agent in the MARA+ platform. Return realistic data that fits the output format."
-
-Expected Output:
-```json
-{
-  "agent": "study-mode-formatter",
-  "status": "success",
-  "output": "This is a simulated example result from the study-mode-formatter agent."
-}
-```
-</example>

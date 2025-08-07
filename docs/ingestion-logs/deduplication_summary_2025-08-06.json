@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-08-06T06:41:20.488Z",
+  "overall_stats": {
+    "total_new_questions": 15,
+    "total_deduplicated": 15,
+    "total_discarded": 0,
+    "overall_deduplication_rate": "0.00%"
+  },
+  "by_subject": {
+    "Biology": {
+      "total": 2,
+      "kept": 2,
+      "discarded": 0
+    },
+    "Chemistry": {
+      "total": 6,
+      "kept": 6,
+      "discarded": 0
+    },
+    "General": {
+      "total": 1,
+      "kept": 1,
+      "discarded": 0
+    },
+    "Mathematics": {
+      "total": 1,
+      "kept": 1,
+      "discarded": 0
+    },
+    "Physics": {
+      "total": 5,
+      "kept": 5,
+      "discarded": 0
+    }
+  }
+}

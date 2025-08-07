@@ -1,0 +1,52 @@
+[
+  {
+    "question": "According to Islamic mathematical research, what numerical value represents the Quran Constant (QC) and how does it relate to the golden ratio?",
+    "answer": "The Quran Constant (QC) is 70.44911244. When the total number of chapters in the Quran (114) is divided by this constant, it gives 1.6181893, which is remarkably close to the golden ratio (φ = 1.618). This mathematical relationship suggests a divine mathematical design embedded within the structure of the Quran.",
+    "topic": "Islamic Mathematics and Divine Design",
+    "subject": "Islamic Studies with STEM Integration",
+    "difficulty": "Moderate",
+    "bloom_level": "Analyze",
+    "stream": ["Ulul Albab"],
+    "id": "a1b2c3d4e5f6g7h8"
+  },
+  {
+    "question": "What is the significance of the word frequency patterns found in the Quran, particularly regarding 'day' (yawm) and 'month' (shahr)?",
+    "answer": "The word 'day' (yawm) appears exactly 365 times in the Quran, matching the number of days in a solar year. The word 'month' (shahr) appears exactly 12 times, corresponding to the twelve months in a year. These numerical patterns demonstrate the mathematical precision and cosmic harmony embedded within the Quranic text.",
+    "topic": "Quranic Word Frequency and Time Patterns",
+    "subject": "Islamic Studies with STEM Integration",
+    "difficulty": "Easy",
+    "bloom_level": "Remember",
+    "stream": ["Ulul Albab"],
+    "id": "b2c3d4e5f6g7h8i9"
+  },
+  {
+    "question": "How does the verse about Mecca in Surah Ali Imran demonstrate the golden ratio principle?",
+    "answer": "In Surah Ali Imran, verse 96, the total number of letters is 47. When applying the golden ratio calculation (47 ÷ 1.618 = 29.0), there are exactly 29 letters from the beginning of the verse until the word 'Mecca' appears. This mathematical precision illustrates the divine design principle embedded in the Quranic text structure.",
+    "topic": "Golden Ratio in Sacred Geography",
+    "subject": "Islamic Studies with STEM Integration",
+    "difficulty": "Moderate",
+    "bloom_level": "Apply",
+    "stream": ["Ulul Albab"],
+    "id": "c3d4e5f6g7h8i9j0"
+  },
+  {
+    "question": "What does the Quran say about cosmic balance and precision, and how does this relate to modern scientific understanding?",
+    "answer": "The Quran states 'The sun and the moon, running with utmost precision' (55:5) and 'He raised it and set the balance' (55:7). The phrase 'utmost precision' and 'the balance' refer to the precise mathematical relationships governing celestial mechanics, which modern astronomy confirms through orbital calculations and gravitational laws.",
+    "topic": "Quranic Cosmology and Scientific Precision",
+    "subject": "Islamic Studies with STEM Integration",
+    "difficulty": "Moderate",
+    "bloom_level": "Understand",
+    "stream": ["Ulul Albab"],
+    "id": "d4e5f6g7h8i9j0k1"
+  },
+  {
+    "question": "Explain how Islamic civilization's development of geometric patterns and mathematical proportions was inspired by Quranic principles.",
+    "answer": "Islamic civilization developed sophisticated geometric patterns, arabesques, and architectural designs using mathematical proportions including the golden ratio. This was inspired by the Quranic emphasis on divine order, balance, and the mathematical patterns found within the text itself. Islamic artists and mathematicians saw geometry as a way to reflect divine perfection and cosmic harmony.",
+    "topic": "Islamic Art, Architecture and Mathematical Patterns",
+    "subject": "Islamic Studies with STEM Integration",
+    "difficulty": "Moderate",
+    "bloom_level": "Analyze",
+    "stream": ["Ulul Albab"],
+    "id": "e5f6g7h8i9j0k1l2"
+  }
+]

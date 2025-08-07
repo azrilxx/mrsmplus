@@ -5,12 +5,24 @@ import { ConnectionStatus } from '../components/dashboard/ConnectionStatus';
 import {
   getLinkedStudentData,
   FirebaseUser,
-  StudentProgress
+  StudentProgress,
+  StudyReflection
 } from '../firebase/queries';
+import {
+  getParentDashboardData,
+  getParentStudents,
+  ParentDashboardData,
+  TrendSummary,
+  MotivationCardData
+} from '../firebase/parentDashboard';
+import { MotivationCardsGroup } from '../components/MotivationCard';
+import ReflectionStrip, { ReflectionSummary } from '../components/ReflectionStrip';
 
 const ParentDashboard: React.FC = () => {
   const { user, loading } = useAuth();
   const [linkedStudent, setLinkedStudent] = useState<{user: FirebaseUser, progress: StudentProgress} | null>(null);
+  const [dashboardData, setDashboardData] = useState<ParentDashboardData | null>(null);
+  const [selectedStudentId, setSelectedStudentId] = useState<string | undefined>(undefined);
   const [dataLoading, setDataLoading] = useState(true);
   const [isUsingMockData, setIsUsingMockData] = useState(false);
 
@@ -24,18 +36,22 @@ const ParentDashboard: React.FC = () => {
     try {
       setDataLoading(true);
       
-      // Get linked student data
-      const studentData = await getLinkedStudentData(user.uid);
+      // Get comprehensive parent dashboard data
+      const parentData = await getParentDashboardData(user.uid, selectedStudentId);
       
-      if (studentData) {
-        setLinkedStudent(studentData);
+      if (parentData && parentData.students.length > 0) {
+        setDashboardData(parentData);
+        setLinkedStudent(parentData.students[0]); // Keep for backward compatibility
+        if (!selectedStudentId) {
+          setSelectedStudentId(parentData.selectedStudentId);
+        }
       } else {
         // Fallback to mock data if no linked student
         setIsUsingMockData(true);
-        setLinkedStudent({
+        const mockStudent = {
           user: {
             uid: 'student-1',
-            role: 'student',
+            role: 'student' as const,
             name: 'Ahmad Rahman',
             email: 'ahmad@student.mrsm.edu.my',
             studentId: 'student-1'
@@ -54,17 +70,52 @@ const ParentDashboard: React.FC = () => {
                 completedLessons: 15,
                 totalLessons: 20,
                 lastAccessed: new Date(),
-                difficulty: 'intermediate'
+                difficulty: 'intermediate' as const
               },
               'Science': {
                 completedLessons: 12,
                 totalLessons: 18,
                 lastAccessed: new Date(),
-                difficulty: 'advanced'
+                difficulty: 'advanced' as const
               }
             },
-            reflectionLogs: []
+            reflectionLogs: [
+              {
+                id: 'mock-1',
+                userId: 'student-1',
+                date: new Date(),
+                mood: 'good' as const,
+                insights: ['Understanding concepts better', 'Need more practice'],
+                areasForImprovement: ['Time management'],
+                strengths: ['Quick problem solving'],
+                confidenceLevel: 7
+              }
+            ]
           }
+        };
+        setLinkedStudent(mockStudent);
+        setDashboardData({
+          students: [mockStudent],
+          selectedStudentId: 'student-1',
+          motivationCards: [
+            {
+              type: 'praise',
+              title: 'Great Progress!',
+              message: 'Your child is doing well with consistent study habits.',
+              emoji: '🌟',
+              color: 'green',
+              actionSuggestion: 'Keep encouraging their excellent work!'
+            }
+          ],
+          trendSummary: {
+            weeklyXPTotal: 320,
+            weeklyXPChange: 50,
+            streakChange: 2,
+            completedSessions: 5,
+            scheduledSessions: 7,
+            completionRate: 71
+          },
+          recentReflections: mockStudent.progress.reflectionLogs
         });
       }
     } catch (error) {
@@ -73,6 +124,68 @@ const ParentDashboard: React.FC = () => {
     } finally {
       setDataLoading(false);
     }
+  };
+
+  const ChildSelector: React.FC = () => {
+    if (!dashboardData || dashboardData.students.length <= 1) return null;
+
+    return (
+      <div className="bg-white p-4 rounded-lg shadow-sm border mb-6">
+        <div className="flex items-center justify-between">
+          <h3 className="text-md font-semibold text-gray-800">Select Child:</h3>
+          <select 
+            value={selectedStudentId || ''}
+            onChange={(e) => {
+              setSelectedStudentId(e.target.value);
+              loadParentData();
+            }}
+            className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            {dashboardData.students.map(({ student }) => (
+              <option key={student.uid} value={student.studentId || student.uid}>
+                {student.name}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
+    );
+  };
+
+  const TrendSummaryCard: React.FC = () => {
+    if (!dashboardData) return null;
+
+    const { trendSummary } = dashboardData;
+
+    return (
+      <div className="bg-white p-6 rounded-lg shadow-sm border">
+        <h3 className="text-lg font-semibold text-gray-800 mb-4">📈 Weekly Trends</h3>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="text-center">
+            <div className="text-2xl font-bold text-blue-600">{trendSummary.weeklyXPTotal}</div>
+            <div className="text-sm text-gray-600">Total XP</div>
+            <div className="text-xs text-gray-500">
+              {trendSummary.weeklyXPChange >= 0 ? '↑' : '↓'} {Math.abs(trendSummary.weeklyXPChange)}
+            </div>
+          </div>
+          <div className="text-center">
+            <div className="text-2xl font-bold text-orange-600">{trendSummary.streakChange >= 0 ? '+' : ''}{trendSummary.streakChange}</div>
+            <div className="text-sm text-gray-600">Streak Change</div>
+            <div className="text-xs text-gray-500">from last week</div>
+          </div>
+          <div className="text-center">
+            <div className="text-2xl font-bold text-green-600">{trendSummary.completedSessions}/{trendSummary.scheduledSessions}</div>
+            <div className="text-sm text-gray-600">Sessions</div>
+            <div className="text-xs text-gray-500">completed</div>
+          </div>
+          <div className="text-center">
+            <div className="text-2xl font-bold text-purple-600">{trendSummary.completionRate}%</div>
+            <div className="text-sm text-gray-600">Completion</div>
+            <div className="text-xs text-gray-500">rate</div>
+          </div>
+        </div>
+      </div>
+    );
   };
 
   const ProgressOverview: React.FC = () => {
@@ -277,7 +390,36 @@ const ParentDashboard: React.FC = () => {
             </div>
           )}
           
-          <ProgressOverview />
+          <ChildSelector />
+          
+          <TrendSummaryCard />
+          
+          <div className="mt-6">
+            <ProgressOverview />
+          </div>
+
+          {/* Motivation Cards */}
+          <div className="mt-6">
+            <MotivationCardsGroup 
+              cards={dashboardData?.motivationCards || []}
+              title="💡 Motivation & Insights"
+            />
+          </div>
+
+          {/* Reflections */}
+          <div className="mt-6">
+            <ReflectionStrip 
+              reflections={dashboardData?.recentReflections || []}
+              title="📝 Recent Study Reflections"
+              maxDisplay={3}
+            />
+          </div>
+
+          {dashboardData?.recentReflections && dashboardData.recentReflections.length > 0 && (
+            <div className="mt-4">
+              <ReflectionSummary reflections={dashboardData.recentReflections} />
+            </div>
+          )}
           
           <div className="mt-6">
             <RecentActivity />

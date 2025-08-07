@@ -1,0 +1,45 @@
+[
+  {
+    "id": "generated_1754462480471_pkod1lbrr",
+    "question": "Who was the first Prime Minister of Malaysia?",
+    "answer": "A) Tunku Abdul Rahman",
+    "subject": "History",
+    "topic": "Malaysian Independence",
+    "bloom_level": "Remember",
+    "difficulty": "Beginner",
+    "source": "MRSM History: Malaysian Independence Movement",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_ve8xslv5e",
+    "question": "When did Malaysia gain independence?",
+    "answer": "B) 1957",
+    "subject": "History",
+    "topic": "Malaysian History",
+    "bloom_level": "Remember",
+    "difficulty": "Beginner",
+    "source": "MRSM General Knowledge Handbook",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_y9tlnmu8i",
+    "question": "Explain the significance of the May 13, 1969 incident in Malaysian history.",
+    "answer": "The May 13 incident was a major racial riot that led to important constitutional and policy changes to maintain racial harmony in Malaysia.",
+    "subject": "History",
+    "topic": "Post-Independence Malaysia",
+    "bloom_level": "Analyze",
+    "difficulty": "Advanced",
+    "source": "MRSM History: Malaysian Independence Movement",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  }
+]

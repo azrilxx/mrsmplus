@@ -1,0 +1,13 @@
+[
+  {
+    "id": "9792a17c8ef2b80c",
+    "question": "Calculate the area of a triangle with sides 5 cm, 12 cm, and 13 cm.",
+    "answer": "First, check if it's a right triangle: 5² + 12² = 25 + 144 = 169 = 13². Yes, it's a right triangle with legs 5 cm and 12 cm, and hypotenuse 13 cm. Area of right triangle = (1/2) × base × height = (1/2) × 5 × 12 = 30 cm². Therefore, the area is 30 square centimeters.",
+    "topic": "Acids and Bases",
+    "subject": "Chemistry",
+    "bloom_level": "Apply",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "spm_trials_1754461492628"
+  }
+]

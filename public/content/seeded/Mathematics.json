@@ -1,0 +1,115 @@
+[
+  {
+    "id": "98c6610c9d9846dc",
+    "question": "Analyze the causes and effects of the 1997 Asian Financial Crisis on Malaysia.",
+    "answer": "Causes: (1) Currency speculation against Asian currencies, (2) Over-borrowing in foreign currencies by corporations, (3) Real estate and stock market bubbles, (4) Weak financial regulations. Effects on Malaysia: (1) Ringgit depreciated from RM2.50 to RM4.88 per USD, (2) Stock market crashed by over 50%, (3) GDP contracted by 7.4% in 1998, (4) High unemployment and business closures. Response: Malaysia implemented capital controls, fixed exchange rate, and expansionary fiscal policy for recovery.",
+    "subject": "Mathematics",
+    "topic": "Trigonometry",
+    "bloom_level": "Analyze",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "spm_trials_1754461492628",
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_08yo7lkbw",
+    "question": "Solve for x: 2x + 5 = 15",
+    "answer": "A) x = 5",
+    "subject": "Mathematics",
+    "topic": "Linear Equations",
+    "bloom_level": "Apply",
+    "difficulty": "Beginner",
+    "source": "MRSM Mathematics Workbook: Algebra and Equations",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_4qh6zo9jz",
+    "question": "What is the derivative of x² + 3x - 2?",
+    "answer": "A) 2x + 3",
+    "subject": "Mathematics",
+    "topic": "Calculus",
+    "bloom_level": "Apply",
+    "difficulty": "Advanced",
+    "source": "MRSM Mathematics Workbook: Algebra and Equations",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_93f6w6cs8",
+    "question": "Calculate the area of a triangle with base 10cm and height 8cm.",
+    "answer": "40 cm²",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "bloom_level": "Apply",
+    "difficulty": "Beginner",
+    "source": "https://www.moe.gov.my/menumedia/media-cetak/penerbitan/buku-teks",
+    "source_id": "mrsm_questions_2025-07-29T14-30-23-451Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_aa4tx1sq8",
+    "question": "Find the area of a circle with radius 7 cm. (Use π = 22/7)",
+    "answer": "A) 154 cm²",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "bloom_level": "Apply",
+    "difficulty": "Intermediate",
+    "source": "MRSM Mathematics Workbook: Algebra and Equations",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_u7c7jk558",
+    "question": "If log₂(8) = x, find the value of x.",
+    "answer": "B) 3",
+    "subject": "Mathematics",
+    "topic": "Logarithms",
+    "bloom_level": "Apply",
+    "difficulty": "Intermediate",
+    "source": "MRSM Mathematics Workbook: Algebra and Equations",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480472_7mtxnu8o7",
+    "question": "Calculate the area of a triangle with base 10cm and height 8cm.",
+    "answer": "40cm²",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "bloom_level": "Apply",
+    "difficulty": "Beginner",
+    "source": "https://www.scribd.com/search?query=MRSM+english",
+    "source_id": "mrsm_questions_2025-07-29T14-30-23-451Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480472_ukuprc3zp",
+    "question": "Calculate the area of a triangle with base 10cm and height 8cm.",
+    "answer": "A) 40 cm²",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "bloom_level": "Apply",
+    "difficulty": "Beginner",
+    "source": "https://www.scribd.com/search?query=MRSM+matematik",
+    "source_id": "mrsm_questions_2025-07-29T14-30-23-451Z",
+    "stream": [
+      "Premier"
+    ]
+  }
+]

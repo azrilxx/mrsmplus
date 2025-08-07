@@ -1,0 +1,14 @@
+{
+  "subject": "Mathematics",
+  "timestamp": "2025-08-06T06:41:20.488Z",
+  "summary": {
+    "total_new_questions": 1,
+    "deduplicated_kept": 1,
+    "discarded_duplicates": 0,
+    "deduplication_rate": "0.00%"
+  },
+  "files": {
+    "output_file": "public/content/seeded/Mathematics.json",
+    "hash_index": "functions/dedupe_index/Mathematics_hashes.json"
+  }
+}

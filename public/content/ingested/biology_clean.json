@@ -1,0 +1,82 @@
+[
+  {
+    "id": "0a9af4c6676b2c6a",
+    "question": "What is the process by which plants make their own food?",
+    "answer": "Photosynthesis",
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "bloom": "Recall",
+    "difficulty": "Moderate",
+    "source": "seeded"
+  },
+  {
+    "id": "14a5066bd69174ad",
+    "question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+    "answer": "Carbon dioxide",
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "seeded"
+  },
+  {
+    "id": "44d63435498ef10b",
+    "question": "What is the basic unit of life?",
+    "answer": "Cell",
+    "subject": "Biology",
+    "topic": "General Biology",
+    "bloom": "Recall",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "90c74623eefd7d41",
+    "question": "How many bones are in the adult human body?",
+    "answer": "206",
+    "subject": "Biology",
+    "topic": "Human Biology",
+    "bloom": "Recall",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "780ac39dac00a0e5",
+    "question": "What organ pumps blood through the body?",
+    "answer": "Heart",
+    "subject": "Biology",
+    "topic": "Human Circulatory System",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "f1fc5ee73c341b38",
+    "question": "What type of animal is a frog?",
+    "answer": "Amphibian",
+    "subject": "Biology",
+    "topic": "Animal Classification",
+    "bloom": "Recall",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "bbf244593ab69a52",
+    "question": "How many chambers does a human heart have?",
+    "answer": "4",
+    "subject": "Biology",
+    "topic": "Human Circulatory System",
+    "bloom": "Recall",
+    "difficulty": "Moderate",
+    "source": "seeded"
+  },
+  {
+    "id": "3ba1d7e044e866ca",
+    "question": "What is the study of living things called?",
+    "answer": "Biology",
+    "subject": "Biology",
+    "topic": "General Biology",
+    "bloom": "Recall",
+    "difficulty": "Easy",
+    "source": "seeded"
+  }
+]

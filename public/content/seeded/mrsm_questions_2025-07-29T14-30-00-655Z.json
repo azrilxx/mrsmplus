@@ -1,0 +1,601 @@
+[
+  {
+    "question": "A car accelerates from rest to 20 m/s in 4 seconds. Calculate the acceleration.",
+    "options": [
+      "A) 5 m/s²",
+      "B) 10 m/s²",
+      "C) 15 m/s²",
+      "D) 20 m/s²"
+    ],
+    "correct_answer": "A) 5 m/s²",
+    "subject": "Physics",
+    "topic": "Motion and Force",
+    "difficulty": "Intermediate",
+    "bloom_level": "Apply",
+    "question_type": "MCQ",
+    "source": "MRSM Physics Textbook Chapter 3: Force and Motion",
+    "extracted_at": "2025-07-29T14:30:00.653Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Explain Newton's Third Law of Motion with two real-world examples.",
+    "options": [],
+    "correct_answer": "For every action, there is an equal and opposite reaction. Examples: walking, rocket propulsion",
+    "subject": "Physics",
+    "topic": "Laws of Motion",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Essay",
+    "source": "MRSM Physics Textbook Chapter 3: Force and Motion",
+    "extracted_at": "2025-07-29T14:30:00.653Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Calculate the kinetic energy of a 2kg object moving at 10 m/s.",
+    "options": [
+      "A) 50 J",
+      "B) 100 J",
+      "C) 200 J",
+      "D) 400 J"
+    ],
+    "correct_answer": "B) 100 J",
+    "subject": "Physics",
+    "topic": "Energy",
+    "difficulty": "Intermediate",
+    "bloom_level": "Apply",
+    "question_type": "Problem Solving",
+    "source": "MRSM Physics Textbook Chapter 3: Force and Motion",
+    "extracted_at": "2025-07-29T14:30:00.653Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What happens to the resistance of a conductor when its temperature increases?",
+    "options": [
+      "A) Increases",
+      "B) Decreases",
+      "C) Remains constant",
+      "D) Becomes zero"
+    ],
+    "correct_answer": "A) Increases",
+    "subject": "Physics",
+    "topic": "Electricity",
+    "difficulty": "Advanced",
+    "bloom_level": "Understand",
+    "question_type": "MCQ",
+    "source": "MRSM Physics Textbook Chapter 3: Force and Motion",
+    "extracted_at": "2025-07-29T14:30:00.653Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Which element has the chemical symbol 'Na'?",
+    "options": [
+      "A) Nitrogen",
+      "B) Sodium",
+      "C) Nickel",
+      "D) Neon"
+    ],
+    "correct_answer": "B) Sodium",
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "difficulty": "Beginner",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "MRSM Chemistry Manual: Periodic Table and Elements",
+    "extracted_at": "2025-07-29T14:30:00.653Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Balance the chemical equation: CH₄ + O₂ → CO₂ + H₂O",
+    "options": [],
+    "correct_answer": "CH₄ + 2O₂ → CO₂ + 2H₂O",
+    "subject": "Chemistry",
+    "topic": "Chemical Equations",
+    "difficulty": "Intermediate",
+    "bloom_level": "Apply",
+    "question_type": "Problem Solving",
+    "source": "MRSM Chemistry Manual: Periodic Table and Elements",
+    "extracted_at": "2025-07-29T14:30:00.653Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What is the pH of a neutral solution at 25°C?",
+    "options": [
+      "A) 0",
+      "B) 7",
+      "C) 14",
+      "D) 1"
+    ],
+    "correct_answer": "B) 7",
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "difficulty": "Beginner",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "MRSM Chemistry Manual: Periodic Table and Elements",
+    "extracted_at": "2025-07-29T14:30:00.653Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Explain the difference between ionic and covalent bonding.",
+    "options": [],
+    "correct_answer": "Ionic bonding involves transfer of electrons between metals and non-metals. Covalent bonding involves sharing of electrons between non-metals.",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Essay",
+    "source": "MRSM Chemistry Manual: Periodic Table and Elements",
+    "extracted_at": "2025-07-29T14:30:00.653Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What is the main function of mitochondria in a cell?",
+    "options": [
+      "A) Protein synthesis",
+      "B) Energy production",
+      "C) DNA storage",
+      "D) Waste removal"
+    ],
+    "correct_answer": "B) Energy production",
+    "subject": "Biology",
+    "topic": "Cell Structure",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "MCQ",
+    "source": "MRSM Biology Notes: Cell Structure and Function",
+    "extracted_at": "2025-07-29T14:30:00.653Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Describe the process of photosynthesis and its importance to life on Earth.",
+    "options": [],
+    "correct_answer": "Photosynthesis converts CO₂ and water into glucose using sunlight. It produces oxygen and is the base of food chains.",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Essay",
+    "source": "MRSM Biology Notes: Cell Structure and Function",
+    "extracted_at": "2025-07-29T14:30:00.653Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Which blood type is considered the universal donor?",
+    "options": [
+      "A) A",
+      "B) B",
+      "C) AB",
+      "D) O"
+    ],
+    "correct_answer": "D) O",
+    "subject": "Biology",
+    "topic": "Human Biology",
+    "difficulty": "Beginner",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "MRSM Biology Notes: Cell Structure and Function",
+    "extracted_at": "2025-07-29T14:30:00.653Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What are the four stages of mitosis?",
+    "options": [
+      "A) Prophase, Metaphase, Anaphase, Telophase",
+      "B) Interphase, Prophase, Anaphase, Cytokineses",
+      "C) G1, S, G2, M",
+      "D) Prophase, Anaphase, Metaphase, Telophase"
+    ],
+    "correct_answer": "A) Prophase, Metaphase, Anaphase, Telophase",
+    "subject": "Biology",
+    "topic": "Cell Division",
+    "difficulty": "Intermediate",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "MRSM Biology Notes: Cell Structure and Function",
+    "extracted_at": "2025-07-29T14:30:00.653Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Solve for x: 2x + 5 = 15",
+    "options": [
+      "A) x = 5",
+      "B) x = 10",
+      "C) x = 7.5",
+      "D) x = 2.5"
+    ],
+    "correct_answer": "A) x = 5",
+    "subject": "Mathematics",
+    "topic": "Linear Equations",
+    "difficulty": "Beginner",
+    "bloom_level": "Apply",
+    "question_type": "Problem Solving",
+    "source": "MRSM Mathematics Workbook: Algebra and Equations",
+    "extracted_at": "2025-07-29T14:30:00.653Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What is the derivative of x² + 3x - 2?",
+    "options": [
+      "A) 2x + 3",
+      "B) x² + 3",
+      "C) 2x - 2",
+      "D) x + 3"
+    ],
+    "correct_answer": "A) 2x + 3",
+    "subject": "Mathematics",
+    "topic": "Calculus",
+    "difficulty": "Advanced",
+    "bloom_level": "Apply",
+    "question_type": "MCQ",
+    "source": "MRSM Mathematics Workbook: Algebra and Equations",
+    "extracted_at": "2025-07-29T14:30:00.653Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Find the area of a circle with radius 7 cm. (Use π = 22/7)",
+    "options": [
+      "A) 154 cm²",
+      "B) 44 cm²",
+      "C) 308 cm²",
+      "D) 22 cm²"
+    ],
+    "correct_answer": "A) 154 cm²",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "difficulty": "Intermediate",
+    "bloom_level": "Apply",
+    "question_type": "Problem Solving",
+    "source": "MRSM Mathematics Workbook: Algebra and Equations",
+    "extracted_at": "2025-07-29T14:30:00.653Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "If log₂(8) = x, find the value of x.",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 8"
+    ],
+    "correct_answer": "B) 3",
+    "subject": "Mathematics",
+    "topic": "Logarithms",
+    "difficulty": "Intermediate",
+    "bloom_level": "Apply",
+    "question_type": "MCQ",
+    "source": "MRSM Mathematics Workbook: Algebra and Equations",
+    "extracted_at": "2025-07-29T14:30:00.653Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What are the main factors that influence climate in Malaysia?",
+    "options": [],
+    "correct_answer": "Tropical location, monsoon winds, maritime influence, topography",
+    "subject": "Geography",
+    "topic": "Climate and Weather",
+    "difficulty": "Intermediate",
+    "bloom_level": "Analyze",
+    "question_type": "Essay",
+    "source": "MRSM Geography Atlas: Malaysian Climate Patterns",
+    "extracted_at": "2025-07-29T14:30:00.654Z",
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question": "Which mountain range forms the backbone of Peninsular Malaysia?",
+    "options": [
+      "A) Himalayas",
+      "B) Titiwangsa Range",
+      "C) Crocker Range",
+      "D) Banjaran Santubon"
+    ],
+    "correct_answer": "B) Titiwangsa Range",
+    "subject": "Geography",
+    "topic": "Physical Geography",
+    "difficulty": "Beginner",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "MRSM Geography Atlas: Malaysian Climate Patterns",
+    "extracted_at": "2025-07-29T14:30:00.654Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Explain the formation of river meanders.",
+    "options": [],
+    "correct_answer": "River meanders form due to lateral erosion on the outer bank and deposition on the inner bank of river bends.",
+    "subject": "Geography",
+    "topic": "River Systems",
+    "difficulty": "Intermediate",
+    "bloom_level": "Understand",
+    "question_type": "Essay",
+    "source": "MRSM Geography Atlas: Malaysian Climate Patterns",
+    "extracted_at": "2025-07-29T14:30:00.654Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What is the capital city of Malaysia?",
+    "options": [
+      "A) Johor Bahru",
+      "B) Kuala Lumpur",
+      "C) Penang",
+      "D) Kota Kinabalu"
+    ],
+    "correct_answer": "B) Kuala Lumpur",
+    "subject": "General Knowledge",
+    "topic": "Malaysian Geography",
+    "difficulty": "Beginner",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "MRSM General Knowledge Handbook",
+    "extracted_at": "2025-07-29T14:30:00.654Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "When did Malaysia gain independence?",
+    "options": [
+      "A) 1955",
+      "B) 1957",
+      "C) 1963",
+      "D) 1965"
+    ],
+    "correct_answer": "B) 1957",
+    "subject": "History",
+    "topic": "Malaysian History",
+    "difficulty": "Beginner",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "MRSM General Knowledge Handbook",
+    "extracted_at": "2025-07-29T14:30:00.654Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What does MRSM stand for?",
+    "options": [
+      "A) Malaysian Residential School Mathematics",
+      "B) Maktab Rendah Sains MARA",
+      "C) Malaysian Research Science Method",
+      "D) Maktab Rendah Sekolah Malaysia"
+    ],
+    "correct_answer": "B) Maktab Rendah Sains MARA",
+    "subject": "General Knowledge",
+    "topic": "Education System",
+    "difficulty": "Beginner",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "MRSM General Knowledge Handbook",
+    "extracted_at": "2025-07-29T14:30:00.654Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Apakah maksud perkataan 'bijaksana'?",
+    "options": [
+      "A) Pandai",
+      "B) Cantik",
+      "C) Kuat",
+      "D) Tinggi"
+    ],
+    "correct_answer": "A) Pandai",
+    "subject": "Bahasa Malaysia",
+    "topic": "Kosa Kata",
+    "difficulty": "Beginner",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "MRSM Bahasa Malaysia Literature Collection",
+    "extracted_at": "2025-07-29T14:30:00.654Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Tulis sebuah karangan pendek tentang kepentingan pendidikan.",
+    "options": [],
+    "correct_answer": "Pendidikan adalah asas pembangunan diri dan negara. Ia membuka peluang kerjaya dan membentuk masyarakat yang berpengetahuan.",
+    "subject": "Bahasa Malaysia",
+    "topic": "Karangan",
+    "difficulty": "Intermediate",
+    "bloom_level": "Create",
+    "question_type": "Essay",
+    "source": "MRSM Bahasa Malaysia Literature Collection",
+    "extracted_at": "2025-07-29T14:30:00.654Z",
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question": "Choose the correct form: 'He ___ to school every day.'",
+    "options": [
+      "A) go",
+      "B) goes",
+      "C) going",
+      "D) gone"
+    ],
+    "correct_answer": "B) goes",
+    "subject": "English",
+    "topic": "Grammar",
+    "difficulty": "Beginner",
+    "bloom_level": "Apply",
+    "question_type": "MCQ",
+    "source": "MRSM English Grammar and Composition Guide",
+    "extracted_at": "2025-07-29T14:30:00.654Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Write a short paragraph about the importance of reading.",
+    "options": [],
+    "correct_answer": "Reading expands knowledge, improves vocabulary, enhances critical thinking, and provides entertainment while developing language skills.",
+    "subject": "English",
+    "topic": "Writing",
+    "difficulty": "Intermediate",
+    "bloom_level": "Create",
+    "question_type": "Essay",
+    "source": "MRSM English Grammar and Composition Guide",
+    "extracted_at": "2025-07-29T14:30:00.654Z",
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question": "Who was the first Prime Minister of Malaysia?",
+    "options": [
+      "A) Tunku Abdul Rahman",
+      "B) Tun Abdul Razak",
+      "C) Tun Dr. Mahathir",
+      "D) Dato' Onn Jaafar"
+    ],
+    "correct_answer": "A) Tunku Abdul Rahman",
+    "subject": "History",
+    "topic": "Malaysian Independence",
+    "difficulty": "Beginner",
+    "bloom_level": "Remember",
+    "question_type": "MCQ",
+    "source": "MRSM History: Malaysian Independence Movement",
+    "extracted_at": "2025-07-29T14:30:00.654Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Explain the significance of the May 13, 1969 incident in Malaysian history.",
+    "options": [],
+    "correct_answer": "The May 13 incident was a major racial riot that led to important constitutional and policy changes to maintain racial harmony in Malaysia.",
+    "subject": "History",
+    "topic": "Post-Independence Malaysia",
+    "difficulty": "Advanced",
+    "bloom_level": "Analyze",
+    "question_type": "Essay",
+    "source": "MRSM History: Malaysian Independence Movement",
+    "extracted_at": "2025-07-29T14:30:00.654Z",
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "question": "Solve for x: 2x + 5 = 15",
+    "options": [
+      "A) x = 5",
+      "B) x = 10",
+      "C) x = 7.5",
+      "D) x = 2.5"
+    ],
+    "correct_answer": "A) x = 5",
+    "subject": "Mathematics",
+    "topic": "Linear Equations",
+    "difficulty": "Beginner",
+    "bloom_level": "Apply",
+    "question_type": "Problem Solving",
+    "source": "MRSM Additional Mathematics: Advanced Topics",
+    "extracted_at": "2025-07-29T14:30:00.654Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "What is the derivative of x² + 3x - 2?",
+    "options": [
+      "A) 2x + 3",
+      "B) x² + 3",
+      "C) 2x - 2",
+      "D) x + 3"
+    ],
+    "correct_answer": "A) 2x + 3",
+    "subject": "Mathematics",
+    "topic": "Calculus",
+    "difficulty": "Advanced",
+    "bloom_level": "Apply",
+    "question_type": "MCQ",
+    "source": "MRSM Additional Mathematics: Advanced Topics",
+    "extracted_at": "2025-07-29T14:30:00.654Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "Find the area of a circle with radius 7 cm. (Use π = 22/7)",
+    "options": [
+      "A) 154 cm²",
+      "B) 44 cm²",
+      "C) 308 cm²",
+      "D) 22 cm²"
+    ],
+    "correct_answer": "A) 154 cm²",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "difficulty": "Intermediate",
+    "bloom_level": "Apply",
+    "question_type": "Problem Solving",
+    "source": "MRSM Additional Mathematics: Advanced Topics",
+    "extracted_at": "2025-07-29T14:30:00.654Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "question": "If log₂(8) = x, find the value of x.",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 8"
+    ],
+    "correct_answer": "B) 3",
+    "subject": "Mathematics",
+    "topic": "Logarithms",
+    "difficulty": "Intermediate",
+    "bloom_level": "Apply",
+    "question_type": "MCQ",
+    "source": "MRSM Additional Mathematics: Advanced Topics",
+    "extracted_at": "2025-07-29T14:30:00.654Z",
+    "stream": [
+      "Premier"
+    ]
+  }
+]

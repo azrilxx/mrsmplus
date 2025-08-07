@@ -1,0 +1,24 @@
+[
+  {
+    "id": "00273e9b672fefe4",
+    "question": "Explain the greenhouse effect and its impact on global warming.",
+    "answer": "The greenhouse effect is a natural process where certain gases in Earth's atmosphere trap heat from the sun, keeping the planet warm enough to support life. However, increased concentrations of greenhouse gases (CO₂, CH₄, N₂O) from human activities enhance this effect, leading to global warming. This results in climate change, rising sea levels, melting ice caps, and extreme weather patterns. The enhanced greenhouse effect disrupts natural climate balance and threatens ecosystems worldwide.",
+    "topic": "Heat and Temperature",
+    "subject": "Physics",
+    "bloom_level": "Recall",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "spm_trials_1754461492628"
+  },
+  {
+    "id": "d079b04f4983e85e",
+    "question": "Find the derivative of f(x) = 3x² + 2x - 5.",
+    "answer": "To find the derivative of f(x) = 3x² + 2x - 5, we apply the power rule. f'(x) = d/dx(3x²) + d/dx(2x) - d/dx(5) = 3(2x) + 2(1) - 0 = 6x + 2. Therefore, f'(x) = 6x + 2.",
+    "topic": "Energy and Work",
+    "subject": "Physics",
+    "bloom_level": "Apply",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "spm_trials_1754461492628"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "ukkm_103",
+    "question": "Antara berikut, tumbuhan manakah yang tidak berbunga?",
+    "answer": "Ginkgo",
+    "subject": "UKKM",
+    "topic": "Sains – Botani",
+    "bloom_level": "Apply",
+    "difficulty": "Medium",
+    "source": "Contoh Soalan UKKM MRSM (ipendidikan.my)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Ginkgo",
+      "Mawar",
+      "Orkid",
+      "Teratai"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "ukkm_104",
+    "question": "Antara objek berikut, yang manakah boleh ditarik oleh magnet?",
+    "answer": "Pin kertas",
+    "subject": "UKKM",
+    "topic": "Sains – Fizik",
+    "bloom_level": "Apply",
+    "difficulty": "Medium",
+    "source": "Contoh Soalan UKKM MRSM (ipendidikan.my)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Pensel kayu",
+      "Sudip plastik",
+      "Pin kertas",
+      "Rantai emas"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "ukkm_105",
+    "question": "Mekanisme apakah yang digunakan oleh bar magnet untuk menarik objek logam?",
+    "answer": "Medan magnet",
+    "subject": "UKKM",
+    "topic": "Sains – Fizik",
+    "bloom_level": "Apply",
+    "difficulty": "Medium",
+    "source": "Contoh Soalan UKKM MRSM (ipendidikan.my)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "Daya geseran",
+      "Medan elektrik",
+      "Medan magnet",
+      "Daya graviti"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "ukkm_106",
+    "question": "Cari faktor sepunya tertinggi (HCF) bagi 24 dan 36.",
+    "answer": "12",
+    "subject": "UKKM",
+    "topic": "Matematik – Nombor",
+    "bloom_level": "Apply",
+    "difficulty": "Medium",
+    "source": "Contoh Soalan UKKM MRSM (ipendidikan.my)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "4",
+      "6",
+      "12",
+      "8"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "ukkm_107",
+    "question": "Bulatkan 8.756 kepada dua tempat perpuluhan.",
+    "answer": "8.76",
+    "subject": "UKKM",
+    "topic": "Matematik – Pembundaran",
+    "bloom_level": "Apply",
+    "difficulty": "Medium",
+    "source": "Contoh Soalan UKKM MRSM (ipendidikan.my)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "8.75",
+      "8.76",
+      "8.80",
+      "8.70"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "ukkm_108",
+    "question": "Nyatakan set integer antara -3 hingga 2.",
+    "answer": "{ -3, -2, -1, 0, 1, 2 }",
+    "subject": "UKKM",
+    "topic": "Matematik – Set",
+    "bloom_level": "Apply",
+    "difficulty": "Medium",
+    "source": "Contoh Soalan UKKM MRSM (ipendidikan.my)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "{ -3, -2, -1, 0, 1, 2 }",
+      "{ -3, -2, -1, 0, 1 }",
+      "{ -2, -1, 0, 1, 2 }",
+      "{ -3, -2, -1, 1, 2 }"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "ukkm_109",
+    "question": "Hitung hasil darab (2x + 3)(x – 4).",
+    "answer": "2x^2 – 5x – 12",
+    "subject": "UKKM",
+    "topic": "Matematik – Algebra",
+    "bloom_level": "Apply",
+    "difficulty": "Medium",
+    "source": "Contoh Soalan UKKM MRSM (ipendidikan.my)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "2x^2 + 3x – 8x – 12",
+      "2x^2 – 5x – 12",
+      "2x^2 – 5x + 12",
+      "x^2 – 8x + 3"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "ukkm_110",
+    "question": "Jika p = 4 dan q = 2, selesaikan persamaan r = 2p/q.",
+    "answer": "4",
+    "subject": "UKKM",
+    "topic": "Matematik – Algebra",
+    "bloom_level": "Apply",
+    "difficulty": "Medium",
+    "source": "Contoh Soalan UKKM MRSM (ipendidikan.my)",
+    "source_id": "extracted_questions",
+    "format": "MCQ",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "stream": [
+      "Premier"
+    ]
+  }
+]

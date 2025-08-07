@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-08-06T06:24:52.630Z",
+  "total_sources": 3,
+  "successful_sources": 3,
+  "total_questions": 15,
+  "total_files": 9,
+  "subjects_distribution": {
+    "Physics": 2,
+    "Chemistry": 3,
+    "General": 1,
+    "Biology": 2,
+    "Mathematics": 1
+  },
+  "results": [
+    {
+      "source": "MOE_Malaysia",
+      "total_questions": 5,
+      "total_files": 3,
+      "subjects_covered": [
+        "Physics",
+        "Chemistry",
+        "General"
+      ],
+      "bloom_distribution": {
+        "Recall": 2,
+        "Apply": 2,
+        "Analyze": 1
+      },
+      "difficulty_distribution": {
+        "Easy": 0,
+        "Moderate": 5,
+        "Hard": 0
+      }
+    },
+    {
+      "source": "SPM_Trials",
+      "total_questions": 5,
+      "total_files": 4,
+      "subjects_covered": [
+        "Physics",
+        "Biology",
+        "Chemistry",
+        "Mathematics"
+      ],
+      "bloom_distribution": {
+        "Recall": 2,
+        "Apply": 2,
+        "Analyze": 1
+      },
+      "difficulty_distribution": {
+        "Easy": 0,
+        "Moderate": 5,
+        "Hard": 0
+      }
+    },
+    {
+      "source": "Khan_Academy",
+      "total_questions": 5,
+      "total_files": 2,
+      "subjects_covered": [
+        "Chemistry",
+        "Biology"
+      ],
+      "bloom_distribution": {
+        "Recall": 3,
+        "Apply": 2,
+        "Analyze": 0
+      },
+      "difficulty_distribution": {
+        "Easy": 0,
+        "Moderate": 5,
+        "Hard": 0
+      }
+    }
+  ]
+}

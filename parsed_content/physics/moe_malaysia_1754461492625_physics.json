@@ -1,0 +1,35 @@
+[
+  {
+    "id": "0af823eaff01a099",
+    "question": "What is the SI unit of electric current and define it?",
+    "answer": "The SI unit of electric current is ampere (A). Electric current is defined as the rate of flow of electric charge through a conductor. One ampere is the current that flows when one coulomb of charge passes through a cross-section of a conductor in one second.",
+    "topic": "Electricity and Magnetism",
+    "subject": "Physics",
+    "bloom_level": "Recall",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "moe_malaysia_1754461492625"
+  },
+  {
+    "id": "87ffa1a25855745e",
+    "question": "Calculate the resistance of a wire if a voltage of 12 V produces a current of 3 A.",
+    "answer": "Given: Voltage (V) = 12 V, Current (I) = 3 A. Using Ohm's Law: V = IR. Rearranging: R = V/I = 12/3 = 4 Ω. Therefore, the resistance of the wire is 4 ohms.",
+    "topic": "Electricity and Magnetism",
+    "subject": "Physics",
+    "bloom_level": "Apply",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "moe_malaysia_1754461492625"
+  },
+  {
+    "id": "bd3d4ba1e9f6523f",
+    "question": "Analyze why copper is preferred over aluminum for household electrical wiring.",
+    "answer": "Copper is preferred over aluminum for household electrical wiring for several reasons: (1) Lower electrical resistance - copper has better conductivity, reducing energy loss and heat generation. (2) Mechanical strength - copper is more durable and less likely to break during installation. (3) Corrosion resistance - copper resists oxidation better than aluminum. (4) Safety - copper connections are more stable and less prone to loosening, reducing fire hazards. (5) Compatibility - copper works better with existing electrical components and connectors.",
+    "topic": "Energy and Work",
+    "subject": "Physics",
+    "bloom_level": "Analyze",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "moe_malaysia_1754461492625"
+  }
+]

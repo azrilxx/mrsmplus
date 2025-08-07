@@ -1,0 +1,502 @@
+[
+  {
+    "id": "phy_f4_001",
+    "question": "What is the SI unit for acceleration?",
+    "answer": "The SI unit for acceleration is metres per second squared (m/s²).",
+    "subject": "Physics",
+    "topic": "Forces and Motion",
+    "bloom": "Recall",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_002",
+    "question": "State Newton's First Law of Motion.",
+    "answer": "Newton's First Law of Motion states that an object at rest will remain at rest, and an object in motion will continue moving at constant velocity in a straight line, unless acted upon by an unbalanced external force.",
+    "subject": "Physics",
+    "topic": "Forces and Motion",
+    "bloom": "Recall",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_003",
+    "question": "A car accelerates from rest to 20 m/s in 4 seconds. Calculate the acceleration of the car.",
+    "answer": "Given: Initial velocity (u) = 0 m/s, Final velocity (v) = 20 m/s, Time (t) = 4 s\nUsing the equation: a = (v - u)/t\na = (20 - 0)/4 = 20/4 = 5 m/s²\nTherefore, the acceleration of the car is 5 m/s².",
+    "subject": "Physics",
+    "topic": "Forces and Motion",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_004",
+    "question": "A ball is thrown vertically upward with an initial velocity of 15 m/s. Calculate the maximum height reached by the ball. (Take g = 10 m/s²)",
+    "answer": "Given: Initial velocity (u) = 15 m/s, Final velocity (v) = 0 m/s at maximum height, g = 10 m/s²\nUsing the equation: v² = u² - 2gh (negative because motion is against gravity)\n0² = 15² - 2(10)h\n0 = 225 - 20h\n20h = 225\nh = 225/20 = 11.25 m\nTherefore, the maximum height reached is 11.25 m.",
+    "subject": "Physics",
+    "topic": "Forces and Motion",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_005",
+    "question": "A force of 50 N is applied to an object of mass 10 kg. Calculate the acceleration produced.",
+    "answer": "Given: Force (F) = 50 N, Mass (m) = 10 kg\nUsing Newton's Second Law: F = ma\n50 = 10 × a\na = 50/10 = 5 m/s²\nTherefore, the acceleration produced is 5 m/s².",
+    "subject": "Physics",
+    "topic": "Forces and Motion",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_006",
+    "question": "Explain why a passenger in a car feels pushed backward when the car suddenly accelerates forward.",
+    "answer": "When a car suddenly accelerates forward, the passenger feels pushed backward due to Newton's First Law of Motion (law of inertia). The passenger's body tends to remain at rest while the car moves forward. This creates a relative motion where the passenger appears to be pushed backward against the seat. In reality, the passenger is not being pushed backward by any force, but rather their body is resisting the change in motion due to inertia.",
+    "subject": "Physics",
+    "topic": "Forces and Motion",
+    "bloom": "Analyze",
+    "difficulty": "Hard",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_007",
+    "question": "A cyclist travels 100 m in 20 seconds at constant velocity. Calculate the cyclist's velocity.",
+    "answer": "Given: Distance (s) = 100 m, Time (t) = 20 s\nUsing the equation: v = s/t\nv = 100/20 = 5 m/s\nTherefore, the cyclist's velocity is 5 m/s.",
+    "subject": "Physics",
+    "topic": "Forces and Motion",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_008",
+    "question": "Define displacement and explain how it differs from distance.",
+    "answer": "Displacement is the shortest distance between the initial and final positions of an object, measured in a straight line with a specific direction. It is a vector quantity. Distance is the total length of the path traveled by an object, regardless of direction. It is a scalar quantity. The key differences are: (1) Displacement has direction while distance does not, (2) Displacement can be zero even if distance is not zero (when an object returns to its starting point), (3) Displacement is always less than or equal to distance.",
+    "subject": "Physics",
+    "topic": "Forces and Motion",
+    "bloom": "Recall",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_009",
+    "question": "A train starts from rest and accelerates uniformly at 2 m/s² for 10 seconds. Calculate the distance traveled by the train.",
+    "answer": "Given: Initial velocity (u) = 0 m/s, Acceleration (a) = 2 m/s², Time (t) = 10 s\nUsing the equation: s = ut + ½at²\ns = 0(10) + ½(2)(10)²\ns = 0 + ½(2)(100)\ns = 0 + 100 = 100 m\nTherefore, the distance traveled by the train is 100 m.",
+    "subject": "Physics",
+    "topic": "Forces and Motion",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_010",
+    "question": "Analyze why it is more difficult to stop a heavily loaded truck compared to an empty truck when both are traveling at the same speed.",
+    "answer": "It is more difficult to stop a heavily loaded truck because it has greater mass and therefore greater momentum (momentum = mass × velocity). According to Newton's First Law, objects with greater mass have greater inertia and resist changes in motion more strongly. When braking, the same braking force applied to both trucks will produce less deceleration in the heavily loaded truck (F = ma, so a = F/m - larger mass means smaller acceleration). Additionally, the heavily loaded truck has more kinetic energy (KE = ½mv²), so more work must be done by the brakes to bring it to a stop, requiring either more force or more distance.",
+    "subject": "Physics",
+    "topic": "Forces and Motion",
+    "bloom": "Analyze",
+    "difficulty": "Hard",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_011",
+    "question": "Define kinetic energy and state its SI unit.",
+    "answer": "Kinetic energy is the energy possessed by an object due to its motion. It depends on the mass and velocity of the object. The SI unit for kinetic energy is the joule (J).",
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "bloom": "Recall",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_012",
+    "question": "What is the principle of conservation of energy?",
+    "answer": "The principle of conservation of energy states that energy cannot be created or destroyed, but can only be transformed from one form to another. The total energy in an isolated system remains constant.",
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "bloom": "Recall",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_013",
+    "question": "A ball of mass 0.5 kg is moving at a velocity of 10 m/s. Calculate its kinetic energy.",
+    "answer": "Given: Mass (m) = 0.5 kg, Velocity (v) = 10 m/s\nUsing the formula: KE = ½mv²\nKE = ½ × 0.5 × 10²\nKE = ½ × 0.5 × 100\nKE = 0.25 × 100 = 25 J\nTherefore, the kinetic energy of the ball is 25 J.",
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_014",
+    "question": "A book of mass 2 kg is placed on a shelf 3 m above the ground. Calculate its gravitational potential energy. (Take g = 10 m/s²)",
+    "answer": "Given: Mass (m) = 2 kg, Height (h) = 3 m, g = 10 m/s²\nUsing the formula: PE = mgh\nPE = 2 × 10 × 3\nPE = 60 J\nTherefore, the gravitational potential energy of the book is 60 J.",
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_015",
+    "question": "Define work done and state the condition when no work is done.",
+    "answer": "Work done is defined as the product of force and displacement in the direction of the force. Work = Force × Displacement × cos θ, where θ is the angle between force and displacement. No work is done when: (1) The displacement is zero, (2) The force is zero, or (3) The force is perpendicular to the displacement (θ = 90°, cos 90° = 0).",
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "bloom": "Recall",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_016",
+    "question": "A force of 20 N is applied to move an object through a distance of 5 m in the direction of the force. Calculate the work done.",
+    "answer": "Given: Force (F) = 20 N, Displacement (s) = 5 m, θ = 0° (force and displacement in same direction)\nUsing the formula: W = F × s × cos θ\nW = 20 × 5 × cos 0°\nW = 20 × 5 × 1\nW = 100 J\nTherefore, the work done is 100 J.",
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_017",
+    "question": "A pendulum swings from its highest point to its lowest point. Explain the energy transformations that occur during this motion.",
+    "answer": "When a pendulum swings from its highest point to its lowest point, gravitational potential energy is converted to kinetic energy. At the highest point, the pendulum has maximum potential energy and zero kinetic energy (momentarily at rest). As it swings down, potential energy decreases while kinetic energy increases. At the lowest point, potential energy is minimum (taking this as reference level) and kinetic energy is maximum. Throughout the motion, the total mechanical energy (PE + KE) remains constant, demonstrating conservation of energy (ignoring air resistance and friction).",
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "bloom": "Analyze",
+    "difficulty": "Hard",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_018",
+    "question": "Calculate the power developed by a motor that does 3000 J of work in 10 seconds.",
+    "answer": "Given: Work done (W) = 3000 J, Time (t) = 10 s\nUsing the formula: Power = Work done / Time\nP = W/t = 3000/10 = 300 W\nTherefore, the power developed by the motor is 300 W.",
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_019",
+    "question": "A roller coaster car of mass 500 kg is at the top of a 20 m high hill moving at 5 m/s. Calculate its total mechanical energy. (Take g = 10 m/s²)",
+    "answer": "Given: Mass (m) = 500 kg, Height (h) = 20 m, Velocity (v) = 5 m/s, g = 10 m/s²\nKinetic Energy: KE = ½mv² = ½ × 500 × 5² = ½ × 500 × 25 = 6,250 J\nPotential Energy: PE = mgh = 500 × 10 × 20 = 100,000 J\nTotal Mechanical Energy = KE + PE = 6,250 + 100,000 = 106,250 J\nTherefore, the total mechanical energy is 106,250 J.",
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_020",
+    "question": "Analyze why a bouncing ball eventually stops bouncing and comes to rest on the ground, relating this to energy conservation principles.",
+    "answer": "A bouncing ball eventually stops bouncing due to energy dissipation, not violation of energy conservation. Initially, the ball has mechanical energy (kinetic + potential). During each bounce, some mechanical energy is converted to other forms: (1) Heat energy due to deformation of the ball and ground, (2) Sound energy from the impact, (3) Energy lost to air resistance. Although total energy is conserved (including all forms), the mechanical energy decreases with each bounce. Eventually, all mechanical energy is converted to other forms, and the ball comes to rest. This demonstrates that energy is conserved but transforms from useful mechanical energy to less useful thermal and acoustic energy.",
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "bloom": "Analyze",
+    "difficulty": "Hard",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_021",
+    "question": "Define wavelength and state its SI unit.",
+    "answer": "Wavelength is the distance between two consecutive points that are in phase on a wave, such as from one crest to the next crest or from one trough to the next trough. The SI unit for wavelength is the metre (m).",
+    "subject": "Physics",
+    "topic": "Waves and Sound",
+    "bloom": "Recall",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_022",
+    "question": "What is the relationship between frequency, wavelength, and wave speed?",
+    "answer": "The relationship between frequency (f), wavelength (λ), and wave speed (v) is given by the wave equation: v = fλ. This means that wave speed equals frequency multiplied by wavelength.",
+    "subject": "Physics",
+    "topic": "Waves and Sound",
+    "bloom": "Recall",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_023",
+    "question": "A sound wave has a frequency of 500 Hz and travels at a speed of 340 m/s in air. Calculate its wavelength.",
+    "answer": "Given: Frequency (f) = 500 Hz, Wave speed (v) = 340 m/s\nUsing the wave equation: v = fλ\nRearranging: λ = v/f\nλ = 340/500 = 0.68 m\nTherefore, the wavelength of the sound wave is 0.68 m.",
+    "subject": "Physics",
+    "topic": "Waves and Sound",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_024",
+    "question": "Define amplitude and explain how it relates to the loudness of sound.",
+    "answer": "Amplitude is the maximum displacement of particles from their equilibrium position during wave motion. For sound waves, amplitude is directly related to loudness - greater amplitude produces louder sound, while smaller amplitude produces softer sound. The amplitude determines the energy carried by the wave, and our ears perceive this energy as loudness or volume.",
+    "subject": "Physics",
+    "topic": "Waves and Sound",
+    "bloom": "Recall",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_025",
+    "question": "A wave on a string has a frequency of 10 Hz and a wavelength of 2 m. Calculate the speed of the wave.",
+    "answer": "Given: Frequency (f) = 10 Hz, Wavelength (λ) = 2 m\nUsing the wave equation: v = fλ\nv = 10 × 2 = 20 m/s\nTherefore, the speed of the wave is 20 m/s.",
+    "subject": "Physics",
+    "topic": "Waves and Sound",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_026",
+    "question": "List three properties that distinguish transverse waves from longitudinal waves.",
+    "answer": "Three properties that distinguish transverse waves from longitudinal waves are: (1) Direction of vibration: In transverse waves, particles vibrate perpendicular to the direction of wave propagation, while in longitudinal waves, particles vibrate parallel to the direction of wave propagation. (2) Wave features: Transverse waves have crests and troughs, while longitudinal waves have compressions and rarefactions. (3) Medium requirements: Transverse waves can travel through solids and on surfaces of liquids, while longitudinal waves can travel through solids, liquids, and gases.",
+    "subject": "Physics",
+    "topic": "Waves and Sound",
+    "bloom": "Recall",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_027",
+    "question": "Calculate the period of a wave that has a frequency of 50 Hz.",
+    "answer": "Given: Frequency (f) = 50 Hz\nUsing the relationship: T = 1/f, where T is the period\nT = 1/50 = 0.02 s\nTherefore, the period of the wave is 0.02 s or 20 ms.",
+    "subject": "Physics",
+    "topic": "Waves and Sound",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_028",
+    "question": "Explain what happens to the pitch and loudness of sound when both frequency and amplitude are increased.",
+    "answer": "When frequency is increased, the pitch of the sound becomes higher. Pitch is directly related to frequency - higher frequency produces higher pitch. When amplitude is increased, the loudness of the sound increases. Loudness is directly related to amplitude - greater amplitude produces louder sound. Therefore, increasing both frequency and amplitude will result in a sound that is both higher in pitch and louder in volume.",
+    "subject": "Physics",
+    "topic": "Waves and Sound",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_029",
+    "question": "A student observes that when a guitar string is plucked harder, the sound becomes louder but the pitch remains the same. Analyze this observation in terms of wave properties.",
+    "answer": "This observation can be explained by understanding the relationship between wave properties and sound characteristics. When the guitar string is plucked harder, more energy is transferred to the string, causing it to vibrate with greater amplitude. Since loudness is directly proportional to amplitude, the sound becomes louder. However, the pitch depends on the frequency of vibration, which is determined by the string's length, tension, and mass per unit length. Plucking harder doesn't change these physical properties of the string, so the frequency remains constant, keeping the pitch the same. This demonstrates that amplitude (affecting loudness) and frequency (affecting pitch) are independent wave properties.",
+    "subject": "Physics",
+    "topic": "Waves and Sound",
+    "bloom": "Analyze",
+    "difficulty": "Hard",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_030",
+    "question": "Analyze why sound travels faster in solids than in gases, considering the properties of the medium.",
+    "answer": "Sound travels faster in solids than in gases due to the different properties of these media. In solids, particles are closely packed and strongly bonded, allowing vibrations to be transmitted quickly from one particle to the next. The strong intermolecular forces and high density create efficient energy transfer. In gases, particles are far apart with weak intermolecular forces, so vibrations take longer to propagate from particle to particle. Additionally, the elasticity of solids is much higher than gases, and sound speed is proportional to the square root of elasticity divided by density. Although solids are denser than gases, their much higher elasticity more than compensates for the density factor, resulting in faster sound transmission.",
+    "subject": "Physics",
+    "topic": "Waves and Sound",
+    "bloom": "Analyze",
+    "difficulty": "Hard",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_031",
+    "question": "Define temperature and state the SI unit for temperature.",
+    "answer": "Temperature is a measure of the average kinetic energy of particles in a substance. It indicates how hot or cold an object is. The SI unit for temperature is the kelvin (K).",
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "bloom": "Recall",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_032",
+    "question": "What is the difference between heat and temperature?",
+    "answer": "Heat is the thermal energy that flows from a hotter object to a cooler object due to temperature difference. It is a form of energy measured in joules (J). Temperature is a measure of the average kinetic energy of particles in a substance, measured in kelvin (K), Celsius (°C), or Fahrenheit (°F). Heat is energy in transit, while temperature is a property of matter that determines the direction of heat flow.",
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "bloom": "Recall",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_033",
+    "question": "Convert 25°C to Kelvin.",
+    "answer": "To convert from Celsius to Kelvin, use the formula: K = °C + 273.15\nK = 25 + 273.15 = 298.15 K\nTherefore, 25°C is equal to 298.15 K.",
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_034",
+    "question": "Calculate the heat energy required to raise the temperature of 2 kg of water from 20°C to 80°C. (Specific heat capacity of water = 4200 J/(kg·°C))",
+    "answer": "Given: Mass (m) = 2 kg, Initial temperature = 20°C, Final temperature = 80°C, Specific heat capacity (c) = 4200 J/(kg·°C)\nTemperature change: ΔT = 80 - 20 = 60°C\nUsing the formula: Q = mcΔT\nQ = 2 × 4200 × 60\nQ = 504,000 J = 504 kJ\nTherefore, the heat energy required is 504 kJ.",
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_035",
+    "question": "List three methods of heat transfer and give one example of each.",
+    "answer": "The three methods of heat transfer are: (1) Conduction - heat transfer through direct contact between particles, example: heating a metal spoon in hot soup. (2) Convection - heat transfer through the movement of fluids (liquids or gases), example: hot air rising and cold air sinking to create air currents. (3) Radiation - heat transfer through electromagnetic waves without requiring a medium, example: heat from the Sun reaching Earth through space.",
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "bloom": "Recall",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_036",
+    "question": "Define specific heat capacity and state its SI unit.",
+    "answer": "Specific heat capacity is the amount of heat energy required to raise the temperature of 1 kg of a substance by 1 K (or 1°C). It is a property that indicates how much thermal energy a material can store. The SI unit for specific heat capacity is J/(kg·K) or J/(kg·°C).",
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "bloom": "Recall",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_037",
+    "question": "A 0.5 kg block of aluminum is heated and its temperature rises from 25°C to 75°C. If 23,000 J of heat is supplied, calculate the specific heat capacity of aluminum.",
+    "answer": "Given: Mass (m) = 0.5 kg, Initial temperature = 25°C, Final temperature = 75°C, Heat supplied (Q) = 23,000 J\nTemperature change: ΔT = 75 - 25 = 50°C\nUsing the formula: Q = mcΔT\nRearranging: c = Q/(mΔT)\nc = 23,000/(0.5 × 50)\nc = 23,000/25 = 920 J/(kg·°C)\nTherefore, the specific heat capacity of aluminum is 920 J/(kg·°C).",
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_038",
+    "question": "Explain why metals feel colder than wood at room temperature, even though both are at the same temperature.",
+    "answer": "Metals feel colder than wood at room temperature because metals are good conductors of heat while wood is a poor conductor (insulator). When you touch a metal object, it quickly conducts heat away from your warm hand, making your hand lose thermal energy rapidly. This rapid heat loss creates the sensation of coldness. Wood, being a poor conductor, does not conduct heat away from your hand as quickly, so it feels warmer. Both materials are actually at the same room temperature, but their different thermal conductivities create different sensations when touched.",
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_039",
+    "question": "Analyze why a thick blanket keeps you warm in cold weather, considering the principles of heat transfer.",
+    "answer": "A thick blanket keeps you warm by reducing heat loss through all three methods of heat transfer. (1) Conduction: The blanket material (often containing air pockets) is a poor conductor, reducing direct heat transfer from your body to the cold environment. (2) Convection: The blanket traps a layer of warm air next to your body and prevents cold air circulation, minimizing convective heat loss. (3) Radiation: Some blanket materials can reflect radiated heat back to your body. The thickness creates more insulating material and trapped air, which is an excellent insulator. Your body continues to produce heat, and the blanket prevents this heat from escaping, maintaining a warm microenvironment around your body.",
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "bloom": "Analyze",
+    "difficulty": "Hard",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_040",
+    "question": "Analyze the thermal expansion of a steel bridge on a hot day and explain why expansion joints are necessary.",
+    "answer": "On a hot day, a steel bridge undergoes thermal expansion because increased temperature causes the steel atoms to vibrate more vigorously, increasing the average distance between them and thus expanding the material. The expansion can be significant over the long span of a bridge (linear expansion = αLΔT, where α is the coefficient of expansion, L is original length, and ΔT is temperature change). Without expansion joints, this expansion would create enormous compressive stress in the bridge structure, potentially causing buckling, cracking, or structural failure. Expansion joints provide space for the bridge to expand and contract safely with temperature changes, preventing structural damage and maintaining the bridge's integrity across different seasons and weather conditions.",
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "bloom": "Analyze",
+    "difficulty": "Hard",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_041",
+    "question": "Define electric current and state its SI unit.",
+    "answer": "Electric current is the rate of flow of electric charge through a conductor. It is defined as the amount of charge that flows through a cross-section of a conductor per unit time. The SI unit for electric current is the ampere (A).",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "bloom": "Recall",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_042",
+    "question": "State Ohm's Law and write its mathematical expression.",
+    "answer": "Ohm's Law states that the current flowing through a conductor is directly proportional to the voltage across it, provided the temperature and other physical conditions remain constant. The mathematical expression is: V = IR, where V is voltage (in volts), I is current (in amperes), and R is resistance (in ohms).",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "bloom": "Recall",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_043",
+    "question": "A resistor has a resistance of 10 Ω and a current of 2 A flows through it. Calculate the voltage across the resistor.",
+    "answer": "Given: Resistance (R) = 10 Ω, Current (I) = 2 A\nUsing Ohm's Law: V = IR\nV = 2 × 10 = 20 V\nTherefore, the voltage across the resistor is 20 V.",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_044",
+    "question": "Calculate the electrical power consumed by a device that operates at 240 V and draws a current of 5 A.",
+    "answer": "Given: Voltage (V) = 240 V, Current (I) = 5 A\nUsing the formula: P = VI\nP = 240 × 5 = 1200 W = 1.2 kW\nTherefore, the electrical power consumed is 1.2 kW.",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_045",
+    "question": "Define magnetic field and describe how it can be visualized using iron filings.",
+    "answer": "A magnetic field is the region around a magnet where magnetic forces can be detected. It is represented by magnetic field lines that show the direction and strength of the magnetic force. Iron filings can be used to visualize magnetic fields by sprinkling them around a magnet on a sheet of paper. The iron filings align themselves along the magnetic field lines, revealing the pattern of the magnetic field. The filings cluster more densely where the field is stronger (near the poles) and spread out where the field is weaker.",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "bloom": "Recall",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_046",
+    "question": "Two resistors of 4 Ω and 6 Ω are connected in series. Calculate the total resistance of the combination.",
+    "answer": "Given: R₁ = 4 Ω, R₂ = 6 Ω (connected in series)\nFor resistors in series: R_total = R₁ + R₂\nR_total = 4 + 6 = 10 Ω\nTherefore, the total resistance is 10 Ω.",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_047",
+    "question": "List three factors that affect the resistance of a conductor.",
+    "answer": "Three factors that affect the resistance of a conductor are: (1) Length - resistance increases with increasing length of the conductor, (2) Cross-sectional area - resistance decreases with increasing cross-sectional area, (3) Material - different materials have different resistivities (intrinsic property), with metals generally having low resistance and insulators having high resistance. Temperature also affects resistance, with most metals showing increased resistance at higher temperatures.",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "bloom": "Recall",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_048",
+    "question": "A current of 3 A flows through a wire for 10 minutes. Calculate the total charge that flows through the wire.",
+    "answer": "Given: Current (I) = 3 A, Time (t) = 10 minutes = 10 × 60 = 600 s\nUsing the formula: Q = It\nQ = 3 × 600 = 1800 C\nTherefore, the total charge that flows through the wire is 1800 C.",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_049",
+    "question": "Explain why household electrical appliances are connected in parallel rather than in series.",
+    "answer": "Household electrical appliances are connected in parallel rather than in series for several important reasons: (1) Independent operation - each appliance can be switched on or off independently without affecting others. In series, if one appliance stops working, all others would stop too. (2) Constant voltage - in parallel connection, each appliance receives the full mains voltage (240V in Malaysia), ensuring optimal performance. In series, voltage would be divided among appliances. (3) Individual control - each appliance can have its own switch and operate at its designed power rating. (4) Practical current requirements - different appliances require different currents, which is easily accommodated in parallel connection but problematic in series where the same current flows through all devices.",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "bloom": "Analyze",
+    "difficulty": "Hard",
+    "source": "official"
+  },
+  {
+    "id": "phy_f4_050",
+    "question": "Analyze why electromagnets are preferred over permanent magnets in many industrial applications, such as in cranes for lifting scrap metal.",
+    "answer": "Electromagnets are preferred over permanent magnets in industrial applications like scrap metal cranes because they offer controllability and versatility that permanent magnets cannot provide. Key advantages include: (1) Control - electromagnets can be switched on and off by controlling the electric current, allowing precise timing for picking up and releasing materials. (2) Variable strength - the magnetic field strength can be adjusted by changing the current, accommodating different weights and materials. (3) Safety - materials can be safely released by simply turning off the current, preventing accidents that could occur if trying to remove materials from permanent magnets. (4) Selectivity - electromagnets can be designed to work optimally with specific types of ferromagnetic materials. (5) Maintenance - if an electromagnet fails, it can often be repaired by replacing electrical components, while permanent magnets may lose their magnetism permanently and need complete replacement.",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "bloom": "Analyze",
+    "difficulty": "Hard",
+    "source": "official"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "studentId": "student_123",
+  "cognitiveProfile": {
+    "learningStyle": "visual",
+    "attentionSpan": 25,
+    "preferredDifficulty": "medium"
+  },
+  "availableTime": 60,
+  "subject": "Mathematics",
+  "currentLevel": "Form 4",
+  "recentPerformance": {
+    "accuracy": 0.75,
+    "completionRate": 0.85,
+    "engagementScore": 7.2
+  },
+  "microtasks": [
+    {
+      "id": "math_001",
+      "topic": "Quadratic Equations",
+      "bloomLevel": "Apply",
+      "estimatedDuration": 15,
+      "difficulty": "medium"
+    },
+    {
+      "id": "math_002", 
+      "topic": "Algebraic Expressions",
+      "bloomLevel": "Understand",
+      "estimatedDuration": 20,
+      "difficulty": "easy"
+    },
+    {
+      "id": "math_003",
+      "topic": "Graph Interpretation",
+      "bloomLevel": "Analyze", 
+      "estimatedDuration": 25,
+      "difficulty": "hard"
+    }
+  ]
+}

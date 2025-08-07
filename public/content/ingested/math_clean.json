@@ -1,0 +1,202 @@
+[
+  {
+    "id": "7a7896b4cfc6478e",
+    "question": "What is 5 + 3?",
+    "answer": "8",
+    "subject": "Mathematics",
+    "topic": "Basic Operations",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "4c4b218ee63f3be5",
+    "question": "Solve: 2x = 10. What is x?",
+    "answer": "5",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "25da80ee8aae26c4",
+    "question": "What is the area of a rectangle with length 4 and width 3?",
+    "answer": "12",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "seeded"
+  },
+  {
+    "id": "2fadd2f1ffcc9d9f",
+    "question": "What is 15 - 7?",
+    "answer": "8",
+    "subject": "Mathematics",
+    "topic": "Basic Operations",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "96ebc499432d249d",
+    "question": "What is 6 × 4?",
+    "answer": "24",
+    "subject": "Mathematics",
+    "topic": "Basic Operations",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "ba3080683821e787",
+    "question": "What is 20 ÷ 4?",
+    "answer": "5",
+    "subject": "Mathematics",
+    "topic": "Basic Operations",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "9a7a31c368d214d3",
+    "question": "What is the perimeter of a square with side length 5?",
+    "answer": "20",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "seeded"
+  },
+  {
+    "id": "1f86453c10babf56",
+    "question": "What is 3²?",
+    "answer": "9",
+    "subject": "Mathematics",
+    "topic": "Powers and Roots",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "seeded"
+  },
+  {
+    "id": "105913dfba38ccbf",
+    "question": "What is the value of π (pi) rounded to 2 decimal places?",
+    "answer": "3.14",
+    "subject": "Mathematics",
+    "topic": "Fractions and Decimals",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "6b289ea31e09dee5",
+    "question": "What is 1/2 + 1/4?",
+    "answer": "3/4",
+    "subject": "Mathematics",
+    "topic": "Basic Operations",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "5f16e25fa084e01b",
+    "question": "What is 25% of 80?",
+    "answer": "20",
+    "subject": "Mathematics",
+    "topic": "Fractions and Decimals",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "6bcfb982b5fa906a",
+    "question": "What is the square root of 16?",
+    "answer": "4",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "seeded"
+  },
+  {
+    "id": "92641f4079e27932",
+    "question": "What is 7 × 8?",
+    "answer": "56",
+    "subject": "Mathematics",
+    "topic": "Basic Operations",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "32981bd21a251cba",
+    "question": "What is 100 - 35?",
+    "answer": "65",
+    "subject": "Mathematics",
+    "topic": "Basic Operations",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "50fafdf59d6b991d",
+    "question": "What is 9 + 6?",
+    "answer": "15",
+    "subject": "Mathematics",
+    "topic": "Basic Operations",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "9707bb2803a55c0b",
+    "question": "What is 45 ÷ 9?",
+    "answer": "5",
+    "subject": "Mathematics",
+    "topic": "Basic Operations",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "61ad35957a66a1fe",
+    "question": "What is 2/3 as a decimal?",
+    "answer": "0.67",
+    "subject": "Mathematics",
+    "topic": "Fractions and Decimals",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "cd1da653aab99a34",
+    "question": "What is 10% of 50?",
+    "answer": "5",
+    "subject": "Mathematics",
+    "topic": "Fractions and Decimals",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "7703b457840b898c",
+    "question": "What is the sum of angles in a triangle?",
+    "answer": "180",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "bloom": "Apply",
+    "difficulty": "Easy",
+    "source": "seeded"
+  },
+  {
+    "id": "04bd172e371801fe",
+    "question": "What is 4³?",
+    "answer": "64",
+    "subject": "Mathematics",
+    "topic": "Powers and Roots",
+    "bloom": "Apply",
+    "difficulty": "Moderate",
+    "source": "seeded"
+  }
+]

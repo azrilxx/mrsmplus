@@ -1,0 +1,173 @@
+[
+  {
+    "id": "00273e9b672fefe4",
+    "question": "Explain the greenhouse effect and its impact on global warming.",
+    "answer": "The greenhouse effect is a natural process where certain gases in Earth's atmosphere trap heat from the sun, keeping the planet warm enough to support life. However, increased concentrations of greenhouse gases (CO₂, CH₄, N₂O) from human activities enhance this effect, leading to global warming. This results in climate change, rising sea levels, melting ice caps, and extreme weather patterns. The enhanced greenhouse effect disrupts natural climate balance and threatens ecosystems worldwide.",
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "bloom_level": "Recall",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "spm_trials_1754461492628",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "0af823eaff01a099",
+    "question": "What is the SI unit of electric current and define it?",
+    "answer": "The SI unit of electric current is ampere (A). Electric current is defined as the rate of flow of electric charge through a conductor. One ampere is the current that flows when one coulomb of charge passes through a cross-section of a conductor in one second.",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "bloom_level": "Recall",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "moe_malaysia_1754461492625",
+    "stream": [
+      "Premier",
+      "Teknikal"
+    ]
+  },
+  {
+    "id": "87ffa1a25855745e",
+    "question": "Calculate the resistance of a wire if a voltage of 12 V produces a current of 3 A.",
+    "answer": "Given: Voltage (V) = 12 V, Current (I) = 3 A. Using Ohm's Law: V = IR. Rearranging: R = V/I = 12/3 = 4 Ω. Therefore, the resistance of the wire is 4 ohms.",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "bloom_level": "Apply",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "moe_malaysia_1754461492625",
+    "stream": [
+      "Premier",
+      "Teknikal"
+    ]
+  },
+  {
+    "id": "bd3d4ba1e9f6523f",
+    "question": "Analyze why copper is preferred over aluminum for household electrical wiring.",
+    "answer": "Copper is preferred over aluminum for household electrical wiring for several reasons: (1) Lower electrical resistance - copper has better conductivity, reducing energy loss and heat generation. (2) Mechanical strength - copper is more durable and less likely to break during installation. (3) Corrosion resistance - copper resists oxidation better than aluminum. (4) Safety - copper connections are more stable and less prone to loosening, reducing fire hazards. (5) Compatibility - copper works better with existing electrical components and connectors.",
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "bloom_level": "Analyze",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "moe_malaysia_1754461492625",
+    "stream": [
+      "Premier",
+      "Bitara"
+    ]
+  },
+  {
+    "id": "d079b04f4983e85e",
+    "question": "Find the derivative of f(x) = 3x² + 2x - 5.",
+    "answer": "To find the derivative of f(x) = 3x² + 2x - 5, we apply the power rule. f'(x) = d/dx(3x²) + d/dx(2x) - d/dx(5) = 3(2x) + 2(1) - 0 = 6x + 2. Therefore, f'(x) = 6x + 2.",
+    "subject": "Physics",
+    "topic": "Energy and Work",
+    "bloom_level": "Apply",
+    "difficulty": "Moderate",
+    "source": "ingested",
+    "source_id": "spm_trials_1754461492628",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_a3ygtygop",
+    "question": "Explain Newton's Third Law of Motion with two real-world examples.",
+    "answer": "For every action, there is an equal and opposite reaction. Examples: walking, rocket propulsion",
+    "subject": "Physics",
+    "topic": "Laws of Motion",
+    "bloom_level": "Understand",
+    "difficulty": "Intermediate",
+    "source": "MRSM Physics Textbook Chapter 3: Force and Motion",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_jzf31sqla",
+    "question": "What is the force required to accelerate a 5kg mass at 2m/s²?",
+    "answer": "C) 10 N",
+    "subject": "Physics",
+    "topic": "Force and Motion",
+    "bloom_level": "Apply",
+    "difficulty": "Beginner",
+    "source": "https://www.moe.gov.my/menumedia/media-cetak/penerbitan/buku-teks",
+    "source_id": "mrsm_questions_2025-07-29T14-30-23-451Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_s2gepaft9",
+    "question": "A car accelerates from rest to 20 m/s in 4 seconds. Calculate the acceleration.",
+    "answer": "A) 5 m/s²",
+    "subject": "Physics",
+    "topic": "Motion and Force",
+    "bloom_level": "Apply",
+    "difficulty": "Intermediate",
+    "source": "MRSM Physics Textbook Chapter 3: Force and Motion",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_svot7bpxd",
+    "question": "Calculate the kinetic energy of a 2kg object moving at 10 m/s.",
+    "answer": "B) 100 J",
+    "subject": "Physics",
+    "topic": "Energy",
+    "bloom_level": "Apply",
+    "difficulty": "Intermediate",
+    "source": "MRSM Physics Textbook Chapter 3: Force and Motion",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480471_yejkigp0y",
+    "question": "What happens to the resistance of a conductor when its temperature increases?",
+    "answer": "A) Increases",
+    "subject": "Physics",
+    "topic": "Electricity",
+    "bloom_level": "Understand",
+    "difficulty": "Advanced",
+    "source": "MRSM Physics Textbook Chapter 3: Force and Motion",
+    "source_id": "mrsm_questions_2025-07-29T14-30-00-655Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480472_cpodgzk9e",
+    "question": "What is the force required to accelerate a 5kg mass at 2m/s²?",
+    "answer": "C) 10N",
+    "subject": "Physics",
+    "topic": "Force and Motion",
+    "bloom_level": "Apply",
+    "difficulty": "Intermediate",
+    "source": "https://www.scribd.com/search?query=MRSM+sains",
+    "source_id": "mrsm_questions_2025-07-29T14-30-23-451Z",
+    "stream": [
+      "Premier"
+    ]
+  },
+  {
+    "id": "generated_1754462480472_ly046431d",
+    "question": "What is the force required to accelerate a 5kg mass at 2m/s²?",
+    "answer": "B) 10N",
+    "subject": "Physics",
+    "topic": "Force and Motion",
+    "bloom_level": "Apply",
+    "difficulty": "Intermediate",
+    "source": "https://www.scribd.com/search?query=MRSM+bahasa+melayu",
+    "source_id": "mrsm_questions_2025-07-29T14-30-23-451Z",
+    "stream": [
+      "Premier"
+    ]
+  }
+]

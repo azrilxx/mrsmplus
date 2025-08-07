@@ -1,0 +1,52 @@
+[
+  {
+    "question": "A car accelerates uniformly from rest to 30 m/s in 10 seconds. Calculate the acceleration and the distance traveled during this time.",
+    "answer": "Acceleration = change in velocity / time = (30 - 0) / 10 = 3 m/s². Using s = ut + ½at², where u = 0, a = 3 m/s², t = 10 s: s = 0 + ½(3)(10)² = ½(3)(100) = 150 m. The car accelerates at 3 m/s² and travels 150 m.",
+    "topic": "Motion and Acceleration",
+    "subject": "Physics",
+    "difficulty": "Moderate",
+    "bloom_level": "Apply",
+    "stream": ["IGCSE"],
+    "id": "p6q7r8s9t0u1v2w3"
+  },
+  {
+    "question": "Explain the relationship between wave speed (v), frequency (f), and wavelength (λ). If a wave has a frequency of 50 Hz and wavelength of 4 m, what is its speed?",
+    "answer": "The wave equation is v = fλ, where v is wave speed, f is frequency, and λ is wavelength. Given f = 50 Hz and λ = 4 m: v = 50 × 4 = 200 m/s. This relationship shows that wave speed equals frequency multiplied by wavelength, and waves transfer energy without transferring matter.",
+    "topic": "Wave Properties and Calculations",
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "bloom_level": "Apply",
+    "stream": ["IGCSE"],
+    "id": "q7r8s9t0u1v2w3x4"
+  },
+  {
+    "question": "A 2 kg object is lifted 5 m above the ground. Calculate the gravitational potential energy gained. (g = 9.8 m/s²)",
+    "answer": "Gravitational potential energy = mgh, where m = 2 kg, g = 9.8 m/s², h = 5 m. PE = 2 × 9.8 × 5 = 98 J. The object gains 98 joules of gravitational potential energy. This energy can be converted to kinetic energy if the object falls.",
+    "topic": "Energy and Energy Transfers",
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "bloom_level": "Apply",
+    "stream": ["IGCSE"],
+    "id": "r8s9t0u1v2w3x4y5"
+  },
+  {
+    "question": "State Newton's First Law of Motion and explain how it applies to a book resting on a table.",
+    "answer": "Newton's First Law states that an object at rest stays at rest, and an object in motion stays in motion at constant velocity, unless acted upon by a net external force. The book on the table remains at rest because the upward normal force from the table balances the downward gravitational force, resulting in zero net force.",
+    "topic": "Forces and Newton's Laws",
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "bloom_level": "Understand",
+    "stream": ["IGCSE"],
+    "id": "s9t0u1v2w3x4y5z6"
+  },
+  {
+    "question": "A spring extends by 0.1 m when a force of 20 N is applied. Calculate the spring constant and the force needed to extend it by 0.25 m.",
+    "answer": "Using Hooke's Law: F = kx, where F = 20 N, x = 0.1 m. Spring constant k = F/x = 20/0.1 = 200 N/m. For extension of 0.25 m: F = kx = 200 × 0.25 = 50 N. The spring constant is 200 N/m and 50 N force is needed for 0.25 m extension.",
+    "topic": "Hooke's Law and Elastic Behavior",
+    "subject": "Physics",
+    "difficulty": "Moderate",
+    "bloom_level": "Apply",
+    "stream": ["IGCSE"],
+    "id": "t0u1v2w3x4y5z6a7"
+  }
+]
